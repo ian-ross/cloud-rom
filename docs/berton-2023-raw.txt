@@ -1,0 +1,5105 @@
+ORIGINAL RESEARCH
+PAPER
+Two-Dimensional Dynamics
+of Ice Crystal Parcels in a
+Cirrus Uncinus
+ROLAND P. H. BERTON
+ABSTRACT
+A simple 2D non-stationary parcel model has been elaborated by coupling kinematics
+and microphysics of ice crystals, for the purpose of retrieving realistic trajectories in a
+cirrusuncinus,withahooked-shapeheadorcap,atrailorvirga,andobservedlifetimes.
+Prescribed kinematics and ambient physics includes vertical profiles of horizontal
+winds and updraft, and of air temperature and humidity. Modelled microphysics
+combines mass variation by deposition/sublimation of water vapour, radiative transfer
+and ventilation due to friction with ambient air. Upon changing the altitude of the
+updraft base, other parameters being unchanged, two distinct regimes of motions are
+found: setting the base at an altitude of 10 km yields a steady, non-oscillatory motion,
+with a hooked cap and a tail, typical of a cirrus uncinus, whereas fixing the base at
+a lower altitude (7–9 km), yields a self-sustained damped oscillatory motion with a
+long time period (7–10 hours) and a long wavelength (70–200 km), depending on
+supersaturation level and radiative conditions. This latter phenomenon may be related
+to the turrets occurring with “long-lasting” cirrus or to the Mesoscale Uncinus Complex
+(MUC) reported in published works. The sensitivity to the ice crystal size is analysed in
+order to estimate the spreading of trajectories, and the impact of radiative transfer is
+examinedontheoscillatoryregimeatthelightofthreecontrastingexamples.Asimple
+analytic model with kinematics and constant updraft is aimed at an outline of salient
+features and derivation of characteristic time- and spatial scales of the phenomena.
+CORRESPONDING AUTHOR:
+Roland P. H. Berton
+Office National d’Études et
+de Recherches Aérospatiales
+(ONERA)/DOTA, Université
+Paris Saclay, 91123 Palaiseau,
+France
+roland.berton@onera.fr
+KEYWORDS:
+cirrus clouds; ice crystal;
+thermodynamics; nonlinearity;
+damped oscillator
+TO CITE THIS ARTICLE:
+Berton, RPH. 2023. Two-
+Dimensional Dynamics
+of Ice Crystal Parcels in a
+Cirrus Uncinus. Tellus A:
+Dynamic Meteorology and
+Oceanography,75(1):231–270.
+DOI: https://doi.org/10.16993/
+tellusa.3227232 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+1. INTRODUCTION
+The modelling of atmospheric clouds has reached a
+high degree of accuracy, either for weather forecast or
+for scene simulation. Among these, cirrus clouds are of
+particular interest, because of their role in greenhouse
+and screening effects as well as weather concern (Liou et
+al. 1990; Fusina et al. 2007; Zhang et al. 2014; Köhler &
+Seifert2015),andaconsiderableamountofobservational
+and theoretical works has been devoted to them during
+the past 60 years. They occur at heights in the range
+5–18 km, depending on the altitude of the tropopause
+between the Equator and the poles (Eguchi et al. 2007;
+Nazaryan et al. 2008). Of the two types of cirrus that are
+nowdistinguishedaccordingtotheirorigin,anvilorin-situ
+(Lawson et al. 2019), we shall consider the second one.
+As an alternative to the most widely used Eulerian
+methods, a simple two-dimensional Lagrangian
+approach to the modelling of cirrus uncinus, aiming
+at retrieving their characteristic hooked shape, is
+considered here. Thus we focus on the interplay between
+ambient atmospheric dynamics and the microphysics of
+ice crystals. The present work is guided by the concept
+of parcel trajectories (Marshall 1953; Heymsfield 1973;
+Heymsfield 1975a; Heymsfield 1975b; Heymsfield 1975c;
+Rogers 1975; Cohen et al. 2014) and the synergetic
+approach (Palmer 1996; Spreitzer et al. 2017), relevant
+of Lorentz’s model, leading to the concept of strange
+attractor (Lorenz 1963). In such a perspective, the
+modelling of free convection was considered as an initial
+value problem (Saltzman 1962). Nevertheless, we do not
+address the question of cirrus formation itself, which
+is a difficult problem coped with by complete three-
+dimensional numerical models (Barahona & Nenes 2008;
+Lohmann et al. 2008; Köhler & Seifert 2015).
+Inafirststep(Sect.2.1),akinematicmodel,composed
+of a set of ordinary differential equations (ODE) subject to
+initialconditionsisdescribedinaLagrangianformulation,
+including the main sources of the motion: gravity (along
+the vertical), entrainment by ambient air motions, and
+drag due to the friction of ice particles (crystals) with
+air molecules (mainly oxygen and nitrogen). In next
+step (Sect. 2.2), the relevant parameterization of the
+microphysicalmodelispresented,asregardstheevolution
+of the crystal mass and shape during its rise and fall. In
+particular the modelling of radiative transfer (Sect. 2.2.2),
+and of crystal habit, namely a hollow hexagonal column
+(Sect. 2.2.3) is fully described. The atmospheric data
+needed by the coupled integration of the governing ODE,
+and suitable for mid-latitude cirrus clouds, is described in
+App. A; it includes ambient temperature, mass density,
+humidity, radiation flux, and the atmospheric motions
+driving crystal motion (horizontal winds and updraft).
+In Sect. 3 are presented the solving method and
+results showing the existence of two distinct regimes or
+modes, depending on the base level of the updraft. These
+are commented and compared with published models
+and observations. In a typical case (we call it a dual
+case) a steady mode, describing a well-developed cirrus
+uncinus, is generated for a “high” updraft (above 10 km),
+and an oscillatory regime is triggered for a “low” updraft
+(below 9 km). In contrast, in isolated cases an oscillatory
+mode is generated besides a steady mode reduced to a
+stretched hooked cap without developed trail.
+In Sect. 4, the sensitivity of the trajectory to crystal
+size is investigated in order to estimate the spreading
+of the cirrus structure. The impact of radiative transfer
+is examined in Sect. 5, especially in connection with
+ice supersaturation level. These results are discussed in
+Sect. 6 in the light of various analytical models of time
+evolution of cirrus clouds. The two regimes found are
+considered in a mesoscale context (Orlanski 1975). In
+particular, the oscillatory mode is related to obervations
+of “long-lasting cirrus turrets” (Heymsfield 1975b) and
+Mesoscale Uncinus Complex (Sassen et al. 1989).
+In Sect. 7, a conclusion highlights salient features of
+thepresentapproachandproposesfurtherdevelopments
+and extensions of our model. An analytic model of
+trajectory, described in App. D, will prove useful in order
+to appreciate the ability of the full model including
+microphysics to yield a realistic trajectory. An analytic
+model of trajectory (App. D) is aimed at showing the
+ability of the full model including microphysics to yield
+a realistic profile. A nomenclature of the mathematical
+notations used in the paper is summarized in Table 1.
+2. MODEL
+2.1. KINEMATICS
+For simplicity, we assume that parcel motions are two-
+dimensional in a vertical plane (O,x,z), where the axes
+x and z are respectively horizontal and vertical, and z is
+directed upwards. Then the rectangular coordinates (x,z)
+of an average crystal’s center of mass satisfy the second-
+order ODE (Pruppacher & Klett 1997):
+( )
+( )
+θ
+ρ
+θ
+ρ
+=− − − Ω 
+
+  
+= − − − − + Ω   
+  
+  
+  
+0
+0
+2 cos
+1 2 cos
+a
+a
+a
+i
+x k x U z
+z k z W g x
+(1a, b)
+where single and double dots respectively mean first and
+second time-derivative, supplemented with the initial
+conditions:
+= =  
+ 
+= =  
+
+
+0
+0
+0
+0
+x x x
+z z z (2)
+In Eqs. (1a, b) the first terms represent the entrainment
+acceleration driven by the motions of ambient air, and
+the last terms, the Coriolis acceleration (Igel & Biello
+2020). In the equation of vertical momentum, Eq. (1b),233 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+we included the gravity force corrected for the buoyancy
+effect (second term in parentheses in right-hand side),
+although it will reveal to have a negligible impact on
+the motion. Likewise, as will be checked in the results
+section, the damping coefficient k is approximately 20 s–1
+and the rotation rate Ω0
+is of order 10–4
+rad s–1
+(Table 1) so
+that the Coriolis acceleration is negligible in our problem.
+Consistently, the flat-Earth assumption will be admitted,
+since the vertical and horizontal extension of the
+generated cirrus (respectively 2 km and 30–900 km)
+are much smaller than the Earth’s radius (≈6400 km).
+The horizontal dimensions take place in the so-called
+mesoscale range (Orlanski 1975). Moreover, Eqs. (1a, b)
+describing a variable-mass system with mass included
+in the coefficient k (see Eq. (3) below), an additional
+term, due to the momentum brought by the deposited
+mass at the rate  m governed by Eq. (10) below, has been
+neglected because the mass loss or gain is isotropical
+(Plastino & Muzzio 1992).
+SYMBOL MEANING
+A Crystal area (m2
+)
+a Hexagonal column crystal radius (m)
+Bi
+Total radiance of black body (W m–2
+)
+c Hexagonal column crystal half-length (m)
+cB
+Hexagonal column crystal core half-length (m)
+cpa
+Specific heat of dry air (J K–1
+kg–1
+)
+C Capacitance of the ice crystal (m)
+CD
+Drag coefficient
+Cp
+Phase speed of oscillations (m s–1
+)
+Di
+Equivalent diameter of ice particle (m)
+Dv
+Diffusivity of water vapour in air (m2
+s–1
+)
+fv
+Ventilation coefficient
+Fu
+, Fd
+Upward, downward radiative flux densitities (W m–2
+)
+g Gravity field constant (g = 9.81 m s–2
+)
+Hl
+Relative humidity of water vapour over liquid water
+Hi
+Relative humidity of water vapour over ice
+Heating rate (K d–1
+)
+IWP Ice Water Path (g m–3
+)
+k Damping coefficient (s–1
+)
+Ka
+Heat conductivity of ambient dry air (W K–1
+m–1
+)
+Ls
+Latent heat of sublimation of ice
+(Ls
+= 2.837 × 106
+J kg–1
+)
+Lv
+Latent heat of vaporization of water
+(Lv
+= 2.525 × 106
+J kg–1
+)
+m Crystal mass (kg)
+P Period of oscillatory motion (s)
+(Contd.)
+SYMBOL MEANING
+p Total pressure (Pa)
+pr
+Reference pressure (pr
+= 105
+Pa)
+pa
+Partial pressure of dry air (Pa)
+pv
+Partial pressure of water vapour (Pa)
+pvsl
+Saturation pressure of water vapour over liquid
+water (Pa)
+pvsi
+Saturation pressure of water vapour over ice (Pa)
+qs
+Saturation mixing ratio (kg kg–1
+)
+Qabs Efficiency factor for absorption of radiation (Qabs
+≈1)
+ri
+Equivalent radius of ice crystal (m)
+ Source term in radiative contribution (W)
+R Radiative term in the mass equation (%)
+Ra
+Gas constant of dry air (Ra
+= 287.05 J K–1
+kg–1
+)
+Rv
+Gas constant of water vapour (Rv
+= 461.00 J K1
+kg–1
+)
+Re Reynolds number
+Ri Richardson number
+Sl
+Saturation ratio of water vapour over liquid water
+Si
+Saturation ratio of water vapour over ice
+T Absolute temperature (K)
+Tr
+Reference temperature (Tr
+= 273.15 K)
+Ta
+Temperature of ambient air (K)
+Ts
+Temperature of crystal surface (K)
+u, w Components of crystal velocity (m s–1
+)
+Ua
+, Wa
+Components of ambient air velocity (m s–1
+)
+V Crystal volume (m3
+)
+Wf
+Free-fall speed (m s–1
+)
+Wf∞
+Terminal free-fall speed (m s–1
+)
+x, z Cartesian coordinates of ice crystal (m)
+za0
+Critical altitude of horizontal wind (m)
+zw0
+Critical altitude of updraft (m)
+𝛼 Coefficient in Eq. (27)
+𝜀 Ratio of gas constants Ra
+/Rv
+(𝜀 = 0.622)
+𝜁 Damping ratio
+𝜂 Radiative transfer ratio
+𝜃 Latitude
+𝜃d
+, 𝜃e
+Potential temperature (dry, equivalent)
+𝛬 Wavelength of oscillatory motion (m)
+μa
+Dynamic viscosity of air (Pa s)
+𝜌a
+Mass density of dry air (kg m–3
+)
+𝜌 Mass density of wet air (kg m–3
+)
+𝜌i
+Mass density of ice (𝜌i
+= 920 kg m–3
+)
+(Contd.)234 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+ThewindhorizontalcomponentUa
+issupposedtoflow
+in a vertical plane (x,z). It is detailed analytically in App.
+A.1. and plotted in Figure 1. The wind vertical component
+consists in an updraft Wa
+that is detailed analytically in
+App. A.1 and plotted in Figure 2. Concerning the trail
+formation, we consider the scenario in which the updraft
+ceases under a critical altitude zw0
+(Heymsfield 1975b).
+The damping coefficient k is such that (Pruppacher &
+Klett 1978/1997):
+µ
+π =
+Re
+6
+24
+a i
+D
+r
+k C
+m
+(3)
+Physically speaking, k is the reciprocal of a relaxation time
+𝜏D
+for the drag force (Paoli & Shariff 2016). It involves the
+Reynolds number Re, defined from the velocity of the
+crystal relative to ambient air by:
+ρ
+µ
+= − + − 2 2
+Re ( ) ( ) a i
+a a
+a
+r
+u U w W (4)
+with =  u x and =  w z.
+Also needed are the drag coefficient CD
+, such that
+(Pruppacher & Klett 1978, 1997; Wang and Ji 1997):
+π
+= + 0.945 64
+(1 0.078Re )
+Re
+D C (5)
+the dynamic viscosity of air 𝜇a
+, such that, for –50 <
+T – Tr
+< 50 (Tr
+= 273.15 K) (Pruppacher & Klett 1978/
+1997):
+{ } µ − −
+= + − − × − 5 5 2
+10 1.718 0.0049( ) 1.2 10 ( ) a r r T T T T (6)
+and the mass density 𝜌m
+of moist air (Picard et al. 2008;
+Nettesheim 2017):
+ρ
+ 
+= −  
+ 
+1 0.378 a vsl
+m
+a a
+p p
+R T p
+(7)
+When the crystal reaches its limit regime defined by
+vanishing vertical acceleration ∞ =  ( 0) z , we obtain, from
+Eq. (1b), the limit velocity:
+ρ
+ρ
+∞ ∞
+ 
+= − − = +  
+ 
+ 1 a
+a a f
+i
+g
+z W W W
+k (8)
+defining the terminal fall velocity Wf ¥
+by:
+ρ
+ρ ∞
+ 
+= − −  
+ 
+1 a
+f
+i
+g
+W
+k (9)
+Thermodynamic data of atmospheric temperature
+and pressure are detailed analytically in App. A.2 and
+plotted in Figure 3. The trajectory is driven by the Figure 1 Atmospheric profile of horizontal wind.
+Figure 2 Atmospheric profiles of vertical wind.
+SYMBOL MEANING
+𝜎 Stefan-Boltzmann constant
+(𝜎 = 5.67 × 10–8
+W m–2
+K–4
+)
+𝜎S
+Vertical gradient of ice supersaturation (m–1
+)
+𝜏 Non-dimensional time of analytic model
+𝜏D
+Drag relaxation time (s)
+𝜙 Aspect ratio (𝜙 = c/a)
+𝜓 Hollowness factor (𝜓 = 1–cB
+/c)
+𝜔 Wind shear (m s–1
+km–1
+or s–1
+)
+𝛺 Angular frequency of oscillations (= 2π/P) (rad s–1
+)
+𝛺0
+Rotation rate of the Earth (𝛺0
+= 7.27 × 10–5
+rad s–1
+)
+𝛺BV
+Brunt-Väisälä angular frequency (rad s–1
+)
+Table 1 Nomenclature.235 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+ambient motion and the variations of the crystal’s mass
+m, involved in the damping coefficient k, which evolves
+according to the process described in the following
+section.
+2.2. MICROPHYSICS
+2.2.1. Crystal mass
+In this simplified approach, we consider an average ice
+crystal, once it has been generated by homogeneous
+nucleation in a highly ice-supersaturated environment
+(Si
+–1> 50%), and we follow its subsequent growth only by
+depositionofwatervapouronitssurfacefromanambient
+medium slightly or moderately saturated with respect to
+ice (Köhler & Seifert 2015). Conversely, it loses matter by
+sublimation of ice into water vapour. In a model of cirrus
+including radiative transfer (Ramaswamy & Detwiler
+1986), the growth of a crystal of 200 μm length is shown
+to reach an ambient ice supersaturation as small as 5%
+after 10 minutes. We shall show a posteriori that the
+oscillatory mode we put into evidence is likely to occur
+only if the ice supersaturation is of order of the radiative
+term (3 < R < 15%).
+In the capacitance model, crystal’s mass growth is
+governed by the following equation with additional
+term R and factors fv
+and C accounting respectively for
+radiative transfer (R), ventilation (fv
+), and capacitance
+(C), namely (Houghton 1950; Mason 1953; Hall &
+Pruppacher 1976; Rogers 1979; Wu et al. 2000; Lebo et
+al. 2008):
+π
+− −
+=
+ 
++ −  
+ 
+ 1
+4
+1
+i
+v
+v s s
+v a v vsi
+S R
+m Cf
+R T L L
+p D K T R T
+(10)
+subject to the initial condition:
+ρ = = 0 0 i m m V (11)
+where the initial volume V0
+is estimated from Eq. (31a)
+below.
+The saturation ratios Sl
+and Si
+of water vapour,
+over liquid water and ice respectively, are defined by
+(Pruppacher & Klett 1997; Bohren & Albrecht 1998):
+
+= 
+
+
+ =
+ 
+v
+l
+vsl
+v
+i
+vsi
+p
+S
+p
+p
+S
+p
+(12)
+The relative humidity Hl
+and Hi
+of water vapour, with
+respect to (wrt) liquid water and ice respectively,
+can be expressed, as recommended by the WMO
+(World Meteorological Organization), by the following
+expressions (Pruppacher & Klett 1978/1997; Bohren &
+Albrecht 1998):
+− 
+=  − 
+
+−  =
+ − 
+v vsl
+l
+v vsl
+v vsi
+i
+v vsi
+p p p
+H
+p p p
+p p p
+H
+p p p
+(13)
+The atmospheric moisture profiles are detailed in App.
+A.3, and plotted in Figure 4. All these altitude profiles
+Figure 4 Atmospheric profiles of relative humidity and saturation ratios.
+Figure 3 Atmospheric profiles of temperature and pressure of dry air.236 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+of winds and humidity are consistent with radiosonde
+observations and input data used in realistic simulations
+with Eulerian numerical codes (Spichtinger 2014). The
+method of calculation of the partial pressure pv
+of water
+vapour from the given ambient moisture profile Hl
+is
+detailed in App. B, and the expressions of the saturation
+pressures pvsl
+and pvsi
+of water vapour over liquid water
+and ice are summarized in App. C.
+The saturation mixing ratio qs
+, necessary for the
+calculation of the Kelvin-Helmholtz criterion (Sect. 6.2),
+is such that:
+ε
+=
+−
+vsl
+s
+vsl
+p
+q
+p p (14)
+The diffusivity of water vapour Dv
+in air and the heat
+conductivity of air Ka
+, involved in Eq. (10), are given by the
+following expressions (Rogers 1975)
+−
+−
+    
+= ×     
++     
+
+  
+= ×    +   
+3/2
+3
+3/2
+2
+293
+8.28 10
+120 273
+293
+2.42 10
+120 273
+v
+a
+T T
+D
+p T
+T
+K
+T
+ (15)
+Other parameterizations for Dv
+and Ka
+exist (see Zeng
+2008), that are slightly different, in particular Dv
+being
+pressure-dependent,buttheywouldgivequalitativelythe
+same results, though with different initial conditions. The
+ventilation coefficient fv
+is calculated using the following
+formulae, valid for column and plates in a laminar flow
+(Ji & Wang 1999; Liu et al. 2003a, b):
+= + + 2
+1 0.039 0.1447 v f X X (16)
+where the variable X, such that:
+= 3
+Sc Re X (17)
+depends on Reynolds number Re defined by Eq. (4), and
+Schmidt number Sc defined by:
+µ
+ρ
+= Sc a
+a v D (18)
+The factor Si
+–1–R playing a major role in Eq. (10) since
+it drives mass growth or decay according to its sign, we
+shall call it “driving factor” in the following.
+2.2.2. Radiative transfer
+The contribution of heat transfer in Eq. (10), appearing as
+a correction R to the ice supersaturation term Si
+–1, has
+been estimated using the formulation (Roach 1976; Wu
+et al. 2000; Lebo et al. 2008):
+π
+ 
+= −  
+ 
+
+1
+4
+s
+a v
+L
+R
+CK T R T (19)
+with the source term:
+−  
+= −  
+ 
+
+2
+u d
+abs i
+F F
+AQ B (20)
+where Qabs
+denotes the absorption coefficient (Wu et al.
+2000), Fu
+and Fd
+the upward and downward radiative flux
+densities respectively, A the crystal area, and Bi
+the black
+body radiative flux of crystal surface at temperature Ts
+:
+εσ = 4
+s i B T (21)
+Eq (19) has been used for fog and droplets (Roach 1976)
+and extensions to ice crystals in cirrus clouds (Stephens
+1983; Wu et al. 2000; Gu & Liou 2000; Zeng 2008; Zeng et
+al. 2021) have been later widespread.
+FromtheenergybudgetleadingtoEq.(10),itispossible
+to calculate also the difference of temperature between
+the crystal’s surface (Ts
+), assumed homogeneous, and
+the ambient air (Ta
+):
+π
+− = 
+4
+s
+s a
+a
+L
+T T m
+CK
+(22)
+We shall check a posteriori that this difference is small.
+Then Wien’s displacement law teaches us that the
+radiative transfer for a black body between – 20°C (253
+K) and – 50°C (223 K) is in the range of wavelength
+11–13 μm, i.e. infrared. Thus we shall consider infrared
+fluxes in Eqs. (20) and (23) (Stephens 1983). According
+to observational measurements (Inoue 1985) and
+theoretical background (Gierens 1994; Zeng 2008), we
+also assume that the emissivity ε of the crystal is equal
+to one.
+Moreover we shall consider the transfer in the limit of
+short wavelength compared to the crystal dimensions,
+and therefore assume that Qabs
+≈ 1 (Roach 1976; Liou
+2002). It is convenient to express the radiative infrared
+ratio 𝜂 as (Zeng 2008; Zeng et al. 2022):
+η
+−
+=
+2
+u d
+i
+F F
+B (23)
+and then recast Eq. (20) as:
+η = −  ( 1) i A B(24)
+Therefore, the crystal is subject to radiative cooling when
+𝜂 < 1, and to radiative warming when 𝜂 > 1 (Zeng et al.
+2021). If Fu
+and Fd
+are set to the following form at the top
+of the troposphere (Roach 1976):
+= − 
+
+= −  0.6
+u i
+u d
+F B
+F F
+(25)
+then the ratio 𝜂 becomes:
+η =0.9(26)
+This is confirmed by the modelling of the parameter 𝜂 we
+describe below.
+Rather than modelling independently the radiative
+fluxes Fu
+and Fd
+, because that would involve too many
+additional degrees of freedom, it is usual to introduce an
+atmospheric ratio 𝜂a
+as in Eq. (23), function of altitude.
+We shall derive an expression from models (Detwiler
+& Ramaswamy 1990; Zeng 2008) but consistent with237 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+observations (Paltridge and Platt 1981; Philipona et al.
+2012), typical of a mid-latitude daytime atmosphere,
+that we detailed in App. A.4 and plotted in Figure 5.
+The crystal-related 𝜂 in Eq. (24) is related to the
+atmospheric 𝜂a
+by a relationship of the form (Zeng 2018):
+η α η −= − 1 ( 1) a (27)
+where the coefficient 𝛼 depends on the shape of the
+crystal (Zeng 2018). We notice that when 𝜂a
+= 1, then
+𝜂 = 1. and reciprocally, therefore radiative transfer
+cancels, whatever the shape could be. We estimated 𝛼
+from our various test cases in Sect. 5, and we found it to
+be in the range 0.1–0.4.
+For the crystal to grow ( >  0 m ), Eq. (10) shows that the
+following relation must be verified:
+≥ + 1 i S R(28)
+When 𝜂 < 1, i.e.  < 0, and therefore R < 0, we see
+from Eq.(28) that the saturation ratio Si
+need not be
+larger than one, and that an ice crystal can develop in a
+subsaturated environment (Hall and Pruppacher 1976).
+We shall experiment this situation with the oscillatory
+mode we found, in Case 3 relevant of uniform nighttime
+conditions (𝜂 = 0.9), which is detailed in Sect. 5.4.
+Conversely, when 𝜂 > 1, i.e.  > 0, and therefore R >
+0, we see likewise from Eq.(28) that the saturation ratio
+Si
+must be larger than one, and that an ice crystal will
+develop in a supersaturated environment. We shall
+experiment this situation for the oscillatory mode, in
+Case 2 relevant of uniform daytime conditions (𝜂 = 1.1),
+which is detailed in Sect. 5.3.
+When 𝜂 is altitude-dependent (Figure 5), we shall
+show that ice supersaturations as low as 3%, moreover
+consistent with observational statistics (Ovarlez et al.
+2002; Spichtinger et al. 2004), can lead to ice crystal
+growth (Sect. 3.2.3).
+In the present approach, the resulting variation of the
+ambient saturation ratio S due to crystal growth is not
+considered, since the crystal trajectory does not go twice
+through the same region of space, even in the oscillatory
+regime (Sect. 3.2.3). Moreover Kelvin’s effect due to
+surface tension has been neglected (Gu & Liou 2000).
+Of course, involving these effects would be a useful
+refinement in further developments.
+2.2.3. Crystal shape
+According to theoretical models (Kobayashi, 1961; St-
+Pierre and Thiérault, 2015) and observations (Heymsfield
+1975a; Schmitt & Heymsfield 2007), hollow column and
+bullet-rosette are thought to be the crystal shapes most
+likely developing in cirrus clouds, most of them (50 to
+80%) having hollow ends (Schmitt & Heymsfield 2007).
+A first possible approach to connect crystal mass
+and dimensions consists in assuming a mass-length
+relationship, which is the way followed in the reference
+work (Heymsfield 1973; Heymsfield 1975c) and many
+others (Rogers 1979; Jensen et al. 2018; Mascio et al.
+2017). Because of the crystal’s lacunarity, its mass
+density is then smaller than the actual density of solid
+ice (Cotton et al. 2013). A considerable amount of
+investigation has been devoted to the determination of
+the effective mass density of ice crystals encountered
+in cirrus clouds, both from in situ observational data
+(Heymsfield 1972; Heymsfield et al. 2002; Heymsfield et
+al. 2004; Schmitt & Heymsfield 2007; Cotton et al. 2013)
+and from laboratory experiments (Jensen & Harrington
+2015). This is due to the fact that the cavities and hollow
+portions that are included in the effective volume make
+it larger than the actual volume.
+An effective mass density 𝜌ie
+can be defined from the
+actual mass m and the maximum particle dimension Dm
+by the general expression (Cotton et al. 2013):
+π
+ρ = 3
+6
+m ie m D (29)
+A more specific definition can be given on the basis of
+the volume of the solid hexagonal column (Fukuta &
+Takahashi 1999):
+ρ = 2
+3 3 ie m a c (30)
+Dealing with hexagonal hollow columns, we shall use the
+latter definition.
+An alternative approach consists in assuming a
+prevalent shape of the crystal, with a perfectly known
+geometry, so that its volume and surface area are
+easily calculated from its dimensions. Mass and volume
+are then connected to each other by means of Eq. (11)
+and (31) at each time, 𝜌i
+being the actual mass density
+of ice (Fridlind et al. 2016). As far as 𝜌i
+increases when
+temperature decreases (Pounder 1965), we shall adopt
+an average value: 𝜌i
+= 920 kg m–3
+.
+Leaving apart the bullet-rosette as too complex in a
+firststep,weshallfocusonthehexagonalhollowcolumn.
+This kind of crystal has been thoroughly investigated
+(Chiruta & Wang 2005; Fridlind et al. 2016; Zeng 2018),
+and it has been shown that the crystal’s volume and area
+can be simply expressed as (Chiruta & Wang 2005; Chen
+& Wang 2009):
+Figure 5 Atmospheric profile of atmospheric infrared ratio 𝜂a
+.238 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+ = +
+
+    
+= + − +   
+    
+2
+2 2
+3(2 )
+3
+6 2 ( )
+4
+B
+B
+V c c a
+A a c c c a
+(31a,b)
+The shape of a hollow column with hexagonal cross
+section, drawn after Chen and Wang (2009), is shown in
+Figure 6. The core bulk of half-length cB
+, is limited by two
+pyramidal hollow ends of depth c–cB
+.
+In their analytical model of crystal growth (Chen
+& Wang 2009), these authors assume that, during
+the growth, the parameter cB
+is subject to one the
+conditions:
+=
+=
+=
+) /2
+)
+) 0
+B
+B
+B
+i c c
+ii c c
+iii c
+(32)
+We shall here extend this assumption and quantify the
+hollow portion of the crystal by a hollowness factor
+(Schmitt & Heymsfield 2007) denoted here 𝜓:
+ψ= − 1 B c
+c
+(33)
+We shall keep cB
+constant, equal to its initial value: cB0
+=
+(1–ψ0
+) c0
+. For crystals longer than 100 μm, we shall set:
+𝜓 = 0.8 (Schmitt & Heymsfield 2007).
+A further simplification consists in assuming that
+either the radius a is constant (Harimaya 1968, Chen &
+Wang 2009) or a and c are connected by some width-
+length relationship (Chen & Wang 2009; Pruppacher &
+Klett 1978). Adopting the first assumption, we found that
+the aspect ratio 𝜙:
+φ =
+c
+a
+(34)
+reaches large values (𝜙 > 30) as soon as the saturation
+exceeds 130%, relevant of thin needles, inconsistent
+with observations. Therefore, we adopted the second
+assumption, and assume thereby that, for hollow
+columns,theaspectratio𝜙isconstantduringthemotion.
+The value 𝜙 = 2 was found for columns with c < 150 μm
+from in situ measurements (Heymsfield 1972; Um et al.
+2015). Therefore, using Eq. (31a,b) and the definition of 𝜙
+we are led to a third-degree equation for a:
+φ + − = 3 2
+2 0
+3
+B
+V
+a c a (35)
+As the crystal evolves, its mass m changes, and its
+volume V is calculated by the relation:
+ρ
+=
+i
+m
+V (36)
+The crystal’s shape being significantly different from
+a sphere, it is useful and usual to define the mass
+equivalent diameter Di
+and radius ri
+= Di
+/2 of the crystal
+as those of the sphere with the same volume V as the
+crystal, namely:
+π
+= 3
+6
+i
+V
+D
+(37)
+or, using Eq. (36):
+πρ
+= 3
+6
+i
+i
+m
+D (38)
+Alternately, by setting a maximum particle size Dm
+=
+max(2a,2c), as the larger of the two dimensions 2a and
+2c (that is 2c if 𝜙 > 1 or 2a if 𝜙 < 1) following the general
+definition (29) and using Eq. (36), we could also define an
+effective mass density 𝜌ie
+such that:
+ρ ρ
+π
+= 3
+6
+ie i
+m
+V
+D
+(39)
+Following the more specific definition (30), we obtain
+the expression (Fukuta & Takahashi 1999):
+ρ ρ = 2
+3 3
+ie i
+V
+a c
+(40)
+which will yield values smaller than the actual density
+𝜌i
+. The first definition (Eq. (39)) overestimates the actual
+volume, and therefore, it underestimates 𝜌ie
+, yielding
+values as low as 200 kg m–3
+found in observations of
+complex particles or aggregates (Heymsfield et al. 2004).
+The second definition (Eq. (40)) yields values in better
+agreement with observations of simple shapes (Miller &
+Young 1979; Schmitt & Heymsfield 2007), and we shall
+follow its variation during the motion of the crystal.
+For a hollow column, the capacitance C appearing in
+Eq. (10) can be written (Chiruta & Wang 2005):
+φ = + = + 0.751 0.491 (0.751 0.491 ) C a c a(41)
+using the aspect ratio 𝜙 defined above (Eq. (34)).
+Moreover,weshallassumethattheventilationcoefficient
+defined by (16) accounts for the different orientations of
+the crystal during its motion. A detailed account of the
+flow characteristics around columns and plates with
+estimation of torques based on Navier-Stokes equations
+teachesusthattheReynoldsnumberrangesfrom2to70
+(Hashino et al. 2014). Lidar observations show that plane
+crystals have mainly horizontal orientation during free
+fall, with a maximum tilt angle of 0.3 degrees (Thomas
+et al. 1990). The particle radius ri
+is set equal to Di
+/2 in Eqs
+(3) and (19), and to Di
+in Eq. (4) as a possible alternative
+definition of Reynolds number (Pruppacher and Klett
+Figure 6 The shape of the mean crystal (meridian and axial
+cross sections) (after Chen and Wang, 2009).239 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+1997). While it is easy to define an equivalent diameter
+for liquid spherical particles, this is quite difficult for ice
+crystals (McFarquhar & Heymsfield 1998). Thus, large
+discrepanciesoccurforradiilargerthan50μm,sothatwe
+shall keep the above convention. Nevertheless, we shall
+also display the half-length c in the result of calculations.
+3. SOLUTIONS
+3.1. NUMERICAL METHOD
+The differential system composed of Eqs. (1a, b) and (10)
+is a Liénard system (Perko 1990), that we discretized
+with finite differences, and using an explicit Euler scheme
+such that, at any time tn
+= n ∆t, we write the velocity
+components of the average crystal’s center of mass as:
+ρ
+ρ
++
++
+=− − ∆ 
+
+      
+= − − + − ∆     
+      
+1
+1
+( ( ))
+( )
+( ( )) 1
+n n n n a n
+a n
+n n n n a n
+i
+u u k u U z t
+z
+w w k w W z g t
+(42)
+its rectangular coordinates as:
++
++
+= + ∆ 
+
+= + ∆ 
+1
+1
+n n n
+n n n
+x x u t
+z z w t
+(43)
+and its mass as:
+π +
+− −
+= + ∆
+ 
++ −  
+ 
+1
+1
+4
+1
+n n
+n n n v
+v n s s
+v a n v n vsi
+S R
+m m C f t
+R T L L
+p D K T R T
+(44)
+where Tn
+= Ta
+(zn
+) and Sn
+= Si
+(zn
+) are calculated from the
+datadetailedinApp.A.Eqs.(42),(43),and(44)constitute
+a set of strongly coupled nonlinear equations.
+BecausetheradiativecorrectionRandthecapacitance
+C (Eqs. (19) and (41) respectively) are dependent of the
+axial size c, we also need to recalculate Vn+1
+from mn+1
+using Eq. (36):
+ρ
++
++ = 1
+1
+n
+n
+i
+m
+V (45)
+and then cn+1
+from Eq. (31a,b) if a is constant (a = a0
+):
++
++
+ 
+= −    
+ 
+1
+1 2
+0
+1
+2 3
+n
+n B
+V
+c c
+a
+(46)
+or solving Eq. (35) for an+1
+if 𝜙 is constant (𝜙 = 𝜙0
+):
+φ +
++ + + − = 3 2 1
+0 1 1 2 0
+3
+n
+n B n
+V
+a c a (47)
+We neglect the variation of the gravity field g with
+altitude, between approximately 7 and 10 km height, the
+Coriolisforce,andtheinfluenceofthecolumnorientation
+on the ventilation coefficient fv
+.
+Below is given a detailed account of the two regimes
+or modes we found with standard initial conditions.
+Two special sections will be devoted respectively to
+the sensitivity of various parameters (lifetime, period,
+amplitude…) to the crystal’s initial size a0
+(Sec. 4) and to
+the impact of radiative transfer (Sect. 5).
+3.2. RESULTS
+3.2.1. Data and displays
+In this section the simultaneous integration of the
+discretized differential system composed of Eqs. (42) to
+(45) and (47) subject to the initial conditions of Table 2
+(Case 0) is carried on with the aspect ratio 𝜙 and the core
+half-length cB
+kept constant at each time step: 𝜙 = 𝜙0
+and
+cB
+= cB0
+. We obtain a dual mode composed of a steady
+well-developed, non-oscillatory, cirrus uncinus (hooked
+cap + trail) with a high-base updraft, and an oscillatory
+counterpart associated with a low-base updraft.
+For each of the two selected modes are displayed
+crystal trajectory z(x), hodograph or phase portrait w(u),
+abscissa and altitude, free fall speed Wf
+, dimensions (a, c,
+cB
+), mass equivalent diameter Di
+, dynamic viscosity of air
+𝜇a
+, hollowness factor 𝜓, effective mass density of crystal
+𝜌ie
+, drag coefficient cD
+, Reynolds number Re, damping
+coefficient k, temperature difference Ts
+–Ta
+between
+ambient air and crystal surface.
+Two kinds of dual solutions are obtained, depending
+on the altitude zw0
+of the updraft base, other things
+being unchanged. Nevertheless, these two solutions are
+obtained after a minute fitting of the crystal initial half-
+width a0
+, the wind velocity amplitude and the updraft
+intensity, altitude and thickness, in narrow ranges. This
+behaviour is mostly conditioned by the temperature
+and humidity profiles we chose (App. A), which are
+characteristic of a mid-latitude cirrus background. We
+also show phase relationships in the various time profiles
+of the damped oscillator solution.
+3.2.2. Non-oscillatory mode
+When the base of the updraft lies at an altitude of 10 km
+(Figure 2a), the trajectory looks like that obtained from
+the shape of an average cirrus uncinus, with a hooked
+head and a trail or virga (Figure 7a), consistently with a
+conceptual view (Heymsfield 1975b) and the description
+given by the International Cloud Atlas (WMO 1975). The
+head is similar to the upper part of a cirrus uncinus as
+observed during the FIRE IFO II experiment, and reported
+later (Sassen & Krueger 1993).
+The trail or virga, referring to the curved shape with
+a dot at the origin (similar to the French word “virgule”
+meaning comma), is seen in the lower part. Its physical
+nature has been subject to a controversy (Fraser &
+Bohren 1992; Sassen & Krueger 1993). Actually, in our
+simplified approach, the crystal sublimation takes place
+in the virga. Along the trajectory, the maximum height
+(where dz/dt = 0) is reached after approximately 1.5
+hours (Figure 8b), and the extremum (where dx/dt = 0)
+after 3.3 hours (Figure 8a).
+The hodograph (Figure 7b) has no periodic branch and
+tends toward free fall with entrainment by horizontal240 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+wind. Our vertical velocities are smaller than reported
+values (Heymsfield 1975a), consistently with the fact
+that we assume a weaker updraft (0.6 m s–1
+instead
+of 1 m s–1
+), but they are in good agreement with FIRE
+observations (Gultepe et al. 1990).
+The scale lengths are compatible with our calculated
+shape and the integration runs over 5 hours, a duration
+that represents about 1/6 of a typical cirrus uncinus
+lifetime (Luo & Rossow 2004). With a constant time step
+∆t = 0.02 s, 900000 time steps are necessary.
+The time profiles of abscissa and altitude (Figure 8)
+shows that the crystal spends much time in the head
+where it grows for about three hours, and then decays
+rapidly, consistently with its mass (Figure 11a). The
+profile of abscissa (Figure 8a) shows a minimum at 3.3
+hours, reached at the left-most point of the trajectory
+(Figure 7a), where the crystal is pushed by the horizontal
+wind (Figure 1) directed to the left (Ua
+< 0). Afterwards,
+the crystal falls down in the decay phase following
+the trail.
+The profile of free fall speed Wf
+(Figure 9a) is a good
+test because it is similar to that obtained with the
+analytic model developed in App. D.1. The estimate
+of the theoretical time duration obtained there is
+consistent with the 5 hours reached here. We find typical
+values of Wf
+in the range 25–65 cm s–1
+that are in good
+agreement with observations of downdrafts in cirrus
+clouds (Heymsfield 1975b), as well as laboratory and
+field measurements (Heymsfield & Westbrook 2010) and
+measurements in synoptic cirrus (Mishra et al. 2014).
+Figure 8 Time profiles of abscissa and altitude (zw0
+= 10 km).
+Figure 7 Profiles of the parcel trajectory and hodograph (z0
+= 10 km; zw0
+= 10 km).
+Figure 9 Time profiles of free-fall speed Wf
+and driving factor Si
+–1–R (zw0
+= 10 km).241 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+ThevariationoficesupersaturationSi
+–1(Figure10a)is
+roughly stationary, with a local minimum coincident with
+the height maximum (t ≈ 1.5 h) and positive between 2
+and 3% during the growth phase until 3.4 hours. Then it
+decreases, becomes negative (t ≈ 3.75 h) in the decay
+phase,goesdownto–20%,consistentwithobservational
+data fitted with a microphysics model (Khvorostyanov &
+Curry 2008).
+The radiative correction term R (Figure 10b) is positive
+and slightly increasing, amounting to 1%, in the growth
+phase and becomes negative (t ≈ 3.75 h), synchronously
+with Si
+–1, then decreases to nearly –1% in the decay
+phase. Therefore this contribution is smaller than the
+supersaturation (Si
+–1 ≈ 3%), and as shown by Eq. (10),
+its effect counterbalances supersaturation in the heated
+growth phase (R > 0) and contributes in the cooled
+decay phase (R < 0) to lengthen the crystal’s life time.
+Consequently, the driving factor Si
+–1–R (Figure 9b) is
+slightly smaller than the supersaturation Si
+–1.
+The crystal mass m (Figure 11a) is the variable
+coupled with position (x, z) and its profile shows an
+inflexion point at the altitude maximum (t ≈ 1.5 h), then
+reaches a maximum (m ≈ 1.2 μg) at t ≈ 3.75 hours and
+decays afterwards down to approximately 0.3 μg. The
+dimensions a and c (Figure 11b) reach maxima at the
+same time (t ≈ 3.75 h), and then decrease to 35 μm
+and 70 μm respectively, satisfying the initial aspect ratio
+(𝜙=2).Accordingtoourassumption,thecorehalf-length
+cB
+remains constant during the motion. The total length
+2c is of same order as modelled by other researchers
+(Jensen et al. 2018).
+The mass equivalent diameter Di
+(Figure 12a) has
+a maximum (Di
+≈ 137 μm) at the same time (t ≈ 3.75
+hours), corresponding to a distance of 400 m (Figure
+8a), quite consistently with a simple former model
+(Harimaya 1968). The value Di
+≈ 85 μm is reached
+in the virga after 5 hours, in good agreement with
+observations at similar temperatures (Baum et al.
+2000; Kuhn & Heymsfield 2016). Dynamic viscosity
+(Figure 12b) is, together with the diameter Di
+(or radius
+ri
+= Di
+/2), a key parameter that scales the drag force (Eq.
+(3)) and Reynolds number (Eq. (4)). It is nearly constant
+in the head during 3.6 hours, and then it increases in
+the trail.
+Figure 10 Profiles of ice supersaturation Si
+–1 and radiative correction R (zw0
+= 10 km).
+Figure 11 Profiles of crystal’s mass and dimensions (zw0
+= 10 km).242 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+The hollowness factor 𝜓 (Figure 13a) increases during
+the growth phase, reaching a maximum close to 0.82
+at 3.75 h, approximately like mass, and then decreases
+down to nearly 0.70. This is consistent with the opposite
+variation of effective mass density (Figure 13b). Actually,
+𝜌ie
+, as calculated from Eq. (40), reaches a minimum when
+Di
+is maximum (t ≈ 3.75 h) and afterwards increases to
+large values. The range 670–705 kg m–3
+covered during
+crystal motion is slightly smaller than values amounting
+to 800 kg m–3
+published for bullet shapes (Schmitt and
+Heymsfield 2007).
+The drag coefficient CD
+(Figure 14a) reaches a
+minimum at 4.2 h, later than the mass maximum (Figure
+11a), but expectingly in phase with the maximum of
+Reynolds number Re at the same time (Figure 14b). The
+ranges covered by CD
+(9–25) and Re (1–3) are perfectly
+confirmed by numerical and laboratory experiments
+(Wang & Ji 1997).
+Figure 13 Profiles of hollowness factor and effective mass density of crystal (zw0
+= 10 km).
+Figure 14 Profiles of drag coefficient and Reynolds number (zw0
+= 10 km).
+Figure 12 Profiles of mass equivalent diameter and dynamic viscosity (zw0
+= 10 km).243 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+The damping coefficient k (Figure 15a) is minimum at
+3.75 hours and it increases by 50% in the final phase. It
+amounts to 15–20 s–1
+and therefore the quantity k ∆t is
+maintained in the range 0.3–0.6 thus ensuring stability
+of the algorithm (Eqs. (42)). The temperature difference
+Ts
+–Ta
+(Figure 15b) is very small and positive in the heated
+growth phase (Ts
+–Ta
+< 0.01 K), then it becomes negative
+andincreasesinmagnitude(Ts
+–Ta
+<0)inthecooleddecay
+phase, though remaining smaller than 0.1 K, consistently
+with published results (St-Pierre & Thiérault 2015).
+We can notice that the angular point appearing on
+certain profiles is due to the angular point present on the
+theoreticalpiecewise temperature profile(Figure 3a)with
+coordinates: z = 8 km, Ta
+= –50°C. It affects quantities
+dependingdirectlyofthetemperature(dynamicviscosity,
+temperature difference…), and consequently the velocity
+components (hodograph). In contrast, the trajectory is
+everywhere differentiable because of the smoothing of
+coordinates (x,z) due to the time integration of velocity
+components (u,w).
+3.2.3. Oscillatory mode
+When the base of the updraft is lowered down to an
+altitude of 9 km (Figure 2b), other parameters being
+unchanged, the trajectory is subject to a damped
+oscillation (Figure 16a). After the hooked head is formed
+with approximately a hundred meter vertical extension,
+like in the previous steady, non-oscillatory mode (Sect.
+3.3.2), the crystal parcel follows a periodic motion,
+whose wavelength Λ and period P are approximately 70
+km and 10.5 hours respectively. The amplitude of height
+oscillations is about 400 m at the beginning, and it
+decreases afterwards (Figure 17b).
+Owing to the mass loss of the crystal, which induces
+variations of the damping coefficient k (Figure 24a)
+or equivalently of the viscous drag (Figure 23a), the
+updraft acts in the bottom part of the trajectory at an
+altitude of 9.2 km, that is 200 m above the base (zw0
+=
+9 km), causing the parcel to lift again, like in cumulus
+models (Grabowski 1993). The crystal bounces on
+the updraft base like a ball on a rigid floor, except
+that the crystal equilibrium altitude is not the lower
+attained level (z–z0
+≈ –0.75 km in Figure 16a), but an
+intermediate height, unlike the ball that stabilizes at
+the floor level.
+Let us examine the limit focus of the hodograph
+(Figure 16b) which is composed of a straight line followed
+by a hook corresponding to the head, and afterwards of
+Figure 15 Time profiles of damping coefficient and temperature difference ice-air (zw0
+= 10 km).
+Figure 16 Profiles of the parcel trajectory and hodograph (z0
+= 10 km; zw0
+= 9 km).244 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+a spiral trajectory winding one turn more at each period.
+The phase velocity Cp
+corresponding to the period P and
+wavelength Λ is defined by:
+Λ
+= p C
+P (48)
+that is, numerically: Cp
+= 70 × 103
+/(10.5 × 3600) ≈ 1.85
+m s–1
+. Now, let us write the condition for the fixed point:
+= 
+
+= 
+
+
+0
+0
+u
+w
+(49)
+and using Eqs. (1a, b) and neglecting the buoyancy force,
+we obtain:
+∞
+∞
+∞
+= 
+
+
+= − 
+
+( )
+( )
+a
+a
+u U z
+g
+w W z
+k
+(50)
+The fixed point satisfies the additional condition:
+=0 w (51)
+and this finally leads to:
+∞ ∞
+∞
+∞
+= 
+
+
+= 
+
+( )
+( )
+a
+a
+u U z
+g
+W z
+k
+(52)
+Extrapolating the hodograph spiral (Figure 16b) shows
+that the horizontal velocity tends towards u¥
+= 1.85 m s–1
+approximately. We can then estimate the wind speed at
+the limit height z∞
+≈ 9.63 km (Figure 18a) using Eqs. (68)
+in layer III: Ua
+(z∞
+) = –30 –5(9.63–16) = 1.85 m s–1
+. This
+confirms the value given by the cycle focus (Ua
+(z¥
+) = u¥
+).
+Moreover, this limit velocity is very close to the phase
+speed of oscillations Eq. (48), which is approximately
+1/10 that of gravity waves.
+It is noteworthy that the maxima along the trajectory
+(Figure 16a) are sharp at the beginning and tend to
+become blunter and blunter, while the minima have
+nice round shapes all along the motion, like the extrema
+of other parameters displayed in the following. This is
+due to the fact that the abscissa (Figure 17a) is not a
+linear function of time, but has a periodic component
+of decreasing amplitude superimposed on a secular
+variation (of order Cp
+t; see below).
+As can be clearly seen on the time profile of altitude
+(Figure 17b), the limit height (z∞
+≈ 9.63 km) is slightly
+larger than the updraft base (9 km). It is in good
+agreement with the theoretical model of damped
+harmonic oscillator built in App. D.2 on the same period
+and a matched damping ratio (Figure 41a). As it was
+noticed, the abscissa x has a wavy profile (Figure 17a),
+and being coupled to altitude z through Eq. (1), it is in
+quadrature with z, since its quasi-horizontal inflexion
+points are coincident with maxima of z, and its oblique
+inflexions are in phase with minima of z. The slope of
+the straight line passing through these inflexion points is
+approximately equal to the phase speed Cp
+and the limit
+velocity u¥.
+The time profile of fall speed Wf
+(Figure 18a)
+oscillates with the same characteristics as the
+trajectory, and it tends towards the terminal value
+Wf ∞
+≈ – 0.6 m s–1
+, which compensates the updraft
+(Wa
+= 0.6 m s–1
+), and thus sustains the parcel oscillation.
+We can notice that, up to 10 hours, its beginning
+portion quite consistently looks like the theoretical
+profile relative to the steady mode shown in App. D.1
+(Figure 38).
+The ice supersaturation Si
+–1 (Figure 19a) shows
+damped oscillations with the same period and it doesnot
+tend towards zero, but towards 0.25% with increasing
+time. Its amplitude is initially small (3%) but larger than
+the radiative correction (0.75%). Moreover, Si
+–1 and R
+are in phase with altitude (Figure 17b) and in quadrature
+with mass (Figure 20a). At infinity they both tend towards
+0.25%, and consistently the driving factor Si
+–1–R (Figure
+18b) tends towards zero. We shall examine further
+below (Sect. 5) the relation between Si
+–1 and R for the
+oscillation to develop.
+Figure 17 Time profiles of abscissa and altitude (zw0
+= 9 km).245 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+Crystal mass (Figure 20a) is the variable coupled
+with position (x, z), and careful examination of its
+profile compared to that of attitude z (Figure 17b) and
+supersaturation(Figure19a)showsthattheyareinphase
+quadrature.Thedimensionsaandc(Figure20b)naturally
+show damped oscillations, in phase with mass. The half-
+length c tends towards a limit c∞
+≈ 108 μm at infinity,
+which is larger than the initial one (c0
+= 82.95 μm).
+Themassequivalentdiameter(Figure21a)oscillatesin
+phase with the fall speed and half-length c, and it tends
+towards a limit value, approximately 131 μm. Because of
+its definition, Eq. (38), it is naturally in phase with mass
+(Figure20a).Dynamicviscosity(Figure21b)isanimportant
+parameter that scales the viscous drag. We understand
+from its being in phase opposition with altitude (Figure
+17b), that when the crystal reaches the top of a spatial
+Figure 19 Time profiles of ice supersaturation Si
+-1 and radiative correction R (zw0
+= 9 km).
+Figure 20 Time profiles of mass m and dimensions a, c, cB
+(zw0
+= 9 km).
+Figure 18 Time profiles of free-fall speed Wf
+and driving factor Si
+–1–R (zw0
+= 9 km).246 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+period, gravity predominates over viscous drag, and the
+crystalfallsdown.Whenitreachesthebottomofaperiod,
+the situation is reversed: viscous drag predominates and
+the crystal is pushed up.
+The core half-size cB
+being kept constant during
+the motion (Figure 20b), the hollowness factor 𝜓
+(Figure 22a) oscillates with a small amplitude (≈2%)
+in phase with c, and it tends towards a limit value
+(𝜓∞
+≈ 0.81) slightly larger than its initial value
+(𝜓0
+= 0.80). The crystal’s effective mass density as
+calculated from Eq. (40), shows oscillations (Figure 22b)
+in phase with Wf
+, and phase opposition with 𝜓 and Di
+.
+It tends towards the asymptotic approximate value
+671.5 kg m–3
+approximately.
+The drag coefficient CD
+(Figure 23a) oscillates also
+at the same frequency and wavelength, in phase
+opposition with Reynolds number Re (Figure 23b). These
+two parameters are respectively comprised in the ranges
+8.5–11.5 and 2–3 and tend towards 10 and 2.45 at
+infinity. Like in the non-oscillatory mode (Sect. 3.2.2), the
+ranges covered by CD
+and Re are in good agreement with
+numerical and laboratory experiments (Wang & Ji 1997).
+Nevertheless, probably because CD
+and Re involve the
+mass variation through the mass equivalent radius (Eq.
+(4)), they are phase quadrature with altitude.
+The damping coefficient k (Figure 24a) oscillates
+roughly between 15 and 18, and tends towards the value
+k∞
+≈ 16.5 s–1
+, which is connected to Wf ∞
+(≈ 0.6 m s–1
+)
+Figure 22 Time profiles of hollowness factor and effective mass density of crystal (zw0
+= 9 km).
+Figure 23 Time profiles of drag coefficient CD
+and Reynolds number Re (zw0
+= 9 km).
+Figure 21 Time profiles of mass equivalent diameter and dynamic viscosity (zw0
+= 9 km).247 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+through Eq. (9). The oscillation of the temperature
+difference between the crystal’s surface and the ambient
+air (Figure 24b) tends towards zero as time tends to
+infinity, i.e. the surface temperature tends towards the
+ambient temperature Ta
+corresponding to the limit height
+z¥
+≈ 9.63 km.
+In the next sections we shall focus on the impact
+of crystal’s initial mass or size (Sect. 4) and radiative
+transfer (Sect. 5) on the trajectory, as primary causes of
+spreading of the cirrus structure.
+4. SENSITIVITY TO CRYSTAL SIZE
+4.1. NON-OSCILLATORY MODE
+Below a critical size (a0
+< 53.4 μm), the crystal parcel is
+lifted, brought along towards negative x, and does not
+fall down below its generating level. On the opposite,
+above a size threshold (a0
+> 53.4 μm), the parcel is not
+lifted and directly falls down below its generating level,
+yielding only the virga without hooked head.
+Looking in detail the situation of the parcel at
+horizontal distances of 10 and 20 km gives some insight
+into the crystal’s history. The falling heights z10
+– z0
+and
+z20
+– z0
+(Figure 25a) are maximum when a0
+≈ 53.4 μm
+and then decrease quite linearly as function of a0
+. The
+spans of z10
+– z0
+and z20
+– z0
+in the range 55–100 μm reach
+600mand2kmrespectively,andtheygiveanideaofthe
+trail thickness that is consistent with published results
+(Sunilkumar & Parameswaran 2005) for moderately cold
+cirrus (–75°C < T–Tr
+< –50°C). Colder cirrus (–85°C < T–Tr
+<
+–75°C) at higher altitudes are thinner.
+Interestingly it appears that the relative maximum
+height zM
+– z0
+reached at the top of the hook (Figure 25b)
+plotted as a function of a0
+comes to zero at a0
+≈ 53.3 μm,
+indicating that a hook does not form for larger sizes. In
+theopposite,whenthecrystalissmaller,aheaddevelops
+up to more than 100 m above the initial position, and as
+expected, the lighter it is, the higher it is lifted.
+Simulations of cirrus clouds (Dobbie & Jonas 2001) in
+presence of radiative cooling (RC) show that IWP decay is
+achieved in approximately 5 hours without RC whatever
+the cloud thickness, and this lifetime is increased for thin
+clouds up to more 7 hours with RC.
+The transit times t10
+, t20
+at the abscissae x = 10 and 20
+km plotted as a function of a0
+(Figure 26a) reach several
+hours for small crystals (a0
+< 52 μm) and shorten to less
+than one hour for large crystals (a0
+> 55–65 μm).
+Figure 25 Profiles of falling height z20
+–z0
+and maximum height in the head zM
+–z0
+as functions of crystal half-width a0
+(zw0
+= 10 km).
+Figure 24 Time profiles of damping coefficient k and temperature difference ice-ambient air (zw0
+= 9 km).248 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+The half-lengths c10
+and c20
+at the same times,
+normalized to the initial value c0
+and plotted as functions
+of a0
+(Figure 26b) show an interesting behaviour. The
+profiles have a sharp peak at approximately a0
+≈ 51.5 μm,
+and then decrease with inflexion points corresponding
+roughly to the maxima of the falling height profiles
+(Figure 25a). Then, c10
+/c0
+is nearly constant, while c20
+/c0
+decreases nonlinearly down to 80%. Thus, the crystal
+size changes little up to 10 km and undergoes its major
+decay at 20 km by more than 10% according to its initial
+size in the range 55–100 μm. Unlike the falling height,
+the crystal decay is a strongly nonlinear function of size,
+reflecting the complexity of the microphysical processes
+involved in the model despite its many simpliflying
+assumptions.
+4.2. OSCILLATORY MODE
+We shall examine the first three (exceptionally four)
+extrema in the trail. Like in Sect. 4.1, below a critical
+size (a0
+< 50.9 μm), the crystal is lifted, brought along
+towards negative x, and does not fall down below its
+generating level. On the opposite, above a threshold
+(a0
+≈ 56 μm), a transition occurs at the first maximum (in
+the x-range 25–40 km) where the horizontal velocity u
+vanishes because of the crystal becoming too heavy and
+the damping passing through an inflection point. Then
+horizontal velocity u changes sign and a loop forms,
+grows until the crystal is trapped in the first period, and
+the motion loses its spatial periodicity.
+From the transit times at the first three minima (tmin1
+,
+tmin2
+, tmin3
+) and maxima (tmax1
+, tmax2
+, tmax3
+) we can calculate
+two estimates Pmin
+and Pmax
+of period by the formulae:
+min3 min1
+min
+max3 max1
+max
+2
+2
+t t
+P
+t t
+P
+−
+≈
+−
+≈
+(53)
+and plot the results as functions of a0
+(Figure 27). Ne
+notice that the average involving the middle minimum
+or maximum would yield the same result, since: (tmin3
+–
+tmin2
+)+(tmin2
+–tmin1
+) = tmin3
+–tmin1
+, and: (tmax3
+–tmax2
+)+(tmax2
+–
+tmax1
+) = tmax3
+–tmax1
+. It is noteworthy that the period is
+nearly independent of crystal size a0
+in the range 51–
+56 μm and the two curves for Pmin
+and Pmax
+are nearly
+coincident within 10–3
+. Estimates from these two plots
+are consistent with the value found in Sect. 3.2.3.
+The steepening at a0
+≈ 56.2 μm reflects the transition
+explained above.
+Likewise, from the abscissae at the first three minima
+(xmin1
+, xmin2
+, xmin3
+) and maxima (xmax1
+, xmax2
+, xmax3
+) we can
+calculate two estimates 𝛬min
+and 𝛬max
+of wavelength by
+the formulae:
+min3 min1
+min
+max3 max1
+max
+2
+2
+x x
+x x
+−
+Λ ≈
+−
+Λ ≈
+(54)
+and plot the results as functions of a0
+(Figure 28). The
+two curves have a bump in the range 51–56 μm with a
+maximum in the middle at a0
+= 53.5 μm and they are
+separated by a gap of about 143 m, and a more exact
+value would be obtained from the transit through the
+asymptotic height z∞
+calculated a posteriori from zmin
+and
+zmax
+(see below). These results are consistent with the
+value found in Sect. 3.2.3.
+Figure 27 Profiles of pseudo-periods between minima (Pmin
+)
+and maxima (Pmax
+) estimated with Eq. (53), as functions of
+crystal half-width a0
+(zw0
+= 9 km).
+Figure 26 Profiles of transit times t10
+, t20
+and half-lengths c10
+/c0
+and c20
+/c0
+as functions of crystal half-width a0
+(zw0
+= 10 km).249 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+From periods and wavelengths, we can calculate
+corresponding phase speeds by Eq. (48), such that:
+min
+min
+min
+max
+max
+max
+p
+p
+C
+P
+C
+P
+Λ
+=
+Λ
+=
+(55)
+and plot the results as functions of a0
+(Figure 29).
+Consistently with the variations of periods and
+wavelengths, phase speeds show a slow variation in the
+range 51–56 μm and they are separated by a small gap,
+Cmin
+and Cmax
+having both a maximum at the critical size
+a0
+≈ 53.5 μm.
+In contrast, plots of the altitudes at the minima
+(Figure 30a) and maxima (Figure 30b) reveal that
+their spacing depends on the crystal size and has a
+minimum at a0
+≈ 53.3 μm, corresponding to the size
+for which the formation of a hooked head is cancelled
+(Figure 25b).
+Then, from the first three minima and maxima we
+can obtain a rough estimate of the limit height z∞
+by the
+formula:
+max1 max2 max3 min1 min2 min3
+6
+z z z z z z z∞
++ + + + + ≈ (56)
+then we derive the limit velocity Ua
+(z∞
+) using Eqs.
+(68) in layer III: Ua
+(z∞
+) = –30 –5(z∞
+–16), and finally
+plot the results as functions of a0
+(Figure 31). They
+show nice parabolic profiles within 1% in the range
+51–56 μm of size, and again an extremum at
+a0
+≈ 53.3 μm.
+Figure 29 Profiles of phase speeds Cpmin
+and Cpmax
+derived by Eq.
+(55) as functions of crystal half-width a0
+(zw0
+= 9 km).
+Figure 30 Profiles of relative altitudes at minima and maxima in the trail as functions of crystal half-width a0
+(zw0
+= 9 km).
+Figure 28 Profiles of wavelengths 𝛬min
+and 𝛬max
+derived from
+distances of minima and maxima by Eq. (54) as functions of
+crystal half-width a0
+(zw0
+= 9 km).
+Figure 31 Profiles of relative limit height z∞
+–z0
+and velocity Ua
+(z∞
+) in the trail as functions of crystal size a0
+(zw0
+= 9 km).250 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+The damping ratio 𝜁 appearing in the theoretical
+model of damped harmonic oscillator (App. D.2) can be
+estimated from our simulation data using the following
+procedure. The minimum and maximum altitudes can be
+written, within the approximation Ω ≈ Ω0
+:
+min min min min
+max max max max
+exp( )sin( )
+exp( )sin( )
+z z t t
+z z t t
+ζ
+ζ
+∞
+∞
+− ≈ − Ω Ω +Φ
+− ≈ − Ω Ω +Φ (57)
+Therefore, extracting 𝜁 we obtain, for instance between
+extrema 1 and 2:
+
+
+
+
+  
+  
+
+ 
+  
+   
+
+ 
+min1 min2 min
+min2 min1 min
+min12
+min2 min2
+max1 max2 max
+max2 max min1
+max12
+max2 max2
+sin( )
+Ln
+sin( )
+( )
+sin( )
+Ln
+sin( )
+( )
+z z t
+z z t
+t t
+z z t
+z z t
+t t
+
+
+(58)
+With the above data providing an average angular
+frequency Ω0
+= 2π/(10.24 × 3600) = 1.7 × 10–4
+rad s–1
+,
+and using an initial phase shift 𝛷 ≈ π/4 (see App. D2),
+we obtain the value 𝜁 ≈ 0.019, which is underestimated
+compared with the theoretical estimate of App. D.2
+(𝜁 ≈ 0.05).
+5. IMPACT OF RADIATIVE TRANSFER
+5.1. DATA
+Although at temperatures as low as –50°C, ice
+supersaturation in observed cirrus clouds as large
+as 50% may be measured (Korolev & Isaac 2006),
+statistical data (Krämer at al. 2009) show average
+values equally distributed slightly above 0%, a situation
+that seems necessary to trigger damped oscillations
+whenotherconditionsarefavourable,butthisisactually
+linked to the smallness of the radiative contribution.
+Thus, we shall show below that on one hand damped
+oscillations can develop with zero net radiative transfer
+(Case 1), and on the other hand we exhibit situations
+in which ice supersaturation is higher than in the
+standard case (Case 0) of Sect. 3.2.3 but associated
+with a higher net radiative transfer (Cases 2 and 3). The
+parameters and initial conditions are summarized in
+Table 2.
+We shall display only the oscillatory mode and,
+following the same analysis procedure as in Sect. 3, we
+shall estimate period and wavelength as functions of the
+nominal water saturation, namely Ha3
+at the latitude zH3
+= 10 km, Eqs. (79) in App. A.3, and the radiative transfer
+ratio 𝜂 which will be kept constant in this section. For
+each case, we show the trajectory, hodograph, and
+altitude time profile which are sufficient to determine
+period P, wavelength 𝛬, and also ice supersaturation
+Si
+–1, radiative correction R, and driving factor Si
+–1–R. The
+maximum height of the initial hooked cap, zmax0
+–z0
+, and
+the limit altitude of the oscillatory motion, z∞
+, are also
+recorded in Table 2.
+5.2. CASE 1
+Weassumethat𝜂=1,i.e.thenetradiativetransferiszero
+(Table 2). This is therefore a neutral case from a radiative
+standpoint. We choose the growth mode such that
+𝜙 = 2 and cB
+is constant. With a radius a0
+= 50.17 μm,
+steady and oscillatory modes are obtained just by
+CASE NB 0 1 2 3
+NET RAD.
+TRANSF.
+R ≠ 0 R = 0 R ≠ 0 R ≠ 0
+Parameter 𝜂(z)
+𝜙 = 𝜙0
+cB
+= cB0
+𝜂 = 𝜂0
+= 1
+𝜙 = 𝜙0
+cB
+= cB0
+𝜂 = 𝜂0
+≠ 1
+𝜙 = 𝜙0
+cB
+= cB0
+𝜂 = 𝜂0
+≠ 1
+𝜙 = 𝜙0
+cB
+= cB0
+Modes Steady –
+Osc
+Steady –
+Osc
+(Steady) –
+Osc
+(Steady) –
+Osc
+Life time 5 h/40 h 5 h/40 h 4 h/40 h 4 h/40 h
+∆t (s) 0.02/0.04 0.02/0.04 0.02/0.04 0.02/0.04
+x0
+(km) 2 2 2 2
+z0
+(km) 10 10 10 10
+u0
+(m s–1
+) 0 0 0 0
+w0
+(m s–1
+) 0.6 0.6 0.8 0.8
+a0
+(μm) 51.1 50.17 52.0 50.2
+c0
+(μm) 102.2 100.34 104.0 100.4
+𝜙0
+2.0 2.0 2.0 2.0
+𝜓0
+0.80 0.80 0.80 0.80
+cB0
+(μm) 20.44 20.068 20.80 20.08
+m0
+(μg) 0.935 0.885 0.986 0.887
+C0
+(μm) 88.6 86.9 90.1 87.0
+D0
+(μm) 125 122 127 123
+𝜌ie0
+(kg m–3
+) 675 675 675
+𝜂 0.9 ≤ 𝜂
+≤ 1.1
+1 1.1 0.9
+z𝜂0
+(km) 9 ≤ z ≤ 10 0 – 11 0 – 11 0 – 11
+Wa0
+(m/s) 0.6 0.6 0.8 0.8
+zW0
+(km) 10/9 10/9 10/7 10/7
+Ha3
+0.61 0.61 0.68 0.68
+zH3
+(km) 10 10 10 10
+zmax0
+–z0
+(m) 102 144 468 542
+z∞
+(km) 9.63 9.58 8.58 8.3
+P (hour) 10.2 8.87 7.8 6.8
+𝛬 (km) 69.8 64.8 200 200
+Cp
+(m s–1
+) 1.85 2.03 7.1 8.2
+𝜁 0.019 0.015 0.021 0.011
+Table 2 Parameters of test-cases/numerical experiments.251 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+switching the updraft base altitude, with lifetimes of 5
+hoursand40hoursrespectively.Forsmallsaturations(Ha3
+= 61%, Si
+≈ 103%), an oscillation is triggered and slowly
+damped, much alike the standard case (Sect. 3.2.3). It is
+noteworthy that the maxima along the trajectory (Figure
+32a) are sharp at the beginning and tend to become
+blunter and blunter, while the minima have nice round
+shapes all along the motion, like other parameters
+displayed below (z, Si
+–1). The initial amplitude of height
+oscillations is approximately 400 m, like in Case 0, and
+the oscillation pattern during 40 hours spans a little more
+than 250 km (Figure 32a).
+The maximum height reached in the head is 144 m,
+and then oscillation sets in, going through four maxima
+and four minima with moderate damping looking like
+the standard solution (Case 0) of Sect. 3.2.3. The period
+and wavelength derived from simulation results are
+approximately P ≈ 8.87 hours and 𝛬 ≈ 64.8 km, which
+yield a phase speed Cp
+= 2.03 m s–1
+. The damping ratio is
+𝜁≈0.015.Asexpected,itisconsistentbothwiththevelocity
+limit u∞
+≈ 2.1 m s–1
+in the slowly spiralling hodograph
+(Figure 32b) and with the wind speed at the limit height
+z¥
+≈ 9.58 km (Figure 32c), that is using Eq. (68) in layer III:
+Ua
+(z∞
+) = –30 –5(9.58–16) = 2.1 m s–1
+. The altitude time
+profile (Figure 32c) is qualitatively well described by the
+theoretical model of damped harmonic oscillator built in
+App. D.2 with moderate damping (Figure 41a).
+Ice supersaturation (Figure 33d) oscillates at the
+same period and in phase with altitude (Figure 32c). The
+amplitude is approximately 2.5 % at the beginning and it
+decreases afterwards, tending towards zero.
+The absence of net radiative transfer results in a
+smaller period than in the standard case (Sect. 3.2.3),
+thus reflecting the property that the cloud lifetime is
+increased by radiative transfer (Dobbie & Jonas 2001).
+This can be called a dual case because the steady
+counterpart, not displayed, is characteristic of a well-
+developed cirrus uncinus.
+5.3. CASE 2
+We assume here that 𝜂 = 1.1, i.e. the net radiative
+transfer is positive and corresponds to higher layer in
+the upper troposphere where heating is predominant
+in daytime (Table 2). Therefore larger water and
+ice saturations (Ha3
+= 68%, Si
+≈ 115%), and updraft
+(Wa0
+= 0.8 m s–1
+) are possible and the initial radiative
+correctioncanbelarger(R ≈ 1.5 %)thaninthestandard
+case (R ≈ 0.8 %). Again choosing the growth mode such
+that 𝜙 = 2 and cB
+is constant, steady and oscillatory
+mode are obtained just by switching the updraft
+base altitude, with lifetimes of 4 hours and 40 hours
+respectively, upon specifying a radius a0
+= 52.0 μm, and
+setting the updraft base altitude at 7 km, lower than in
+Cases 0 and 1.
+Figure 32 Profiles of the parcel trajectory, hodograph, altitude, supersaturation (𝜂 = 1; Wa
+= 0.6 m/s; Ha3
+= 61%; zw0
+= 9 km).252 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+The oscillatory mode is triggered again (Figure 33a),
+with a maximum height at 468 m in the cap followed
+by a trough at –2.5 km, then damped with wavelength
+𝛬 ≈ 200 km, period P ≈ 7.8 hours, and damping ratio 𝜁 ≈
+0.02. According to Eq. (48), the phase speed is therefore
+Cp
+= 200 × 103
+/(7.8 × 3600) ≈ 7.1 m s–1
+. As expected, it
+approximately matches both the focus u∞
+≈ 7.1 m s–1
+of
+the quickly spiralling hodograph (Figure 33b) and the
+wind speed at the limit height z¥
+≈ 8.58 km (Figure 33c),
+that is using Eq. (68) in layer III: Ua
+(z∞
+) = –30 –5(8.58–16)
+= 7.1 m s–1
+.
+The larger phase speed attained when the crystal
+parcel crosses the critical level (zU0
+= 8 km) increases
+considerably the wavelength and consequently
+stretching beyond 900 km the span of the oscillation
+pattern during 40 hours (Figure 33a). The altitude
+time profile (Figure 33c) is in good agreement with the
+theoretical model of damped harmonic oscillator built in
+App. D.2 with the same period and a larger damping ratio
+(Figure 41b). Nevertheless, a significant period increase
+(≈ 7.5%) over 40 hours shows that the oscillator is not
+rigorously harmonic.
+Figure 33 Profiles of the parcel trajectory, hodograph, altitude, supersaturation Si
+–1, driving factor Si
+–1–R and radiative correction R
+(𝜂 = 1.1; Wa
+= 0.8 m/s; Ha3
+= 68%; zw0
+= 7 km).253 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+Ice supersaturation Si
+–1 (Figure 33d) oscillates at the
+same period and in phase with altitude (Figure 33c) like
+in the standard case (Case 0, Sect. 3.2.3). The amplitude
+of oscillations is approximately 15% at the beginning and
+it decreases quickly afterwards, as Si
+–1 tends towards
+the limit at 1.2% approximately. The radiative correction
+R (Figure 33f) is in phase quadrature with Si
+–1 whereas
+it was in phase in Case 0, and its limit is approximately
+1.2%, equal to that of the supersaturation. Consistently,
+the growth driving factor Si
+–1–R (Figure 33e) oscillates
+about its limit, zero, with a large amplitude (≈ 10 %) at
+the beginning, larger than in Case 0 (≈ 2%), then quickly
+decreasing.
+The hodograph (Figure 33b) shows an amazing
+feature consisting apparently in a folding of the
+spiral at the abscissa u = 10 m s–1
+acting as a wall,
+a phenomenon that can be easily explained (App.
+D.2). This is well illustrated by the time profile of the
+horizontal velocity u (Figure 34), which clearly shows
+the first two eastward elongations truncated in the
+vicinity of Uamax
+. The subsequent elongations are not
+affected, and u eventually converges towards u∞
+≈ 7.1
+m s–1
+.
+Like in Cases 0 and 1 before, the present damping
+ratio (𝜁 ≈ 0.02) is also underestimated compared with the
+theoretical estimate of App. D.2 (𝜁 ≈ 0.07). This case can
+beconsideredasisolatedbecausethesteadycounterpart
+(not shown) is short (≈ 4 hours) and composed of a
+stretched hooked cap (≈ 20 km), without trail.
+5.4. CASE 3
+We now assume that 𝜂 = 0.9, i.e. the net radiative
+transfer is negative and corresponds to lower layers in
+the upper troposphere where cooling is predominant
+at night time (Table 2). Note that this is the particular
+radiative situation depicted by Eq. (25) in Sect. 2.2.2.
+Other parameters are set to values of the previous
+case (Ha3
+= 68%, Si
+≈ 115%, Wa0
+= 0.8 m s–1
+; 𝜙 = 2;
+cB
+= cB0
+). Steady and oscillatory modes are obtained
+with lifetimes of 4 hours and 40 hours respectively,
+upon specifying a radius a0
+= 53.9 μm, and setting the
+updraft base altitude at 7 km, lower than in Cases 0
+and 1. The initial amplitude of altitude oscillations is
+approximately 1 km, and it decreases slowly afterwards
+(Figure 35a, c).
+Thus the oscillatory mode is slowly damped with
+average 𝛬 ≈ 200 km, P ≈ 6.8 hours, and 𝜁 ≈ 0.01.
+According to Eq. (48), the phase speed is therefore
+Cp
+= 200 × 103
+/(6.8 × 3600) = 8.2 m s–1
+. As expected,
+it matches approximately both the limit u∞
+≈ 8.5 m
+s–1
+in the hodograph (Figure 35b) and the wind speed
+at the limit height z¥
+≈ 8.3 km (Figure 23c), that is
+using Eq. (68) in layer III: Ua
+(z∞
+) = –30 –5(8.3–16)
+= 8.5 m s–1
+Like in the previous case, the motion
+crossing the critical level (zU0
+= 8 km) of maximum
+wind speed (Uamax
+= 10 m s–1
+) induces larger phase
+speed and wavelength, which causes the oscillation
+pattern during 40 hours to span more than 900 km
+(Figure 35a).
+Ice supersaturation Si
+–1 (Figure 35d) oscillates at
+the same period and in phase with altitude (Figure 35c)
+like in other cases. Its amplitude is approximately 15%
+at the beginning and it decreases afterwards, as Si
+–1
+tends towards the limit –1.2% approximately, slightly
+below saturation. The radiative correction R (Figure
+35f) is again in phase quadrature with Si
+–1, whereas it
+was in phase in Case 0, and its limit is close to –1.2%.
+Consistently, the driving factor Si
+–1–R (Figure 35e)
+oscillates about zero, with a large amplitude (≈ 15 %)
+at the beginning, and as expected it tends towards
+zero.
+We notice that the common limit of Si
+-1 and R at
+infinity are equal in magnitude but opposite in Cases 2
+and 3 (R = ± 1.2%), a situation corresponding to opposite
+radiative initial conditions (𝜂 – 1 = ± 0.1). Moreover, the
+period shape in R oscillation is slightly asymmetric, the
+ascending half-period being steeper than the descending
+one in Case 3 (Figure 35f) and reciprocally in Case 2
+(Figure 33f).
+The hodograph (Figure 35b) shows here again a
+folding of the spiral at the abscissa u = 10 m s–1
+, but for
+five complete periods. The phenomenon, explained in
+App. D.2, is illustrated by the time profile of the horizontal
+velocity u (Figure 36), which clearly shows that all of the
+eastward elongations are truncated and folded in the
+vicinity of Uamax
+.
+This case can be considered as isolated because the
+steady counterpart (not shown) is shorter (4 hours) and
+composed of a hooked cap with a horizontal extension
+of 20 km, without trail. The comparison of estimated
+damping ratios 𝜁 (Table 2) reveals that Case 2 is more
+damped than Case 3.
+Figure 34 Time profile of the horizontal velocity u (𝜂 = 1.1;
+Wa
+= 0.8 m/s; Ha3
+= 68%; zw0
+= 7 km).254 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+6. DISCUSSION
+6.1. NON-OSCILLATORY MODE
+Early simple analytical models of cirrus produced
+parabolic or quasi-parabolic shapes (Ludlam 1948;
+Marshall 1953). Among a lot of works on cirrus uncinus
+cloudssupportedbyfieldobservations,twoseriesofpapers
+using a Lagrangian approach, the first one published in
+the sixties (Magono et al. 1967; Yagi et al. 1968; Harimaya
+1968; Yagi 1969) and the second one in the seventies
+(Heymsfield 1973; Heymsfield 1975a; Heymsfield 1975b;
+Heymsfield 1975c) retained our attention.
+The first series reports stereoscopic observations that
+show real motions to be three-dimensional, the cirrus
+Figure 35 Profiles of the parcel trajectory, hodograph, altitude, supersaturation Si
+–1, driving factor Si
+–1–R and radiative correction R
+(𝜂 = 0.9; Wa
+= 0.8 m/s; Ha3
+= 68%; zw0
+= 7 km).
+Figure 36 Time profile of the horizontal velocity u (𝜂 = 0.9;
+Wa
+= 0.8 m/s; Ha3
+= 68%; zw0
+= 7 km).255 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+uncinus being also bent in a horizontal plane (Magono
+et al. 1967; Yagi et al. 1968; Harimaya 1968; Yagi 1969).
+The directions of cloud and wind are slightly tilted by
+10° or so at the top of the trail and they are practically
+coincident at the bottom (Yagi et al. 1968).
+The simple model based on these observations
+(Harimaya 1968) solves the mass growth equation Eq.
+(10) for crystal size and inserts the result in an analytic
+expression for the falling velocity, which in turn is
+integrated to yield the height as a function of time.
+Likewise, abscissa is obtained by integration of the
+horizontaldriftvelocity.Sixcrystalshapesareinvestigated
+and the wind shear is chosen in the range 0–7 × 10–3
+s–1
+.
+Consistently with our result, the maximum fall speed of
+0.5ms–1
+isreached500mbelowtheorigin.Nevertheless,
+temperature and humidity are assumed constant during
+the motion and, in the absence of updraft, no hooked cap
+is retrieved at the root of the trail. The cap is supposed to
+form within a turbulent layer between two stable layers
+(Yagi 1969).
+The second series investigates the trajectory of five
+classes of crystals of bullet-rosette type, mostly observed
+in cirrostratus clouds (Heymsfield 1973; Heymsfield
+1975a). By numerical integration of ODE analogous
+to our Eqs. (42), (43), (44) over a shorter time (3000
+s), with an updraft velocity of 1 m s–1
+, characteristic
+shapes with a hooked head and a trail are retrieved.
+The major differences with our work lie in the facts that
+the buoyancy force and effect of latent heat release are
+included in the entrainment vertical velocity Wa
+, that
+radiative effects are not taken into account and that the
+crystal habit is more complex and it is based on a mass-
+size relationship. As a consequence, the vertical extent of
+the head is somewhat larger, reaching 500 m.
+6.2. OSCILLATORY MODE
+TheresponseofatmosphericlayerstoaKelvin-Helmholtz
+instability is an important issue that may produce wavy
+patterns in the upper troposphere (billow clouds; cirrus
+fluctus). This phenomenon is usually discussed by means
+of the Richardson number Ri, defined by the expressions
+(Lynch et al. 2002):
+2
+2
+2
+2
+Ri
+Ri
+BVd
+d
+BVm
+m
+ω
+ω
+Ω
+=
+Ω
+=
+(59)
+with the Brunt-Väisälä angular frequencies ΩBVd
+and ΩBe
+,
+defined by (Durran & Klemp 1982):
+2
+2
+d
+(Ln )
+d
+d
+(Ln )
+d
+BVd d
+BVe e
+g
+z
+g
+z
+θ
+θ
+Ω =
+Ω =
+(60)
+and ΩBVm
+in a moist atmosphere, defined by (Durran &
+Klemp 1982):
+2
+2
+2
+1
+d d d
+(Ln )
+d d d
+1
+v s
+v s a l
+BVm d
+v s p
+pa a
+L q
+L q q R T
+g
+L q z c T z z
+c R T
+θ
+ε
+ 
++      
+Ω = + −      
+    +
+   
+(61)
+and the horizontal wind shear 𝜔:
+d
+d
+a U
+z
+ω = (62)
+The dry and equivalent potential temperatures 𝜃d
+and 𝜃e
+are usually defined by (Durran & Klemp 1982):
+/
+exp
+p R c
+r
+d
+v s
+e d
+pa
+p
+T
+p
+L q
+c T
+θ
+θ θ
+ 
+=  
+ 
+ 
+=    
+ 
+(63)
+Vertical profiles of the local Richardson number
+(Figure 37) obtained with our data (App. A) show that
+the minimum value, reached at the inversion altitude of
+8 km is approximately 2.95 in the dry case (solid line),
+and since it is everywhere larger than the critical value
+0.25, we can conclude according to the criterion that
+the dry atmosphere is stable (Lynch et al., 2002). In
+contrast, the moist and equivalent profiles (dotted and
+dashed lines), which are not very different from each
+other, clearly show that a Kelvin-Helmholtz instability
+is likely to occur locally in such an atmosphere above
+and below 7 km, since Rim
+< 0.25. Published profiles
+show the same behaviour (Wada et al. 2005; Spichtinger
+2014). Other authors (Dobbie & Jonas 2001) derived a
+radiative stability number Rsn
+and a criterion for onset
+of convective instability as: 0 < Rsn
+< 1. With a typical
+heating rate 0.1 H = K d–1
+at the altitude z = 9 km, they
+show that their criterion could be satisfied.
+In contrast, the oscillations we have put into evidence
+inSect.3.2.3areduetotheinterplayofthecrystal’smass
+variation by deposition-evaporation and the updraft,
+and therefore it is neither a buoyancy effect relevant of
+Kelvin-Helmholtz instability nor a radiative instability,
+though the above remarks clearly suggests that these
+Figure 37 Atmospheric profiles of Richardson numbers.256 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+kinds of instability may develop in the free atmosphere at
+the altitude where our cirrus develops, or slightly below.
+Moreover, we notice that the two kinds of motions we
+found are such that the life time of a well-developed
+cirrus uncinus in steady mode is of same order as the
+half-period of the associated oscillatory pattern.
+These oscillations were not found in the quoted
+work (Heymsfield 1975b), but the mention of “long-
+lasting cirrus turrets” originating from the trail and
+produced either by convection above the stable layer
+or by evaporation of ice crystals and the reference to
+generators of pulsating-type strongly suggests that they
+may be related to such observations. Nevertheless, low
+to moderate ice supersaturation in the range 3–15%
+seems to be more favorable to the onset of oscillations in
+our situation, in agreement with statistical data (Krämer
+at al. 2009), though values as high as 50% could be
+expected at such low temperature of –50°C according to
+some other data (Korolev & Isaac 2006).
+The parcels being generated continuously in the head
+and feeding the trail downstream, the phenomenon
+may also be connected to the more recent concept of
+“Mesoscale Uncinus Complex” (MUC) that was proposed
+to explain the grouping of individual cirrus uncinus
+so as to form mesoscale structures with dimensions
+ranging from 15 km to 100 km (Sassen et al. 1989),
+consistent with our long-wavelength oscillatory pattern.
+The idea of MUC was confirmed afterwards by a series
+of observations (Wang 2004; Wang & Sassen 2008).
+Nevertheless, the phase speed Cp
+we estimate is related
+to the wind velocity at the altitude of oscillations (Cp
+≈
+2–8 m s–1
+) and it is much smaller than the wind speeds
+(Ua
+≈ 30 m s–1
+) involved in MUC and related to jet stream
+(Wang & Sassen 2008).
+Afirstinvestigation(Demozetal.1998)usingwavelets
+to analyze observations of low cirrus uncinus culminating
+at 8 km, shows spatial scale features of 30 km in
+extension associated with relatively high frequencies
+(≈ 0.007 Hz), corresponding to periods of 140 s. As
+shown by our Figure 37, convective instability is likely
+to develop at the altitude of their observations, so that
+the authors logically conclude that the high frequency
+spectrum (slope –5/3) is due to turbulence, and the low
+frequency component (slope –3) is due to the interaction
+of convection with gravity waves.
+Another wavelet analysis (Wang & Sassen 2008)
+focusingonahigh-altitudeMUC(10–13.5km)alsoreveals
+that two superimposed spectral components emerge:
+a small-period one (10–100 s) in a small scale range
+(0.4–4 km) with slope –5/3 relevant of turbulence in
+embedded cells, and a large-period one (100–1000 s) in
+a large-scale range (5–10 km) with slope –3, not relevant
+of a uniquely identified dynamical phenomenon, but
+rather resulting of the complex interaction of propagating
+gravitywavethroughturbulentlayers.Theseeffortsshow
+that the phenomenon deserves further investigations in
+a range of larger periods (> 1000 s).
+7. CONCLUSION AND PROSPECTS
+7.1. RESULTS AND FINDINGS
+According to our purpose, using a Lagrangian approach
+with prescribed wind and updraft, we could retrieve
+the two-dimensional shape as well as dynamical and
+microphysical features of crystals trajectories leading
+to a well-developed cirrus uncinus. Moreover, besides
+this “standard” steady mode shaping a cirrus cloud,
+we put into evidence a self-sustained, damped quasi-
+harmonic oscillatory mode of long period (≈ 6–10 hours)
+and wavelength (≈ 60–200 km), never reported before,
+as far as we know. Despite its apparent simplicity, our
+model includes many elementary nonlinear processes,
+and it shows how the height of the updraft base, and
+radiative transfer competing with supersaturation, by
+modulating water vapour-ice phase changes that drive
+the crystal’s mass variation, can significantly modify the
+development of a mean ice crystal parcel. Nevertheless,
+small to moderate ice supersaturations in the range
+3–15% seem to be more favorable to the onset of
+oscillations than values as high as 50% that could be
+expected at such a low temperature of –50°C (Korolev
+& Isaac 2006). Of course, this an idealized picture that
+requires an updraft stable over several tens of kilometers
+in the upper troposphere.
+The complexity of our two-dimensional model can
+be quantified by 43 degrees of freedom, composed
+of the 36 constants implied in the ambient vertical
+profile conditions (App. A): dynamics (Ua
+, Wa
+) and
+thermodynamics (Ta
+, pa
+, Ha
+, 𝜂a
+), supplemented with the
+7 initial scalar conditions: position (x0
+, z0
+), velocity (u0
+,
+w0
+), column half-width (a0
+), aspect ratio (𝜙), hollowness
+factor (𝜓). Of the total, we matched only five of them: zw0
+,
+Wa0
+, Ha3
+, 𝜂a
+and a0
+.
+By a detailed sensitivity analysis (Sect. 4) we have
+shown that the crystal size has a significant impact on
+the head extension and decay duration of the steady
+mode, but a smaller impact on the period of the
+oscillatory mode. Moreover, we examined the influence
+of radiative transfer (Sect. 5) in three specific situations,
+showing in particular that heating has a larger damping
+effect than cooling. This variability is a useful structural
+input for the modelling of cloud texture, as imagined in
+the prospective section below.
+We notice that the two kinds of motions we found are
+such that the life time of a well-developed cirrus uncinus
+in steady mode (≈ 5 hours) is of same order as the half-
+period of the associated oscillatory mode (≈ 8–10 hours).257 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+An analytic model in App. D. recovers the computed
+shapes of the two modes and expressions of the period
+and damping ratio of the oscillatory mode are derived. A
+slightasymmetryofoscillationsandasignificantincrease
+(≈ 7.5%) of period with time reveal some inharmonicity
+of the oscillator when radiative transfer is of constant
+sign, either positive i.e. heating (Sect. 5.3) or negative i.e.
+cooling (Sect. 5.4).
+The theoretical background of the underlying Liénard
+differential system governing our system, which
+produces bifurcations due to a particular parameter
+(level of updraft base), is linked with the notion of
+strange attractor, actually originated in the astrophysical
+modelling of the dynamo effect maintaining stellar and
+planetary magnetic fields (Rikitake 1958), although
+roots are found in the modelling of population dynamics
+(Verhulst 1838; Vogels et al. 1975). Thus, the phase shift
+between the oscillations of mass and supersaturation
+that we put into evidence (Sect. 3.2.3) is quite similar
+to that appearing in predator-prey models (Koren &
+Feingold 2011).
+In clouds, conceptual one-dimensional models
+(Wacker 2006; Spreitzer et al. 2017) have shown
+the importance of stratification and updraft in the
+interaction between a two-layer cloud system, and how
+time oscillations are generated according to the choice of
+parameters. Nevertheless, the periods are much shorter
+(15 to 50 minutes in the first model, 1.5 hours in the
+second) than those exhibited in our problem (6 to 10
+hours), and the lifetime of the cirrus uncinus.
+The possible connection of our theoretical model with
+theconceptofMesoscaleUncinusComplex(MUC)(Sassen
+et al. 1989) and periodic generating cells or ascending
+turrets (Heymsfield 1973; Heymsfield 1975b, 1975c) that
+we mentioned in the discussion (Sect. 6.2) would be a
+valuable application that deserves further investigations,
+looking for cells of several tens of kilometers pulsating
+over periods of several hours.
+Assuming no motion along y coordinate, we also
+neglected the three-dimensional development of the
+cloud(seeApp.A3).Actually,radarandlidarobservations
+usuallyprovidemappingsinverticalplanes(Hogan&Kew
+2005; Wada et al. 2005). At extremely low temperatures
+(T – Tr
+≤ –50°C) we reasonably neglected liquid water in
+the cloud (Cziczo et al. 2013).
+7.2. PROSPECTS
+As mentioned in Sect. 2.2.3, apart from single column,
+bullet-rosette is the most common crystal shape in
+cirrus uncinus (Heymsfield & Iaquinta 2000; Schmitt &
+Heymsfield 2007) and therefore we could also consider
+bullet-rosettes instead of hollow columns. The relevant
+parameters governing the growth are initial mass,
+capacitance, ventilation coefficient and drag coefficient.
+MasswillberoughlymultipliedbythenumberNofbullets:
+m = N mb
+, and, instead of Eq. (41), the capacitance could
+be modelled as (Chiruta & Wang 2003):
+0.257
+0.434 C aN = (64)
+In a first step, a simple 4-bullet rosette of plane type
+4–4 (Heymsfield and Iaquinta 2000; Westbrook et al.
+2008) could be used. Therefore, assuming bullets similar
+to our hollow column except for the ends, mass would
+be approximately multiplied by 4, and we would obtain
+C/a = 0.62, instead of C/a = 1.7, as shown from our
+Table 2. In other words, the crystal capacitance would be
+divided by 3 approximately.
+Instead of Eq. (16) for a hollow column, the ventilation
+coefficient fv
+for broad-branch crystals and 1 < Re < 120 is
+given by (Ji & Wang 1999):
+2
+1 0.354 3.55
+10 10
+v
+X X
+f
+ 
+= + +  
+ 
+(65)
+In our problem X ≈ 1.5 and fv
+= 1.4. A factor 2 on the
+size would increase Re likewise and consequently would
+multiply X by 1.4. Now, using (65), we would obtain:
+fv
+= 1.2, and this would probably not have a significant
+impact on crystal growth.
+So far, the drag coefficient for bullet-rosettes seems
+to be an open concern, subject to constant investigations
+dealing with non-spherical particles and free-falling
+snowflakes (Heymsfield 1972; Haider & Levenspiel 1989;
+Heymsfield & Westbrook 2010; Vazquez-Martin et al.
+2021;Aguilaretal.2022).Theseapproachesintroducethe
+concepts of sphericity, projected area and Best number.
+With 3 degrees of freedom (a, c, cB
+) or (a, 𝜙, 𝜓) for
+each bullet, we could assume that all of the bullets grow
+at the same rate, with the same rules as for a single
+column. Nevertheless, it is known that the equilibrium
+shape of the crystal at each time should be calculated
+so as to minimize the total surface energy for a given
+volume (Pruppacher & Klett 1978). Moreover, at larger
+supersaturations, the capacitance model based on
+Eq. (10) presents limitations, that have been discussed
+by introducing the concept of impedance (Peter and
+Baker 1996; Nelson & Baker 1996). Alternative models
+of growth-evaporation based on this concept such as
+the TLK (terrace-ledge-kink) model have been proposed
+and applied to hexagonal ice crystals (Wood, Nelson, &
+Calhoun, 2001).
+The vertical shear of the wind Ua
+and the base of
+the updraft Wa
+are essential input of our dynamical
+conditions, in order to produce the characteristic hooked
+shape of cirrus uncinus. The profiles of temperature and
+humidity are suggested by actual measurements in the
+troposphere but they may be varied. The trajectory is also
+very sensitive to the initial conditions, which may cancel
+the formation of a hooked cap.
+Especially the wind field Ua
+we imposed throughout
+the present work has been chosen realistically according258 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+to published works (Kew 2003; Mace et al. 2005), but
+there is no standard profile for it, so that its minimum
+andmaximumvelocitiescouldbevariedinEqs.(68)(App.
+A1), thus impacting the wavelength 𝛬 of the crystal’s
+oscillation. Actually, the period P being an intrinsic
+property of the phenomenon, the wavelength can be
+derived from it via the phase speed Cp
+defined by Eq. (48),
+which is equal to the wind speed at the limit height z∞
+:
+( ) p a C P U z P ∞ Λ = ≈ (66)
+Thus, increasing or decreasing Ua
+in the layer under
+concern (III) will increase or decrease 𝛬 accordingly. This
+gives some flexibility to the scale of our phenomenon, if it
+can be related to MUC (Sassen et al. 1989) and pulsating-
+type generators (Heymsfield 1973, 1975b, 1975c). In
+our situation, fast winds exist in layers (IV) above the
+layer of interest (III), but the wind shear we adopted, in
+agreement with published data, makes wind slower at
+the altitude where we produce the uncinus head, that
+could not arise otherwise.
+Whereas Coriolis force can be neglected in the non-
+oscillatory mode, it may be included in a more accurate
+model of the oscillatory mode, since the extension of the
+structure over several hundreds of kilometers tends to
+the synoptic scale and may not be completely negligible
+compared to the Earth’s dimensions. Although the
+crystal’s motion is driven mainly by gravity and steady
+winds, atmospheric turbulence would add random
+degrees of freedom, and so contribute to the wispy
+appearance of cirrus. The governing system Eq. (1) would
+be modified as follows:
+( ')
+( ')
+a a
+a a
+x k x U u
+z k z W w
+= − − − 
+
+= − − − 
+ 
+ 
+(67)
+In the assembly of crystals forming a parcel, collisions
+between particles inevitably produce mechanical
+interactions, aggregation, and also electric interactions
+via the electric charges that are formed.
+Moreover, the influence of atmospheric waves on
+the evolution of cirrus (Lin et al. 1998; Podglajen et
+al. 2018; Prasad et al. 2019; Kärcher et al. 2019) is a
+matter of concern, since it is invoked in MUC. Though
+they are not the driving mechanism of the oscillatory
+mode we found, as shown in Sect. 6.2, Kelvin-Helmholtz
+waves may develop at the altitude of 7 km or above.
+In a more elaborate model, these additional effects
+could be included in the modelling equations (67),
+and they would probably smear the motions about
+the two basic behaviours reported in the present
+work.
+From an experimental viewpoint, observations would
+be welcome for investigating the intermediary spatial
+rangebetweenmeso-andsynopticscale(300–1000km),
+and longer time periods (>1000s) where the damped
+oscillations we numerically exhibited could be hopefully
+detected, in connection with MUC or ascending turrets.
+From a theoretical viewpoint, approximate analytical
+solutions of the differential system of Liénard-type
+governing the crystal’s evolution should be searched in
+order to derive more accurate expressions of the angular
+frequency 𝛺 and the damping ratio 𝜁 of underdamped
+oscillatory solutions, for which a demonstration has been
+sketched in App. D.2.
+Extending the sensitivity analysis of Sect. 4 to an
+assembly of crystals of different sizes in a parcel and
+assuming particle densities would make possible the
+modelling of size distributions (Heymsfield, Schmitt,
+& Bansemer, 2013) and consequently the calculation
+of ice water content (IWC). Actually, apart from the
+understanding of natural phenomena, the generation
+of realistic cloudy scenes with radiative transfer is
+another valuable extension of the present work. In
+that purpose, we can imagine applying a textured IWC
+in the spatial and temporal frame elaborated herein,
+using spectral or fractal methods and the dynamic-
+microphysical output of our model. Such an approach
+has been intensively implemented for years to render
+various types of clouds, from stratocumulus and
+cumulus to cirrus (Cianciolo 1993; Evans & Wiscombe
+2004; Hogan & Kew 2005; Sölch & Kärcher 2010; Szczap
+et al. 2014). In the case of liquid water clouds, a model
+of water content was widely used in cloud generators
+(Feddes 1974).
+We also used such methods for stratocumulus (Berton
+2008). Nevertheless, it seems that the approach should
+be different for stratocumulus and in-situ cirrus clouds:
+while the former are essentially due to convection, the
+latter evolve under a combination of advection and free
+fall. This issue has been considered in recent models
+(Hogan & Kew, 2005 Sölch & Kärcher 2010; Szczap et
+al. 2014) from a macrophysical point of view in order to
+render fall streaks.
+Moreover, the very nature of the cloud particles –
+droplets in the former case, ice crystals in the second
+one – suggests that the medium, owing to the shape and
+orientation of crystals (Hashino et al. 2014; Hashino et
+al. 2016), is strongly anisotropic in the second situation.
+In that respect, a set of differential equations for the
+angular momentum could supplement the system of
+Eqs. (67), including the torques caused by fluid friction
+and the fact that the column is hollow.
+The present approach enables the generation of
+horizontal inhomogeneities related to the history of
+ice particles along the trajectory, and this point is most
+important since these are known to be an important
+input in the modelling of radiative properties of cirrus
+clouds (Liou & Rao 1996; Buschmann et al. 2022; Kew
+2003; Kokhanovsky 2003; Fauchez et al. 2014). Up to
+now, a few methods have been devised to remedy this
+problem (Shonk & Hogan 2008).259 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+APPENDIX A. ATMOSPHERIC PROFILES
+A.1. ATMOSPHERIC MOTIONS
+The imposed atmospheric motions are composed of a
+uniform horizontal wind Ua
+with a given vertical profile
+(Figure 1), and a constant vertical updraft Wa
+, operating
+only above a critical level zw0
+equal to either 10 km, 9 km,
+or 7 km (Figure 2). We built our horizontal wind profiles
+from published data (Kew 2003; Mace et al. 2005). A two-
+dimensional mapping in a vertical plane of combined
+observational data (Wada et al. 2005) clearly shows such
+patterns.
+The horizontal wind profile we chose reflects the
+horizontal shear and the vertical convection necessary
+for the formation of the virga. The vertical profile of
+horizontal wind Ua
+(z) (Figure 1) is given as a piecewise
+linear function composed of four segments:
+1
+1
+1
+0 1
+1 1 1 0
+0 1
+0 2
+2 2 0 2
+0 2
+( ) 0 (I)
+( ) ( ) (II)
+( ) ( ) (III)
+( )
+a
+a U
+U
+a a
+a a U U U
+U U
+a a
+a a U U U
+U U
+a
+U
+U z z z z
+z
+U U
+U z U z z z z z
+z z
+U U
+U z U z z z z z
+z z
+U z
+= ≤ ≤
+−
+= + − ≤ ≤
+−
+−
+= + − ≤ ≤
+−
+= 2 2 (IV) a U U z z
+
+
+
+
+
+
+
+
+
+ ≤ 
+(68)
+with the following 6 constants:
+(69)
+It is noteworthy that, with this choice of constants, Ua
+vanishes above the ground at the altitude z0
+= 10 km.
+Moreover, the resulting wind shear 𝜔, respectively equal
+to 1.0, 1.3 and –5 m s–1
+km–1
+in the ranges 0–5, 5–8 and
+8–16 km, is quite consistent with observational data
+(|𝜔| < 23 ms–1
+km–1
+) (Heymsfield 1975b; Heymsfield
+1975c; Wada et al. 2005). As we show in section 3.2, the
+results are especially sensitive to zw0
+.
+The updraft profile Wa
+(z) is chosen so as ensure that
+Wa
+is constant, non-zero above zw0
+= 10 km (1st
+mode or
+regime) or zw0
+= 7 or 9 km (2nd
+mode or regime) and zero
+below zw1
+= zw0
+– ∆z0
+, with a transition layer of thickness
+∆z0
+= 0.3 km, the transition profile being modelled by a
+linear function (Figure 2):
+( )
+( )
+( )
+1
+1
+0 1 0
+0 1
+0 0
+0 0 (I)
+(II)
+(III)
+a W
+W
+a a W W
+W W
+a a W
+W z z z
+z z
+W z W z z z
+z z
+W z W z z
+ = ≤ ≤
+
+− 
+= ≤ ≤ 
+−
+= ≤
+
+
+
+(70)
+with the following constants:
+
+
+
+
+
+   
+ 
+   
+   
+ 
+   
+1
+0 1 1
+0 1
+0 1
+1
+0 1
+0 1
+0 1
+9 km ; 8.7 m s
+Cases 0&1 0.6 m s
+10 km ; 9.7 m s
+7 km ; 6.7 m s
+Cases 2&3 0.8
+10 km ; 9.7 m s
+W W
+a
+W W
+W W
+a
+W W
+z z
+W
+z z
+z z
+W
+z z
+1
+m s
+(71)
+We verify that such a two-dimensional flow satisfies the
+equation of mass conservation for air considered as an
+incompressible fluid:
+0 a a U W
+x z
+∂ ∂
++ =
+∂ ∂
+(72)
+Thus in the 300 m-thick transition layer, the gradient of
+updraft ∂Wa
+/∂z produces a shear of the horizontal wind
+∂Ua
+/∂x in the x-direction equal to
+   
+       
+  
+1 1 0
+0 1
+0.6
+2.0 m s km
+300
+a a a
+W W
+U W W
+x z z z
+(73)
+that is smaller in magnitude than the vertical shear at
+the same altitude (𝜔 = –5 m s–1
+km–1
+). We notice that in
+a three-dimensional description of the motion, this shear
+may affect the perpendicular component of wind, Va
+,
+here set to zero, according to the complete equation:
+0 a a a U V W
+x y z
+∂ ∂ ∂
++ + =
+∂ ∂ ∂ (74)
+and create a horizontal shear of Va
+in the y-direction.
+Now, things being as they are, since we assume that Ua
+is a function of z alone we shall neglect this horizontal
+shear of Ua
+compared to the vertical one, in solving the
+system (42).
+A.2. TEMPERATURE AND PRESSURE
+As suggested by measurements (Baum et al. 2000; Kew
+2003), the vertical profile of temperature Ta
+(z) (Figure 3a)
+is given as a piecewise linear function composed of five
+segments:
+1 0 0 1 1 0
+1
+1 0 1 0
+2 1 1 2 2 1
+1 2
+2 1 2 1
+3 2 2 3 3 2
+3 2 3 2
+( ) 0 (I)
+( ) (II)
+( )
+a a a T a T
+a T
+T T T T
+a a a T a T
+a T T
+T T T T
+a a a T a T
+a
+T T T T
+T T T z T z
+T z z z z
+z z z z
+T T T z T z
+T z z z z z
+z z z z
+T T T z T z
+T z z
+z z z z
+− −
+= + ≤ ≤
+− −
+− −
+= + ≤ ≤
+− −
+− −
+= +
+− −
+2 3
+4 3 3 4 4 3
+3 4
+4 3 4 3
+4 4
+(III)
+( ) (IV)
+( ) (V)
+T T
+a a a T a T
+a T T
+T T T T
+a a T
+z z z
+T T T z T z
+T z z z z z
+z z z z
+T z T z z
+
+
+
+
+
+
+
+≤ ≤ 
+− −
+= + ≤ ≤
+− −
+= ≤
+
+
+
+
+
+
+
+(75)
+with the following 10 constants:
+    
+        
+    
+    
+ 
+      
+0 0
+1 1
+2 2
+3 3
+4 4
+0 km 20K
+2 km 0 K
+8 km 50 K
+14 km 60 K
+20 km 60 K
+T a r
+T a r
+T a r
+T a r
+T a r
+z T T
+z T T
+z T T
+z T T
+z T T
+(76)
+while the pressure (Figure 3b) is given as an exponential
+function of height:
+0 ( ) exp a
+z
+p z p
+h
+ 
+= −  
+ 
+(77)
+with the two constants: p0
+= 101493 Pa and h = 7.5 km.260 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+A.3. HUMIDITY
+Likewise, the vertical profile of relative humidity with
+respect to liquid vapour Ha
+(z) in the atmospheric clear sky
+(Figure 4a, solid line), as suggested by measurements
+in clear sky (Baum et al. 2000) and in an environment
+favorable to the generation of a cirrus cloud (Fusina and
+Spichtinger 2010), is given as a piecewise linear function
+composed of six segments:
+1 0 0 1 1 0
+1
+1 0 1 0
+2 1 1 2 2 1
+1 2
+2 1 2 1
+3 2 2 3 3 2
+3 2 3 2
+( ) 0 (I)
+( ) (II)
+( )
+a a a H a H
+a H
+H H H H
+a a a H a H
+a H H
+H H H H
+a a a H a H
+a
+H H H H
+H H H z H z
+H z z z z
+z z z z
+H H H z H z
+H z z z z z
+z z z z
+H H H z H z
+H z z
+z z z z
+− −
+= + ≤ ≤
+− −
+− −
+= + ≤ ≤
+− −
+− −
+= +
+− −
+2 3
+4 3 3 4 4 3
+3 4
+4 3 4 3
+5 4 4 5 5 4
+4 5
+5 4 5 4
+5
+(III)
+( ) (IV)
+( ) (V)
+( )
+H H
+a a a H a H
+a H H
+H H H H
+a a a H a H
+a H H
+H H H H
+a a
+z z z
+H H H z H z
+H z z z z z
+z z z z
+H H H z H z
+H z z z z z
+z z z z
+H z H
+≤ ≤
+− −
+= + ≤ ≤
+− −
+− −
+= + ≤ ≤
+− −
+= 5 (VI) H z z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ≤ 
+(78)
+with the following 12 constants:
+0 0
+1 1
+2 2
+3 3
+4 4
+5 5
+0 km 0.20
+2 km 0.30
+4 km 0.40
+10 km 0.61
+15 km 0.20
+20 km 0
+H a
+H a
+H a
+H a
+H a
+H a
+z H
+z H
+z H
+z H
+z H
+z H
+= =  
+  = =  
+  = =  
+ 
+= =  
+  = =
+ 
+= =    
+(79)
+On the same figure is then plotted (dotted line) the
+profile of Hi
+derived from Ha
+, first by calculating the water
+vapour pressure pv
+as solution of Eq. (84) below (Hl
+= Ha
+),
+then by estimating Si
+by Eq. (12b) and finally by deriving
+Hi
+by Eq. (13b). It is noticeable that Hi
+> Hl
+, as it can be
+easily proved from Eqs. (12) and (13), since pvsl
+> pvsi
+. We
+also plotted the profiles of Sl
+and Si
+(Figure 4b), though
+they are very close to those of Hl
+and Hi
+respectively.
+Moreover, the profiles of Hi
+and Si
+are plotted down to
+2 km, altitude at which the temperature reaches the
+frozen point (Ta
+= 273.15 K). We notice that our profiles of
+Si
+are quite consistent with those of other simple models
+of cirrus uncinus (Harimaya 1968).
+A.4. RADIATIVE FLUX DENSITIES
+Adopting Zeng’s parameterization (Zeng 2008; Zeng
+et al. 2021), we assume that the vertical profile of the
+radiative flux density in the infrared is described by
+the ratio 𝜂a
+(z) defined by Eq. (23) and can be given in
+the upper troposphere as a piecewise linear function
+composed of three segments:
+0 0
+0 1 1 0 1 0
+1 2
+1 0 1 0
+1
+( ) 0 (I)
+( ) (II)
+( )
+a a
+a a a a
+a
+a a
+z z z
+z z
+z z z z z
+z z z z
+z
+η
+η η
+η η
+η η η η
+η η
+η η η η
+η
+η η
+= ≤ ≤
+− −
+= + ≤ ≤
+− −
+= 2 (III) z z η
+
+
+
+
+
+ ≤ 
+(80)
+with the following 4 constants:
+0 0
+1 1
+9 km 0.9
+10 km 1.1
+a
+a
+z
+z
+η
+η
+η
+η
+=  =  
+ 
+= =   
+(81)
+We lowered the altitude of the transition 𝜂a
+= 1
+because the original work (Zeng 2008) deals with
+tropical cirrus clouds while we are concerned with
+mid-latitude ones. The profile 𝜂a
+(z) is plotted on
+Figure 5: the transition (𝜂a
+= 1) occurs at an altitude
+z = 9.5 km.
+APPENDIX B. CALCULATION OF THE
+AMBIENT PRESSURE OF WATER
+VAPOUR
+Since the ambient relative humidity Hl
+with respect
+to (wrt) liquid water is given (Hl
+= Ha
+), it is necessary
+to derive the pressure pv
+of water vapour by inversion
+of the relation (13a), with the total pressure such
+that:
+a v p p p = + (82)
+we obtain the relation:
+v a v vsl
+l
+a vsl
+p p p p
+H
+p p
++ −
+= (83)
+and after rearranging, a quadratic equation for pv
+can be
+finally written:
+2
+( ) 0 v a v a vsl l vsl p p p p Hp p + − − = (84)
+This equation has two real solutions because its
+discriminant 𝛿 is essentially positive:
+2
+2
+( ) 4
+a vsl
+v
+a a vsl l vsl
+p p
+p
+p p Hp p
+δ
+δ
+− + ±
+=
+= − +
+(85)
+Nevertheless,onlythesolutionwith+isphysical,because
+it yields pv
+= pvsl
+as Hl
+→ 1.
+APPENDIX C. SATURATION PRESSURES
+OF WATER VAPOUR
+According to Sonntag’s formulation, the saturation
+pressures of water vapour over liquid water and ice are
+respectively expressed as (Sonntag 1990; Alduchov &
+Eskridge 1996; Murphy & Koop 2005):
+2 1
+0 1 2 3
+2 1
+0 1 2 3
+( ) exp Ln
+( ) exp Ln
+w
+w w w w vsl
+i
+vsi i i i i
+C
+p T C C T C T C T
+T
+C
+p T C C T C T C T
+T
+−
+−
+  
+= − + + + +   
+  
+
+   = − + + + +      
+(86)
+with the following coefficients:261 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+1 1
+0 0
+2 2
+1 1
+5 5
+2 2
+3 3
+6096.9385 6024.5282
+21.2409642 29.32707
+2.711193 10 1.0613868 10
+1.673952 10 1.3198825 10
+2.433502 0.49382577
+w i
+w i
+w i
+w i
+w i
+C C
+C C
+C C
+C C
+C C
+− −
+− −
+− −
+= =  
+  = =  
+ 
+= − × = ×  
+ 
+= × = − ×  
+  = = −  
+(87)
+APPENDIX D. ANALYTICAL MODEL OF
+TRAJECTORY
+D.1. NON-OSCILLATORY MODE
+Solving system (1) with analytic functions is a difficult
+task as soon as k and Wa
+are not constant. This is the
+object of Sect. 3, including the underlying microphysics.
+As an alternative, we consider here the non-oscillatory
+motion of an ice parcel subject to entrainment by
+horizontal wind Ua
+, constant and uniform vertical updraft
+Wa
+and free fall Wf
+, governed by the set of ODE:
+a
+a f
+x U
+z W W
+=  
+
+= +  
+
+
+(88)
+withinitialconditions(2).Thesingledotmeansfirsttime-
+derivative. The horizontal wind is an approximation of the
+sheared flow in the range of altitude 8–12 km (Figure 1),
+with shear 𝜔, which is cast into the linear form:
+0 0 ( ) a a a U z z U ω = − + (89)
+Therefore, the velocity Ua
+changes sign at the altitude zm
+such that:
+0
+0
+a
+m a
+U
+z z
+ω
+= − (90)
+Since the average crystal radius and mass decrease
+in the virga under the action of sublimation, the free
+fall speed Wf
+must also decrease as t tends towards
+infinity. We chose a unique analytical function Wf
+(t)
+defined in [0,+¥[, and satisfying the following conditions
+(Figure 38):
+2 0
+1 0
+( ) (0)
+lim ( ) 0 ( )
+f fm f f
+f a f t
+W t W W W
+W t W t W →+∞
+= −  =   
+  = = −    
+(91)
+Looking for a solution of the type:
+0 ( ) kt
+f f W t W Ae−
+= + (92)
+that is subject to the conditions (91), we obtain the
+expression:
+1 ( )
+0 0 0
+1
+( ) ( ) k t t
+a f f f
+t
+W t W W W e
+t
+− −
+= − + (93)
+with the characteristic times t1
+and t2
+such that:
+2
+1
+t
+k
+= (94)
+and:
+1
+2
+0 0
+0
+a f
+fm f
+t
+t
+W W
+r
+W W
+τ =
++
+=
+−
+(95)
+The non-dimensional parameter 𝜏 is solution of the
+classical transcendental Lambert-type equation (Corless
+et al. 1996):
+1
+reτ
+τ −
+= − (96)
+Substituting the expressions (89) and (93) in the dynamic
+system (88), we obtain at any time t Î[0,+∞[:
+1
+0 0
+( )
+0 0
+1
+( )
+( ) 1
+a a
+k t t
+a f
+x z z U
+t
+z W W e
+t
+ω
+− −
+= − + 
+
+  
+= + −   
+  
+
+ (97)
+The integration of the system of first order ODE (97)
+subject to the following initial conditions:
+0
+0
+0
+0
+x x x
+z z z
+= =  
+ 
+= =  
+
+ (98)
+yields the expressions for x and z:
+ 
+ 
+ 
+
+
+    
+
+          
+  
+                         
+0 0 0
+2
+2
+0 2 2 0
+0 0 2 0
+( )
+( ) (1 ) 2 (1 )
+2
+( ) ( 1) 1
+a a
+kt kt
+a f
+kt kt
+a f
+x x z z U t
+t e e
+W W t t e t e
+e e
+z z W W t e t e
+ 
+ 
+
+
+ 
+ 
+(99)
+Eqs. (99) are the parametric equations of a
+transcendental curve, more complex than the basic
+parabolic shape (Marshall 1953; Hogan & Kew 2005).
+We can notice that the behaviour at infinite
+time, involving the secular terms in Eqs. (99), is not
+relevant since the variable-mass crystal eventually
+vanishes through sublimation and precipitation.
+Moreover, our model considers a flat Earth, an
+assumption which implies neglecting Coriolis force
+and focusing on the behaviour at local scale (less than
+100 km). Figure 38 Qualitative time profile of analytical free fall speed.262 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+A maximum occurs where 0 z =  , at a time tM
+that is
+again a solution of the transcendental Lambert-type
+equation (Corless et al., 1996):
+1
+1
+kt kt
+t e t e = (100)
+of which tM
+= t1
+is the solution in the principal branch.
+Likewise, an extremum occurs where 0 x =  , at a time tm
+solution of a complicated transcendental equation. In
+contrast, the altitude zm
+of the extremum is simply given
+by Eq. (90).
+Anexampleofmotionwassampledat601pointsover
+a 6000-second life time (≈ 1.7 hour) with a time step ∆t =
+10 s and the following values of parameters:
+3 1
+1 0 0
+1
+0
+1 1
+0 0 0
+10 s 16.7 min 0.5 m s 2 km
+1.5 m s 10 km
+10 m s 1.0 m s 8 km
+f
+fm
+a a a
+t W x
+W z
+U W z
+−
+−
+− −
+= = = − =
+= − =
+= = =
+We choose the following value of wind shear: 𝜔 ≈ –5 ×
+10–3
+s–1
+, consistently with published values (Harimaya
+1968; Wada et al. 2005) which recommend: |𝜔| < 23
+m s–1
+km–1
+. Estimating the solutions of Eq. (96) and the
+zeros of the derivatives (97), we obtain the following
+characteristic times and passing times through extrema:
+1
+2
+1.22 km 10.23 km
+37.0 min 0.31 km 10.00 km
+71.9 min
+M M M
+m m m
+maximum t t x z
+extremum t x z
+critical time t
+= = =
+= = =
+=
+The non-dimensional parameters r and 𝜏 defined by
+relations (95) respectively take the values: r = –0.5
+and 𝜏 = 0.232. The trajectory (Figure 39a) has a nice
+hooked-shape head expanding vertically between 0
+and t1
+, like that obtained with the full model (Figure 7a).
+Nevertheless, the updraft Wa
+is constant in the whole
+atmosphere in the present analytical model, while it is
+zero below zw0
+and nonzero above in the full model.
+The theoretical hodograph (Figure 39b) is qualitatively
+similar to that obtained with the fully coupled model
+(dynamics/microphysics) (Figure 7b). Likewise, the
+theoretical profile of free fall speed (Figure 40) is
+qualitatively similar to the assumed profile (Figure 38)
+and to that of the full model in non-oscillatory mode
+(Figure 9a).
+Casting Eq. (10) as:
+0 m m S = ∆   (101)
+with ∆S denoting the factor Si
+–1–R, and integrating
+between t = 0 and t > 0 at approximately constant rate
+0 m  yields:
+0 0 ( ) m t m m S t ≈ + ∆  (102)
+which yields an estimation of the crystal’s life duration
+tmax
+when m(tmax
+) vanishes:
+0
+max
+0
+m
+t
+m S
+≈ −
+∆  (103)
+With the following typical values obtained from
+simulations of Sect 3.2: m0
+≈ 10–9
+kg, 0 m  ≈ 2 × 10–12
+kg
+s–1
+, ∆S ≈ – 0.02, we obtain: tmax
+≈ 7 hours. This elementary
+calculation shows that a crystal falling through highly
+saturated layers with a large variation of the growth
+factor (|∆S| >> 0.1), combining the effect of ice saturation
+and radiative transfer, cannot be long-lived.
+Figure 39 Trajectory and hodograph for analytic solution, Eq.(99).
+Figure 40 Time profile of free fall speed for analytic solution,
+Eq.(99).263 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+D.2. OSCILLATORY MODE
+1) Our purpose here is to derive a theoretical ODE
+proving the existence of damped oscillations as solution,
+and tentatively expressions of angular frequency
+and damping ratio. We first note that the full system:
+1
+1
+0
+( )
+( )
+( 1 )
+a
+a
+i
+m
+x x U
+m
+m
+z z W g
+m
+m m S R
+
+= − − 
+
+
+= − − − 
+
+= − − 
+
+
+
+ 
+
+ 
+ 
+(104a,b,c)
+is a system of second order ODE of Liénard-type of the
+general form:
+1 1
+2 2
+3
+( ) ( ) 0
+( ) ( ) 0
+( ) 0
+x f z x g z
+z f z z g z
+m f z m
++ + = 
+
++ + = 
+ + = 
+ 
+ 
+
+(105)
+that can be cast more explicitly into the form:
+1
+1
+0
+( ( ) ( ))
+( ( ) ( ))
+( )( ( ) 1 ( ))
+a
+a
+i
+du m
+u u z U z
+dx m
+dw m
+w w z W z g
+dz m
+dm
+w m z S z R z
+dz
+
+= − − 
+
+
+= − − − 
+
+
+= − − 
+
+
+
+
+(106)
+thatisitselfasetofcoupledAbelequationsofthesecond
+kind.
+Now, neglecting the coupling with horizontal
+motion, we can thus write the equations of evolution of
+vertical motion and mass Eqs. (1b) and (10) in the form:
+0
+1
+0 0
+( 1 )
+( )
+i
+a
+m m S R
+m m
+z z W g
+m m
+= − − 
+
+
+= − − − 
+
+ 
+
+  (107a,b)
+where single and double dots respectively mean first and
+second time-derivative, and the mass growth rates are
+defined by:
+0
+0.945
+1
+4
+1
+16(1 0.078Re )
+v
+v s s
+v a v vsi
+a i
+Cf
+m
+R T L L
+p D K T R T
+m r
+π
+µ
+
+=     + −   
+  
+= + 
+
+
+(108a,b)
+Then expanding Si
+–1 to first order in the vicinity of the
+equilibrium height z∞
+:
+1 ( ) S i S R z z σ ∞ − − ≈ − (109)
+and noting that:
+dm
+m w
+dz
+=  (110)
+we derive a relation for the vertical mass gradient:
+0 ( ) S
+dm
+w m z z
+dz
+σ ∞ = −  (111)
+Likewise, let us expand the velocity in the vicinity of z∞
+:
+( ) w z z ω ∞ ≈ − (112)
+and upon inserting this expression into Eq. (111) we
+obtain a simple ODE for mass:
+0 S dm m
+dz
+σ
+ω
+≈
+
+(113)
+which yields by integration over z between z0
+and z:
+0
+1 ( ) S m
+m m z z
+m
+σ
+ω
+∞ ∞
+∞
+ 
+≈ + −  
+ 
+
+(114)
+Likewise, let us expand the effective radius ri
+in Eq. (108)
+after Eq. (38):
+0 0
+3
+1 6
+1 ( ) 1 ( )
+2 2 3
+S S i
+i
+i
+m m D m
+r z z z z
+m m
+σ σ
+πρ ω ω
+∞ ∞
+∞ ∞
+∞ ∞
+   
+≈ + − ≈ + −    
+   
+ 
+(115)
+with the asymptotic equivalent diameter:
+3
+6
+i
+i
+m
+D
+πρ
+∞
+∞ = (116)
+Substituting these expressions for mass and radius
+into Eqs. (107b) and (108b) and rearranging, we finally
+arrive at the fundamental ODE of a damped harmonic
+oscillator:
+
+
+
+ 
+
+ 
+     
+ 
+   
+
+ 
+
+1
+0
+0.945 0
+0
+0.945
+0 0
+8
+(1 0.078Re ) ( )
+3
+8 (1 0.078Re ) 0
+S a i
+a
+a i
+a
+m
+z z
+m
+m D
+g W z z
+m m
+m D
+g W
+m m
+ 
+
+
+
+(117)
+The second term represents the damping friction
+and the third one the restoring force producing
+the oscillation. Eq.(117) clearly shows that it is
+necessary that an updraft exists (Wa
+≠ 0) below the
+generating height (z < z0
+) for a long-period oscillation
+to take place.
+Satisfying the conditions at initial time (z = z0
+) and
+infinity (z = z∞
+), a solution of the homogeneous equation
+in the case of an underdamped oscillator can be written
+as (Meirovitch 1986):
+( ) 2
+0
+0 0 0
+sin 1
+( ) ( ) exp( ) 1
+sin
+t
+z t z z z t
+ζ
+ζ ∞
+  − Ω +Φ  
+= + − − Ω −  
+Φ  
+ 
+
+(118)
+with phase Φ ≠ 0. The angular frequency Ω0
+and the
+damping ratio 𝜁 are such that:
+2 0.945 0
+0
+0
+1
+0
+0
+8
+(1 0.078Re )
+3
+2
+S a i
+a
+m D
+g W
+m m
+m
+m
+σ µ
+ω
+ζ
+∞
+∞
+  
+Ω = − +   
+  
+
+ Ω =
+
+
+
+
+(119)
+After substitution of mass growth rates, Eqs. (108), they
+can be written:264 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+
+
+
+    
+    
+  
+
+  
+     
+  
+
+   
+
+
+
+2
+0
+0
+0.945
+0.945
+0
+0
+4
+1
+8
+(1 0.078Re )
+3
+8(1 0.078Re )
+S v
+v s s
+v a v vsi
+a i
+a
+a i
+Cf
+m R T L L
+p D K T R T
+D
+g W
+m
+r
+m
+ 
+
+
+
+
+(120)
+Using the following values derived from the simulations
+of Sect 3.2: m∞
+≈ 10–9
+kg, 𝜇a
+≈ 10–5
+Pa s, C ≈ 10–4
+m,
+ri
+≈ 10–4
+m, fv
+≈ 1, 𝜎S
+≈ 7 × 10–5
+m–1
+, 𝜔 ≈ 5 × 10–5
+s–1
+, we can
+estimate Ω0
+and 𝜁 as:
+4 5 4
+0 9 9 9
+1
+5 4
+2
+9 2
+7 12 10 1.4 10 1.3 10 1.2
+9.8 2.7 0.6
+510 10 10
+0.01 rad s
+4 1.2 1.4 10 1.3 10
+8.7 10
+10 10
+ζ
+− − −
+− −
+−
+− −
+− −
+   × × × × ×
+Ω = −  
+×   
+
+≈ 
+
+× × × × ×  = ≈ ×
+ ×
+
+
+(121)
+The angular frequency thus obtained is larger than
+the effective value obtained in Sect. 3.2.3 and 5.2,
+namely Ω0
+≈ 1.7 × 10–4
+rad s–1
+, and the damping ratio,
+compared to 𝜁 = 0.05, has also too large a value, that
+would characterize an overdamped oscillation. This
+large discrepancy is probably due to the fact that most
+variables of the problem are dependent of temperature,
+itself being altitude-dependent, especially in the mass
+equation (Eq. (10)), in the mass rates 0 m  and 1 m  (Eq.
+(108)) we assume constant. A full treatment would
+necessitate an expansion of all these variables as
+functions of temperature, and eventually use of Eqs. (75).
+In order to illustrate the original behaviour we found
+in Sections 3 and 5, we plot time profiles of altitude
+as modelled by Eq. (118) with constants associated
+to “moderately” and “strongly” damped harmonic
+oscillators (Table 3). The resulting profiles (Figure 41)
+are visually matched with the corresponding profiles of
+numerical solutions, displayed respectively in Sect. 3.2.3
+(Figure 17b) and Sect. 5.2 (Figure 32c) for moderate
+damping and Sect. 5.3 (Figure 33c) for strong damping.
+The agreement is very good except at the beginning of
+the motion because the time spent by the crystal in the
+hooked cap broadens the first period (t < 5 hours), so that
+the subsequent periods are slightly shifted to the right in
+the actual motion. Inharmonicity detected in numerical
+simulations probably enhances that effect and suggests
+to analyse it further with the method of Krylov and
+Bogoliubov (Bose et al. 1989).
+2) This short subsection is devoted to the explanation
+of foldings produced in the hodograph and horizontal
+velocity profiles of Cases 2 (Sect. 5.3) and 3 (Sect. 5.4). Let
+us recast the ODE governing horizontal velocity, Eq. (1a), as:
+( ) a u k u U = − −  (122)
+Since k is positive, Eq. (122) shows that when u > Ua
+, then
+0 u<  andudecreasestoUa
+inadragrelaxationtime𝜏D
+=1/k
+(Paoli & Shariff 2016), and reciprocally when u < Ua
+.
+Since 𝜏D
+is of order of time step ∆t, the relaxation is quasi
+instantaneous and therefore u follows the variation
+of Ua
+. Numerical experiments in Sect. 5 reveal that
+the difference u–Ua
+is of order 10–4
+m s–1
+, so that with
+k ≈ 10 s–1
+, the crystal undergoes horizontal accelerations
+of order 10–3
+m s–2
+. In the vicinity of the maximum
+wind speed Uamax
+, u is therefore constrained to remain
+smaller than Uamax
+, and thus u profiles (Figures 34 and
+36) show two spikes per period, corresponding to the
+ascending and descending branches of Ua
+profile in the
+Figure 41 Altitude time profile of theoretical underdamped harmonic oscillator, Eq.(118) for moderate (a) and strong (b) damping.
+DAMPING MODERATE STRONG
+z0
+(km) 10.0 10.0
+z∞
+(km) 9.63 8.58
+P (hour) 10.2 7.8
+Ω0
+(rad s–1
+) 1.71 × 10–4
+2.24 × 10–4
+ζ 0.05 0.07
+Φ (rad) π/4 π/4
+Table 3 Parameters of theoretical periodic profiles.265 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+vicinity of Uamax
+= 10 m s–1
+at the altitude of 8 km (Figure
+1). The folded loops in hodographs are a result of that
+phenomenon.
+ACKNOWLEDGEMENTS
+The author is very grateful to the reviewer for important
+and insightful comments which contributed to greatly
+improve and enlarge the content and discussions of the
+article.
+COMPETING INTERESTS
+The author has no competing interests to declare.
+AUTHOR AFFILIATION
+Roland P. H. Berton orcid.org/0000-0002-7363-6363
+Office National d’Études et de Recherches Aérospatiales
+(ONERA)/DOTA, Université Paris Saclay, 91123 Palaiseau, France
+REFERENCES
+Aguilar, B, Trontin, P, Reitter, L, Köbschall, K, Dezitter, F,
+Roisman, I and Villedieu, P. 2022. Ice crystal drag model
+extension to snowflakes: Experimental and numerical
+investigations. AIAA J., 60(12): 6633–6645. DOI: https://
+doi.org/10.2514/1.J062122
+Alduchov, OA and Eskridge, RE. 1996. Improved Magnus
+form approximation of saturation vapor pressure. J. Appl.
+Meteorol., 35: 601–609. DOI: https://doi.org/10.1175/1520-
+0450(1996)035<0601:IMFAOS>2.0.CO;2
+Barahona, D and Nenes, A. 2008. Parameterization of cirrus
+cloud formation in large-scale models: Homogeneous
+nucleation. J. Geophys. Res., 113: D11211. DOI: https://doi.
+org/10.1029/2007JD009355
+Baum, BA, Kratz, DP, Yang, P, Ou, SC, Hu, Y, Soulen, PF and
+Tsay, S-C. 2000. Remote sensing of cloud properties using
+MODIS airborne simulator imagery during SUCCESS: 1.
+Data and models. J. Geophys. Res., 105(D9): 11767–11780.
+DOI: https://doi.org/10.1029/1999JD901089
+Berton, RPH. 2008. Constrained water cloud generator. Atmos.
+Res., 89(1–2): 12–29. DOI: https://doi.org/10.1016/j.
+atmosres.2007.09.007
+Bohren, CF and Albrecht, BA. 1998. Atmospheric
+thermodynamics. Oxford: Oxford University Press.
+Bose, SK, Dubey, UB and Varma, N. 1989. Study of certain
+aspects of anharmonic, time-dependent and damped
+harmonic oscillator systems. Fortschr. Phys., 37(10): 761–
+818. DOI: https://doi.org/10.1002/prop.2190371002
+Buschmann, N, McFarquhar, GM and Heymsfield, AJ.
+2022. Effects of observed horizontal inhomogeneities
+within cirrus clouds on solar radiative transfer. J.
+Geophys. Res., 107(D20): 4445. DOI: https://doi.
+org/10.1029/2001JD001273
+Chen, C-J and Wang, PK. 2009. Diffusion growth of solid and
+hollow hexagonal ice columns. Il Nuovo Cimento, 124:
+87–97. DOI: https://doi.org/10.1393/ncb/i2009-10746-2
+Chiruta, M and Wang, PK. 2003. The capacitance of rosette ice
+crystals. J. Atmos. Sci., 60(6): 836–846. DOI: https://doi.
+org/10.1175/1520-0469(2003)060<0836:TCORIC>2.0.CO;2
+Chiruta, M and Wang, PK. 2005. The capacitance of solid and
+hollow hexagonal ice column. Geophys. Res. Lett., 32:
+L05803. DOI: https://doi.org/10.1029/2004GL021771
+Cianciolo, ME. 1993. Cumulus cloud scene simulation modeling
+using fractals and physics. Proc. SPIE, 1819: 70–77. DOI:
+https://doi.org/10.1117/12.142209
+Cohen, C, Darbois-Texier, B, Dupeux, G, Brunel, E, Quéré, D
+and Clanet, C. 2014. The aerodynamic wall. Proc. R. Soc.
+A., 470: 20130497. 1–20. DOI: https://doi.org/10.1098/
+rspa.2013.0497
+Corless, RM, Gonnet, GH, Hare, DEG, Jeffrey, DJ and Knuth,
+DE. 1996. On the Lambert W function. Adv. Comput. Math.,
+5: 329–359. DOI: https://doi.org/10.1007/BF02124750
+Cotton, RJ, Field, PR, Ulanowski, Z, Kaye, PH, Hirst, E,
+Greenaway, RS, Crawford, I, Crosier, J and Dorsey, J.
+2013. The effective density of small ice particles obtained
+from in situ aircraft observations of mid-latitude cirrus.
+Q. J. R. Meteorol. Soc., 139: 1923–1934. DOI: https://doi.
+org/10.1002/qj.2058
+Cziczo, DJ, Froyd, KD, Hoose, C, Jensen, EJ, Diao, M, Zondlo,
+MA, Smith, JB, Twohy, CH and Murphy, DM. 2013.
+Clarifying the dominant sources and mechanisms of cirrus
+cloud formation. Science, 340(6138): 1320–1324. DOI:
+https://doi.org/10.1126/science.1234145
+Demoz, BB, Starr, DO’C, Chan, KR and Bowen, SW. 1998.
+Wavelet analysis of dynamical processes in cirrus.
+Geophys. Res. Let., 25(9): 1347–1350. DOI: https://doi.
+org/10.1029/97GL03226
+Detwiler, A and Ramaswamy, V. 1990. Radiative heating
+profiles in simple cirrus cloud systems. J. Atmos. Sci.,
+47(18): 2167–2176. DOI: https://doi.org/10.1175/1520-
+0469(1990)047<2167:RHPISC>2.0.CO;2
+Dobbie, S and Jonas, P. 2001. Radiative influences on
+the structure and lifetime of cirrus clouds. Q. J. R.
+Meteorol. Soc. B., 127(578): 2663–2682. DOI: https://doi.
+org/10.1002/qj.49712757808
+Durran, DR and Klemp, JB. 1982. On the effects of moisture
+on the Brunt-Väisälä frequency. J. Atmos. Sci., 39(10):
+2152–2158. DOI: https://doi.org/10.1175/1520-
+0469(1982)039<2152:OTEOMO>2.0.CO;2
+Eguchi, N, Yokota, T and Inoue, G. 2007. Characteristics
+of cirrus clouds from ICESat/GLAS observations.
+Geophys. Res. Let., 34: L09810. DOI: https://doi.
+org/10.1029/2007GL029529
+Evans, KF and Wiscombe, WJ. 2004. An algorithm for
+generating stochastic cloud fields from radar profile
+statistics. Atmos. Res., 72(1–4): 263–289. DOI: https://doi.
+org/10.1016/j.atmosres.2004.03.016266 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+Fauchez, T, Cornet, C, Szczap, F, Dubuisson, P and Rosambert,
+T. 2014. Impact of cirrus clouds heterogeneities on top-
+of-atmosphere thermal infrared radiation. Atmos. Chem.
+Phys., 14: 5599–5615. DOI: https://doi.org/10.5194/acp-
+14-5599-2014
+Feddes, RG. 1974. A synoptic-scale model for simulating
+condensed atmospheric moisture. USAFETAC TN-74-4.
+DOI: https://doi.org/10.21236/ADA002118
+Fraser, AB and Bohren, CF. 1992. Is virga rain that evaporates
+before reaching the ground? Mon. Wea. Rev., 120:
+1565–1571. DOI: https://doi.org/10.1175/1520-
+0493(1992)120<1565:IVRTEB>2.0.CO;2
+Fridlind, AM, Atlas, R, van Diedenhoven, B, Um, J,
+McFarquhar, GM, Ackerman, AS, Moyer, EJ and Lawson,
+R. 2016. Derivation of physical and optical properties of
+mid-latitude cirrus ice crystals for a size-resolved cloud
+microphysics model. Atmos. Chem. Phys., 16: 7251–7283.
+DOI: https://doi.org/10.5194/acp-16-7251-2016
+Fukuta, N and Takahashi, T. 1999. The growth of
+atmospheric ice crystals: a summary of findings in
+vertical supercooled cloud tunnel studies. J. Atmos. Sci.,
+56(12): 1963–1979. DOI: https://doi.org/10.1175/1520-
+0469(1999)056<1963:TGOAIC>2.0.CO;2
+Fusina, F and Spichtinger, P. 2010. Cirrus clouds triggered by
+radiation, a multiscale phenomenon. Atmos. Chem. Phys.,
+10: 5179–5190. DOI: https://doi.org/10.5194/acp-10-
+5179-2010
+Fusina, F, Spichtinger, P and Lohmann, U. 2007. Impact of ice
+supersaturated regions and thin cirrus on radiation in the
+midlatitudes. J. Geophys. Res., 112: D24S14. DOI: https://
+doi.org/10.1029/2007JD008449
+Gierens, KM. 1994. The influence of radiation on the diffusional
+growth of ice crystals. Beitr. Phys. Atmos., 67: 181–193.
+https://elib.dlr.de/31864/
+Grabowski, WW. 1993. Cumulus entrainment, fine-scale
+mixing, and buoyancy reversal. Q. J. R. Meteorol. Soc., 119:
+935–956. DOI: https://doi.org/10.1002/qj.49711951305
+Gu, Y and Liou, KN. 2000. Interactions of radiation,
+microphysics, and turbulence in the evolution of cirrus
+clouds. J. Atmos. Sci., 57(15): 2463–2479. DOI: https://doi.
+org/10.1175/1520-0469(2000)057<2463:IORMAT>2.0.
+CO;2
+Gultepe, I, Heymsfield, AJ and Lenschow, DH. 1990. A
+comparison of vertical velocity in cirrus obtained from
+aircraft and Lidar divergence measurements during FIRE.
+J. Appl. Meteorol. Clim., 7(1): 58–67. DOI: https://doi.
+org/10.1175/1520-0426(1990)007<0058:ACOVVI>2.0.CO;2
+Haider, A and Levenspiel, O. 1989. Drag coefficient and
+terminal velocity of spherical and nonspherical
+particles. Powder Tech., 58(1): 63–70. DOI: https://doi.
+org/10.1016/0032-5910(89)80008-7
+Hall, WD and Pruppacher, HR. 1976. The survival of ice
+particles falling from cirrus clouds in subsaturated air.
+J. Atmos. Sci., 33(10): 1995–2006. DOI: https://doi.
+org/10.1175/1520-0469(1976)033<1995:TSOIPF>2.0.
+CO;2
+Harimaya, T. 1968. On the shape of cirrus uncinus clouds: a
+numerical computation – Studies of cirrus clouds: Part III.
+J. Meteorol. Soc. Japan, 46(4): 272–279. DOI: https://doi.
+org/10.2151/jmsj1965.46.4_272
+Hashino, T, Cheng, KY, Chueh, C-C and Wang, PK. 2016.
+Numerical study of motion and stability of falling
+columnar crystals. J. Atmos. Sci., 73(5): 1923–1942. DOI:
+https://doi.org/10.1175/JAS-D-15-0219.1
+Hashino, T, Chiruta, M, Polzin, D, Kubicek, A and Wang, PK.
+2014. Numerical simulation of the flow fields around
+falling ice crystals with inclined orientation and the
+hydrodynamic torque. Atmos. Res., 150: 79–96. DOI:
+https://doi.org/10.1016/j.atmosres.2014.07.003
+Heymsfield, A. 1972. Ice crystal terminal velocities. J. Atmos.
+Sci., 29: 1348–1357. DOI: https://doi.org/10.1175/1520-
+0469(1972)029<1348:ICTV>2.0.CO;2
+Heymsfield, A. 1973. Cirrus uncinus generating cells and the
+evolution of cirriform clouds. PhD thesis, the University of
+Chicago, 286 pp.
+Heymsfield, A. 1975a. Cirrus uncinus generating cells
+and the evolution of cirriform clouds. Part I: Aircraft
+observations of the growth of the ice phase. J. Atmos.
+Sci., 32(4): 799–808. DOI: https://doi.org/10.1175/1520-
+0469(1975)032<0799:CUGCAT>2.0.CO;2
+Heymsfield, A. 1975b. Cirrus uncinus generating cells and
+the evolution of cirriform clouds. Part II: The structure
+and circulations of the cirrus uncinus generating
+head. J. Atmos. Sci., 32(4): 809–819. DOI: https://doi.
+org/10.1175/1520-0469(1975)032<0809:CUGCAT>2.0.
+CO;2
+Heymsfield, A. 1975c. Cirrus uncinus generating cells and
+the evolution of cirriform clouds. Part III: Numerical
+computations of the growth of the ice phase. J. Atmos.
+Sci., 32(4): 820–830. DOI: https://doi.org/10.1175/1520-
+0469(1975)032<0820:CUGCAT>2.0.CO;2
+Heymsfield, AJ, Bansemer, A, Schmitt, C, Twohy, C and
+Poellot, MR. 2004. Effective ice particle densities derived
+from aircraft data. J. Atmos. Sci., 61(9): 982–1003. DOI:
+https://doi.org/10.1175/1520-0469(2004)061<0982:EIPD
+DF>2.0.CO;2
+Heymsfield, AJ and Iaquinta, J. 2000. Cirrus crystal terminal
+velocities. J. Atmos. Sci., 57(7): 916–938. DOI: https://doi.
+org/10.1175/1520-0469(2000)057<0916:CCTV>2.0.CO;2
+Heymsfield, AJ, Lewis, S, Bansemer, A, Iaquinta, J,
+Miloshevich, LM, Kajikawa, M, Twohy, C and Poellot,
+MR. 2002. A general approach for deriving the properties
+of cirrus and stratiform ice cloud particles. J. Atmos.
+Sci., 59(1): 3–29. DOI: https://doi.org/10.1175/1520-
+0469(2002)059<0003:AGAFDT>2.0.CO;2
+Heymsfield, AJ, Schmitt, C and Bansemer, A. 2013. Ice cloud
+particle size distributions and pressure-dependent terminal
+velocities from in situ observations at temperatures from
+0° to −86°C. J. Atmos. Sci., 70(12): 4123–4154. DOI: https://
+doi.org/10.1175/JAS-D-12-0124.1
+Heymsfield, AJ and Westbrook, CD. 2010. Advances in the
+estimation of ice particle fall speeds using laboratory and267 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+field measurements. J. Atmos. Sci., 67(8): 2469–2482. DOI:
+https://doi.org/10.1175/2010JAS3379.1
+Hogan, RJ and Kew, SF. 2005. A 3D stochastic cloud model for
+investigating the radiative properties of inhomogeneous
+cirrus clouds. Q. J. R. Meteorol. Soc. A, 131(601): 2585–
+2608. DOI: https://doi.org/10.1256/qj.04.144
+Houghton, HG. 1950. A preliminary quantitative analysis of
+precipitation mechanisms. J. Meteorol., 7(6): 363–369. DOI:
+https://doi.org/10.1175/1520-0469(1950)007<0363:APQA
+OP>2.0.CO;2
+Igel, MR and Biello, JA. 2020. The nontraditional Coriolis terms
+and tropical convective clouds. J. Atmos. Sci., 77(12):
+3985–3998. DOI: https://doi.org/10.1175/JAS-D-20-0024.1
+Inoue, T. 1985. On the temperature and effective emissivity
+determination of semi-transparent cirrus clouds by
+bi-spectral measurements in the 10 μm window region.
+J. Meteorol. Soc. Japan, 63(1): 88–99. DOI: https://doi.
+org/10.2151/jmsj1965.63.1_88
+Jensen, AA and Harrington, JY. 2015. Modeling ice crystal
+aspect ratio evolution during riming: a single-particle
+growth model. J. Atmos. Sci., 72(7): 2569–2590. DOI:
+https://doi.org/10.1175/JAS-D-14-0297.1
+Jensen, EJ, van den Heever, SC and Grant, LD. 2018. The life
+cycles of ice crystals detrained from the tops of deep
+convection. J. Geophys. Res. Atmospheres, 123: 9624–
+9634. DOI: https://doi.org/10.1029/2018JD028832
+Ji, W and Wang, PK. 1999. Ventilation coefficients for falling ice
+crystals in the atmosphere at low–intermediate Reynolds
+numbers. J. Atmos. Sci., 56(6): 829–836. DOI: https://doi.
+org/10.1175/1520-0469(1999)056<0829:VCFFIC>2.0.CO;2
+Kärcher, B, Jensen, EJ and Lohmann, U. 2019. The impact of
+mesoscale gravity waves on homogeneous ice nucleation
+in cirrus clouds. Geophys. Res. Let., 46(10): 5556–5565.
+DOI: https://doi.org/10.1029/2019GL082437
+Kew, S. 2003. Development of a 3D fractal cirrus model and its
+use in investigating the impact of cirrus inhomogeneity on
+radiation. Unpublished thesis (Master Sci.). University of
+Reading (UK).
+Khvorostyanov, VI and Curry, JA. 2008. Analytical solutions to
+the stochastic kinetic equation for liquid and ice particle
+size spectra. Part I: small-size fraction. J. Atmos. Sci., 65(7):
+2025–2043. DOI: https://doi.org/10.1175/2007JAS2484.1
+Kobayashi, T. 1961. The growth of snow crystals at low
+supersaturations. Phil. Mag., 6(71): 1363–1370. DOI:
+https://doi.org/10.1080/14786436108241231
+Köhler, CG and Seifert, A. 2015. Identifying sensitivities for
+cirrus modelling using a two-moment two-mode bulk
+microphysics scheme. Tellus B., 67: 24494. DOI: https://doi.
+org/10.3402/tellusb.v67.24494
+Kokhanovsky, AA. 2003. The influence of horizontal
+inhomogeneity on radiative characteristics of clouds:
+an asymptotic case study. IEEE Trans. Geosci. Rem.
+Sens., 41(4): 817–825. DOI: https://doi.org/10.1109/
+TGRS.2003.811075
+Koren, I and Feingold, G. 2011. Aerosol-cloud-precipitation
+system as a predator-prey problem. PNAS, 108(30):
+12227–12232. DOI: https://doi.org/10.1073/
+pnas.1101777108
+Korolev, A and Isaac, GI. 2006. Relative humidity in liquid,
+mixed-phase and ice clouds. J. Atmos. Sci., 63(11): 2865–
+2880. DOI: https://doi.org/10.1175/JAS3784.1
+Krämer, M, Schiller, C, Afchine, A, Bauer, R, Gensch, I,
+Mangold, A, Schlicht, S, Spelten, N, Sitnikov, N,
+Borrmann, S, de Reus, M and Spichtinger, P. 2009. Ice
+supersaturations and cirrus cloud crystal numbers. Atmos.
+Chem. Phys., 9: 3505–3522. DOI: https://doi.org/10.5194/
+acp-9-3505-2009
+Kuhn, T and Heymsfield, AJ. 2016. In situ balloon-borne
+ice particle imaging in high-latitude cirrus. Pure Appl.
+Geophys., 173: 3065–3084. DOI: https://doi.org/10.1007/
+s00024-016-1324-x
+Lawson, RP, Woods, S, Jensen, E, Erfani, E, Gurganus, C,
+Gallagher, M, Connolly, P, Whiteway, J, Baran, AJ, May, P,
+Heymsfield, A, Schmitt, CG, McFarquhar, G, Um, J, Protat,
+A, Bailey, M, Lance, S, Muehlbauer, A, Stith, J, Korolev,
+A, Toon, OB and Krämer, M. 2019. A review of ice particle
+shapes in cirrus formed in situ and in anvils. J. Geophys.
+Res. Atmospheres, 124: 10,049–10,090. DOI: https://doi.
+org/10.1029/2018JD030122
+Lebo, ZJ, Johnson, NC and Harrington, JY. 2008. Radiative
+influences on ice crystal and droplet growth within mixed-
+phase stratus clouds. J. Geophys. Res., 113: D09203. DOI:
+https://doi.org/10.1029/2007JD009262
+Lin, H, Noone, KJ, Ström, J and Heymsfield, AJ. 1998.
+Dynamical influences on cirrus cloud formation
+process. J. Atmos. Sci., 55: 1940–1949. DOI: https://doi.
+org/10.1175/1520-0469(1998)055<1940:DIOCCF>2.0.CO;2
+Liou, KN. 2002. An introduction to atmospheric radiation.
+Second Edition. Academic Press.
+Liou, KN and Rao, N. 1996. Radiative transfer in cirrus
+clouds. Part IV: On cloud geometry, inhomogeneity, and
+absorption. J. Atmos. Sci., 53(21): 3046–3065. DOI: https://
+doi.org/10.1175/1520-0469(1996)053<3046:RTICCP>2.0
+.CO;2
+Liou, KN, Takano, Y, Ou, SC, Heymsfield, A and Kreiss, W.
+1990. Infrared transmission through cirrus clouds: a
+radiative model for target detection. Appl. Opt., 29(13):
+1886–1896. DOI: https://doi.org/10.1364/AO.29.001886
+Liu, H-C, Wang, PK and Schlesinger, RE. 2003a. A numerical
+study of cirrus clouds. Part I: Model description. J. Atm.
+Sci., 60(8): 1075–1084. DOI: https://doi.org/10.1175/1520-
+0469(2003)60<1075:ANSOCC>2.0.CO;2
+Liu, H-C, Wang, PK and Schlesinger, RE. 2003b. A numerical
+study of cirrus clouds. Part II: Effects of ambient
+temperature, stability, radiation, ice microphysics,
+and microdynamics on cirrus evolution. J. Atm. Sci.,
+60(9): 1097–1119. DOI: https://doi.org/10.1175/1520-
+0469(2003)060<1097:ANSOCC>2.0.CO;2
+Lohmann, U, Spichtinger, P, Jess, S, Peter, T and Smit, H. 2008.
+Cirrus cloud formation and ice supersaturated regions in
+a global climate model. Environ. Res. Lett., 3: 045022. DOI:
+https://doi.org/10.1088/1748-9326/3/4/045022268 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+Lorenz, EN. 1963. Deterministic nonperiodic flow. J. Atm.
+Sci., 20(2): 130–141. DOI: https://doi.org/10.1175/1520-
+0469(1963)020<0130:DNF>2.0.CO;2
+Ludlam, FH. 1948. The forms of ice-clouds. Q. J. R.
+Meteorol. Soc., 74: 39–56. DOI: https://doi.org/10.1002/
+qj.49707431905
+Luo, Z and Rossow, WB. 2004. Characterizing tropical cirrus life
+cycle, evolution, and interaction with upper-tropospheric
+water vapor using Lagrangian trajectory analysis of
+satellite observations. J. Clim., 17: 4541–4563. DOI: https://
+doi.org/10.1175/3222.1
+Lynch, DK, Sassen, K, Starr, DO’C and Stephens, G. 2002.
+Cirrus. Oxford: Oxford University Press. DOI: https://doi.
+org/10.1093/oso/9780195130720.001.0001
+Mace, GG, Zhang, Y, Platnick, S, King, MD, Minnis, P and Yang,
+P. 2005. Evaluation of cirrus cloud properties derived from
+MODIS data using cloud properties derived from ground-
+based observations collected at the ARM SGP site. J. Appl.
+Meteor., 44(2): 221–240. DOI: https://doi.org/10.1175/
+JAM2193.1
+Magono, C, Harimaya, T and Yagi, T. 1967. Observation of
+cirrus clouds by trigonometric method – Studies of cirrus
+clouds: part I. Geoph. Bull. Hokkaido Univ., 17: 83–98.
+Marshall, JS. 1953. Precipitation trajectories and patterns. J.
+Meteorol., 10: 25–29. DOI: https://doi.org/10.1175/1520-
+0469(1953)010<0025:PTAP>2.0.CO;2
+Mascio, J, Xu, Z and Mace, GG. 2017. The mass-dimensional
+properties of cirrus clouds during TC4. J. Geophys. Res.
+Atmospheres., 122: 10,402–10,417. DOI: https://doi.
+org/10.1002/2017JD026787
+Mason, BJ. 1953. The growth of ice crystals in a supercooled
+water cloud. Q. J. R. Meteorol. Soc., 79(339): 104–111. DOI:
+https://doi.org/10.1002/qj.49707933909
+McFarquhar, GM and Heymsfield, AJ. 1998. The definition
+and significance of an effective radius for ice clouds.
+J. Atm. Sci., 55(11): 2039–2052. DOI: https://doi.
+org/10.1175/1520-0469(1998)055<2039:TDASOA>2.0.
+CO;2
+Meirovitch, L. 1986. Elements of vibration analysis. McGraw-
+Hill.
+Miller, TL and Young, KC. 1979. A numerical simulation of
+ice crystal growth from the vapor phase. J. Atm. Sci.,
+36(3): 458–469. DOI: https://doi.org/10.1175/1520-
+0469(1979)036<0458:ANSOIC>2.0.CO;2
+Mishra, S, Mitchell, DL, Turner, DD and Lawson, RP. 2014.
+Parameterization of ice fall speeds in midlatitude cirrus:
+Results from SPartICus. J. Geophys. Res. Atmos., 119:
+3857–3876. DOI: https://doi.org/10.1002/2013JD020602
+Murphy, DM and Koop, T. 2005. Review of the vapour pressures
+of ice and supercooled water for atmospheric applications.
+Q. J. R. Meteorol. Soc., 131: 1539–1565. DOI: https://doi.
+org/10.1256/qj.04.94
+Nazaryan, H, McCormick, MP and Menzel, WP. 2008.
+Global characterization of cirrus clouds using CALIPSO
+data. J. Geophys. Res., 113: D16211. DOI: https://doi.
+org/10.1029/2007JD009481
+Nelson, JT and Baker, MB. 1996. New theoretical framework
+for studies of vapor growth and sublimation of small ice
+crystals in the atmosphere. J. Geophys. Res., 101(D3):
+7033–7047. DOI: https://doi.org/10.1029/95JD03162
+Nettesheim, JJ. 2017. A numerical study on the aerodynamics
+of freely falling planar ice crystals. Unpublished thesis
+(Master Sci.). Madison, USA: University of Wisconsin.
+Orlanski, I. 1975. A rational subdivision of scales for
+atmospheric processes. Bul. Am. Meteorol. Soc., 56(5): 527–
+534. DOI: https://doi.org/10.1175/1520-0477-56.5.527
+Ovarlez, J, Gayet, J-F, Gierens, K, Ström, J, Ovarlez,
+H, Auriol, F, Busen, R and Schumann, U. 2002.
+Water vapour measurements inside cirrus clouds in
+Northern and Southern hemispheres during INCA.
+Geophys. Res. Let., 29(16): 1813. 1–4. DOI: https://doi.
+org/10.1029/2001GL014440
+Palmer, AJ. 1996. A spectral model for turbulence and
+microphysics dynamics in an ice cloud. Nonlin. Proc.
+Geophys., 3: 23–28. DOI: https://doi.org/10.5194/npg-3-
+23-1996
+Paltridge, GW and Platt, CMR. 1981. Aircraft measurements of
+solar and infrared radiation and the microphysics of cirrus
+cloud. Q. J. R. Meteorol. Soc., 107: 367–380. DOI: https://
+doi.org/10.1002/qj.49710745208
+Paoli, R and Shariff, K. 2016. Contrail modeling and simulation.
+Ann. Rev. Fluid Mech., 48: 393–427. DOI: https://doi.
+org/10.1146/annurev-fluid-010814-013619
+Perko, L. 1990. Differential equations and dynamical systems.
+Texts in Applied Mathematics. Springer. ISBN: 0387974431,
+9780387974439,3540974431. DOI: https://doi.
+org/10.1007/978-1-4684-0392-3
+Peter, Th and Baker, M. 1996. Lifetimes of ice crystals in the
+upper troposphere and stratosphere. In: Crutzen, PJ and
+Ramanathan, V (eds.), Clouds, Chemistry and Climate.
+NATO ASI Series, 35: 57–82. Springer, Berlin, Heidelberg.
+DOI: https://doi.org/10.1007/978-3-642-61051-6_4
+Philipona, R, Kräuchi, A and Brocard, E. 2012. Solar and
+thermal radiation profiles and radiative forcing measured
+through the atmosphere. Geophys. Res. Let., 39: L13806.
+DOI: https://doi.org/10.1029/2012GL052087
+Picard, A, Davis, RS, Gläser, M and Fujii, K. 2008.
+Revised formula for the density of moist air (CIPM-
+2007). Metrologia, 45: 149–155. DOI: https://doi.
+org/10.1088/0026-1394/45/2/004
+Plastino, AR and Muzzio, JC. 1992. On the use of and abuse
+of Newton’s second law for variable mass problems.
+Cel. Mech. Dyn. Astron., 53: 227–232. DOI: https://doi.
+org/10.1007/BF00052611
+Podglajen, A, Plougonven, R, Hertzog, A and Eric Jensen,
+E. 2018. Impact of gravity waves on the motion and
+distribution of atmospheric ice particles. Atmos. Chem.
+Phys., 18: 10799–10823. DOI: https://doi.org/10.5194/acp-
+18-10799-2018
+Pounder, ER. 1965. The physics of ice. Pergamon Press Ltd.
+Prasad, AA, Sherwood, S, Reeder, MJ and Lane, TP.
+2019. Rapidly evolving cirrus clouds modulated by269 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+convectively generated gravity waves. J. Geophys.
+Res.: Atmospheres, 124: 7327–7338. DOI: https://doi.
+org/10.1029/2019JD030538
+Pruppacher, HR and Klett, JD. 1978, 1997. Microphysics of
+clouds and precipitation. Dordrecht: Kluwer Academic
+Publishers. ISBN 978-0-306-48100-0.
+Ramaswamy, V and Detwiler, A. 1986. Interdependence of
+radiation and microphysics in cirrus clouds. J. Atmos. Sci.,
+43(21): 2289–2301. DOI: https://doi.org/10.1175/1520-
+0469(1986)043<2289:IORAMI>2.0.CO;2
+Rikitake, T. 1958. Oscillations of a system of disk dynamos.
+Math. Proc. Camb. Phil. Soc., 54(1): 89–105. DOI: https://doi.
+org/10.1017/S0305004100033223
+Roach, WT. 1976. On the effect of radiative exchange on the
+growth by condensation of a cloud or fog droplet. Q. J. R.
+Meteorol. Soc., 102: 361–372. DOI: https://doi.org/10.1002/
+qj.49710243207
+Rogers, RR. 1975. An elementary parcel model with explicit
+condensation and supersaturation. Atmosphere, 13(4):
+192–204. DOI: https://doi.org/10.1080/00046973.1975.9
+648397
+Rogers, RR. 1979. A short course in cloud physics. New York:
+Pergamon Press.
+Saltzman, B. 1962. Finite amplitude free convection as an
+initial value problem–I. J. Atmos. Sci., 19(4): 329–341. DOI:
+https://doi.org/10.1175/1520-0469(1962)019<0329:FAFC
+AA>2.0.CO;2
+Sassen, K and Krueger, SK. 1993. Toward an empirical
+definition of virga: Comments on “Is virga rain that
+evaporates before reaching the ground?” Mon. Wea. Rev.,
+121: 2426–2428. DOI: https://doi.org/10.1175/1520-
+0493(1993)121<2426:TAEDOV>2.0.CO;2
+Sassen, K, Starr, DO’C and Uttal, T. 1989. Mesoscale and
+microscale structure of cirrus clouds: Three case
+studies. J. Atmos. Sci., 46(3): 371–396. DOI: https://doi.
+org/10.1175/1520-0469(1989)046<0371:MAMSOC>2.0.
+CO;2
+Schmitt, CG and Heymsfield, AJ. 2007. On the occurrence of
+hollow bullet rosette- and column-shaped ice crystals in
+midlatitude cirrus. J. Atmos. Sci., 64(12): 4514–4519. DOI:
+https://doi.org/10.1175/2007JAS2317.1
+Shonk, JKP and Hogan, RJ. 2008. Tripleclouds: An efficient
+method for representing horizontal cloud inhomogeneity
+in 1D radiation schemes by using three regions at each
+height. J. Clim., 21(11): 2352–2370. DOI: https://doi.
+org/10.1175/2007JCLI1940.1
+Sölch, I and Kärcher, B. 2010. A large-eddy model for cirrus
+clouds with explicit aerosol and ice microphysics and
+Lagrangian ice particle tracking. Q. J. R. Meteorol. Soc., 136:
+2074–2093. DOI: https://doi.org/10.1002/qj.689
+Sonntag, D. 1990. Important new values of the physical
+constants of 1986 vapor pressure formulations based on
+ITS-90, and psychometer formulae. Z. Meteor., 70: 340–344.
+Spichtinger, P. 2014. Shallow cirrus convection – a source for
+ice supersaturation. Tellus A., 66(1): 19937. DOI: https://
+doi.org/10.3402/tellusa.v66.19937
+Spichtinger, P, Gierens, K, Smit, HGJ, Ovarlez, J and Gayet,
+J-F. 2004. On the distribution of relative humidity in cirrus
+clouds. Atmos. Chem. Phys., 4: 639–647. DOI: https://doi.
+org/10.5194/acp-4-639-2004
+Spreitzer, EJ, Marschalik, MP and Spichtinger, P. 2017.
+Subvisible cirrus clouds – a dynamical system approach.
+Nonlin. Proc. Geophys., 24: 307–328. DOI: https://doi.
+org/10.5194/npg-24-307-2017
+Stephens, GL. 1983. The influence of radiative transfer on
+the mass and heat budgets of ice crystals falling in the
+atmosphere. J. Atmos. Sci., 40(7): 1729–1739. DOI: https://doi.
+org/10.1175/1520-0469(1983)040<1729:TIORTO>2.0.CO;2
+St-Pierre, M and Thériault, JM. 2015. Clarification of the water
+saturation represented on ice crystal growth diagrams.
+J. Atmos. Sci., 72(7): 2608–2611. DOI: https://doi.
+org/10.1175/JAS-D-14-0357.1
+Sunilkumar, SV and Parameswaran, K. 2005. Temperature
+dependence of tropical cirrus properties and radiative
+effects. J. Geophys. Res., 110: D13205. DOI: https://doi.
+org/10.1029/2004JD005426
+Szczap, F, Gour, Y, Fauchez, T, Cornet, C, Faure, T, Jourdan,
+O, Penide, G and Dubuisson, P. 2014. A flexible three-
+dimensional stratocumulus, cumulus and cirrus cloud
+generator (3DCLOUD) based on drastically simplified
+atmospheric equations and the Fourier transform
+framework. Geosci. Model Dev., 7: 1779–1801. DOI: https://
+doi.org/10.5194/gmd-7-1779-2014
+Thomas, L, Cartwright, JC and Wareing, DP. 1990. Lidar
+observations of the horizontal orientation of ice crystals
+in cirrus clouds. Tellus B., 42(2): 211–216. DOI: https://doi.
+org/10.3402/tellusb.v42i2.16290
+Um, J, McFarquhar, GM, Hong, YP, Lee, S-S, Jung, CH, Lawson,
+RP and Mo, Q. 2015. Dimensions and aspect ratios of
+natural ice crystals. Atmos. Chem. Phys., 15: 3933–3956.
+DOI: https://doi.org/10.5194/acp-15-3933-2015
+Vázquez-Martín, S, Kuhn, T and Eliasson, S. 2021. Shape
+dependence of snow crystal fall speed. Atmos. Chem.
+Phys., 21(10): 7545–7565. DOI: https://doi.org/10.5194/
+acp-21-7545-2021
+Verhulst, PH. 1838. Notice sur la loi que la population suit dans
+son accroissement. Corr. Math. Phys., 10: 113–121.
+Vogels, M, Zoeckler, R, Stasiw, DM and Cerny, LC. 1975. P. F.
+Verhulst’s “Notice sur la loi que la population suit dans son
+accroissement”. J. Biol. Phys., 3: 183–192. DOI: https://doi.
+org/10.1007/BF02309004
+Wacker, U. 2006. Nonlinear effects in a conceptual multilayer
+cloud model. Nonlin. Proc. Geophys., 13: 99–107. DOI:
+https://doi.org/10.5194/npg-13-99-2006
+Wada, E, Hashiguchi, H, Yamamoto, MK, Teshiba, M and
+Fukao, S. 2005. Simultaneous observations of cirrus clouds
+with a millimeter-wave radar and the MU radar. J. Appl.
+Met., 44: 313–323. DOI: https://doi.org/10.1175/JAM2191.1
+Wang, L. 2004. Midlatitude cirrus cloud structural properties
+analyzed from the extended facility for atmospheric
+remote sensing dataset. Unpublished thesis (PhD).
+University of Fairbanks, Alaska (USA).270 Berton Tellus A: Dynamic Meteorology and Oceanography DOI: 10.16993/tellusa.3227
+TO CITE THIS ARTICLE:
+Berton, RPH. 2023. Two-Dimensional Dynamics of Ice Crystal Parcels in a Cirrus Uncinus. Tellus A: Dynamic Meteorology and
+Oceanography, 75(1): 231–270. DOI: https://doi.org/10.16993/tellusa.3227
+Submitted: 22 December 2022 Accepted: 17 June 2023 Published: 18 July 2023
+COPYRIGHT:
+© 2023 The Author(s). This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0
+International License (CC-BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original
+author and source are credited. See http://creativecommons.org/licenses/by/4.0/.
+Tellus A: Dynamic Meteorology and Oceanography is a peer-reviewed open access journal published by Stockholm University Press.
+Wang, L and Sassen, K. 2008. Wavelet analysis of cirrus
+multiscale structures from lidar backscattering:
+a cirrus uncinus complex case study. J. Appl.
+Meteorol. Clim., 47(10): 2645–2658. DOI: https://doi.
+org/10.1175/2008JAMC1788.1
+Wang, PK and Ji, W. 1997. Numerical simulation of three-
+dimensional unsteady flow past ice crystals. J. Atmos. Sci.,
+54(18): 2261–2274. DOI: https://doi.org/10.1175/1520-
+0469(1997)054<2261:NSOTDU>2.0.CO;2
+Westbrook, CD, Hogan, RJ and Illingworth, AJ. 2008. The
+capacitance of pristine ice crystals and aggregate
+snowflakes. J. Atmos. Sci., 65(1): 206–219. DOI: https://doi.
+org/10.1175/2007JAS2315.1
+WMO. 1975. International cloud atlas. Geneva, Switzerland:
+Secretariat of the World Meteorological Organization.
+Wood, SE, Baker, MB and Calhoun, D. 2001. New model for the
+vapor growth of hexagonal ice crystals in the atmosphere.
+J. Geophys. Res., 106(D5): 4845–4870. DOI: https://doi.
+org/10.1029/2000JD900338
+Wu, T, Cotton, WR and Cheng, WYY. 2000. Radiative effects
+on the diffusional growth of ice particles in cirrus clouds,
+J. Atmos. Sci., 57(17): 2892–2904. DOI: https://doi.
+org/10.1175/1520-0469(2000)057<2892:REOTDG>2.0.CO;2
+Yagi, T. 1969. On the Relation between the Shape of Cirrus
+Clouds and the Static Stability of the Cloud Level – Studies
+of Cirrus Clouds: Part IV. J. Meteorol. Soc. Japan, 47(2):
+59–64. DOI: https://doi.org/10.2151/jmsj1965.47.2_59
+Yagi, T, Harimaya, T and Magono, C. 1968. On the shape and
+movement of cirrus uncinus clouds by the trigonometric
+method utilizing stereophotographs – Studies of cirrus
+clouds: Part II. J. Meteorol. Soc. Japan, 46(4): 266–271.
+DOI: https://doi.org/10.2151/jmsj1965.46.4_266
+Zeng, X. 2008. The influence of radiation on ice crystal
+spectrum in the upper troposphere. Q.J.R. Meteorol. Soc.,
+134: 609–620. DOI: https://doi.org/10.1002/qj.226
+Zeng, X. 2018. Radiatively induced precipitation formation in
+diamond dust. J. Adv. Mod. Earth Syst., 10: 2300–2317.
+DOI: https://doi.org/10.1029/2018MS001382
+Zeng, X, Gong, J, Li, X and Wu, DL. 2021. Modeling the
+radiative effect on microphysics in cirrus clouds
+against satellite observations. J. Geophys. Res.
+Atmosphere, 126: e2020JD033923. DOI: https://doi.
+org/10.1029/2020JD033923
+Zeng, X, Heymsfield, AJ, Ulanowski, Z, Neely III, RR, Li, X,
+Gong, J and Wu, DL. 2022. The radiative effect on cloud
+microphysics from the Arctic to the Tropics. Bul. Am.
+Met. Soc., E2108–E2129. DOI: https://doi.org/10.1175/
+BAMS-D-21-0039.1
+Zhang, Y, Hao, S, Cong, M and Cao, Y. 2014. A simulation
+method of 3D cirrus radiance images for space-based
+missile warning detectors. In: 7th International Congress
+on Image and Signal Processing, Dalian (China), 14–16
+October 2014, 541–546. DOI: https://doi.org/10.1109/
+CISP.2014.7003839
