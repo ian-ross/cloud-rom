@@ -42,6 +42,15 @@ It uses:
 
 The notebook focuses on the low-base updraft case and its damped oscillatory trajectory. It is useful for checking the qualitative trajectory and diagnostic time series against the paper's oscillatory Case 0 figures.
 
+## `notebooks/integration-methods.ipynb`
+
+Purpose: compare the saved explicit-Euler reproduction outputs against SciPy ODE integrators.
+
+It uses `cloud_rom.berton2023.simulate_with_method(...)` to run `Radau`, `BDF`, and `LSODA` in two modes:
+
+- fixed `output_dt`, matching the saved Euler CSV cadence for side-by-side comparison;
+- native/adaptive output times with `output_dt=None`, demonstrating solver-selected output spacing.
+
 ## Generated CSV files
 
 The files below are generated numerical magnitude tables used by the reproduction notebooks:

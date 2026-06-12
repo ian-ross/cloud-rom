@@ -91,3 +91,78 @@ def test_steady_case0_begins_with_hook_like_lift_and_leftward_motion():
     assert end["m"].to("microgram").magnitude > start["m"].to("microgram").magnitude
     assert end["z"].to("km").magnitude > start["z"].to("km").magnitude
     assert end["x"].to("km").magnitude < start["x"].to("km").magnitude
+
+
+def test_euler_can_use_fixed_output_dt():
+    cfg = b.SimulationConfig(
+        duration=b.Q_(1, "s"),
+        dt=b.Q_(0.1, "s"),
+        integration_method="euler",
+        output_dt=b.Q_(0.2, "s"),
+        include_coriolis=False,
+    )
+    df = b.simulate(
+        b.initial_state_for_case(0),
+        b.atmosphere_for_case(0),
+        config=cfg,
+        sample_every=1000,
+        progress=False,
+    )
+    assert len(df) == 6
+    assert b.quantity_column_to(df, "t", "s") == pytest.approx([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
+
+
+def test_rk45_supports_scipy_method_with_fixed_output_dt():
+    cfg = b.SimulationConfig(
+        duration=b.Q_(1, "s"),
+        dt=b.Q_(0.1, "s"),
+        integration_method="RK45",
+        output_dt=b.Q_(0.2, "s"),
+        scipy_options={"rtol": 1e-6, "atol": 1e-9},
+        include_coriolis=False,
+    )
+    df = b.simulate(
+        b.initial_state_for_case(0),
+        b.atmosphere_for_case(0),
+        config=cfg,
+        sample_every=1000,
+        progress=False,
+    )
+    times = b.quantity_column_to(df, "t", "s")
+    assert times == pytest.approx([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
+
+
+def test_rk45_adaptive_output_is_not_forced_to_fixed_step():
+    cfg = b.SimulationConfig(
+        duration=b.Q_(0.5, "s"),
+        dt=b.Q_(0.1, "s"),
+        integration_method="RK45",
+        output_dt=None,
+        scipy_options={"rtol": 1e-6, "atol": 1e-9},
+        include_coriolis=False,
+    )
+    df = b.simulate(
+        b.initial_state_for_case(0),
+        b.atmosphere_for_case(0),
+        config=cfg,
+        sample_every=1000,
+        progress=False,
+    )
+    times = b.quantity_column_to(df, "t", "s")
+    assert times[0] == 0.0
+    assert times[-1] > 0.4
+    assert len(times) > 2
+
+
+def test_simulate_with_method_convenience_wrapper():
+    cfg = b.SimulationConfig(duration=b.Q_(0.5, "s"), dt=b.Q_(0.1, "s"), include_coriolis=False)
+    df = b.simulate_with_method(
+        "RK45",
+        b.initial_state_for_case(0),
+        b.atmosphere_for_case(0),
+        config=cfg,
+        output_dt=b.Q_(0.25, "s"),
+        scipy_options={"rtol": 1e-6, "atol": 1e-9},
+        progress=False,
+    )
+    assert b.quantity_column_to(df, "t", "s") == pytest.approx([0.0, 0.25, 0.5])

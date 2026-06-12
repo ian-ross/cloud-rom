@@ -17,7 +17,7 @@ Implement a readable Python/Pint reference implementation of the coupled 2D Lagr
 - kinematics of a representative hollow-column ice crystal parcel in a vertical `(x,z)` plane;
 - microphysical mass evolution by vapor deposition/sublimation with capacitance, ventilation, and radiative-transfer correction;
 - paper atmospheric profiles for wind, updraft, temperature, pressure, humidity, and infrared ratio;
-- explicit-Euler time integration matching Sect. 3.1, Eqs. (42)--(47).
+- explicit-Euler time integration matching Sect. 3.1, Eqs. (42)--(47) as the default in `simulate(...)`, with alternative SciPy ODE methods selectable via `SimulationConfig.integration_method`.
 
 Intended API:
 
@@ -38,7 +38,7 @@ Paper-stated assumptions:
 - Ice density fixed at `ρ_i = 920 kg m^-3`.
 - Hollow hexagonal column habit; in the main numerical model `φ = c/a` and `c_B` are kept constant.
 - Crystal emissivity `ε_r = 1`; infrared absorption efficiency `Q_abs ≈ 1`.
-- Explicit Euler scheme with small timestep (`0.02--0.04 s` in paper cases).
+- Default integration uses explicit Euler (small timestep `dt`, paper used `0.02--0.04 s`) and is now configurable to other SciPy methods via `SimulationConfig.integration_method`.
 
 Implementation assumptions to make explicit:
 
@@ -279,6 +279,7 @@ Code and API status:
 - `Atmosphere` owns the prescribed vertical profiles and exposes profile methods rather than module-level profile functions.
 - `LocalDiagnostics` is a dataclass built with `LocalDiagnostics.from_state(...)`; it stores all local atmospheric, crystal, drag, radiative, and mass-growth quantities used by one Euler step.
 - `simulate(...)` returns a `pandas.DataFrame` whose physical columns are Pint quantities. Use `quantity_column_to(...)` or `cloud_rom.berton2023_plots.qcol(...)` to convert columns for plotting.
+- `simulate_with_method(...)` is a convenience wrapper for comparing `"euler"` with SciPy `solve_ivp` methods such as `"Radau"`, `"BDF"`, and `"LSODA"`.
 - `euler_step(...)` implements the paper's explicit Euler update and returns `(next_state, diagnostics)`.
 - `atmosphere_for_case(...)` and `initial_state_for_case(...)` encode Table 2 case defaults.
 

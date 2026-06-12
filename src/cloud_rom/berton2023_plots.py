@@ -82,7 +82,7 @@ def magnitude_frame(df: pd.DataFrame, atmosphere: b.Atmosphere) -> pd.DataFrame:
     out["z_minus_z0_km"] = out["z_km"] - out["z_km"].iloc[0]
     out["Wf_m_s"] = np.asarray(
         [
-            row.w.to("m/s").magnitude - atmosphere.updraft(row.z).to("m/s").magnitude
+            getattr(row, "w").to("m/s").magnitude - atmosphere.updraft(getattr(row, "z")).to("m/s").magnitude
             for row in df.itertuples(index=False)
         ]
     )

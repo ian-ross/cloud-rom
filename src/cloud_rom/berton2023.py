@@ -11,12 +11,14 @@ not optimized: the aim is traceability and unit visibility.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, replace
+from dataclasses import dataclass, field, replace
 from math import cos, exp, log, pi, sqrt
-from typing import Any, Iterable, TypeAlias
+from typing import Any, Iterable, TypeAlias, cast
 
+import numpy as np
 import pandas as pd
 import pint
+from scipy.integrate import solve_ivp
 from scipy.optimize import brentq
 from tqdm.auto import tqdm
 
@@ -271,6 +273,11 @@ class SimulationConfig:
     stop_on_nonpositive_mass: bool = True
     reynolds_length: str = "diameter"  # The text before Sect. 3 sets r_i = D_i in Eq. (4); use "radius" for the printed-symbol variant.
 
+    # Integration controls.
+    integration_method: str = "euler"  # Set to "euler" for the paper-matching explicit method.
+    output_dt: Quantity | None = None  # Optional fixed-output cadence (seconds); default is adaptive for SciPy methods.
+    scipy_options: dict[str, Any] = field(default_factory=dict)
+
 
 # -----------------------------------------------------------------------------
 # Atmospheric profiles, Appendix A
@@ -503,7 +510,7 @@ def terminal_reynolds_number(
     upper = 100.0
     while f(upper) < 0:
         upper *= 2
-    return float(brentq(f, 1e-12, upper))
+    return float(cast(float, brentq(f, 1e-12, upper)))
 
 
 def reynolds_number(
@@ -854,6 +861,89 @@ def euler_step(
     return next_state, diag
 
 
+def _state_from_vector(t: float, y: np.ndarray, crystal: Crystal) -> State:
+    """Convert a solver state vector into a model state."""
+
+    return State(
+        t=Q_(t, "s"),
+        x=Q_(float(y[0]), "m"),
+        z=Q_(float(y[1]), "m"),
+        u=Q_(float(y[2]), "m/s"),
+        w=Q_(float(y[3]), "m/s"),
+        crystal=replace(crystal, m=Q_(float(y[4]), "kg")),
+    )
+
+
+def _ode_rhs(
+    t: float,
+    y: np.ndarray,
+    atmosphere: Atmosphere,
+    constants: Constants,
+    config: SimulationConfig,
+    crystal: Crystal,
+) -> np.ndarray:
+    """Derivative function for SciPy ODE integrators."""
+
+    state = _state_from_vector(t, y, crystal)
+    diag = LocalDiagnostics.from_state(state, atmosphere, constants, config)
+    ax, az = accelerations(state, diag, constants, config)
+    return np.array(
+        [
+            state.u.to("m/s").magnitude,
+            state.w.to("m/s").magnitude,
+            ax.to("m/s^2").magnitude,
+            az.to("m/s^2").magnitude,
+            diag.m_dot.to("kg/s").magnitude,
+        ],
+        dtype=float,
+    )
+
+
+def _nonpositive_mass_event(
+    t: float,
+    y: np.ndarray,
+    atmosphere: Atmosphere,
+    constants: Constants,
+    config: SimulationConfig,
+    crystal: Crystal,
+) -> float:
+    """Event used to stop integration when mass reaches zero or below."""
+
+    del t, atmosphere, constants, config, crystal
+    return float(y[4])
+
+
+def _fixed_output_times(duration_s: float, output_dt: Quantity | None) -> np.ndarray | None:
+    if output_dt is None:
+        return None
+    if output_dt.to("s").magnitude <= 0:
+        raise ValueError("output_dt must be positive")
+
+    step_count = int(duration_s / output_dt.to("s").magnitude)
+    if step_count <= 0:
+        return np.array([0.0])
+    return np.arange(step_count + 1) * float(output_dt.to("s").magnitude)
+
+
+def _euler_output_indices(steps: int, config: SimulationConfig, sample_every: int) -> set[int]:
+    if config.output_dt is not None:
+        dt_s = config.dt.to("s").magnitude
+        out_s = config.output_dt.to("s").magnitude
+        if out_s <= 0:
+            raise ValueError("output_dt must be positive")
+        ratio = out_s / dt_s
+        if not np.isclose(ratio, round(ratio)):
+            raise ValueError("output_dt must be an integer multiple of dt when integration_method='euler'")
+        output_every = int(round(ratio))
+        if output_every <= 0:
+            raise ValueError("output_dt must be at least dt")
+        return set(range(0, steps + 1, output_every))
+
+    if sample_every <= 0:
+        raise ValueError("sample_every must be positive")
+    return {n for n in range(0, steps + 1) if n % sample_every == 0}
+
+
 def initial_crystal_from_dimensions(
     a0: Quantity,
     c0: Quantity,
@@ -945,25 +1035,141 @@ def simulate(
     The returned `pandas.DataFrame` stores Pint quantities directly in object
     columns, as requested for traceable unit-bearing output.  Use
     `quantity_column_to(...)` to convert a column to magnitudes for plotting.
+
+    `config.integration_method="euler"` preserves the original explicit-Euler
+    stepping behavior.  Other methods use `scipy.integrate.solve_ivp` with
+    `config.integration_method` as the SciPy `method` and `config.scipy_options`
+    passed through.
+
+    For SciPy integrators, set `config.output_dt` to request fixed output times
+    (for direct comparison against Euler).  If `config.output_dt` is `None`, the
+    solver chooses output times adaptively.
+
+    `sample_every` is an Euler-only convenience and is ignored for SciPy
+    integrators.
+
     Set `progress=False` to disable the tqdm progress bar.
     """
 
     if initial_state is None:
         initial_state = case0_initial_state()
     state = initial_state
-    steps = int(config.duration.to("s").magnitude / config.dt.to("s").magnitude)
-    rows: list[dict[str, object]] = []
-    iterator = tqdm(range(steps + 1), desc=progress_desc, unit="step", disable=not progress)
-    for n in iterator:
-        diag = LocalDiagnostics.from_state(state, atmosphere, constants, config)
-        if n % sample_every == 0:
-            rows.append(_row(state, diag))
-        if n == steps:
-            break
-        state, _ = euler_step(state, atmosphere, constants, config)
-        if config.stop_on_nonpositive_mass and state.crystal.m.to("kg").magnitude <= 0:
-            break
+
+    duration_s = config.duration.to("s").magnitude
+    start_t_s = state.t.to("s").magnitude
+    stop_t_s = start_t_s + duration_s
+
+    method = config.integration_method
+    if method.lower() == "euler":
+        dt_s = config.dt.to("s").magnitude
+        steps = int(duration_s / dt_s)
+        output_indices = _euler_output_indices(steps, config, sample_every)
+        rows: list[dict[str, object]] = []
+        iterator = tqdm(range(steps + 1), desc=progress_desc, unit="step", disable=not progress)
+        for n in iterator:
+            diag = LocalDiagnostics.from_state(state, atmosphere, constants, config)
+            if n in output_indices:
+                rows.append(_row(state, diag))
+            if n == steps:
+                break
+            state, _ = euler_step(state, atmosphere, constants, config)
+            if config.stop_on_nonpositive_mass and state.crystal.m.to("kg").magnitude <= 0:
+                break
+        return pd.DataFrame(rows)
+
+    y0 = np.array(
+        [
+            _mag(state.x, "m"),
+            _mag(state.z, "m"),
+            _mag(state.u, "m/s"),
+            _mag(state.w, "m/s"),
+            _mag(state.crystal.m, "kg"),
+        ],
+        dtype=float,
+    )
+
+    t_eval = _fixed_output_times(duration_s, config.output_dt)
+    if t_eval is not None:
+        t_eval = t_eval + start_t_s
+
+    events: tuple[Any, ...] | None = None
+    if config.stop_on_nonpositive_mass:
+
+        def _event(t: float, y: np.ndarray) -> float:
+            return _nonpositive_mass_event(t, y, atmosphere, constants, config, state.crystal)
+
+        event_fn: Any = _event
+        event_fn.terminal = True
+        event_fn.direction = -1
+        events = (event_fn,)
+
+    progress_bar = tqdm(total=duration_s, desc=progress_desc, unit="s", disable=not progress)
+    furthest_t_s = start_t_s
+
+    def _rhs_with_progress(t: float, y: np.ndarray) -> np.ndarray:
+        nonlocal furthest_t_s
+        if t > furthest_t_s:
+            progress_bar.update(t - furthest_t_s)
+            furthest_t_s = t
+        return _ode_rhs(t, y, atmosphere, constants, config, state.crystal)
+
+    try:
+        solution = solve_ivp(
+            _rhs_with_progress,
+            (start_t_s, stop_t_s),
+            y0,
+            method=method,
+            t_eval=t_eval,
+            events=events,
+            **config.scipy_options,
+        )
+    finally:
+        progress_bar.close()
+    if not solution.success:
+        raise RuntimeError(f"solve_ivp failed: {solution.message}")
+
+    rows = []
+    for t, y in zip(solution.t, solution.y.T):
+        current_state = _state_from_vector(float(t), y, state.crystal)
+        rows.append(_row(current_state, LocalDiagnostics.from_state(current_state, atmosphere, constants, config)))
     return pd.DataFrame(rows)
+
+
+def simulate_with_method(
+    method: str,
+    initial_state: State | None = None,
+    atmosphere: Atmosphere = Atmosphere(),
+    constants: Constants = CONSTANTS,
+    config: SimulationConfig = SimulationConfig(),
+    *,
+    output_dt: Quantity | None = None,
+    scipy_options: dict[str, Any] | None = None,
+    sample_every: int = 1,
+    progress: bool = True,
+    progress_desc: str | None = None,
+) -> pd.DataFrame:
+    """Convenience wrapper around `simulate(...)` for one-off method selection.
+
+    This avoids constructing a new `SimulationConfig` just to compare SciPy ODE
+    methods.  `method="euler"` selects the preserved explicit-Euler integrator;
+    any other value is passed to `scipy.integrate.solve_ivp` as its `method`.
+    """
+
+    method_config = replace(
+        config,
+        integration_method=method,
+        output_dt=output_dt,
+        scipy_options={} if scipy_options is None else scipy_options,
+    )
+    return simulate(
+        initial_state,
+        atmosphere,
+        constants,
+        method_config,
+        sample_every=sample_every,
+        progress=progress,
+        progress_desc=progress_desc if progress_desc is not None else f"simulate {method}",
+    )
 
 
 def quantity_column_to(df: pd.DataFrame, column: str, unit: str) -> list[float]:

@@ -76,6 +76,9 @@ All fields with dimensions are Pint quantities.
 - `include_coriolis`
 - whether to stop when mass becomes non-positive
 - Reynolds length convention (`"radius"` by default; `"diameter"` is available because the paper notes both conventions)
+- `integration_method`: one of `"euler"` (default, current paper-matching behavior) or any SciPy `solve_ivp` method name (`"RK45"`, `"RK23"`, `"Radau"`, etc.)
+- `output_dt`: optional fixed output spacing for diagnostics. If `None` with SciPy methods, output times are chosen adaptively
+- `scipy_options`: passthrough dict forwarded to `scipy.integrate.solve_ivp`
 
 ### `LocalDiagnostics`
 
@@ -137,8 +140,9 @@ Crystal geometry and microphysics:
 Dynamics:
 
 - `accelerations` -- Eq. (1a,b), with optional Coriolis terms
-- `euler_step` -- Eqs. (42)--(47)
-- `simulate` -- repeated Euler stepping with sampled Pint-valued output
+- `euler_step` -- explicit-Euler Eqs. (42)--(47) for backward-compatible single-step updates
+- `simulate` -- integration driver: explicit Euler (default) or SciPy `solve_ivp` methods via `config.integration_method`
+- `simulate_with_method` -- convenience wrapper for one-off method comparisons without manually replacing `SimulationConfig`
 
 ## High-level usage
 
@@ -153,6 +157,17 @@ config = b.SimulationConfig(duration=b.Q_(10, "minute"), dt=b.Q_(0.04, "s"))
 
 df = b.simulate(state, atmosphere, config=config, sample_every=500)
 print(df.iloc[-1]["z"].to("km"))
+
+# Directly compare RK45 output with fixed sample spacing
+df_rk45 = b.simulate_with_method(
+    "RK45",
+    state,
+    atmosphere,
+    config=b.SimulationConfig(duration=b.Q_(10, "minute"), dt=b.Q_(0.04, "s")),
+    output_dt=b.Q_(0.2, "s"),
+    progress=False,
+)
+print(df_rk45.iloc[-1]["z"].to("km"))
 ```
 
 Convert a Pint-valued column to numeric magnitudes for plotting:
@@ -183,7 +198,8 @@ uv run pyright
 
 ## Known caveats
 
-- The model is literal and uses explicit Euler, so long integrations require small `dt` and can be slow.
+- The default integration is explicit Euler, so long integrations require small `dt` and can be slow.
+- SciPy integrators can be selected via `config.integration_method` for adaptive stepping and usually better stiffness handling.
 - Outputs are Pint quantities stored in a pandas DataFrame with object dtype; this is traceable but not fast.
 - The paper does not provide machine-readable trajectory data, so full validation is qualitative and table-based rather than exact regression.
 - Eq. (7)'s moist-air density is implemented but not used in the coupled dynamics because the governing equations use `ρ_a` and the paper does not appear to use `ρ`/`ρ_m` elsewhere.
