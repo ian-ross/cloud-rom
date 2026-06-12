@@ -43,7 +43,7 @@ Paper-stated assumptions:
 Implementation assumptions to make explicit:
 
 - Use SI internally with `pint`; altitude inputs may be passed in km or m and are converted to meters.
-- Default high-level simulation will omit Coriolis unless `include_coriolis=True`, because the paper neglects it in numerical sections.
+- Coriolis terms are implemented and controlled by `SimulationConfig(include_coriolis=..., θ=...)`; the default configuration includes them, while reproduction notebooks can disable them for closer comparison with the paper's local-scale numerical discussion.
 - Eq. (7) is printed as moist-air density but appears to use `pvsl`; implementation should expose both `ρ_m` as printed and dry-air density `ρ_a = p_a/(R_a T_a)` where equations specifically call for `ρ_a`.
 - Drag/Reynolds convention ambiguity near Eq. (41): use equivalent radius `r_i = D_i/2` in Eq. (3) and Eq. (19); use `r_i` in Eq. (4) as printed, with an option to use `D_i` as the paper notes.
 - For Eq. (35), solve the cubic for the positive real crystal radius `a`.
@@ -148,15 +148,15 @@ Initial trajectory conditions: `x0=2 km`, `z0=10 km`, `u0=0`, `w0=0.6 m/s` for C
 | Eq. (28) | growth condition `S_i >= 1+R` | `driving_factor(...)` |
 | Eq. (31) | hollow column `V`, `A` | `hollow_column_volume_area(...)` |
 | Eq. (33),(34) | `ψ=1-c_B/c`, `φ=c/a` | `hollowness(...)`, `aspect_ratio(...)` |
-| Eq. (35),(47) | cubic for `a` under constant `φ,c_B` | `radius_from_volume_constant_phi(...)` |
+| Eq. (35),(47) | cubic for `a` under constant `φ,c_B`; implemented with the restored hexagonal `sqrt(3)` factor | `radius_from_volume_constant_phi(...)` |
 | Eq. (36) | `V=m/ρ_i` | `volume_from_mass(...)` |
 | Eq. (37),(38) | equivalent diameter/radius | `equivalent_diameter(...)`, `equivalent_radius(...)` |
 | Eq. (39),(40) | effective density definitions | `effective_density_max_dimension(...)`, `effective_density_column(...)` |
 | Eq. (41) | `C=0.751a+0.491c` | `capacitance_hollow_column(...)` |
 | Eq. (42)--(44) | explicit-Euler updates for `u,w,x,z,m` | `euler_step(...)` |
 | Eq. (45)--(47) | update volume and dimensions from new mass | part of `euler_step(...)` |
-| Eq. (68)--(71) | wind/updraft profiles | `horizontal_wind(...)`, `updraft(...)` |
-| Eq. (75)--(81) | temperature, pressure, humidity, infrared profiles | profile functions |
+| Eq. (68)--(71) | wind/updraft profiles | `Atmosphere.horizontal_wind(...)`, `Atmosphere.updraft(...)` |
+| Eq. (75)--(81) | temperature, pressure, humidity, infrared profiles | `Atmosphere.temperature(...)`, `dry_air_pressure(...)`, `Atmosphere.relative_humidity_profile(...)`, `Atmosphere.atmospheric_eta(...)` |
 | Eq. (84),(85) | invert relative humidity to vapor pressure | `water_vapor_pressure_from_Hl(...)` |
 | Eq. (86),(87) | Sonntag saturation pressures | `saturation_pressure_liquid(...)`, `saturation_pressure_ice(...)` |
 
@@ -181,7 +181,7 @@ For each time step `n`:
 
 - Use the paper's explicit Euler method as the default integrator.
 - Provide a `dt` argument as a Pint time quantity; default to paper values depending on scenario but do not hard-code one universal value.
-- Cubic Eq. (35)/(47): solve `2 φ a^3 + c_B a^2 - V/3 = 0` and select the unique positive real root. `scipy.optimize.brentq` or `numpy.roots` are acceptable; `brentq` with a bracket based on volume is more transparent.
+- Cubic Eq. (35)/(47): solve the hexagonal-column volume equation `sqrt(3) * (2 φ a + c_B) * a^2 - V = 0` and select the unique positive real root. The PDF text extraction dropped the radical in Eq. (31a); the restored `sqrt(3)` factor is required to reproduce Table 2 geometry. The implementation uses `scipy.optimize.brentq` with a positive bracket.
 - Piecewise-linear profiles should be literal, not interpolated splines.
 - Stop conditions: elapsed time, altitude bounds optional, nonpositive mass.
 
@@ -207,15 +207,25 @@ Non-blocking decisions now resolved:
 
 Create/modify:
 
-- `src/cloud_rom/berton2023.py` — all equations, profile functions, dataclasses, simulator.
-- `tests/test_berton2023.py` — dimensional, smoke, and paper-regression tests.
-- `examples/berton2023_case0.py` — minimal reproduction of Case 0 oscillatory or steady run.
-- `docs/MODEL_EXTRACTION.md` — this specification.
+Implemented:
 
-Potential package support:
+- `src/cloud_rom/berton2023.py` — constants, atmosphere profiles, equation functions, `LocalDiagnostics`, explicit-Euler stepping, case helpers, and simulator.
+- `src/cloud_rom/berton2023_plots.py` — plotting and numeric conversion helpers used by notebooks.
+- `src/cloud_rom/__init__.py` — package marker.
+- `tests/test_berton2023.py` — dimensional, smoke, and Table 2 geometry tests.
+- `examples/berton2023_case0.py` — minimal short Case 0 run.
+- `notebooks/atmospheric-profiles.ipynb` — reproduces paper Figures 1--5.
+- `notebooks/replicate-steady-state.ipynb` — steady/non-oscillatory Case 0 reproduction workflow.
+- `notebooks/replicate-oscillatory-state.ipynb` — oscillatory Case 0 reproduction workflow.
+- `docs/MODEL_EXTRACTION.md` — this extraction/implementation record.
+- `docs/berton2023-model-code.md` — code guide for humans and agents.
+- `docs/notebooks.md` — notebook guide.
 
-- Add `src/cloud_rom/__init__.py` only if needed for imports.
-- Consider adding `pytest` to development tooling if tests should be runnable by `uv run pytest`.
+Packaging/tooling:
+
+- `pyproject.toml` now declares a Hatchling build backend for `src/cloud_rom`, so `uv run pytest` works without `PYTHONPATH=src`.
+- `pytest` is included in the development dependency group.
+- Runtime dependencies include `tqdm` for optional progress bars in long integrations.
 
 ## 11. Test plan
 
@@ -251,6 +261,45 @@ Physical sanity tests:
 
 ## 12. Example plan
 
-- `examples/berton2023_case0.py`: configure Case 0 oscillatory settings from Table 2, run a reduced-duration simulation (e.g. 30--60 min by default), print final state and plot `z(x)` if `matplotlib` is available.
-- Label examples as **paper-inspired** rather than validated unless the full Table 2 reproduction has been checked.
-- Optionally add a slow example/script to reproduce a 40 h Case 1 trajectory and estimate period/wavelength.
+Implemented examples/notebooks:
+
+- `examples/berton2023_case0.py`: short Case 0 run that prints final state diagnostics.
+- `notebooks/atmospheric-profiles.ipynb`: reproduces Figures 1--5 atmospheric profiles.
+- `notebooks/replicate-steady-state.ipynb`: runs and plots the steady/non-oscillatory Case 0 state.
+- `notebooks/replicate-oscillatory-state.ipynb`: runs and plots the oscillatory Case 0 state.
+
+The reproduction notebooks are qualitative/table-based because the paper does not provide machine-readable trajectory data.
+
+## 13. Phase 2 implementation status
+
+Phase 2 has been implemented.
+
+Code and API status:
+
+- `Atmosphere` owns the prescribed vertical profiles and exposes profile methods rather than module-level profile functions.
+- `LocalDiagnostics` is a dataclass built with `LocalDiagnostics.from_state(...)`; it stores all local atmospheric, crystal, drag, radiative, and mass-growth quantities used by one Euler step.
+- `simulate(...)` returns a `pandas.DataFrame` whose physical columns are Pint quantities. Use `quantity_column_to(...)` or `cloud_rom.berton2023_plots.qcol(...)` to convert columns for plotting.
+- `euler_step(...)` implements the paper's explicit Euler update and returns `(next_state, diagnostics)`.
+- `atmosphere_for_case(...)` and `initial_state_for_case(...)` encode Table 2 case defaults.
+
+Validation commands run during implementation:
+
+```bash
+uv run pytest -q
+uv run pyright
+uv run python examples/berton2023_case0.py
+```
+
+Current validation status:
+
+- Tests pass and Pyright reports zero errors.
+- Case 0 geometry reproduces Table 2 initial values for mass, capacitance, equivalent diameter, and effective density within test tolerances.
+- Atmospheric profile notebook code executes and reproduces the prescribed profiles from Appendix A.
+- Full trajectory validation remains qualitative because the paper does not provide machine-readable trajectory output.
+
+Known implementation-specific notes:
+
+- Pint 0.25.3 is Python 3.12 compatible, but its static typing currently reports registry-created quantities as `PlainQuantity[...]`; the code therefore uses `Quantity: TypeAlias = Any` while keeping runtime Pint quantities throughout.
+- `moist_air_density(...)` implements Eq. (7) for traceability but is not used in the coupled dynamics.
+- `alpha_from_eta(...)` and `eta_from_alpha(...)` are diagnostic helpers only; numerical cases specify/use `η` directly.
+- The restored `sqrt(3)` factor in hollow-column volume is required to reproduce Table 2 values and corrects a PDF text-extraction loss.
