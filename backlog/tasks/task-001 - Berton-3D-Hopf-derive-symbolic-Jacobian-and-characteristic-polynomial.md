@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-13 20:21'
-updated_date: '2026-06-13 20:24'
+updated_date: '2026-06-13 20:29'
 labels:
   - analysis
   - sympy
@@ -45,3 +45,12 @@ Implement the symbolic foundation for the reduced 3D Berton Hopf analysis. Build
 8. Add a script entry point that prints all intermediate expressions with readable SymPy pretty-printing and fails loudly on any assertion mismatch.
 9. Run the script and any targeted tests/format checks available, then mark all TASK-001 acceptance criteria complete and write a concise final summary only after verification.
 <!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+- Added scripts/berton_3d_hopf_task001_symbolic.py with SymPy derivation from the stated reduced RHS and all required intermediate pretty-prints.
+- Added sympy dependency via uv add sympy.
+- Added tests/test_berton_3d_hopf_task001_symbolic.py.
+- Important result: deriving from v_dot = -k*(v - (W_a - V_f)), V_f = beta*r**2 gives J[1,2] = -2*k*beta*r_star, not the briefing hand-reference +2*k*beta*r_star. The script trusts the equation, asserts the equation-consistent Jacobian/coefs/RH expression, and prints the briefing discrepancies explicitly.
+<!-- SECTION:NOTES:END -->
