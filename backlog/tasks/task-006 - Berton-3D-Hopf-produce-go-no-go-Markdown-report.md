@@ -4,12 +4,18 @@ title: 'Berton 3D Hopf: produce go/no-go Markdown report'
 status: To Do
 assignee: []
 created_date: '2026-06-13 20:21'
+updated_date: '2026-06-13 20:21'
 labels:
   - documentation
   - analysis
   - berton
   - hopf
-dependencies: []
+dependencies:
+  - TASK-001
+  - TASK-002
+  - TASK-003
+  - TASK-004
+  - TASK-005
 references:
   - docs/berton_3d_hopf_briefing.md
 priority: high
