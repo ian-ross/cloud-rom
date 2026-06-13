@@ -4,12 +4,14 @@ title: 'Berton 3D Hopf: extract baseline parameters and track cubic roots'
 status: To Do
 assignee: []
 created_date: '2026-06-13 20:21'
+updated_date: '2026-06-13 20:21'
 labels:
   - analysis
   - numpy
   - berton
   - hopf
-dependencies: []
+dependencies:
+  - TASK-001
 references:
   - docs/berton_3d_hopf_briefing.md
 priority: high
