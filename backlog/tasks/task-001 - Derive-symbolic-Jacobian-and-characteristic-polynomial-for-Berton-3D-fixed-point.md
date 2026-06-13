@@ -3,9 +3,11 @@ id: TASK-001
 title: >-
   Derive symbolic Jacobian and characteristic polynomial for Berton 3D fixed
   point
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@agent'
 created_date: '2026-06-13 21:17'
+updated_date: '2026-06-13 21:19'
 labels: []
 dependencies: []
 references:
