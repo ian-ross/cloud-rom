@@ -54,3 +54,23 @@ Implement the symbolic foundation for the reduced 3D Berton Hopf analysis. Build
 - Added tests/test_berton_3d_hopf_task001_symbolic.py.
 - Important result: deriving from v_dot = -k*(v - (W_a - V_f)), V_f = beta*r**2 gives J[1,2] = -2*k*beta*r_star, not the briefing hand-reference +2*k*beta*r_star. The script trusts the equation, asserts the equation-consistent Jacobian/coefs/RH expression, and prints the briefing discrepancies explicitly.
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Implemented the TASK-001 symbolic foundation for the reduced 3D Berton Hopf analysis.
+
+Changes:
+- Added scripts/berton_3d_hopf_task001_symbolic.py, which declares the requested SymPy assumptions, builds the reduced RHS with W_a, V_f, s, and R as Functions, differentiates to obtain the Jacobian, applies fixed-point substitutions, and explicitly prints the s - R cancellation in dr_dot/dr.
+- Computes and prints the characteristic polynomial, a2/a1/a0, and Routh-Hurwitz expression with assertions.
+- Added a regression test that runs the derivation and verifies the detected sign discrepancy against the briefing hand-reference.
+- Added sympy as a project dependency.
+
+Key finding:
+- The stated equation v_dot = -k*(v - (W_a - V_f)), with V_f = beta*r**2, yields J[1,2] = -2*k*beta*r_star. The briefing hand-reference matrix has +2*k*beta*r_star. The script does not hide this: it asserts the equation-consistent result and prints the briefing differences for the Jacobian, a0, and a2*a1-a0.
+
+Verification:
+- uv run python scripts/berton_3d_hopf_task001_symbolic.py
+- uv run pytest tests/test_berton_3d_hopf_task001_symbolic.py
+- uv run pytest
+<!-- SECTION:FINAL_SUMMARY:END -->
