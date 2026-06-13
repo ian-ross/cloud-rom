@@ -3,11 +3,11 @@ id: TASK-001
 title: >-
   Derive symbolic Jacobian and characteristic polynomial for Berton 3D fixed
   point
-status: In Progress
+status: Done
 assignee:
   - '@agent'
 created_date: '2026-06-13 21:17'
-updated_date: '2026-06-13 21:19'
+updated_date: '2026-06-13 21:34'
 labels: []
 dependencies: []
 references:
@@ -22,12 +22,12 @@ Implement the symbolic SymPy linearization for the reduced 3D Berton fixed point
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 Symbols are declared with known assumptions and R_r/R_zeta signs left free.
-- [ ] #2 Jacobian is derived from symbolic RHS functions and fixed-point substitutions, including symbolic demonstration that the (s - R) term cancels in dr_dot/dr.
-- [ ] #3 Derived Jacobian is printed and asserted equal to the corrected reference matrix with the [v_dot, r] entry equal to -b.
-- [ ] #4 Characteristic polynomial coefficients a2, a1, a0 are printed, extracted, and asserted equal to corrected reference expressions.
-- [ ] #5 a0 is factored and asserted equal to k times the corresponding 2D determinant.
-- [ ] #6 a2*a1 - a0 is simplified/factored, printed in both symbolic forms, and asserted equal to the corrected Routh-Hurwitz expression.
+- [x] #1 Symbols are declared with known assumptions and R_r/R_zeta signs left free.
+- [x] #2 Jacobian is derived from symbolic RHS functions and fixed-point substitutions, including symbolic demonstration that the (s - R) term cancels in dr_dot/dr.
+- [x] #3 Derived Jacobian is printed and asserted equal to the corrected reference matrix with the [v_dot, r] entry equal to -b.
+- [x] #4 Characteristic polynomial coefficients a2, a1, a0 are printed, extracted, and asserted equal to corrected reference expressions.
+- [x] #5 a0 is factored and asserted equal to k times the corresponding 2D determinant.
+- [x] #6 a2*a1 - a0 is simplified/factored, printed in both symbolic forms, and asserted equal to the corrected Routh-Hurwitz expression.
 <!-- AC:END -->
 
 ## Implementation Plan
@@ -45,3 +45,39 @@ Implement the symbolic SymPy linearization for the reduced 3D Berton fixed point
 10. Add loud assertion failures and readable SymPy pretty-print output for every non-trivial symbolic step so later tasks can trust the script as an auditable artifact.
 11. Run the TASK-001 script locally, fix any algebra/extraction issues, and record the command/output summary in Implementation Notes once approved.
 <!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+Implemented TASK-001 symbolic audit script at scripts/berton_3d_hopf_task001_symbolic.py.
+- Builds RHS from SymPy Functions and differentiates the Jacobian rather than typing it in.
+- Demonstrates dr_dot/dr cancellation after applying s(zeta*) = R(zeta*, r*).
+- Asserts the corrected Jacobian, including [v_dot, r] = -2*k*beta*r_star = -b.
+- Extracts and asserts a2, a1, a0 and the corrected Routh-Hurwitz expression.
+- Added regression coverage in tests/test_berton_3d_hopf_task001_symbolic.py.
+- Surfaced a discrepancy: a0/k derived from a*c-b*d gives a determinant term -2*beta*r_star*(sigma_S + R_zeta) inside the G/r_star factor, whereas the briefing text also contains an expanded -2*beta*r_star**2 form. The script warns instead of hiding this mismatch.
+
+Validation run:
+- uv run python scripts/berton_3d_hopf_task001_symbolic.py
+- uv run pytest tests/test_berton_3d_hopf_task001_symbolic.py tests/test_berton2023.py  # 12 passed
+<!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Implemented the TASK-001 symbolic linear-stability audit for the reduced Berton 3D fixed point.
+
+Changes:
+- Added scripts/berton_3d_hopf_task001_symbolic.py to derive the Jacobian directly from the reduced RHS with SymPy Functions, apply fixed-point and derivative substitutions, and print each intermediate algebraic step.
+- Verified the corrected Jacobian, including the negative [v_dot, r] entry (-b), extracted the cubic coefficients, asserted a0 = a*c - b*d, and asserted the corrected Routh-Hurwitz expression.
+- Explicitly demonstrates the dr_dot/dr cancellation from s(zeta*) = R(zeta*, r*).
+- Added a regression test that imports and runs the derivation.
+- Added SymPy as a project dependency.
+
+Important finding:
+- The script surfaces a mismatch in the briefing text: deriving a0/k from a*c-b*d gives the 2D determinant term with -2*beta*r_star*(sigma_S + R_zeta) inside the G/r_star factor, not the expanded -2*beta*r_star**2 form also stated in the briefing. The implemented assertions trust the internally consistent SymPy derivation and corrected a*c-b*d coefficients, and print the residual as a warning for follow-up.
+
+Tests:
+- uv run python scripts/berton_3d_hopf_task001_symbolic.py
+- uv run pytest tests/test_berton_3d_hopf_task001_symbolic.py tests/test_berton2023.py (12 passed)
+<!-- SECTION:FINAL_SUMMARY:END -->
