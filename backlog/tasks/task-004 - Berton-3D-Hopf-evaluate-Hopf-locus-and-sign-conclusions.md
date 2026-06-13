@@ -4,12 +4,16 @@ title: 'Berton 3D Hopf: evaluate Hopf locus and sign conclusions'
 status: To Do
 assignee: []
 created_date: '2026-06-13 20:21'
+updated_date: '2026-06-13 20:21'
 labels:
   - analysis
   - berton
   - hopf
   - stability
-dependencies: []
+dependencies:
+  - TASK-001
+  - TASK-002
+  - TASK-003
 references:
   - docs/berton_3d_hopf_briefing.md
 priority: high
