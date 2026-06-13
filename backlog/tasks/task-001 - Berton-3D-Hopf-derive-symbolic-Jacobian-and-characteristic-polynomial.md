@@ -1,7 +1,7 @@
 ---
 id: TASK-001
 title: 'Berton 3D Hopf: derive symbolic Jacobian and characteristic polynomial'
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-13 20:21'
