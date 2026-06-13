@@ -4,13 +4,16 @@ title: 'Berton 3D Hopf: derive singular-limit slow dynamics two ways'
 status: To Do
 assignee: []
 created_date: '2026-06-13 20:21'
+updated_date: '2026-06-13 20:21'
 labels:
   - analysis
   - sympy
   - asymptotics
   - berton
   - hopf
-dependencies: []
+dependencies:
+  - TASK-001
+  - TASK-002
 references:
   - docs/berton_3d_hopf_briefing.md
 priority: high
