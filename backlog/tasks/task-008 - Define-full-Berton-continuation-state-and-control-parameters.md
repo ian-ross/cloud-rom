@@ -1,10 +1,11 @@
 ---
 id: TASK-008
 title: Define full Berton continuation state and control parameters
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-14 12:39'
-updated_date: '2026-06-14 13:00'
+updated_date: '2026-06-14 16:57'
 labels:
   - berton
   - auto
