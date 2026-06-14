@@ -1,9 +1,11 @@
 ---
 id: TASK-002
 title: Derive R_zeta sign for Berton radiative term
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@agent'
 created_date: '2026-06-13 21:17'
+updated_date: '2026-06-14 10:44'
 labels: []
 dependencies: []
 references:
