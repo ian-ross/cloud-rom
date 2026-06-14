@@ -1,9 +1,11 @@
 ---
 id: TASK-006
 title: Write Berton 3D Hopf-or-saddle analysis summary
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@agent'
 created_date: '2026-06-13 21:18'
+updated_date: '2026-06-14 12:12'
 labels: []
 dependencies:
   - TASK-001
