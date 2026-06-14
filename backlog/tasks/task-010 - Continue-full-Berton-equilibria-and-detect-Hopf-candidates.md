@@ -1,10 +1,11 @@
 ---
 id: TASK-010
 title: Continue full Berton equilibria and detect Hopf candidates
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-14 12:39'
-updated_date: '2026-06-14 13:00'
+updated_date: '2026-06-14 19:14'
 labels:
   - berton
   - auto
