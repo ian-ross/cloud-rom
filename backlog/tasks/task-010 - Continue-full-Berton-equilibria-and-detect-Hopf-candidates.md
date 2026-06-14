@@ -4,6 +4,7 @@ title: Continue full Berton equilibria and detect Hopf candidates
 status: To Do
 assignee: []
 created_date: '2026-06-14 12:39'
+updated_date: '2026-06-14 13:00'
 labels:
   - berton
   - auto
@@ -27,3 +28,15 @@ Run AUTO-07p equilibrium continuation for the full Berton model over the selecte
 - [ ] #4 Eigenvalue/stability changes at detected or suspected Hopf points are cross-checked with independent Python Jacobian/eigenvalue calculations.
 - [ ] #5 A summary plot or table shows parameter value, equilibrium state, stability index, critical eigenvalues, and mechanism diagnostics along the branch.
 <!-- AC:END -->
+
+## Implementation Plan
+
+<!-- SECTION:PLAN:BEGIN -->
+1. Start from the validated AUTO full-model equilibrium problem from TASK-009.
+2. Configure AUTO constants and stopping criteria for equilibrium continuation across the Berton-relevant primary-control interval.
+3. Run continuation in both directions if needed to cover the 10 km to 9 km updraft-base regime or selected equivalent range.
+4. Catalog AUTO special points, including LP, HB, BP, and any failed/ambiguous detections.
+5. Extract branch data into a machine-readable table containing parameter value, equilibrium state, stability index, critical eigenvalues, and PVLS mechanism diagnostics.
+6. Cross-check detected or suspected Hopf points with independent Python finite-difference Jacobian/eigenvalue calculations.
+7. Generate a summary plot or table and write a concise continuation note describing branch structure, stability changes, and uncertainties.
+<!-- SECTION:PLAN:END -->
