@@ -1,3 +1,24 @@
+# Project-specific instructions
+
+## AUTO-07p usage
+
+When working on AUTO-07p continuation tasks in this repository:
+
+- AUTO executable: `/usr/local/bin/auto` (available on `PATH` as `auto`).
+- AUTO library/root directory: `/usr/local/lib64/auto-07p`.
+- AUTO Python interface path: `/usr/local/lib64/auto-07p/python/auto`.
+- The AUTO Python code is **not packaged as a normal Python package**. In notebooks or scripts that need it, add the parent directory explicitly before importing:
+
+  ```python
+  import sys
+  sys.path.append("/usr/local/lib64/auto-07p/python")
+  import auto
+  ```
+
+- Perform AUTO interactions through **Python notebooks** rather than ad hoc shell-only workflows.
+- Use **Matplotlib** for plots generated from AUTO continuation output.
+- Keep AUTO notebooks reproducible: include the exact AUTO run commands/API calls, continuation constants, labels inspected, and paths to generated AUTO output files.
+- Prefer notebook-driven parsing/plotting of AUTO results, with lightweight Python helpers/tests only where they improve reproducibility or validation.
 
 <!-- BACKLOG.MD GUIDELINES START -->
 # Instructions for the usage of Backlog.md CLI Tool
