@@ -1,7 +1,7 @@
 ---
 id: TASK-009
 title: Port full Berton RHS to AUTO-07p equilibrium problem
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-14 12:39'
