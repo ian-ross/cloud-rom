@@ -32,3 +32,14 @@ Produce the concise Markdown report for the reduced 3D Berton fixed-point analys
 - [ ] #5 If oscillatory, report compares the slow-pair frequency to Berton Eq. (119).
 - [ ] #6 Report ends with a clear go/no-go verdict on whether the baseline fixed point is Hopf-capable stable spiral or saddle, and states the sign dependency that controls the answer.
 <!-- AC:END -->
+
+## Implementation Plan
+
+<!-- SECTION:PLAN:BEGIN -->
+1. Review outputs/scripts from TASK-001 through TASK-005 and the existing briefing/review docs to identify the best location/name for the final concise Markdown report.
+2. Draft a standalone Markdown summary with sections for corrected symbolic Jacobian/cubic, radiative-gradient signs, root-tracking evidence, singular-reduction agreement, Eq. (119) frequency comparison, and final verdict.
+3. Include auditable numeric values from the validated scripts, including the root table and the determinant/r_star discrepancy.
+4. Add lightweight tests/checks that the report contains the required formulas, signs, root-tracking rows, Route A/B agreement statement, Eq. (119)-style product, and final verdict.
+5. Run the report checks and targeted pytest suite.
+6. Update TASK-006 notes/ACs/final summary/status.
+<!-- SECTION:PLAN:END -->
