@@ -1,0 +1,23 @@
+# Full Berton four-state equilibrium continuation.  Primary control is z_W0.
+parnames = {
+  1:'z_W0', 2:'W_a0', 3:'rad_mult', 4:'H_a3', 5:'eta_override', 6:'drag_mult',
+  7:'Delta_z_W', 8:'z_U1', 9:'U_a1', 10:'z_U0', 11:'U_a0', 12:'z_U2', 13:'U_a2',
+  14:'z_T0', 15:'T_a0', 16:'z_T1', 17:'T_a1', 18:'z_T2', 19:'T_a2', 20:'z_T3', 21:'T_a3', 22:'z_T4', 23:'T_a4',
+  24:'z_H0', 25:'H_a0', 26:'z_H1', 27:'H_a1', 28:'z_H2', 29:'H_a2', 30:'z_H3', 31:'H_a4', 32:'z_H4', 33:'H_a5', 34:'z_H5',
+  35:'z_eta0', 36:'eta_a0', 37:'z_eta1', 38:'eta_a1', 39:'eta_blend', 40:'phi', 41:'c_B', 42:'theta', 43:'include_coriolis', 44:'reynolds_length_mode',
+  45:'rho_i', 46:'g', 47:'Omega0', 48:'R_a', 49:'R_v', 50:'epsilon', 51:'L_s', 52:'sigma_SB', 53:'emissivity',
+  60:'sigma_S', 61:'R_zeta', 62:'sigma_plus_Rzeta', 63:'R', 64:'rad_R', 65:'driving_factor', 66:'m_dot', 67:'k', 68:'Re', 69:'C_D', 70:'f_v', 71:'Sc',
+  72:'T_a', 73:'p_a', 74:'p_v', 75:'S_i', 76:'H_l', 77:'eta', 78:'eta_a', 79:'W_a', 80:'U_a', 81:'rho_a',
+  82:'V', 83:'a', 84:'c', 85:'A', 86:'D_i', 87:'r_i', 88:'C', 89:'psi', 90:'rho_ie', 91:'vertical_force_residual', 92:'growth_balance_residual',
+  93:'fall_speed_slope_proxy', 94:'growth_mass_slope', 95:'reduced_det_proxy'
+}
+unames = {1:'z', 2:'u', 3:'w', 4:'m'}
+NDIM=4, IPS=1, IRS=0, ILP=1
+ICP = ['z_W0', 'sigma_S', 'R_zeta', 'sigma_plus_Rzeta', 'R', 'driving_factor', 'k']
+NTST=10, NCOL=4, IAD=3, ISP=2, ISW=1, IPLT=0, NBC=0, NINT=0
+NMX=200, NPR=10, MXBF=0, IID=2, ITMX=12, ITNW=8, NWTN=3, JAC=1
+EPSL=1e-08, EPSU=1e-08, EPSS=1e-06
+DS=-10.0, DSMIN=1e-04, DSMAX=50.0, IADS=1
+NPAR=95, THL={}, THU={}
+UZR = {'z_W0': [10000.0, 9500.0, 9000.0, 8500.0]}
+UZSTOP = {'z_W0': [8500.0, 10500.0]}
