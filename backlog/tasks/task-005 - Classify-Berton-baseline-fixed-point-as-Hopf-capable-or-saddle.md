@@ -30,3 +30,14 @@ Use the corrected symbolic algebra, derived radiative-gradient signs, and numeri
 - [ ] #5 If Hopf-capable, the report gives onset frequency, destabilising direction, and qualitative movement relative to the locus for the 10 km to 9 km transition.
 - [ ] #6 Any discrepancy between SymPy, root tracking, and the corrected hand derivation is surfaced explicitly.
 <!-- AC:END -->
+
+## Implementation Plan
+
+<!-- SECTION:PLAN:BEGIN -->
+1. Review TASK-001 through TASK-004 outputs/scripts for the final corrected polynomial, signs, root-tracking result, and singular-limit frequency expression.
+2. Implement a concise classification script/report generator that imports the audited task helpers where useful, computes the baseline quantities, and prints the corrected Hopf locus, determinant relation, sign chain, root evidence, and singular-limit interpretation.
+3. Classify the baseline as Hopf-capable or saddle strictly from derived sigma_S + R_zeta, a0, and root-tracking evidence; surface the known briefing r_star-power discrepancy explicitly.
+4. Include the branch-specific discussion required by the ACs: for the actual Hopf-capable result, give onset-frequency structure, destabilising direction, and qualitative movement relative to the Hopf locus; also state what sign change would have produced a saddle / what omitted feedbacks could change the verdict.
+5. Add tests asserting the classification, sign chain, Hopf-locus residual expression, determinant relation, and discrepancy reporting.
+6. Run the classification script and targeted pytest suite, then update TASK-005 notes/ACs/final summary/status.
+<!-- SECTION:PLAN:END -->
