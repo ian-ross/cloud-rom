@@ -1,9 +1,11 @@
 ---
 id: TASK-004
 title: Derive singular perturbation reduction for Berton 3D fixed point
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@agent'
 created_date: '2026-06-13 21:18'
+updated_date: '2026-06-14 11:36'
 labels: []
 dependencies:
   - TASK-001
