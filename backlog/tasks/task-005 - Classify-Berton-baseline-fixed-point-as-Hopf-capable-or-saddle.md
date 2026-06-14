@@ -1,9 +1,11 @@
 ---
 id: TASK-005
 title: Classify Berton baseline fixed point as Hopf-capable or saddle
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@agent'
 created_date: '2026-06-13 21:18'
+updated_date: '2026-06-14 12:03'
 labels: []
 dependencies:
   - TASK-002
