@@ -1,0 +1,901 @@
+   1     1         Hopf Function:  -9.16762E-07
+
+   1     1         Eigenvalues  :   Stable:   3
+   1     1         Eigenvalue  1:  -9.16762E-07  -2.37275E-04
+   1     1         Eigenvalue  2:  -9.16762E-07   2.37275E-04
+   1     1         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    -1  EP    1   1.00000E+00   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   1.21884E-06   8.59322E-04   7.06034E+02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     2   0        2.00000E+00   9.61806E+03
+   1     2   1        2.00000E+00   9.61806E+03
+
+   1     2         Hopf Function:  -9.15462E-07
+
+   1     2         Eigenvalues  :   Stable:   3
+   1     2         Eigenvalue  1:  -9.15462E-07  -3.35559E-04
+   1     2         Eigenvalue  2:  -9.15462E-07   3.35559E-04
+   1     2         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     2   0        3.00000E+00   9.61806E+03
+   1     2   1        3.00000E+00   9.61806E+03
+
+   1     2         Hopf Function:  -9.14161E-07
+
+   1     2         Eigenvalues  :   Stable:   3
+   1     2         Eigenvalue  1:  -9.14161E-07  -4.10975E-04
+   1     2         Eigenvalue  2:  -9.14161E-07   4.10975E-04
+   1     2         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1     2         Fold Function:   1.00000E+00
+   1     2         BP   Function:  -7.31302E-06
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    -2        0   3.00000E+00   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   3.65651E-06   8.56884E-04   7.06034E+02
+
+   1     1         Iterations   :   1
+   1     1         Next Step    :   2.00000E+00
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     3   0        5.00000E+00   9.61806E+03
+   1     3   1        5.00000E+00   9.61806E+03
+
+   1     3         Hopf Function:  -9.11561E-07
+
+   1     3         Eigenvalues  :   Stable:   3
+   1     3         Eigenvalue  1:  -9.11561E-07  -5.30567E-04
+   1     3         Eigenvalue  2:  -9.11561E-07   5.30567E-04
+   1     3         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1     3         Fold Function:   1.00000E+00
+   1     3         BP   Function:  -1.21884E-05
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    -3        0   5.00000E+00   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   6.09419E-06   8.54446E-04   7.06034E+02
+
+   1     2         Iterations   :   1
+   1     2         Next Step    :   4.00000E+00
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     4   0        9.00000E+00   9.61806E+03
+   1     4   1        9.00000E+00   9.61806E+03
+
+   1     4         Hopf Function:  -9.06359E-07
+
+   1     4         Eigenvalues  :   Stable:   3
+   1     4         Eigenvalue  1:  -9.06359E-07  -7.11830E-04
+   1     4         Eigenvalue  2:  -9.06359E-07   7.11830E-04
+   1     4         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1     4         Fold Function:   1.00000E+00
+   1     4         BP   Function:  -2.19391E-05
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    -4        0   9.00000E+00   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   1.09695E-05   8.49571E-04   7.06034E+02
+
+   1     3         Iterations   :   1
+   1     3         Next Step    :   8.00000E+00
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     5   0        1.70000E+01   9.61806E+03
+   1     5   1        1.70000E+01   9.61806E+03
+
+   1     5         Hopf Function:  -8.95957E-07
+
+   1     5         Eigenvalues  :   Stable:   3
+   1     5         Eigenvalue  1:  -8.95957E-07  -9.78318E-04
+   1     5         Eigenvalue  2:  -8.95957E-07   9.78318E-04
+   1     5         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1     5         Fold Function:   1.00000E+00
+   1     5         BP   Function:  -4.14405E-05
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    -5        0   1.70000E+01   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   2.07202E-05   8.39820E-04   7.06034E+02
+
+   1     4         Iterations   :   1
+   1     4         Next Step    :   1.60000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     6   0        3.30000E+01   9.61806E+03
+   1     6   1        3.30000E+01   9.61806E+03
+
+   1     6         Hopf Function:  -8.75152E-07
+
+   1     6         Eigenvalues  :   Stable:   3
+   1     6         Eigenvalue  1:  -8.75152E-07  -1.36305E-03
+   1     6         Eigenvalue  2:  -8.75152E-07   1.36305E-03
+   1     6         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1     6         Fold Function:   1.00000E+00
+   1     6         BP   Function:  -8.04433E-05
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    -6        0   3.30000E+01   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   4.02216E-05   8.20319E-04   7.06034E+02
+
+   1     5         Iterations   :   1
+   1     5         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     7   0        5.80000E+01   9.61806E+03
+   1     7   1        5.80000E+01   9.61806E+03
+
+   1     7         Hopf Function:  -8.42644E-07
+
+   1     7         Eigenvalues  :   Stable:   3
+   1     7         Eigenvalue  1:  -8.42644E-07  -1.80705E-03
+   1     7         Eigenvalue  2:  -8.42644E-07   1.80705E-03
+   1     7         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1     7         Fold Function:   1.00000E+00
+   1     7         BP   Function:  -1.41385E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    -7        0   5.80000E+01   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   7.06926E-05   7.89848E-04   7.06034E+02
+
+   1     6         Iterations   :   1
+   1     6         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     8   0        8.30000E+01   9.61806E+03
+   1     8   1        8.30000E+01   9.61806E+03
+
+   1     8         Hopf Function:  -8.10136E-07
+
+   1     8         Eigenvalues  :   Stable:   3
+   1     8         Eigenvalue  1:  -8.10136E-07  -2.16170E-03
+   1     8         Eigenvalue  2:  -8.10136E-07   2.16170E-03
+   1     8         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1     8         Fold Function:   1.00000E+00
+   1     8         BP   Function:  -2.02327E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    -8        0   8.30000E+01   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   1.01164E-04   7.59377E-04   7.06034E+02
+
+   1     7         Iterations   :   1
+   1     7         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     9   0        1.08000E+02   9.61806E+03
+   1     9   1        1.08000E+02   9.61806E+03
+
+   1     9         Hopf Function:  -7.77629E-07
+
+   1     9         Eigenvalues  :   Stable:   3
+   1     9         Eigenvalue  1:  -7.77629E-07  -2.46585E-03
+   1     9         Eigenvalue  2:  -7.77629E-07   2.46585E-03
+   1     9         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+ ==> Location of special point :  Iteration   0  Step size =  -8.00001E+00
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     9   0        1.00000E+02   9.61806E+03
+   1     9   1        1.00000E+02   9.61806E+03
+
+   1     9         Hopf Function:  -7.88031E-07
+
+   1     9         Eigenvalues  :   Stable:   3
+   1     9         Eigenvalue  1:  -7.88031E-07  -2.37277E-03
+   1     9         Eigenvalue  2:  -7.88031E-07   2.37277E-03
+   1     9         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+ ==> Location of special point :  Convergence.   Step size =   8.00001E-07
+   1     9         Fold Function:   1.00000E+00
+   1     9         BP   Function:  -2.43767E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    -9  UZ    2   1.00000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   1.21884E-04   7.38657E-04   7.06034E+02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    10   0        1.25000E+02   9.61806E+03
+   1    10   1        1.25000E+02   9.61806E+03
+
+   1    10         Hopf Function:  -7.55523E-07
+
+   1    10         Eigenvalues  :   Stable:   3
+   1    10         Eigenvalue  1:  -7.55523E-07  -2.65284E-03
+   1    10         Eigenvalue  2:  -7.55523E-07   2.65284E-03
+   1    10         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    10         Fold Function:   1.00000E+00
+   1    10         BP   Function:  -3.04709E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -10        0   1.25000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   1.52355E-04   7.08186E-04   7.06034E+02
+
+   1     9         Iterations   :   1
+   1     9         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    11   0        1.50000E+02   9.61806E+03
+   1    11   1        1.50000E+02   9.61806E+03
+
+   1    11         Hopf Function:  -7.23016E-07
+
+   1    11         Eigenvalues  :   Stable:   3
+   1    11         Eigenvalue  1:  -7.23016E-07  -2.90604E-03
+   1    11         Eigenvalue  2:  -7.23016E-07   2.90604E-03
+   1    11         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    11         Fold Function:   1.00000E+00
+   1    11         BP   Function:  -3.65651E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -11        0   1.50000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   1.82826E-04   6.77715E-04   7.06034E+02
+
+   1    10         Iterations   :   1
+   1    10         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    12   0        1.75000E+02   9.61806E+03
+   1    12   1        1.75000E+02   9.61806E+03
+
+   1    12         Hopf Function:  -6.90508E-07
+
+   1    12         Eigenvalues  :   Stable:   3
+   1    12         Eigenvalue  1:  -6.90508E-07  -3.13888E-03
+   1    12         Eigenvalue  2:  -6.90508E-07   3.13888E-03
+   1    12         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    12         Fold Function:   1.00000E+00
+   1    12         BP   Function:  -4.26593E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -12        0   1.75000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   2.13297E-04   6.47244E-04   7.06034E+02
+
+   1    11         Iterations   :   1
+   1    11         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    13   0        2.00000E+02   9.61806E+03
+   1    13   1        2.00000E+02   9.61806E+03
+
+   1    13         Hopf Function:  -6.58000E-07
+
+   1    13         Eigenvalues  :   Stable:   3
+   1    13         Eigenvalue  1:  -6.58000E-07  -3.35560E-03
+   1    13         Eigenvalue  2:  -6.58000E-07   3.35560E-03
+   1    13         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    13         Fold Function:   1.00000E+00
+   1    13         BP   Function:  -4.87535E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -13        0   2.00000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   2.43767E-04   6.16773E-04   7.06034E+02
+
+   1    12         Iterations   :   1
+   1    12         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    14   0        2.25000E+02   9.61806E+03
+   1    14   1        2.25000E+02   9.61806E+03
+
+   1    14         Hopf Function:  -6.25493E-07
+
+   1    14         Eigenvalues  :   Stable:   3
+   1    14         Eigenvalue  1:  -6.25493E-07  -3.55915E-03
+   1    14         Eigenvalue  2:  -6.25493E-07   3.55915E-03
+   1    14         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    14         Fold Function:   1.00000E+00
+   1    14         BP   Function:  -5.48477E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -14        0   2.25000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   2.74238E-04   5.86302E-04   7.06034E+02
+
+   1    13         Iterations   :   1
+   1    13         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    15   0        2.50000E+02   9.61806E+03
+   1    15   1        2.50000E+02   9.61806E+03
+
+   1    15         Hopf Function:  -5.92985E-07
+
+   1    15         Eigenvalues  :   Stable:   3
+   1    15         Eigenvalue  1:  -5.92985E-07  -3.75168E-03
+   1    15         Eigenvalue  2:  -5.92985E-07   3.75168E-03
+   1    15         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    15         Fold Function:   1.00000E+00
+   1    15         BP   Function:  -6.09419E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -15        0   2.50000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   3.04709E-04   5.55831E-04   7.06034E+02
+
+   1    14         Iterations   :   1
+   1    14         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    16   0        2.75000E+02   9.61806E+03
+   1    16   1        2.75000E+02   9.61806E+03
+
+   1    16         Hopf Function:  -5.60477E-07
+
+   1    16         Eigenvalues  :   Stable:   3
+   1    16         Eigenvalue  1:  -5.60477E-07  -3.93479E-03
+   1    16         Eigenvalue  2:  -5.60477E-07   3.93479E-03
+   1    16         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    16         Fold Function:   1.00000E+00
+   1    16         BP   Function:  -6.70361E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -16        0   2.75000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   3.35180E-04   5.25360E-04   7.06034E+02
+
+   1    15         Iterations   :   1
+   1    15         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    17   0        3.00000E+02   9.61806E+03
+   1    17   1        3.00000E+02   9.61806E+03
+
+   1    17         Hopf Function:  -5.27969E-07
+
+   1    17         Eigenvalues  :   Stable:   3
+   1    17         Eigenvalue  1:  -5.27969E-07  -4.10976E-03
+   1    17         Eigenvalue  2:  -5.27969E-07   4.10976E-03
+   1    17         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    17         Fold Function:   1.00000E+00
+   1    17         BP   Function:  -7.31302E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -17        0   3.00000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   3.65651E-04   4.94889E-04   7.06034E+02
+
+   1    16         Iterations   :   1
+   1    16         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    18   0        3.25000E+02   9.61806E+03
+   1    18   1        3.25000E+02   9.61806E+03
+
+   1    18         Hopf Function:  -4.95462E-07
+
+   1    18         Eigenvalues  :   Stable:   3
+   1    18         Eigenvalue  1:  -4.95462E-07  -4.27757E-03
+   1    18         Eigenvalue  2:  -4.95462E-07   4.27757E-03
+   1    18         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    18         Fold Function:   1.00000E+00
+   1    18         BP   Function:  -7.92244E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -18        0   3.25000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   3.96122E-04   4.64418E-04   7.06034E+02
+
+   1    17         Iterations   :   1
+   1    17         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    19   0        3.50000E+02   9.61806E+03
+   1    19   1        3.50000E+02   9.61806E+03
+
+   1    19         Hopf Function:  -4.62954E-07
+
+   1    19         Eigenvalues  :   Stable:   3
+   1    19         Eigenvalue  1:  -4.62954E-07  -4.43905E-03
+   1    19         Eigenvalue  2:  -4.62954E-07   4.43905E-03
+   1    19         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    19         Fold Function:   1.00000E+00
+   1    19         BP   Function:  -8.53186E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -19        0   3.50000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   4.26593E-04   4.33947E-04   7.06034E+02
+
+   1    18         Iterations   :   1
+   1    18         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    20   0        3.75000E+02   9.61806E+03
+   1    20   1        3.75000E+02   9.61806E+03
+
+   1    20         Hopf Function:  -4.30446E-07
+
+   1    20         Eigenvalues  :   Stable:   3
+   1    20         Eigenvalue  1:  -4.30446E-07  -4.59485E-03
+   1    20         Eigenvalue  2:  -4.30446E-07   4.59485E-03
+   1    20         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    20         Fold Function:   1.00000E+00
+   1    20         BP   Function:  -9.14128E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -20        0   3.75000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   4.57064E-04   4.03476E-04   7.06034E+02
+
+   1    19         Iterations   :   1
+   1    19         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    21   0        4.00000E+02   9.61806E+03
+   1    21   1        4.00000E+02   9.61806E+03
+
+   1    21         Hopf Function:  -3.97938E-07
+
+   1    21         Eigenvalues  :   Stable:   3
+   1    21         Eigenvalue  1:  -3.97938E-07  -4.74554E-03
+   1    21         Eigenvalue  2:  -3.97938E-07   4.74554E-03
+   1    21         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    21         Fold Function:   1.00000E+00
+   1    21         BP   Function:  -9.75070E-04
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -21        0   4.00000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   4.87535E-04   3.73005E-04   7.06034E+02
+
+   1    20         Iterations   :   1
+   1    20         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    22   0        4.25000E+02   9.61806E+03
+   1    22   1        4.25000E+02   9.61806E+03
+
+   1    22         Hopf Function:  -3.65431E-07
+
+   1    22         Eigenvalues  :   Stable:   3
+   1    22         Eigenvalue  1:  -3.65431E-07  -4.89159E-03
+   1    22         Eigenvalue  2:  -3.65431E-07   4.89159E-03
+   1    22         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    22         Fold Function:   1.00000E+00
+   1    22         BP   Function:  -1.03601E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -22        0   4.25000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   5.18006E-04   3.42535E-04   7.06034E+02
+
+   1    21         Iterations   :   1
+   1    21         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    23   0        4.50000E+02   9.61806E+03
+   1    23   1        4.50000E+02   9.61806E+03
+
+   1    23         Hopf Function:  -3.32923E-07
+
+   1    23         Eigenvalues  :   Stable:   3
+   1    23         Eigenvalue  1:  -3.32923E-07  -5.03340E-03
+   1    23         Eigenvalue  2:  -3.32923E-07   5.03340E-03
+   1    23         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    23         Fold Function:   1.00000E+00
+   1    23         BP   Function:  -1.09695E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -23        0   4.50000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   5.48477E-04   3.12064E-04   7.06034E+02
+
+   1    22         Iterations   :   1
+   1    22         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    24   0        4.75000E+02   9.61806E+03
+   1    24   1        4.75000E+02   9.61806E+03
+
+   1    24         Hopf Function:  -3.00415E-07
+
+   1    24         Eigenvalues  :   Stable:   3
+   1    24         Eigenvalue  1:  -3.00415E-07  -5.17133E-03
+   1    24         Eigenvalue  2:  -3.00415E-07   5.17133E-03
+   1    24         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    24         Fold Function:   1.00000E+00
+   1    24         BP   Function:  -1.15790E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -24        0   4.75000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   5.78948E-04   2.81593E-04   7.06034E+02
+
+   1    23         Iterations   :   1
+   1    23         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    25   0        5.00000E+02   9.61806E+03
+   1    25   1        5.00000E+02   9.61806E+03
+
+   1    25         Hopf Function:  -2.67908E-07
+
+   1    25         Eigenvalues  :   Stable:   3
+   1    25         Eigenvalue  1:  -2.67908E-07  -5.30567E-03
+   1    25         Eigenvalue  2:  -2.67908E-07   5.30567E-03
+   1    25         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+ ==> Location of special point :  Iteration   0  Step size =  -3.92000E-05
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    25   0        5.00000E+02   9.61806E+03
+   1    25   1        5.00000E+02   9.61806E+03
+
+   1    25         Hopf Function:  -2.67908E-07
+
+   1    25         Eigenvalues  :   Stable:   3
+   1    25         Eigenvalue  1:  -2.67908E-07  -5.30567E-03
+   1    25         Eigenvalue  2:  -2.67908E-07   5.30567E-03
+   1    25         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+ ==> Location of special point :  Convergence.   Step size =   3.92220E-12
+   1    25         Fold Function:   1.00000E+00
+   1    25         BP   Function:  -1.21884E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -25  UZ    3   5.00000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   6.09419E-04   2.51122E-04   7.06034E+02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    26   0        5.25000E+02   9.61806E+03
+   1    26   1        5.25000E+02   9.61806E+03
+
+   1    26         Hopf Function:  -2.35400E-07
+
+   1    26         Eigenvalues  :   Stable:   3
+   1    26         Eigenvalue  1:  -2.35400E-07  -5.43670E-03
+   1    26         Eigenvalue  2:  -2.35400E-07   5.43670E-03
+   1    26         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    26         Fold Function:   1.00000E+00
+   1    26         BP   Function:  -1.27978E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -26        0   5.25000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   6.39890E-04   2.20651E-04   7.06034E+02
+
+   1    25         Iterations   :   1
+   1    25         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    27   0        5.50000E+02   9.61806E+03
+   1    27   1        5.50000E+02   9.61806E+03
+
+   1    27         Hopf Function:  -2.02892E-07
+
+   1    27         Eigenvalues  :   Stable:   3
+   1    27         Eigenvalue  1:  -2.02892E-07  -5.56464E-03
+   1    27         Eigenvalue  2:  -2.02892E-07   5.56464E-03
+   1    27         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    27         Fold Function:   1.00000E+00
+   1    27         BP   Function:  -1.34072E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -27        0   5.50000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   6.70361E-04   1.90180E-04   7.06034E+02
+
+   1    26         Iterations   :   1
+   1    26         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    28   0        5.75000E+02   9.61806E+03
+   1    28   1        5.75000E+02   9.61806E+03
+
+   1    28         Hopf Function:  -1.70384E-07
+
+   1    28         Eigenvalues  :   Stable:   3
+   1    28         Eigenvalue  1:  -1.70384E-07  -5.68970E-03
+   1    28         Eigenvalue  2:  -1.70384E-07   5.68970E-03
+   1    28         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    28         Fold Function:   1.00000E+00
+   1    28         BP   Function:  -1.40166E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -28        0   5.75000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   7.00831E-04   1.59709E-04   7.06034E+02
+
+   1    27         Iterations   :   1
+   1    27         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    29   0        6.00000E+02   9.61806E+03
+   1    29   1        6.00000E+02   9.61806E+03
+
+   1    29         Hopf Function:  -1.37877E-07
+
+   1    29         Eigenvalues  :   Stable:   3
+   1    29         Eigenvalue  1:  -1.37877E-07  -5.81207E-03
+   1    29         Eigenvalue  2:  -1.37877E-07   5.81207E-03
+   1    29         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    29         Fold Function:   1.00000E+00
+   1    29         BP   Function:  -1.46260E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -29        0   6.00000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   7.31302E-04   1.29238E-04   7.06034E+02
+
+   1    28         Iterations   :   1
+   1    28         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    30   0        6.25000E+02   9.61806E+03
+   1    30   1        6.25000E+02   9.61806E+03
+
+   1    30         Hopf Function:  -1.05369E-07
+
+   1    30         Eigenvalues  :   Stable:   3
+   1    30         Eigenvalue  1:  -1.05369E-07  -5.93192E-03
+   1    30         Eigenvalue  2:  -1.05369E-07   5.93192E-03
+   1    30         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    30         Fold Function:   1.00000E+00
+   1    30         BP   Function:  -1.52355E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -30        0   6.25000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   7.61773E-04   9.87671E-05   7.06034E+02
+
+   1    29         Iterations   :   1
+   1    29         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    31   0        6.50000E+02   9.61806E+03
+   1    31   1        6.50000E+02   9.61806E+03
+
+   1    31         Hopf Function:  -7.28613E-08
+
+   1    31         Eigenvalues  :   Stable:   3
+   1    31         Eigenvalue  1:  -7.28613E-08  -6.04940E-03
+   1    31         Eigenvalue  2:  -7.28613E-08   6.04940E-03
+   1    31         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    31         Fold Function:   1.00000E+00
+   1    31         BP   Function:  -1.58449E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -31        0   6.50000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   7.92244E-04   6.82961E-05   7.06034E+02
+
+   1    30         Iterations   :   1
+   1    30         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    32   0        6.75000E+02   9.61806E+03
+   1    32   1        6.75000E+02   9.61806E+03
+
+   1    32         Hopf Function:  -4.03536E-08
+
+   1    32         Eigenvalues  :   Stable:   3
+   1    32         Eigenvalue  1:  -4.03536E-08  -6.16464E-03
+   1    32         Eigenvalue  2:  -4.03536E-08   6.16464E-03
+   1    32         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    32         Fold Function:   1.00000E+00
+   1    32         BP   Function:  -1.64543E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -32        0   6.75000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   8.22715E-04   3.78252E-05   7.06034E+02
+
+   1    31         Iterations   :   1
+   1    31         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    33   0        7.00000E+02   9.61806E+03
+   1    33   1        7.00000E+02   9.61806E+03
+
+   1    33         Hopf Function:  -7.84586E-09
+
+   1    33         Eigenvalues  :   Stable:   3
+   1    33         Eigenvalue  1:  -7.84586E-09  -6.27776E-03
+   1    33         Eigenvalue  2:  -7.84586E-09   6.27776E-03
+   1    33         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    33         Fold Function:   1.00000E+00
+   1    33         BP   Function:  -1.70637E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -33        0   7.00000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   8.53186E-04   7.35427E-06   7.06034E+02
+
+   1    32         Iterations   :   1
+   1    32         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    34   0        7.25000E+02   9.61806E+03
+   1    34   1        7.25000E+02   9.61806E+03
+
+   1    34         Hopf Function:   2.46619E-08
+
+   1    34         Eigenvalues  :   Stable:   1
+   1    34         Eigenvalue  1:   2.46619E-08  -6.38888E-03
+   1    34         Eigenvalue  2:   2.46619E-08   6.38888E-03
+   1    34         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    34         Fold Function:   1.00000E+00
+   1    34         BP   Function:  -1.76731E-03
+ ==> Location of special point :  Iteration   0  Step size =  -1.89662E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    34   0        7.06034E+02   9.61806E+03
+   1    34   1        7.06034E+02   9.61806E+03
+
+   1    34         Hopf Function:  -2.42938E-15
+
+   1    34         Eigenvalues  :   Stable:   3
+   1    34         Eigenvalue  1:  -2.42938E-15  -6.30476E-03
+   1    34         Eigenvalue  2:  -2.42938E-15   6.30476E-03
+   1    34         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+ ==> Location of special point :  Convergence.   Step size =   1.86831E-06
+   1    34         Fold Function:   1.00000E+00
+   1    34         BP   Function:  -1.72108E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1   -34  HB    4   7.06034E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   8.60540E-04   2.28018E-12   7.06034E+02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    35   0        7.31034E+02   9.61806E+03
+   1    35   1        7.31034E+02   9.61806E+03
+
+   1    35         Hopf Function:   3.25077E-08
+
+   1    35         Eigenvalues  :   Stable:   1
+   1    35         Eigenvalue  1:   3.25077E-08  -6.41541E-03
+   1    35         Eigenvalue  2:   3.25077E-08   6.41541E-03
+   1    35         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    35         Fold Function:   1.00000E+00
+   1    35         BP   Function:  -1.78202E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    35        0   7.31034E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   8.91011E-04  -3.04709E-05   7.06034E+02
+
+   1    34         Iterations   :   1
+   1    34         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    36   0        7.56034E+02   9.61806E+03
+   1    36   1        7.56034E+02   9.61806E+03
+
+   1    36         Hopf Function:   6.50154E-08
+
+   1    36         Eigenvalues  :   Stable:   1
+   1    36         Eigenvalue  1:   6.50154E-08  -6.52418E-03
+   1    36         Eigenvalue  2:   6.50154E-08   6.52418E-03
+   1    36         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    36         Fold Function:   1.00000E+00
+   1    36         BP   Function:  -1.84296E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    36        0   7.56034E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   9.21482E-04  -6.09419E-05   7.06034E+02
+
+   1    35         Iterations   :   1
+   1    35         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    37   0        7.81034E+02   9.61806E+03
+   1    37   1        7.81034E+02   9.61806E+03
+
+   1    37         Hopf Function:   9.75232E-08
+
+   1    37         Eigenvalues  :   Stable:   1
+   1    37         Eigenvalue  1:   9.75232E-08  -6.63118E-03
+   1    37         Eigenvalue  2:   9.75232E-08   6.63118E-03
+   1    37         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    37         Fold Function:   1.00000E+00
+   1    37         BP   Function:  -1.90391E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    37        0   7.81034E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   9.51953E-04  -9.14128E-05   7.06034E+02
+
+   1    36         Iterations   :   1
+   1    36         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    38   0        8.06034E+02   9.61806E+03
+   1    38   1        8.06034E+02   9.61806E+03
+
+   1    38         Hopf Function:   1.30031E-07
+
+   1    38         Eigenvalues  :   Stable:   1
+   1    38         Eigenvalue  1:   1.30031E-07  -6.73647E-03
+   1    38         Eigenvalue  2:   1.30031E-07   6.73647E-03
+   1    38         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+ ==> Location of special point :  Iteration   0  Step size =  -6.03387E+00
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    38   0        8.00000E+02   9.61806E+03
+   1    38   1        8.00000E+02   9.61806E+03
+
+   1    38         Hopf Function:   1.22185E-07
+
+   1    38         Eigenvalues  :   Stable:   1
+   1    38         Eigenvalue  1:   1.22185E-07  -6.71121E-03
+   1    38         Eigenvalue  2:   1.22185E-07   6.71121E-03
+   1    38         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+ ==> Location of special point :  Convergence.   Step size =   6.03387E-07
+   1    38         Fold Function:   1.00000E+00
+   1    38         BP   Function:  -1.95014E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    38  UZ    5   8.00000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   9.75070E-04  -1.14529E-04   7.06034E+02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    39   0        8.25000E+02   9.61806E+03
+   1    39   1        8.25000E+02   9.61806E+03
+
+   1    39         Hopf Function:   1.54693E-07
+
+   1    39         Eigenvalues  :   Stable:   1
+   1    39         Eigenvalue  1:   1.54693E-07  -6.81526E-03
+   1    39         Eigenvalue  2:   1.54693E-07   6.81526E-03
+   1    39         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    39         Fold Function:   1.00000E+00
+   1    39         BP   Function:  -2.01108E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    39        0   8.25000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   1.00554E-03  -1.45000E-04   7.06034E+02
+
+   1    38         Iterations   :   1
+   1    38         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    40   0        8.50000E+02   9.61806E+03
+   1    40   1        8.50000E+02   9.61806E+03
+
+   1    40         Hopf Function:   1.87200E-07
+
+   1    40         Eigenvalues  :   Stable:   1
+   1    40         Eigenvalue  1:   1.87200E-07  -6.91775E-03
+   1    40         Eigenvalue  2:   1.87200E-07   6.91775E-03
+   1    40         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    40         Fold Function:   1.00000E+00
+   1    40         BP   Function:  -2.07202E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    40        0   8.50000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   1.03601E-03  -1.75471E-04   7.06034E+02
+
+   1    39         Iterations   :   1
+   1    39         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    41   0        8.75000E+02   9.61806E+03
+   1    41   1        8.75000E+02   9.61806E+03
+
+   1    41         Hopf Function:   2.19708E-07
+
+   1    41         Eigenvalues  :   Stable:   1
+   1    41         Eigenvalue  1:   2.19708E-07  -7.01875E-03
+   1    41         Eigenvalue  2:   2.19708E-07   7.01875E-03
+   1    41         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+   1    41         Fold Function:   1.00000E+00
+   1    41         BP   Function:  -2.13297E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    41        0   8.75000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   1.06648E-03  -2.05942E-04   7.06034E+02
+
+   1    40         Iterations   :   1
+   1    40         Next Step    :   2.50000E+01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    42   0        9.00000E+02   9.61806E+03
+   1    42   1        9.00000E+02   9.61806E+03
+
+   1    42         Hopf Function:   2.52216E-07
+
+   1    42         Eigenvalues  :   Stable:   1
+   1    42         Eigenvalue  1:   2.52216E-07  -7.11831E-03
+   1    42         Eigenvalue  2:   2.52216E-07   7.11831E-03
+   1    42         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+ ==> Location of special point :  Iteration   0  Step size =  -9.39661E-06
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    42   0        9.00000E+02   9.61806E+03
+   1    42   1        9.00000E+02   9.61806E+03
+
+   1    42         Hopf Function:   2.52216E-07
+
+   1    42         Eigenvalues  :   Stable:   1
+   1    42         Eigenvalue  1:   2.52216E-07  -7.11831E-03
+   1    42         Eigenvalue  2:   2.52216E-07   7.11831E-03
+   1    42         Eigenvalue  3:  -2.16488E+01   0.00000E+00
+ ==> Location of special point :  Convergence.   Step size =   9.09495E-13
+   1    42         Fold Function:   1.00000E+00
+   1    42         BP   Function:  -2.19391E-03
+
+  BR    PT  TY  LAB   alpha_grad     L2-NORM         zeta           v             r             a0       rh_residual    hopf_alpha  
+   1    42  UZ    6   9.00000E+02   9.61806E+03   9.61806E+03   0.00000E+00   6.55000E-05   1.09695E-03  -2.36413E-04   7.06034E+02
+===============================================
+
+ Total Time    0.119E-02
