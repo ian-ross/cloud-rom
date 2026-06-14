@@ -10,6 +10,7 @@ dependencies = [
     "pandas>=3.0.3",
     "pint>=0.25.3",
     "scipy>=1.17.1",
+    "sympy>=1.14.0",
     "tqdm>=4.68.2",
 ]
 
