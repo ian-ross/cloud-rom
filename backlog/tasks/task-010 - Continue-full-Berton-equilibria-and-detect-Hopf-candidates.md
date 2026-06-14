@@ -1,7 +1,7 @@
 ---
 id: TASK-010
 title: Continue full Berton equilibria and detect Hopf candidates
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-14 12:39'
@@ -50,3 +50,23 @@ Run AUTO-07p equilibrium continuation for the full Berton model over the selecte
 - Documented results in docs/berton_full_auto_task010_continuation.md: no LP/HB/BP/Hopf detected over z_W0=10 km to 9 km; branch remains at z*=10178.504 m with one positive real eigenvalue and no complex critical pair.
 - Added pytest coverage in tests/test_berton_full_auto_task010_analyze.py; full test suite passes.
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Completed full Berton equilibrium continuation analysis for TASK-010.
+
+Changes:
+- Added a reproducible notebook workflow for the AUTO z_W0 continuation and analysis.
+- Added scripts/berton_full_auto_task010_analyze.py to parse AUTO branch/solution/diagnostic files, catalogue LP/HB/BP detections, cross-check labeled equilibria with independent Python finite-difference Jacobians, and generate summary CSV/Markdown/PNG artifacts.
+- Added documentation of the continuation interval, special-point catalogue, stability result, and implication for follow-up controls.
+- Added tests for parser coverage, Berton 10 km to 9 km interval coverage, stability/eigenvalue cross-checks, and generated outputs.
+
+Result:
+- No LP, HB, or BP labels were detected on the first physical z_W0 branch.
+- The 10 km to 9 km interval remains on the same saturated-updraft equilibrium at z*=10178.504 m with one positive real eigenvalue (AUTO/Python critical real part ~2.38933e-4 s^-1) and no Hopf candidate.
+
+Validation:
+- uv run python scripts/berton_full_auto_task010_analyze.py --run-auto
+- uv run pytest
+<!-- SECTION:FINAL_SUMMARY:END -->
