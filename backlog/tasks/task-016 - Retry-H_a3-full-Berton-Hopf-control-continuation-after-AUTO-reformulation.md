@@ -4,7 +4,7 @@ title: Retry H_a3 full Berton Hopf-control continuation after AUTO reformulation
 status: To Do
 assignee: []
 created_date: '2026-06-15 19:47'
-updated_date: '2026-06-15 19:48'
+updated_date: '2026-06-15 20:18'
 labels:
   - berton
   - auto
@@ -44,3 +44,9 @@ Using the improved full-model AUTO formulation, retry H_a3 as the primary local-
 8. Write a companion note giving a clear verdict: AUTO-validated Hopf candidate, numerical hint only, negative result, or inconclusive due to remaining convergence problems; include residual risks and follow-up recommendations.
 9. Add tests covering required artifacts, H_a3 range coverage or documented failure, special-point/eigenvalue diagnostics, and non-overstated verdict language.
 <!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+TASK-015 showed the log-mass full-4D reformulation still fails the easier W_a0 sanity check with NaN/DGEBAL divergence. Do not treat a direct H_a3 retry on that formulation as a meaningful validation attempt until restricted-3D scaling work (TASK-018/TASK-019) provides a better-conditioned gate.
+<!-- SECTION:NOTES:END -->
