@@ -5,7 +5,7 @@ status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-14 12:39'
-updated_date: '2026-06-14 17:00'
+updated_date: '2026-06-15 12:12'
 labels:
   - berton
   - auto
@@ -49,6 +49,8 @@ Specify the full Berton 2023 ODE state vector, AUTO parameter vector, equilibriu
 <!-- SECTION:NOTES:BEGIN -->
 - Added docs/berton_full_auto_task008_design.md specifying the four-state full Berton AUTO mapping U=(z,u,w,m), omission of cyclic x, equilibrium residuals, PAR vector, physical continuation controls, z_W0 primary-control choice, and PVLS diagnostics.
 - Validation/readback: rg confirmed the report includes U vector mapping, z_W0 primary continuation, candidate controls, sigma_S/R_zeta diagnostics, and reduced determinant proxy.
+
+Repository reorganization note: TASK-008 full-model AUTO design artifacts moved to episodes/04-full-model-auto-equilibria/docs/.
 <!-- SECTION:NOTES:END -->
 
 ## Final Summary
