@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-15 12:03'
-updated_date: '2026-06-15 12:03'
+updated_date: '2026-06-15 12:12'
 labels: []
 dependencies: []
 priority: high
@@ -37,3 +37,11 @@ Move research docs, scripts, notebooks, AUTO problems, examples, and curated out
 5. Run the full test suite and relevant AUTO analysis command if path updates affect it.
 6. Append migration notes to completed backlog tasks via CLI and mark TASK-014 acceptance criteria complete.
 <!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+- Created episodic directory structure and moved research artifacts into episodes/ plus references/.
+- Updated tests, scripts, docs, README, AGENTS.md, and .gitignore for the new layout.
+- Appended migration notes to TASK-001 through TASK-010.
+<!-- SECTION:NOTES:END -->
