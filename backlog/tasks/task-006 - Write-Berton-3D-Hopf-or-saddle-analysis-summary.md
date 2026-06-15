@@ -5,7 +5,7 @@ status: Done
 assignee:
   - '@agent'
 created_date: '2026-06-13 21:18'
-updated_date: '2026-06-14 12:15'
+updated_date: '2026-06-15 12:12'
 labels: []
 dependencies:
   - TASK-001
@@ -59,6 +59,8 @@ Implemented TASK-006 final Markdown report in docs/berton_3d_hopf_analysis_summa
 Validation run:
 - uv run pytest tests/test_berton_3d_hopf_analysis_summary.py  # 4 passed
 - uv run pytest tests/test_berton_3d_hopf_task001_symbolic.py tests/test_berton_3d_hopf_task002_rzeta_sign.py tests/test_berton_3d_hopf_task003_root_tracking.py tests/test_berton_3d_hopf_task004_singular_reduction.py tests/test_berton_3d_hopf_task005_classification.py tests/test_berton_3d_hopf_analysis_summary.py tests/test_berton2023.py  # 38 passed
+
+Repository reorganization note: TASK-006 reduced-model summary/review artifacts moved to episodes/02-reduced-model-cas/docs/.
 <!-- SECTION:NOTES:END -->
 
 ## Final Summary
