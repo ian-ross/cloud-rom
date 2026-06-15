@@ -1,10 +1,11 @@
 ---
 id: TASK-013
 title: Write full Berton dynamics continuation report
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-14 12:39'
-updated_date: '2026-06-15 14:07'
+updated_date: '2026-06-15 17:07'
 labels:
   - berton
   - auto
