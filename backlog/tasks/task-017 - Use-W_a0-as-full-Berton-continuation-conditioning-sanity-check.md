@@ -4,6 +4,7 @@ title: Use W_a0 as full Berton continuation conditioning sanity check
 status: To Do
 assignee: []
 created_date: '2026-06-15 19:47'
+updated_date: '2026-06-15 19:47'
 labels:
   - berton
   - auto
@@ -11,6 +12,7 @@ labels:
   - W_a0
 dependencies:
   - TASK-013
+  - TASK-015
 priority: medium
 ---
 
