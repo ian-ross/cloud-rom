@@ -4,7 +4,7 @@ title: Use W_a0 as full Berton continuation conditioning sanity check
 status: To Do
 assignee: []
 created_date: '2026-06-15 19:47'
-updated_date: '2026-06-15 19:48'
+updated_date: '2026-06-15 20:18'
 labels:
   - berton
   - auto
@@ -44,3 +44,9 @@ Use W_a0 continuation in the improved full Berton AUTO formulation as a sanity c
 8. Write a short companion note with commands, constants, branch plots/tables, comparison to TASK-012, and residual risks.
 9. Add tests verifying required outputs, nontrivial W_a0 movement or documented failure, stability diagnostics, and the explicit conditioning-sanity-check conclusion.
 <!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+TASK-015 already attempted W_a0 on the log-mass full-4D formulation and still accepted only the seed. Follow-up W_a0 conditioning work should move to the restricted/scaled 3D formulation in TASK-018/TASK-019 rather than simply rerunning the TASK-015 setup.
+<!-- SECTION:NOTES:END -->
