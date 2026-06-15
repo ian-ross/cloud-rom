@@ -4,6 +4,7 @@ title: Retry H_a3 Hopf-control continuation on scaled restricted 3D system
 status: To Do
 assignee: []
 created_date: '2026-06-15 20:17'
+updated_date: '2026-06-15 20:18'
 labels:
   - berton
   - auto
@@ -11,7 +12,6 @@ labels:
   - continuation
 dependencies:
   - TASK-019
-  - TASK-016
 priority: high
 ---
 
