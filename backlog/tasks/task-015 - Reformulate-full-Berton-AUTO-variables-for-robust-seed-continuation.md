@@ -1,10 +1,11 @@
 ---
 id: TASK-015
 title: Reformulate full Berton AUTO variables for robust seed continuation
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-15 19:47'
-updated_date: '2026-06-15 19:48'
+updated_date: '2026-06-15 19:54'
 labels:
   - berton
   - auto
