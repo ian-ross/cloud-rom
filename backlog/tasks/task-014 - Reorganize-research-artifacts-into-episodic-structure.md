@@ -1,11 +1,11 @@
 ---
 id: TASK-014
 title: Reorganize research artifacts into episodic structure
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-15 12:03'
-updated_date: '2026-06-15 12:12'
+updated_date: '2026-06-15 12:15'
 labels: []
 dependencies: []
 priority: high
@@ -19,12 +19,12 @@ Move research docs, scripts, notebooks, AUTO problems, examples, and curated out
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 episodes/ contains README-indexed episode directories for integration, reduced CAS, reduced AUTO, and full AUTO equilibria.
-- [ ] #2 Existing research artifacts are moved into appropriate episode subdirectories with no compatibility copies left in old top-level functional dirs.
-- [ ] #3 Tests and scripts use updated paths and the full test suite passes.
-- [ ] #4 Top-level README and AGENTS.md document the episodic structure and future-agent guidance.
-- [ ] #5 Backlog task notes for moved completed work include migration references to new episode paths.
-- [ ] #6 Transient generated files are cleaned/ignored while curated outputs remain tracked.
+- [x] #1 episodes/ contains README-indexed episode directories for integration, reduced CAS, reduced AUTO, and full AUTO equilibria.
+- [x] #2 Existing research artifacts are moved into appropriate episode subdirectories with no compatibility copies left in old top-level functional dirs.
+- [x] #3 Tests and scripts use updated paths and the full test suite passes.
+- [x] #4 Top-level README and AGENTS.md document the episodic structure and future-agent guidance.
+- [x] #5 Backlog task notes for moved completed work include migration references to new episode paths.
+- [x] #6 Transient generated files are cleaned/ignored while curated outputs remain tracked.
 <!-- AC:END -->
 
 ## Implementation Plan
@@ -45,3 +45,22 @@ Move research docs, scripts, notebooks, AUTO problems, examples, and curated out
 - Updated tests, scripts, docs, README, AGENTS.md, and .gitignore for the new layout.
 - Appended migration notes to TASK-001 through TASK-010.
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Reorganized the repository into an episodic research structure.
+
+Changes:
+- Added episodes/ with README-indexed episode directories for Berton integration, reduced-model CAS analysis, reduced-model AUTO validation, and full-model AUTO equilibria.
+- Moved docs, scripts, notebooks, AUTO problems, examples, references, tests, and curated outputs into their agreed locations without compatibility copies.
+- Updated script/test paths, README.md, AGENTS.md, .gitignore, episode READMEs, and validation documentation for the new layout.
+- Added references/ for raw Berton source material and preserved curated outputs under episode outputs/.
+- Appended migration notes to completed TASK-001 through TASK-010.
+
+Validation:
+- uv run python episodes/03-reduced-model-auto/scripts/berton_3d_auto_task007_validate.py
+- uv run python episodes/04-full-model-auto-equilibria/scripts/berton_full_auto_task009_validate.py
+- uv run python episodes/04-full-model-auto-equilibria/scripts/berton_full_auto_task010_analyze.py
+- uv run pytest (45 passed)
+<!-- SECTION:FINAL_SUMMARY:END -->
