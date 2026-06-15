@@ -1,10 +1,11 @@
 ---
 id: TASK-012
 title: Continue full Berton dynamics from long-integration seed
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@iross'
 created_date: '2026-06-14 12:39'
-updated_date: '2026-06-15 14:07'
+updated_date: '2026-06-15 15:04'
 labels:
   - berton
   - auto
