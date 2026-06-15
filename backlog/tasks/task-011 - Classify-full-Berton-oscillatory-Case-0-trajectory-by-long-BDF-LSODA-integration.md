@@ -3,10 +3,11 @@ id: TASK-011
 title: >-
   Classify full Berton oscillatory Case-0 trajectory by long BDF/LSODA
   integration
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-14 12:39'
-updated_date: '2026-06-15 14:07'
+updated_date: '2026-06-15 14:11'
 labels:
   - berton
   - integration
