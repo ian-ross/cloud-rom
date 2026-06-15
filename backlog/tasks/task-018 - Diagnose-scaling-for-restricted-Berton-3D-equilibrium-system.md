@@ -51,3 +51,19 @@ Start a new episode, episodes/07-restricted-equilibrium-auto/, for restricted/lo
 - Generated curated TASK-018 outputs under `episodes/07-restricted-equilibrium-auto/outputs/task018/` and a companion recommendation note in `episodes/07-restricted-equilibrium-auto/docs/task018_restricted_scaling_diagnostics.md`.
 - Added `tests/test_episode07_restricted_task018.py`; relevant pytest selections pass.
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Implemented restricted 3D equilibrium scaling diagnostics for TASK-018.
+
+Changes:
+- Added an episode-07 diagnostic script that maps `(z,u,log_m)` with `w=0` back to the full Berton physical state and evaluates `(du/dt,dw/dt,dlogm/dt)`.
+- Generated seed cross-checks, full eigenvalue comparison, Jacobian row/column norms, singular-value condition estimates, W_a0/H_a3 sensitivities, branch-risk diagnostics, and a JSON scaling recommendation.
+- Wrote the companion note recommending centered/scaled AUTO states and row-scaled residuals while preserving the W_a0 gate before any H_a3 Hopf retry.
+- Added regression tests for the TASK-018 artifacts and updated episode index/readme text.
+
+Tests:
+- `uv run pytest tests/test_episode07_restricted_task018.py`
+- `uv run pytest tests/test_episode07_restricted_task018.py tests/test_episode06_full_logm_reformulation.py`
+<!-- SECTION:FINAL_SUMMARY:END -->
