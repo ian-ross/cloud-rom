@@ -4,6 +4,7 @@ title: Implement scaled restricted 3D AUTO continuation for W_a0 sanity check
 status: To Do
 assignee: []
 created_date: '2026-06-15 20:17'
+updated_date: '2026-06-15 20:18'
 labels:
   - berton
   - auto
@@ -11,7 +12,6 @@ labels:
   - scaling
 dependencies:
   - TASK-018
-  - TASK-017
 priority: high
 ---
 
