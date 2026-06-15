@@ -5,7 +5,7 @@ status: Done
 assignee:
   - '@agent'
 created_date: '2026-06-13 21:18'
-updated_date: '2026-06-14 11:46'
+updated_date: '2026-06-15 12:12'
 labels: []
 dependencies:
   - TASK-001
@@ -55,6 +55,8 @@ Implemented TASK-004 singular-perturbation analysis in scripts/berton_3d_hopf_ta
 Validation run:
 - uv run python scripts/berton_3d_hopf_task004_singular_reduction.py
 - uv run pytest tests/test_berton_3d_hopf_task001_symbolic.py tests/test_berton_3d_hopf_task002_rzeta_sign.py tests/test_berton_3d_hopf_task003_root_tracking.py tests/test_berton_3d_hopf_task004_singular_reduction.py tests/test_berton2023.py  # 30 passed
+
+Repository reorganization note: TASK-004 artifacts moved to episodes/02-reduced-model-cas/ (script: scripts/berton_3d_hopf_task004_singular_reduction.py within that episode).
 <!-- SECTION:NOTES:END -->
 
 ## Final Summary
