@@ -1,11 +1,11 @@
 ---
 id: TASK-012
 title: Continue full Berton dynamics from long-integration seed
-status: In Progress
+status: Done
 assignee:
   - '@iross'
 created_date: '2026-06-14 12:39'
-updated_date: '2026-06-15 15:41'
+updated_date: '2026-06-15 15:42'
 labels:
   - berton
   - auto
@@ -52,3 +52,22 @@ Use the classified long-integration result from TASK-011 as the starting object 
 - AUTO accepted the seed and reproduced the stable complex eigenpair, but all first continuation steps ended at minimum-step MX failures; documented convergence diagnostics.
 - Added an independent Python equilibrium-control probe showing W_a0 shifts stable equilibrium altitude and H_a3 affects the critical eigenvalue, identifying follow-up scaling/log-mass AUTO work.
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Implemented TASK-012 as a new full-model AUTO seed-continuation episode.
+
+Changes:
+- Added episodes/06-full-model-auto-seed-continuation/ with README, notebook entry point, AUTO files, analysis script, companion note, curated outputs, and regression tests.
+- Reviewed TASK-011 verdict/seed artifacts and selected equilibrium continuation because the trajectory was damped/equilibrium-like rather than limit-cycle-like.
+- Initialized AUTO from the TASK-011 equilibrium seed with scaled mass state and controls W_a0 and H_a3 instead of repeating z_W0 alone.
+- Captured AUTO branch/eigenvalue/convergence outputs: the seed reproduces the stable complex pair, but all first continuation steps fail at minimum-step MX, so no nontrivial AUTO branch was accepted.
+- Added an independent Python equilibrium-control probe showing W_a0 shifts stable equilibrium altitude over 0.1–1.2 m/s and H_a3 affects the critical eigenvalue, motivating a follow-up scaled/log-mass AUTO reformulation with analytic parameter derivatives.
+
+Validation:
+- bash episodes/06-full-model-auto-seed-continuation/auto/berton_full_task012/run_auto.sh
+- uv run python episodes/06-full-model-auto-seed-continuation/scripts/berton_full_task012_seed_continuation.py
+- uv run pytest tests/test_episode06_full_seed_continuation.py
+- uv run pytest
+<!-- SECTION:FINAL_SUMMARY:END -->
