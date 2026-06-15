@@ -1,0 +1,47 @@
+---
+id: TASK-011
+title: >-
+  Classify full Berton oscillatory Case-0 trajectory by long BDF/LSODA
+  integration
+status: To Do
+assignee: []
+created_date: '2026-06-14 12:39'
+updated_date: '2026-06-15 14:07'
+labels:
+  - berton
+  - integration
+  - dynamics
+  - notebook
+dependencies:
+  - TASK-010
+priority: medium
+---
+
+## Description
+
+<!-- SECTION:DESCRIPTION:BEGIN -->
+Create a new episode for the full Berton oscillatory-orbit investigation. Use notebook-driven long integrations of the canonical oscillatory Case-0 configuration after the failed z_W0 equilibrium Hopf screen to determine whether the reported oscillation is a finite-amplitude limit cycle or a damped transient/approach toward an equilibrium. Export the resulting trajectory or equilibrium estimate as a continuation-ready seed for follow-up AUTO experiments.
+<!-- SECTION:DESCRIPTION:END -->
+
+## Acceptance Criteria
+<!-- AC:BEGIN -->
+- [ ] #1 A new episode directory, e.g. episodes/05-full-model-oscillatory-orbit/, contains the notebook-first workflow and supporting outputs for the investigation.
+- [ ] #2 The canonical oscillatory Case-0 configuration is integrated with both BDF and LSODA for at least 200 h, with no explicit-Euler long integration used for classification.
+- [ ] #3 If late-time amplitude or period drift remains ambiguous, the workflow documents and performs an extension rule toward 500-1000 h or explains why extension was unnecessary.
+- [ ] #4 Late-time envelope, peak/trough, period, solver-agreement, and visual Matplotlib diagnostics classify the trajectory as limit-cycle-like, damped/equilibrium-like, or inconclusive.
+- [ ] #5 If the trajectory appears to settle, the notebook estimates the late-time equilibrium, RHS norm, and finite-difference eigenvalues, including whether complex eigenvalues explain the observed oscillations.
+- [ ] #6 Continuation seed artifacts are exported: one late-time sampled period for a limit-cycle classification, or a late-time equilibrium/state estimate plus eigenvalue diagnostics for an equilibrium/transient classification.
+- [ ] #7 A short companion note summarizes commands, solver settings/tolerances, generated files, plots, classification verdict, and residual risks.
+<!-- AC:END -->
+
+## Implementation Plan
+
+<!-- SECTION:PLAN:BEGIN -->
+1. Create episodes/05-full-model-oscillatory-orbit/ with README, notebooks/, outputs/task011/, and any lightweight helper/test locations needed for reproducibility.
+2. Build a notebook-first workflow for canonical Berton Case 0 oscillatory settings: oscillatory=True, z_W0=9 km, W_a0=0.6 m/s, H_a3=0.61, eta override None, include_coriolis=False, and initial_state_for_case(0).
+3. Run long integrations with SciPy BDF and LSODA for at least 200 h using documented tolerances and sampled diagnostic output; do not use explicit Euler for long-run classification.
+4. Compute late-time envelope, extrema, period, mean/final state, RHS norm, solver-agreement, and optional extension diagnostics when drift remains ambiguous.
+5. Generate Matplotlib plots and machine-readable summary tables under outputs/task011/.
+6. If limit-cycle-like, export one late-time sampled period suitable for AUTO periodic-orbit seeding; if damped/equilibrium-like, export the late-time state/equilibrium estimate and finite-difference eigenvalue diagnostics.
+7. Write a companion note documenting commands, files, classification verdict, and residual risks.
+<!-- SECTION:PLAN:END -->
