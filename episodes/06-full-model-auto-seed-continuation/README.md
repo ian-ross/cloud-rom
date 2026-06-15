@@ -11,3 +11,4 @@ Key files:
 - `scripts/berton_full_task012_seed_continuation.py` — parser/diagnostic script for saved AUTO outputs plus Python root-continuation sensitivity probe.
 - `outputs/task012/` — curated seed review, AUTO summaries, eigenvalue diagnostics, convergence notes, and control-probe plot/table.
 - `docs/task012_seed_continuation.md` — companion note with commands, diagnostics, and residual risks.
+- `docs/full_berton_dynamics_continuation_report.md` — TASK-013 synthesis report combining the negative `z_W0` Hopf screen, long-integration classification, continuation-from-seed results, reduced-model comparison, verdict, risks, and suggested next steps.
