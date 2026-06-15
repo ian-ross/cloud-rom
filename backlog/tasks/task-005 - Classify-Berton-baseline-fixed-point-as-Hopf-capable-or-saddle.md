@@ -5,7 +5,7 @@ status: Done
 assignee:
   - '@agent'
 created_date: '2026-06-13 21:18'
-updated_date: '2026-06-14 12:07'
+updated_date: '2026-06-15 12:12'
 labels: []
 dependencies:
   - TASK-002
@@ -57,6 +57,8 @@ Implemented TASK-005 classification in scripts/berton_3d_hopf_task005_classifica
 Validation run:
 - uv run python scripts/berton_3d_hopf_task005_classification.py
 - uv run pytest tests/test_berton_3d_hopf_task001_symbolic.py tests/test_berton_3d_hopf_task002_rzeta_sign.py tests/test_berton_3d_hopf_task003_root_tracking.py tests/test_berton_3d_hopf_task004_singular_reduction.py tests/test_berton_3d_hopf_task005_classification.py tests/test_berton2023.py  # 34 passed
+
+Repository reorganization note: TASK-005 artifacts moved to episodes/02-reduced-model-cas/ (script: scripts/berton_3d_hopf_task005_classification.py within that episode).
 <!-- SECTION:NOTES:END -->
 
 ## Final Summary
