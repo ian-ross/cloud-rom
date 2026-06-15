@@ -5,7 +5,7 @@ status: Done
 assignee:
   - '@agent'
 created_date: '2026-06-13 21:17'
-updated_date: '2026-06-14 10:53'
+updated_date: '2026-06-15 12:12'
 labels: []
 dependencies: []
 references:
@@ -62,6 +62,8 @@ Key numerical sign result at z*=9.63 km:
 Validation run:
 - uv run python scripts/berton_3d_hopf_task002_rzeta_sign.py
 - uv run pytest tests/test_berton_3d_hopf_task001_symbolic.py tests/test_berton_3d_hopf_task002_rzeta_sign.py tests/test_berton2023.py  # 22 passed
+
+Repository reorganization note: TASK-002 artifacts moved to episodes/02-reduced-model-cas/ (script: scripts/berton_3d_hopf_task002_rzeta_sign.py within that episode).
 <!-- SECTION:NOTES:END -->
 
 ## Final Summary
