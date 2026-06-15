@@ -7,7 +7,7 @@ status: Done
 assignee:
   - '@agent'
 created_date: '2026-06-13 21:17'
-updated_date: '2026-06-13 21:34'
+updated_date: '2026-06-15 12:12'
 labels: []
 dependencies: []
 references:
@@ -60,6 +60,8 @@ Implemented TASK-001 symbolic audit script at scripts/berton_3d_hopf_task001_sym
 Validation run:
 - uv run python scripts/berton_3d_hopf_task001_symbolic.py
 - uv run pytest tests/test_berton_3d_hopf_task001_symbolic.py tests/test_berton2023.py  # 12 passed
+
+Repository reorganization note: TASK-001 artifacts moved to episodes/02-reduced-model-cas/ (script: scripts/berton_3d_hopf_task001_symbolic.py within that episode).
 <!-- SECTION:NOTES:END -->
 
 ## Final Summary
