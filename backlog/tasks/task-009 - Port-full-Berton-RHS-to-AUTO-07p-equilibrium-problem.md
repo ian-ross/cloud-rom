@@ -5,7 +5,7 @@ status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-14 12:39'
-updated_date: '2026-06-14 17:20'
+updated_date: '2026-06-15 12:12'
 labels:
   - berton
   - auto
@@ -52,6 +52,8 @@ Implement the full Berton 2023 model RHS as an AUTO-07p continuation problem usi
 - Added auto/berton_full/c.bertonfull and run_auto.sh; ran AUTO successfully and saved b/s/d.bertfull-zW0 outputs.
 - Added scripts/berton_full_auto_task009_validate.py to compile a standalone Fortran RHS driver, compare against src/cloud_rom/berton2023.py samples, parse AUTO fixed-point/eigenvalue data, and compare with independent Python/Fortran finite-difference spectra.
 - Added docs/berton_full_auto_task009_validation.md and pytest coverage in tests/test_berton_full_auto_task009_validate.py.
+
+Repository reorganization note: TASK-009 full-model AUTO problem and validation artifacts moved to episodes/04-full-model-auto-equilibria/ (auto/, docs/, scripts/ subdirectories).
 <!-- SECTION:NOTES:END -->
 
 ## Final Summary
