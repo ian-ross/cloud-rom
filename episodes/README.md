@@ -37,3 +37,13 @@ Purpose: design and validate the full Berton AUTO equilibrium problem, then cont
 Backlog tasks: TASK-008 through TASK-010.
 
 Conclusion so far: no LP/HB/BP or Hopf candidate is detected on the selected full-model `z_W0` equilibrium branch; the paper's reported oscillation likely requires a separate periodic-orbit/global-dynamics episode rather than continuation from this equilibrium Hopf premise.
+
+## 05 — Full-model oscillatory-orbit classification
+
+Path: `episodes/05-full-model-oscillatory-orbit/`
+
+Purpose: classify the canonical full Berton Case-0 oscillatory trajectory using long BDF/LSODA integrations after the failed `z_W0` Hopf screen, and export a continuation-ready seed for follow-up AUTO experiments.
+
+Backlog task: TASK-011.
+
+Conclusion: the no-Coriolis canonical Case-0 oscillation is damped/equilibrium-like over 500 h; a stable complex eigenpair at the settled state explains the decaying oscillation, so the exported seed is an equilibrium/state estimate rather than a periodic-orbit seed.

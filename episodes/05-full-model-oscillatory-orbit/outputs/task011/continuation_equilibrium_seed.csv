@@ -1,0 +1,2 @@
+classification,seed_type,z_m,u_m_s,w_m_s,m_kg,rhs_norm,source
+damped/equilibrium-like,late-time equilibrium estimate,9618.027532260936,1.9098623386953226,-2.9084536311763646e-21,1.0802293920592054e-09,2.1319370397478602e-13,root refinement from 500 h LSODA endpoint; x is arbitrary/cyclic in no-Coriolis run
