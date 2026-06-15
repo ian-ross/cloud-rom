@@ -5,7 +5,7 @@ status: Done
 assignee:
   - '@agent'
 created_date: '2026-06-13 21:18'
-updated_date: '2026-06-14 11:11'
+updated_date: '2026-06-15 12:12'
 labels: []
 dependencies:
   - TASK-001
@@ -60,6 +60,8 @@ Key signs at the fixed reduced baseline:
 Validation run:
 - uv run python scripts/berton_3d_hopf_task003_root_tracking.py
 - uv run pytest tests/test_berton_3d_hopf_task001_symbolic.py tests/test_berton_3d_hopf_task002_rzeta_sign.py tests/test_berton_3d_hopf_task003_root_tracking.py tests/test_berton2023.py  # 26 passed
+
+Repository reorganization note: TASK-003 artifacts moved to episodes/02-reduced-model-cas/ (script: scripts/berton_3d_hopf_task003_root_tracking.py within that episode).
 <!-- SECTION:NOTES:END -->
 
 ## Final Summary
