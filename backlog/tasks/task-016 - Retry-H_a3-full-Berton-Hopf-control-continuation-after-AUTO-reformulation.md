@@ -4,6 +4,7 @@ title: Retry H_a3 full Berton Hopf-control continuation after AUTO reformulation
 status: To Do
 assignee: []
 created_date: '2026-06-15 19:47'
+updated_date: '2026-06-15 19:47'
 labels:
   - berton
   - auto
@@ -11,6 +12,7 @@ labels:
   - H_a3
 dependencies:
   - TASK-013
+  - TASK-015
 priority: high
 ---
 
