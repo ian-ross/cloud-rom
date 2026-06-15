@@ -9,7 +9,17 @@ wheels/
 # Virtual environments
 .venv
 
-# Generated notebook data exports
-notebooks/*.csv
+# Test/cache artifacts
+.pytest_cache/
+
+# Notebook transient state
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
+
+# AUTO/build transient files; curated AUTO b./s./d. outputs remain tracked.
+*.o
+*.exe
+*.mod
+fort.*
+*~
+*.active

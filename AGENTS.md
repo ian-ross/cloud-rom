@@ -20,6 +20,21 @@ When working on AUTO-07p continuation tasks in this repository:
 - Keep AUTO notebooks reproducible: include the exact AUTO run commands/API calls, continuation constants, labels inspected, and paths to generated AUTO output files.
 - Prefer notebook-driven parsing/plotting of AUTO results, with lightweight Python helpers/tests only where they improve reproducibility or validation.
 
+## Repository organization
+
+Research artifacts are organized episodically under `episodes/`, not by top-level functional type. Each episode represents a coherent phase of the investigation and may contain its own `docs/`, `scripts/`, `notebooks/`, `auto/`, `examples/`, and `outputs/` subdirectories as needed.
+
+Current episodes:
+
+- `episodes/01-berton2023-integration/` — numerical integrator, extraction notes, replication notebooks, and early curated outputs.
+- `episodes/02-reduced-model-cas/` — symbolic/CAS and reduced-model Hopf mechanism analysis.
+- `episodes/03-reduced-model-auto/` — AUTO-07p validation on the reduced 3D model.
+- `episodes/04-full-model-auto-equilibria/` — full-model AUTO equilibrium design, validation, and z_W0 Hopf search.
+
+Keep reusable package code in `src/cloud_rom/` and repository-level tests in `tests/`. Keep source/reference material used across episodes in `references/`. Do not add new research scripts, notebooks, docs, AUTO files, or curated outputs to old top-level functional directories such as `scripts/`, `notebooks/`, `docs/`, `auto/`, or `outputs/`; place them in the appropriate episode, or create a new episode with a README when the work is a new research phase.
+
+Episode scripts are standalone research scripts, not importable package modules. Tests that exercise them should add the relevant episode `scripts/` directory to `sys.path`. Curated outputs may be committed under an episode `outputs/` directory when they support documented findings; transient build/cache/checkpoint files should remain ignored.
+
 <!-- BACKLOG.MD GUIDELINES START -->
 # Instructions for the usage of Backlog.md CLI Tool
 
