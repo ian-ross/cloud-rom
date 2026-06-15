@@ -5,7 +5,7 @@ status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-14 12:39'
-updated_date: '2026-06-14 15:31'
+updated_date: '2026-06-15 12:12'
 labels:
   - berton
   - auto
@@ -51,6 +51,8 @@ Create an AUTO-07p continuation problem for the already-audited reduced Berton 3
 - Added scripts/berton_3d_auto_task007_validate.py plus pytest coverage to parse AUTO branch output and compare a0/RH/eigenvalue stability against the corrected Python cubic.
 - Added docs/berton_3d_auto_task007_validation.md and notebooks/berton_3d_auto_task007_validation.ipynb documenting commands, outputs, plots, agreement, and limitations.
 - Verification run: uv run python scripts/berton_3d_auto_task007_validate.py; uv run pytest; 40 passed.
+
+Repository reorganization note: TASK-007 AUTO validation artifacts moved to episodes/03-reduced-model-auto/ (auto/, docs/, notebooks/, scripts/ subdirectories).
 <!-- SECTION:NOTES:END -->
 
 ## Final Summary
