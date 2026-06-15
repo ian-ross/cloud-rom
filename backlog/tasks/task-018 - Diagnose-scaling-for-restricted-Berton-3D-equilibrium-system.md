@@ -1,7 +1,7 @@
 ---
 id: TASK-018
 title: Diagnose scaling for restricted Berton 3D equilibrium system
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-15 20:17'
