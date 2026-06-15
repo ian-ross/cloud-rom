@@ -1,0 +1,20 @@
+   0  -1.7976+308  1.7976+308 -1.7976+308  1.7976+308
+   0   EPSL= 1.0000E-08  EPSU = 1.0000E-08  EPSS = 1.0000E-06
+   0   DS  =-5.0000E-03  DSMIN= 1.0000E-05  DSMAX= 2.5000E-02
+   0   NDIM=   4   IPS =   1   IRS =   0   ILP =   1
+   0   NTST=  10   NCOL=   4   IAD =   3   ISP =   2
+   0   ISW =   1   IPLT=   0   NBC =   0   NINT=   0
+   0   NMX=  300   NPR=   10   MXBF=   0   IID =   2   IADS=   1
+   0   ITMX=  12   ITNW=   8   NWTN=   3   JAC =   0   NUZR=   6
+   0   NPAR=  95   THL = {}    THU = {}
+   0   UZR = {'H_a3': [5.5000000000E-001, 5.0000000000E-001, 4.5000000000E-001, 4.0000000000E-001]}
+   0   UZSTOP = {'H_a3': [4.0000000000E-001, 8.5000000000E-001]}
+   0   e = 'bertonfull' s = '/'
+   0   parnames = {1: 'z_W0', 2: 'W_a0', 3: 'rad_mult', 4: 'H_a3', 5: 'eta_override', 6: 'drag_mult', 7: 'Delta_z_W', 39: 'eta_blend', 40: 'phi', 41: 'c_B', 43: 'include_corio', 44: 'reynolds_leng', 60: 'sigma_S', 61: 'R_zeta', 62: 'sigma_plus_Rz', 63: 'R', 64: 'rad_R', 65: 'driving_facto', 66: 'm_dot', 67: 'k', 68: 'Re', 75: 'S_i', 77: 'eta', 79: 'W_a', 80: 'U_a', 81: 'rho_a', 91: 'vertical_forc', 92: 'growth_balanc', 93: 'fall_speed_sl', 94: 'growth_mass_s', 95: 'reduced_det_p'}
+   0   unames   = {1: 'z', 2: 'u', 3: 'w', 4: 'm'}
+   0   User-specified parameters:       'H_a3' 'z_W0' 'W_a0' 'sigma_S' 'R_zeta' 'sigma_plus_Rz' 'R' 'driving_facto' 'k'
+   0   Active continuation parameter:   'H_a3'
+   0
+   0    PT  TY  LAB      H_a3             L2-NORM              z_W0               W_a0             sigma_S             R_zeta          sigma_plus_Rz           R             driving_facto           k            
+   1    -1   9    1  6.1000000000E-001  9.6180277825E+003  9.0000000000E+003  6.0000000000E-001  7.5079838085E-005  1.8660807171E-005  9.3740645256E-005  2.2046734068E-003 -6.1895800985E-014  6.7754845526E+004
+   1     2  -9    2  6.1000000000E-001  9.6180277825E+003  9.0000000000E+003  6.0000000000E-001  7.5079838085E-005  1.8660807171E-005  9.3740645256E-005  2.2046734068E-003 -6.1895800985E-014  6.7754845526E+004

@@ -1,0 +1,12 @@
+# TASK-012 equilibrium continuation from TASK-011 seed; control H_a3 downward.
+parnames = {1:'z_W0', 2:'W_a0', 3:'rad_mult', 4:'H_a3', 5:'eta_override', 6:'drag_mult', 7:'Delta_z_W', 39:'eta_blend', 40:'phi', 41:'c_B', 43:'include_coriolis', 44:'reynolds_length_mode', 60:'sigma_S', 61:'R_zeta', 62:'sigma_plus_Rzeta', 63:'R', 64:'rad_R', 65:'driving_factor', 66:'m_dot', 67:'k', 68:'Re', 75:'S_i', 77:'eta', 79:'W_a', 80:'U_a', 81:'rho_a', 91:'vertical_force_residual', 92:'growth_balance_residual', 93:'fall_speed_slope_proxy', 94:'growth_mass_slope', 95:'reduced_det_proxy'}
+unames = {1:'z', 2:'u', 3:'w', 4:'m'}
+NDIM=4, IPS=1, IRS=0, ILP=1
+ICP = ['H_a3', 'z_W0', 'W_a0', 'sigma_S', 'R_zeta', 'sigma_plus_Rzeta', 'R', 'driving_factor', 'k']
+NTST=10, NCOL=4, IAD=3, ISP=2, ISW=1, IPLT=0, NBC=0, NINT=0
+NMX=300, NPR=10, MXBF=0, IID=2, ITMX=12, ITNW=8, NWTN=3, JAC=0
+EPSL=1e-08, EPSU=1e-08, EPSS=1e-06
+DS=-0.005, DSMIN=1e-05, DSMAX=0.025, IADS=1
+NPAR=95, THL={}, THU={}
+UZR = {'H_a3': [0.55, 0.5, 0.45, 0.4]}
+UZSTOP = {'H_a3': [0.4, 0.85]}

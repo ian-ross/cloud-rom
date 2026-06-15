@@ -1,0 +1,47 @@
+run,label,message
+wA0-plus,1,Stable eigenvalues: 4
+wA0-plus,1,1     1 NOTE:Retrying step
+wA0-plus,1,1     1 NOTE:Retrying step
+wA0-plus,1,1     1 NOTE:Retrying step
+wA0-plus,1,1     1 NOTE:Retrying step
+wA0-plus,1,1     1 NOTE:Retrying step
+wA0-plus,1,1     1 NOTE:Retrying step
+wA0-plus,1,1     1 NOTE:Retrying step
+wA0-plus,1,1     1 NOTE:Retrying step
+wA0-plus,1,1     1 NOTE:Retrying step
+wA0-plus,1,1     1 NOTE:No convergence with minimum step size
+wA0-plus,2,Stable eigenvalues: 3
+wA0-minus,1,Stable eigenvalues: 4
+wA0-minus,1,1     1 NOTE:Retrying step
+wA0-minus,1,1     1 NOTE:Retrying step
+wA0-minus,1,1     1 NOTE:Retrying step
+wA0-minus,1,1     1 NOTE:Retrying step
+wA0-minus,1,1     1 NOTE:Retrying step
+wA0-minus,1,1     1 NOTE:Retrying step
+wA0-minus,1,1     1 NOTE:Retrying step
+wA0-minus,1,1     1 NOTE:Retrying step
+wA0-minus,1,1     1 NOTE:Retrying step
+wA0-minus,1,1     1 NOTE:No convergence with minimum step size
+wA0-minus,2,Stable eigenvalues: 2
+Ha3-plus,1,Stable eigenvalues: 4
+Ha3-plus,1,1     1 NOTE:Retrying step
+Ha3-plus,1,1     1 NOTE:Retrying step
+Ha3-plus,1,1     1 NOTE:Retrying step
+Ha3-plus,1,1     1 NOTE:Retrying step
+Ha3-plus,1,1     1 NOTE:Retrying step
+Ha3-plus,1,1     1 NOTE:Retrying step
+Ha3-plus,1,1     1 NOTE:Retrying step
+Ha3-plus,1,1     1 NOTE:Retrying step
+Ha3-plus,1,1     1 NOTE:No convergence with minimum step size
+Ha3-plus,2,Stable eigenvalues: 2
+Ha3-minus,1,Stable eigenvalues: 4
+Ha3-minus,1,1     1 NOTE:Retrying step
+Ha3-minus,1,1     1 NOTE:Retrying step
+Ha3-minus,1,1     1 NOTE:Retrying step
+Ha3-minus,1,1     1 NOTE:Retrying step
+Ha3-minus,1,1     1 NOTE:Retrying step
+Ha3-minus,1,1     1 NOTE:Retrying step
+Ha3-minus,1,1     1 NOTE:Retrying step
+Ha3-minus,1,1     1 NOTE:Retrying step
+Ha3-minus,1,1     1 NOTE:No convergence with minimum step size
+Ha3-minus,2,Stable eigenvalues: 3

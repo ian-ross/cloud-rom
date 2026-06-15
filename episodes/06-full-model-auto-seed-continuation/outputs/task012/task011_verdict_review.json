@@ -1,0 +1,23 @@
+{
+  "base_duration_h": 200.0,
+  "classification": "damped/equilibrium-like",
+  "eigenvalue_file": "continuation_equilibrium_eigenvalues.csv",
+  "equilibrium_seed_file": "continuation_equilibrium_seed.csv",
+  "extended_duration_h": 500.0,
+  "methods": [
+    "BDF",
+    "LSODA"
+  ],
+  "output_dt_min": 10.0,
+  "scipy_options": {
+    "atol": [
+      0.01,
+      0.01,
+      1e-05,
+      1e-05,
+      1e-16
+    ],
+    "max_step": 600.0,
+    "rtol": 1e-07
+  }
+}

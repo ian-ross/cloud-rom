@@ -1,0 +1,5 @@
+run,control,auto_points,auto_accepted_non_mx_points,control_min,control_max,types,main_failure_note
+Ha3-minus,H_a3,2,1,0.61,0.61,"EP,MX",1     1 NOTE:Retrying step
+Ha3-plus,H_a3,2,1,0.61,0.61,"EP,MX",1     1 NOTE:Retrying step
+wA0-minus,W_a0,2,1,0.6,0.6,"EP,MX",1     1 NOTE:Retrying step
+wA0-plus,W_a0,2,1,0.6,0.6,"EP,MX",1     1 NOTE:Retrying step

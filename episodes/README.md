@@ -47,3 +47,13 @@ Purpose: classify the canonical full Berton Case-0 oscillatory trajectory using 
 Backlog task: TASK-011.
 
 Conclusion: the no-Coriolis canonical Case-0 oscillation is damped/equilibrium-like over 500 h; a stable complex eigenpair at the settled state explains the decaying oscillation, so the exported seed is an equilibrium/state estimate rather than a periodic-orbit seed.
+
+## 06 — Full-model AUTO seed continuation
+
+Path: `episodes/06-full-model-auto-seed-continuation/`
+
+Purpose: initialize full-model equilibrium continuation from the TASK-011 late-time equilibrium seed and probe controls expected to affect local equilibrium conditions (`W_a0` and `H_a3`) rather than repeating the insensitive `z_W0` branch alone.
+
+Backlog task: TASK-012.
+
+Conclusion: AUTO accepts the TASK-011 seed and reproduces the stable complex eigenpair, but first continuation steps in `W_a0` and `H_a3` fail at the minimum step size. An independent Python root-continuation probe shows `W_a0` moves the stable equilibrium altitude and `H_a3` affects the critical eigenvalue, suggesting a scaled/log-mass AUTO reformulation with analytic parameter derivatives as the next follow-up.
