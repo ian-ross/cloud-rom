@@ -5,7 +5,7 @@ status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-14 12:39'
-updated_date: '2026-06-14 19:20'
+updated_date: '2026-06-15 12:12'
 labels:
   - berton
   - auto
@@ -49,6 +49,8 @@ Run AUTO-07p equilibrium continuation for the full Berton model over the selecte
 - Added scripts/berton_full_auto_task010_analyze.py to parse AUTO b/s/d files, catalogue LP/HB/BP detections, cross-check labeled-solution eigenvalues with Python finite-difference Jacobians, and generate CSV/Markdown/PNG outputs under outputs/task010/.
 - Documented results in docs/berton_full_auto_task010_continuation.md: no LP/HB/BP/Hopf detected over z_W0=10 km to 9 km; branch remains at z*=10178.504 m with one positive real eigenvalue and no complex critical pair.
 - Added pytest coverage in tests/test_berton_full_auto_task010_analyze.py; full test suite passes.
+
+Repository reorganization note: TASK-010 full-model continuation artifacts moved to episodes/04-full-model-auto-equilibria/ (notebooks/, scripts/, docs/, outputs/task010/).
 <!-- SECTION:NOTES:END -->
 
 ## Final Summary
