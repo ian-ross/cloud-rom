@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-15 20:17'
-updated_date: '2026-06-15 20:32'
+updated_date: '2026-06-15 20:38'
 labels:
   - berton
   - auto
@@ -24,11 +24,11 @@ Start a new episode, episodes/07-restricted-equilibrium-auto/, for restricted/lo
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 A Python diagnostic script/notebook defines the restricted 3D equilibrium residual and maps it consistently to the full physical state.
-- [ ] #2 The TASK-011 seed residual and eigenvalue/stability relationship are cross-checked against existing full-system diagnostics.
-- [ ] #3 Jacobian row norms, column norms, singular values/condition estimates, and parameter sensitivity for W_a0 and H_a3 are reported for unscaled and candidate scaled variables.
-- [ ] #4 Non-smooth or branch-dependent pieces such as profile segments, MAX guards, terminal-Re fallback, and geometry solve are identified at the seed.
-- [ ] #5 A companion note recommends specific state/residual/parameter scalings or explains why the restricted system remains unsuitable for AUTO.
+- [x] #1 A Python diagnostic script/notebook defines the restricted 3D equilibrium residual and maps it consistently to the full physical state.
+- [x] #2 The TASK-011 seed residual and eigenvalue/stability relationship are cross-checked against existing full-system diagnostics.
+- [x] #3 Jacobian row norms, column norms, singular values/condition estimates, and parameter sensitivity for W_a0 and H_a3 are reported for unscaled and candidate scaled variables.
+- [x] #4 Non-smooth or branch-dependent pieces such as profile segments, MAX guards, terminal-Re fallback, and geometry solve are identified at the seed.
+- [x] #5 A companion note recommends specific state/residual/parameter scalings or explains why the restricted system remains unsuitable for AUTO.
 <!-- AC:END -->
 
 ## Implementation Plan
@@ -43,3 +43,11 @@ Start a new episode, episodes/07-restricted-equilibrium-auto/, for restricted/lo
 7. Write a companion note with a concrete scaling recommendation for TASK-019, or a clear stop recommendation if the restricted 3D system remains badly conditioned.
 8. Add lightweight tests that verify the diagnostic artifacts exist, the seed residual is small, conditioning metrics are reported, and the note does not overstate continuation readiness.
 <!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+- Implemented `episodes/07-restricted-equilibrium-auto/scripts/berton_restricted_task018_diagnostics.py` to define the w=0 restricted residual, physical-state mapping, Jacobian conditioning, parameter sensitivities, and branch-risk report.
+- Generated curated TASK-018 outputs under `episodes/07-restricted-equilibrium-auto/outputs/task018/` and a companion recommendation note in `episodes/07-restricted-equilibrium-auto/docs/task018_restricted_scaling_diagnostics.md`.
+- Added `tests/test_episode07_restricted_task018.py`; relevant pytest selections pass.
+<!-- SECTION:NOTES:END -->
