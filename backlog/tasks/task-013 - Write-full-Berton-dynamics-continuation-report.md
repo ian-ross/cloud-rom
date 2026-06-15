@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-14 12:39'
-updated_date: '2026-06-15 17:07'
+updated_date: '2026-06-15 17:08'
 labels:
   - berton
   - auto
@@ -46,3 +46,9 @@ Produce the final report for the full Berton dynamics investigation after the ne
 6. Add lightweight report checks for required sections, commands, generated artifacts, and final verdict language if useful.
 7. Run validation/report checks and update the backlog task with final summary and evidence.
 <!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+Started TASK-013: reviewed TASK-010, TASK-011, and TASK-012 summaries. Current evidence chain is: z_W0 equilibrium continuation is insensitive/no Hopf; long BDF/LSODA integration classifies the reported oscillation as damped/equilibrium-like; AUTO from the long-integration seed accepts only the seed and fails first continuation steps for W_a0/H_a3, while the Python probe suggests H_a3/log-mass reformulation as the strongest follow-up.
+<!-- SECTION:NOTES:END -->
