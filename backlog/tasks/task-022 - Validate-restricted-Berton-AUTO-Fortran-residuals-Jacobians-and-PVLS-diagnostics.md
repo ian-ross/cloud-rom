@@ -3,7 +3,7 @@ id: TASK-022
 title: >-
   Validate restricted Berton AUTO Fortran residuals Jacobians and PVLS
   diagnostics
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-16 13:24'
