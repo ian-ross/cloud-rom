@@ -28,12 +28,12 @@ Systematically validate the restricted/scaled Berton AUTO Fortran implementation
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 A standalone validation script compiles/calls the restricted AUTO Fortran source outside AUTO, including STPNT, FUNC with IJAC=2, and PVLS.
-- [ ] #2 Fortran restricted/scaled FUNC residuals are compared with Python residuals at the seed, predictor-like off-seed points, and selected TASK-012 W_a0 probe equilibria such as W_a0=0.5, 0.7, and 1.0.
-- [ ] #3 Fortran DFDU is compared against centered finite differences of the Fortran FUNC itself and/or Python finite differences, with tolerances and any discrepancies reported.
-- [ ] #4 Fortran DFDP for W_a0, and any other active continuation parameters used by recent runs, is compared against centered finite differences in PAR values, with special attention to parameter indexing.
-- [ ] #5 PVLS-written ancillary PAR diagnostics are compared against Python local diagnostics for the same physical states, or any unvalidated diagnostics are explicitly removed from continuation ICP lists and documented.
-- [ ] #6 The report concludes which of the suspected failure modes remains plausible: residual mismatch, DFDU mismatch, DFDP/indexing mismatch, PVLS/ICP misuse, parameter scaling, or an AUTO issue not reproduced by standalone checks.
+- [x] #1 A standalone validation script compiles/calls the restricted AUTO Fortran source outside AUTO, including STPNT, FUNC with IJAC=2, and PVLS.
+- [x] #2 Fortran restricted/scaled FUNC residuals are compared with Python residuals at the seed, predictor-like off-seed points, and selected TASK-012 W_a0 probe equilibria such as W_a0=0.5, 0.7, and 1.0.
+- [x] #3 Fortran DFDU is compared against centered finite differences of the Fortran FUNC itself and/or Python finite differences, with tolerances and any discrepancies reported.
+- [x] #4 Fortran DFDP for W_a0, and any other active continuation parameters used by recent runs, is compared against centered finite differences in PAR values, with special attention to parameter indexing.
+- [x] #5 PVLS-written ancillary PAR diagnostics are compared against Python local diagnostics for the same physical states, or any unvalidated diagnostics are explicitly removed from continuation ICP lists and documented.
+- [x] #6 The report concludes which of the suspected failure modes remains plausible: residual mismatch, DFDU mismatch, DFDP/indexing mismatch, PVLS/ICP misuse, parameter scaling, or an AUTO issue not reproduced by standalone checks.
 <!-- AC:END -->
 
 ## Implementation Plan
