@@ -34,13 +34,14 @@ In the new episode episodes/07-restricted-equilibrium-auto/, use the TASK-018 sc
 ## Implementation Plan
 
 <!-- SECTION:PLAN:BEGIN -->
-1. Start from the TASK-018 recommended restricted residual and scalings in `episodes/07-restricted-equilibrium-auto/`, not the full-4D TASK-015 AUTO variant.
-2. Implement a new AUTO problem under `episodes/07-restricted-equilibrium-auto/auto/`, with three unknowns and physical inverse conversion helpers documented in comments.
-3. Translate the TASK-011 seed into the scaled restricted coordinates; verify the Fortran restricted residual against the Python diagnostic residual.
-4. Configure `W_a0` as the continuation parameter with conservative steps and UZR/UZSTOP anchors guided by TASK-012/TASK-018.
-5. Run at least the easier W_a0 direction first; only run the opposite direction if the first direction accepts nontrivial points or yields useful diagnostics.
-6. Parse AUTO branch/solution/diagnostic files into `outputs/task019/`, including accepted parameter range, state movement, stability/eigenvalue diagnostics where available, and failure notes.
-7. Compare explicitly against TASK-012/TASK-015 first-step failures and the TASK-012 Python W_a0 probe expectation of smooth stable equilibrium movement.
-8. Write a notebook/script/doc record of commands, constants, scaling choices, accepted points or failure diagnostics, and residual risks.
-9. Add tests for output artifacts, seed translation/cross-checks, W_a0 comparison, and the conditioning-gate conclusion for TASK-020.
+1. Use the TASK-022 arclength-scaling finding as the primary implementation fix: replace AUTO state `U(3)=M=log(m/m_seed)` with `U(3)=P=M/10`, and map back with `log(m)=log(m_seed)+10*P`.
+2. Start from the restricted/scaled TASK-017/TASK-021 residual, not the failed full-4D TASK-015 variant; keep `Z=(z-z_seed)/100 m`, `U=(u-u_seed)/(1 m/s)`, and the TASK-018 row-scaled residuals.
+3. Update Fortran comments, `unames`, PVLS/physical-output conversion, parser logic, and tests so branch outputs report both the AUTO coordinate `P_log_ratio_over_10` and physical `M=10P`/`m=m_seed*exp(10P)`.
+4. Adjust any supplied DFDU finite-difference step or analytic derivative for the `P` coordinate by the chain-rule factor of 10; if using AUTO finite differences first, document that `P` is the arclength-scaled mass coordinate.
+5. Configure `W_a0` continuation from the TASK-011/TASK-012 seed with conservative initial steps; the scratch TASK-022 follow-up showed the `P=M/10` variant reaches `W_a0=1.2`, so use that as the expected gate target.
+6. Run at least the upward W_a0 sanity direction and preserve raw AUTO `b/s/d` outputs under a distinct TASK-019 name without overwriting TASK-017/TASK-021 artifacts.
+7. Parse branch files into `outputs/task019/`, including accepted W_a0 range, physical altitude/u/m movement, `P` and reconstructed `M`, stability/eigenvalue diagnostics where available, and convergence notes.
+8. Compare explicitly against TASK-017/TASK-021 seed-only failures and the TASK-012 Python W_a0 probe expectation of smooth stable movement.
+9. Write a notebook/script/doc record of commands, constants, the `P=M/10` arclength fix, accepted points, residual risks, and whether this clears the W_a0 gate for TASK-020.
+10. Add tests for output artifacts, seed translation/cross-checks, `P<->M` conversion, W_a0 range coverage, and conservative gate conclusion for TASK-020.
 <!-- SECTION:PLAN:END -->
