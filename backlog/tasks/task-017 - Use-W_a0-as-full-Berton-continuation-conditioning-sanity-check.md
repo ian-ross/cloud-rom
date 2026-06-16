@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-15 19:47'
-updated_date: '2026-06-16 11:39'
+updated_date: '2026-06-16 20:22'
 labels:
   - berton
   - auto
@@ -59,4 +59,6 @@ Started TASK-017: set task In Progress and reassessed the existing plan against 
 
 - Full validation passed: uv run pytest (66 passed).
 - TASK-017 remains blocked on AC #3 as written because the new restricted/scaled AUTO attempt still immediately fails after the seed instead of demonstrating nontrivial branch movement. The negative result is documented and should feed TASK-019 refinement.
+
+Post TASK-022 follow-up found a likely fix for AC #3: the restricted AUTO arclength geometry is dominated by `M=log(m/m_seed)`. A scratch variant using `P=M/10` and inverse map `log(m)=log(m_seed)+10P` accepted nontrivial W_a0 points up to the 1.2 target. TASK-019 has been updated to implement this as the curated W_a0 gate rather than treating the TASK-017/TASK-021 seed-only result as final.
 <!-- SECTION:NOTES:END -->
