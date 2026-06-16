@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-15 19:47'
-updated_date: '2026-06-16 11:38'
+updated_date: '2026-06-16 11:39'
 labels:
   - berton
   - auto
@@ -56,4 +56,7 @@ Started TASK-017: set task In Progress and reassessed the existing plan against 
 - Curated outputs under episodes/07-restricted-equilibrium-auto/outputs/task017 and wrote docs/task017_wa0_conditioning_sanity_check.md.
 - Result is negative: Python W_a0 probe remains smooth/stable over 0.1-1.2 m/s, but restricted/scaled AUTO still accepts only the seed at W_a0=0.6 and hits DGEBAL/NaN first-step failures. This means H_a3 failures remain broader formulation/conditioning concerns, not control-specific Hopf evidence.
 - Validation: uv run pytest tests/test_episode07_restricted_task017.py tests/test_episode07_restricted_task018.py
+
+- Full validation passed: uv run pytest (66 passed).
+- TASK-017 remains blocked on AC #3 as written because the new restricted/scaled AUTO attempt still immediately fails after the seed instead of demonstrating nontrivial branch movement. The negative result is documented and should feed TASK-019 refinement.
 <!-- SECTION:NOTES:END -->
