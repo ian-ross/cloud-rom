@@ -1,10 +1,11 @@
 ---
 id: TASK-017
 title: Use W_a0 as full Berton continuation conditioning sanity check
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-15 19:47'
-updated_date: '2026-06-15 20:18'
+updated_date: '2026-06-16 11:23'
 labels:
   - berton
   - auto
