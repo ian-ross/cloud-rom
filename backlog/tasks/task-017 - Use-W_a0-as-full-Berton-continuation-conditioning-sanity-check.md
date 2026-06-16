@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-15 19:47'
-updated_date: '2026-06-16 11:23'
+updated_date: '2026-06-16 11:24'
 labels:
   - berton
   - auto
@@ -35,19 +35,19 @@ Use W_a0 continuation in the improved full Berton AUTO formulation as a sanity c
 ## Implementation Plan
 
 <!-- SECTION:PLAN:BEGIN -->
-1. Wait for TASK-015 to provide the improved/reformulated AUTO setup and confirm the seed translation/eigenvalue cross-check passes.
-2. Configure W_a0 as the continuation parameter in the reformulated AUTO problem, using the TASK-011/TASK-012 equilibrium seed at W_a0=0.6 m/s.
-3. Choose bidirectional W_a0 ranges guided by the TASK-012 Python probe, aiming toward 0.1-1.2 m/s where feasible, with UZR anchors and conservative step controls.
-4. Run AUTO continuation in both W_a0 directions and preserve raw branch/solution/diagnostic files under a distinct episode-06 output path.
-5. Parse accepted branch points to report W_a0 range, equilibrium altitude/state movement, stability index, eigenvalues, and any LP/HB/BP/special labels or convergence failures.
-6. Compare AUTO branch trends against the TASK-012 Python W_a0 probe, especially smooth altitude shift and stable critical real parts.
-7. Use the result as a conditioning diagnostic: distinguish successful formulation behavior from broader first-step failures, and state what it implies for interpreting H_a3 continuation outcomes.
-8. Write a short companion note with commands, constants, branch plots/tables, comparison to TASK-012, and residual risks.
-9. Add tests verifying required outputs, nontrivial W_a0 movement or documented failure, stability diagnostics, and the explicit conditioning-sanity-check conclusion.
+1. Treat the existing TASK-015 log-mass W_a0 result as negative full-4D evidence, not as the final TASK-017 sanity check, because it still accepted only the seed.
+2. Use the completed TASK-018 restricted/local 3D scaling diagnostics as the basis for TASK-017, and coordinate any needed implementation with TASK-019 rather than rerunning the failed TASK-015 setup unchanged.
+3. Inspect TASK-012/TASK-015 W_a0 probe outputs and TASK-018 scaling recommendation to define the exact W_a0 range, seed translation, residual/state scalings, and stability diagnostics required for this sanity check.
+4. If restricted 3D AUTO artifacts already exist, parse and synthesize them; otherwise create/run the minimal restricted W_a0 continuation path needed under episodes/07-restricted-equilibrium-auto without overwriting prior task artifacts.
+5. Generate curated TASK-017 outputs documenting accepted W_a0 range or failure, equilibrium altitude/state movement, stability/eigenvalue diagnostics, AUTO commands/constants, and comparison with TASK-012/TASK-015 first-step failures.
+6. Write a short companion note that explicitly answers whether W_a0 conditioning succeeds and what that implies for interpreting H_a3 failures as control-specific versus broader formulation/conditioning problems.
+7. Add/update regression tests for the TASK-017 artifacts and conclusion language, run the relevant pytest selection, then mark acceptance criteria and final summary via backlog CLI.
 <!-- SECTION:PLAN:END -->
 
 ## Implementation Notes
 
 <!-- SECTION:NOTES:BEGIN -->
 TASK-015 already attempted W_a0 on the log-mass full-4D formulation and still accepted only the seed. Follow-up W_a0 conditioning work should move to the restricted/scaled 3D formulation in TASK-018/TASK-019 rather than simply rerunning the TASK-015 setup.
+
+Started TASK-017: set task In Progress and reassessed the existing plan against completed TASK-015/TASK-018. TASK-015 full-4D log-mass W_a0 remained seed-only, so the useful continuation check should now be based on the restricted/scaled 3D route from TASK-018/TASK-019.
 <!-- SECTION:NOTES:END -->
