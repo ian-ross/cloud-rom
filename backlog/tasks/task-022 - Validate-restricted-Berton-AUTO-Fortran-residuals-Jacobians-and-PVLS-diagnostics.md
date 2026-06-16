@@ -7,7 +7,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-16 13:24'
-updated_date: '2026-06-16 15:24'
+updated_date: '2026-06-16 15:46'
 labels:
   - berton
   - auto
@@ -50,3 +50,14 @@ Systematically validate the restricted/scaled Berton AUTO Fortran implementation
 9. Write curated CSV/JSON outputs and a companion note concluding which failure modes remain plausible: residual mismatch, DFDU mismatch, DFDP/indexing mismatch, PVLS/ICP misuse, parameter scaling/arclength/tangent issue, nonlinear residual issue, or AUTO-only setup issue.
 10. Add regression tests for the validation driver, sample coverage, tangent check, linear surrogate outcome, residual/Jacobian/DFDP/PVLS summaries, and final failure-mode conclusion; run the relevant pytest selection.
 <!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+- Updated the implementation plan to include the TASK-021 recommendation: local implicit tangent validation plus an affine restricted AUTO surrogate before adding complexity back.
+- Added `berton_restricted_task022_validate_fortran.py`, which generates and compiles a standalone Fortran driver for the TASK-017 source, calls STPNT/FUNC(IJAC=2)/PVLS, and compares against Python residual/Jacobian/diagnostic references.
+- Validated seed, tangent-predictor W_a0=0.601, and TASK-012 W_a0 probe equilibria at 0.5, 0.7, and 1.0. Max errors: residual 7.36e-08, DFDU 3.60e-06, DFDP 9.52e-05, selected PVLS diagnostics 6.16e-07.
+- Added and ran the affine local AUTO surrogate; AUTO continued the linearized restricted problem from W_a0=0.6 through at least W_a0=1.2, so generic AUTO setup failure is less plausible.
+- Conclusion: basic residual/DFDU/DFDP/PVLS mismatches are unlikely; remaining focus should be nonlinear restricted corrector/arclength/tangent scaling or finite-difference behavior after Newton iterates jump off the local branch.
+- Verification: uv run pytest tests/test_episode07_restricted_task017.py tests/test_episode07_restricted_task018.py tests/test_episode07_restricted_task021.py tests/test_episode07_restricted_task022.py (17 passed).
+<!-- SECTION:NOTES:END -->
