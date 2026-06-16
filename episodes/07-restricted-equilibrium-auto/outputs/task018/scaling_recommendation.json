@@ -1,0 +1,21 @@
+{
+  "caveat": "Nearby humidity/eta profile kinks at 10 km remain branch risks; prove W_a0 continuation before H_a3 Hopf work.",
+  "log_m_seed": -20.646092418309163,
+  "m_seed_kg": 1.0802293920592052e-09,
+  "residual_scales": {
+    "dlogm_dt_s_inv": 1.2887721213001603e-06,
+    "du_dt_m_s2": 16.342298382131073,
+    "dw_dt_m_s2": 6.061583113748147
+  },
+  "scaled_condition_estimate": 7.4275375678147855,
+  "state_coordinate": "Z=(z-z_seed)/100m; U=(u-u_seed)/(1m/s); M=log(m/m_seed)",
+  "state_scales": {
+    "log_m_kg": 1.0,
+    "u_m_s": 1.0,
+    "z_m": 100.0
+  },
+  "suitable_for_task019_gate": true,
+  "u_seed_m_s": 1.9098623386953224,
+  "unscaled_condition_estimate": 180229274.32224023,
+  "z_seed_m": 9618.027532260936
+}

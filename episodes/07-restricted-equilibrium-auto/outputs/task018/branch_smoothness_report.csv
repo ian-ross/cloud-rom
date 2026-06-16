@@ -1,0 +1,10 @@
+piece,active_branch,value,distance_to_nearest_break_m,risk_at_seed
+horizontal wind U_a(z),8-16 km linear segment,1.9098623386953228,1618.027532260936,smooth inside segment; kink only at endpoints
+updraft W_a(z),above z_W0 plateau,0.6,618.0275322609359,smooth w.r.t. z locally but W_a0 changes residual directly
+temperature T_a(z),8-14 km linear segment,220.45328744623177,1618.027532260936,smooth inside segment
+relative humidity H_a(z),4-10 km linear segment ending at H_a3,0.5966309636291327,381.9724677390641,near enough to 10 km kink that large AUTO steps can cross branch
+infrared eta(z),9-10 km linear segment,1.0236055064521872,381.9724677390641,near both eta kinks; affects radiation residual
+Reynolds terminal fallback,direct slip Reynolds,2.4491860221037602,0.6,fallback inactive because slip speed is nonzero
+drag MAX/Re guard,Re >> 1e-12,9.83041259337718,2.44918602210276,guard inactive
+geometry solve,positive brentq root with c > c_B,5.368759848489169e-05,8.693519696978337e-05,smooth for positive mass; no endpoint root risk
+log-mass exp/MAX guard,"m = exp(log_m), no floor in Python diagnostic",1.0802293920592052e-09,1.0802293920592052e-09,smooth exp map at seed; AUTO implementation should avoid clipping near seed and keep any floor far below seed inactive

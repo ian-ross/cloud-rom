@@ -1,0 +1,7 @@
+scaling,singular_value_index,singular_value,condition_estimate
+unscaled_physical_logm_residual,1,16.342298382131123,180229274.32224023
+unscaled_physical_logm_residual,2,6.061583113748147,180229274.32224023
+unscaled_physical_logm_residual,3,9.06750495644341e-08,180229274.32224023
+centered_state_scaled_row_scaled,1,7.121205496315802,7.4275375678147855
+centered_state_scaled_row_scaled,2,1.0305035427102072,7.4275375678147855
+centered_state_scaled_row_scaled,3,0.9587572504747212,7.4275375678147855

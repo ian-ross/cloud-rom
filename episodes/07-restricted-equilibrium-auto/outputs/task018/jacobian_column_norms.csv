@@ -1,0 +1,7 @@
+scaling,state,column_l2_norm
+unscaled_physical_logm_residual,z_m,0.0817112364399061
+unscaled_physical_logm_residual,u_m_s,16.342094105168357
+unscaled_physical_logm_residual,log_m_kg,6.061583108985911
+centered_state_scaled_row_scaled,z_m,7.049658892931016
+centered_state_scaled_row_scaled,u_m_s,0.9999875001146791
+centered_state_scaled_row_scaled,log_m_kg,1.4124642404562067

@@ -1,0 +1,7 @@
+{
+  "accepted_nontrivial_branch": false,
+  "coordinate": "log_m_kg = log(m/kg)",
+  "first_step_control": "W_a0",
+  "residual_risk": "Log-mass removes the tiny raw mass coordinate, but W_a0 first-step continuation still diverges to NaN/DGEBAL failures before accepting a nontrivial point.",
+  "seed_log_m_kg": -20.646092418309163
+}

@@ -1,0 +1,7 @@
+scaling,residual,row_l2_norm
+unscaled_physical_logm_residual,du_dt_m_s2,16.342298382131073
+unscaled_physical_logm_residual,dw_dt_m_s2,6.061583113748147
+unscaled_physical_logm_residual,dlogm_dt_s_inv,1.2887721213001603e-06
+centered_state_scaled_row_scaled,du_dt_m_s2,1.1180211426224373
+centered_state_scaled_row_scaled,dw_dt_m_s2,1.0000078558296357
+centered_state_scaled_row_scaled,dlogm_dt_s_inv,7.102304819603473

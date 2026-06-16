@@ -1,0 +1,2 @@
+z_m,u_m_s,w_m_s,m_kg,log_m_kg,physical_rhs_norm,transformed_rhs_norm,fortran_python_transformed_rhs_max_abs_diff,physical_eigs_match_transformed
+9618.027532260936,1.9098623386953224,-2.908453631176365e-21,1.0802293920592052e-09,-20.646092418309163,2.1506166359534412e-13,2.0263498672936824e-13,2.519410493640948e-16,True

@@ -1,0 +1,9 @@
+run,label,eigenvalue_index,real_s_inv,imag_s_inv
+logm-wA0-plus,1,1,-7.06034e-06,-0.000171213
+logm-wA0-plus,1,2,-7.06034e-06,0.000171213
+logm-wA0-plus,1,3,-16.3421,0.0
+logm-wA0-plus,1,4,-18.7184,0.0
+logm-wA0-minus,1,1,-7.06034e-06,-0.000171213
+logm-wA0-minus,1,2,-7.06034e-06,0.000171213
+logm-wA0-minus,1,3,-16.3421,0.0
+logm-wA0-minus,1,4,-18.7184,0.0

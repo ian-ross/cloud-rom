@@ -1,0 +1,3 @@
+run,control,auto_points,auto_accepted_non_mx_points,control_min,control_max,types,main_failure_note,task012_wA0_min_accepted_non_mx_points,task012_failure_reference
+logm-wA0-minus,W_a0,1,1,0.6,0.6,EP,1     2   5                NaN           NaN,1,1     1 NOTE:Retrying step
+logm-wA0-plus,W_a0,1,1,0.6,0.6,EP,1     2   5                NaN           NaN,1,1     1 NOTE:Retrying step

@@ -1,0 +1,2 @@
+z_m,u_m_s,w_m_s,m_kg,log_m_kg,full_rhs_norm,restricted_residual_norm,rhs_z_m_s,rhs_u_m_s2,rhs_w_m_s2,rhs_m_kg_s,restricted_du_dt_m_s2,restricted_dw_dt_m_s2,restricted_dlogm_dt_s_inv,full_eigenvalues_match_task011,full_stable_eigenvalue_count
+9618.027532260936,1.9098623386953224,0.0,1.0802293920592052e-09,-20.646092418309163,2.1506166359534412e-13,2.026349867293682e-13,0.0,7.257347658313007e-15,-2.149391775674303e-13,-3.7955231677931203e-25,7.257347658313016e-15,-2.0250467969162855e-13,-3.5136130767317495e-16,True,4

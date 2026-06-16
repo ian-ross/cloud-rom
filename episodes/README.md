@@ -54,6 +54,16 @@ Path: `episodes/06-full-model-auto-seed-continuation/`
 
 Purpose: initialize full-model equilibrium continuation from the TASK-011 late-time equilibrium seed and probe controls expected to affect local equilibrium conditions (`W_a0` and `H_a3`) rather than repeating the insensitive `z_W0` branch alone.
 
-Backlog task: TASK-012.
+Backlog tasks: TASK-012, TASK-013, and TASK-015.
 
-Conclusion: AUTO accepts the TASK-011 seed and reproduces the stable complex eigenpair, but first continuation steps in `W_a0` and `H_a3` fail at the minimum step size. An independent Python root-continuation probe shows `W_a0` moves the stable equilibrium altitude and `H_a3` affects the critical eigenvalue, suggesting a scaled/log-mass AUTO reformulation with analytic parameter derivatives as the next follow-up.
+Conclusion: AUTO accepts the TASK-011 seed and reproduces the stable complex eigenpair, but TASK-012 first continuation steps in `W_a0` and `H_a3` fail at the minimum step size. TASK-015 replaces scaled mass with `log(m/kg)`, documents the physical-state conversion and derivative policy, and cross-checks the transformed seed residual/eigenvalues; the `W_a0` retry still accepts only the seed and now exposes Newton/NaN/DGEBAL divergence, so robust alternate-control continuation remains unresolved.
+
+## 07 — Restricted equilibrium AUTO continuation
+
+Path: `episodes/07-restricted-equilibrium-auto/`
+
+Purpose: investigate whether a restricted/local 3D equilibrium formulation with `w=0` and unknowns such as scaled altitude, horizontal velocity, and log-mass/radius is better conditioned than the episode-06 full 4D ODE-equilibrium AUTO problem.
+
+Backlog tasks: TASK-018 through TASK-020.
+
+Planned gate: diagnose scaling first, then prove the formulation on `W_a0` before attempting the Hopf-relevant `H_a3` continuation. TASK-018 recommends centered/scaled restricted states and row-scaled residuals, but explicitly does not claim Hopf readiness until the `W_a0` gate succeeds.

@@ -1,0 +1,3 @@
+run,branch,point,ty,type,label,control,control_value,l2_norm,z_W0,H_a3,sigma_S,R_zeta,sigma_plus_Rzeta,R
+logm-wA0-plus,1,-1,9,EP,1,W_a0,0.6,9618.0498813,9000.0,0.61,7.5079838085e-05,1.8660807171e-05,9.3740645256e-05,0.0022046734068
+logm-wA0-minus,1,-1,9,EP,1,W_a0,0.6,9618.0498813,9000.0,0.61,7.5079838085e-05,1.8660807171e-05,9.3740645256e-05,0.0022046734068
