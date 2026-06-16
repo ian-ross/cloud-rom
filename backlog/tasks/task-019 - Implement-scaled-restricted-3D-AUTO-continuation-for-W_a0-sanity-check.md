@@ -4,7 +4,7 @@ title: Implement scaled restricted 3D AUTO continuation for W_a0 sanity check
 status: To Do
 assignee: []
 created_date: '2026-06-15 20:17'
-updated_date: '2026-06-15 20:20'
+updated_date: '2026-06-16 20:22'
 labels:
   - berton
   - auto
@@ -28,6 +28,7 @@ In the new episode episodes/07-restricted-equilibrium-auto/, use the TASK-018 sc
 - [ ] #3 The TASK-011 seed is translated into restricted 3D AUTO coordinates and residuals/eigenvalues or equivalent stability diagnostics are cross-checked in Python.
 - [ ] #4 W_a0 continuation is run at least in the easier sanity-check direction and compared against TASK-012/TASK-015 first-step failures.
 - [ ] #5 Accepted points or failure diagnostics, AUTO commands/constants, and residual numerical risks are recorded in notebook/script/docs outputs.
+- [ ] #6 The restricted W_a0 gate applies the TASK-022 arclength fix by continuing in P=M/10, where M=log(m/m_seed), and reports physical M and m via the inverse conversion.
 <!-- AC:END -->
 
 ## Implementation Plan
