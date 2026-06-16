@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-15 19:47'
-updated_date: '2026-06-16 11:24'
+updated_date: '2026-06-16 11:38'
 labels:
   - berton
   - auto
@@ -25,11 +25,11 @@ Use W_a0 continuation in the improved full Berton AUTO formulation as a sanity c
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 Continuation starts from the TASK-011/TASK-012 equilibrium seed in the reformulated AUTO variables.
-- [ ] #2 W_a0 continuation covers a documented range comparable to the TASK-012 Python probe where feasible, or explains any reduced range.
+- [x] #1 Continuation starts from the TASK-011/TASK-012 equilibrium seed in the reformulated AUTO variables.
+- [x] #2 W_a0 continuation covers a documented range comparable to the TASK-012 Python probe where feasible, or explains any reduced range.
 - [ ] #3 AUTO outputs show whether the branch moves the equilibrium altitude smoothly beyond the seed and no longer immediately fails at the first step.
-- [ ] #4 Stability/eigenvalue diagnostics are reported and compared with the TASK-012 Python W_a0 probe expectation of stable equilibria.
-- [ ] #5 The result is used to assess whether remaining H_a3 failures are control-specific or indicate broader formulation/conditioning problems.
+- [x] #4 Stability/eigenvalue diagnostics are reported and compared with the TASK-012 Python W_a0 probe expectation of stable equilibria.
+- [x] #5 The result is used to assess whether remaining H_a3 failures are control-specific or indicate broader formulation/conditioning problems.
 <!-- AC:END -->
 
 ## Implementation Plan
@@ -50,4 +50,10 @@ Use W_a0 continuation in the improved full Berton AUTO formulation as a sanity c
 TASK-015 already attempted W_a0 on the log-mass full-4D formulation and still accepted only the seed. Follow-up W_a0 conditioning work should move to the restricted/scaled 3D formulation in TASK-018/TASK-019 rather than simply rerunning the TASK-015 setup.
 
 Started TASK-017: set task In Progress and reassessed the existing plan against completed TASK-015/TASK-018. TASK-015 full-4D log-mass W_a0 remained seed-only, so the useful continuation check should now be based on the restricted/scaled 3D route from TASK-018/TASK-019.
+
+- Added restricted/scaled TASK-017 AUTO variant under episodes/07-restricted-equilibrium-auto/auto/berton_restricted_task017 using TASK-018 coordinates Z, U, M=log(m/m_seed), w=0, and row-scaled residuals.
+- Ran bidirectional W_a0 AUTO attempts and parsed them with episodes/07-restricted-equilibrium-auto/scripts/berton_restricted_task017_wa0_sanity.py.
+- Curated outputs under episodes/07-restricted-equilibrium-auto/outputs/task017 and wrote docs/task017_wa0_conditioning_sanity_check.md.
+- Result is negative: Python W_a0 probe remains smooth/stable over 0.1-1.2 m/s, but restricted/scaled AUTO still accepts only the seed at W_a0=0.6 and hits DGEBAL/NaN first-step failures. This means H_a3 failures remain broader formulation/conditioning concerns, not control-specific Hopf evidence.
+- Validation: uv run pytest tests/test_episode07_restricted_task017.py tests/test_episode07_restricted_task018.py
 <!-- SECTION:NOTES:END -->
