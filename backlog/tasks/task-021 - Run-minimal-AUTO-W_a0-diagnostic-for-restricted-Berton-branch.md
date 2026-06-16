@@ -53,3 +53,23 @@ Run the fastest diagnostic for the restricted/scaled Berton W_a0 continuation fa
 - Added parser/synthesis script, curated task021 outputs, companion note, reproducibility notebook, and pytest coverage.
 - Verification: uv run pytest tests/test_episode07_restricted_task017.py tests/test_episode07_restricted_task018.py tests/test_episode07_restricted_task021.py (12 passed).
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Implemented the TASK-021 minimal AUTO W_a0 diagnostic in a separate episode-07 artifact set.
+
+Changes:
+- Added `auto/berton_restricted_task021_minimal/` with a stripped restricted/scaled Fortran problem, plus/minus AUTO constants using only `W_a0` in `ICP`, `ISP=0`, `ILP=0`, `JAC=0`, and empty `PVLS`.
+- Ran the minimal plus/minus continuations and preserved raw `b./s./d.task021-minimal-wA0-{plus,minus}` outputs.
+- Added `berton_restricted_task021_minimal_auto.py` to synthesize config, branch, convergence, comparison, and verdict outputs under `outputs/task021/`.
+- Added `docs/task021_minimal_wa0_auto_diagnostic.md` and a reproducibility notebook recording the AUTO commands/constants.
+- Added pytest coverage for the stripped config, curated outputs, interpretation, and reproducibility artifacts.
+
+Result:
+- AUTO still accepts only the seed at `W_a0=0.6`; no nontrivial branch point beyond `0.6` is accepted.
+- Compared with TASK-017 and the TASK-012 Python probe, the failure persists after stripping diagnostic ICP/PVLS/supplied-Jacobian bookkeeping, pointing to the remaining AUTO algebraic continuation/scaling/initial-tangent setup rather than those removed metadata paths alone.
+
+Tests:
+- `uv run pytest tests/test_episode07_restricted_task017.py tests/test_episode07_restricted_task018.py tests/test_episode07_restricted_task021.py`
+<!-- SECTION:FINAL_SUMMARY:END -->
