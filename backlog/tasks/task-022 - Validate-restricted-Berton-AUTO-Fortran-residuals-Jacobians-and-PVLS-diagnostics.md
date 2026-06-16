@@ -61,3 +61,25 @@ Systematically validate the restricted/scaled Berton AUTO Fortran implementation
 - Conclusion: basic residual/DFDU/DFDP/PVLS mismatches are unlikely; remaining focus should be nonlinear restricted corrector/arclength/tangent scaling or finite-difference behavior after Newton iterates jump off the local branch.
 - Verification: uv run pytest tests/test_episode07_restricted_task017.py tests/test_episode07_restricted_task018.py tests/test_episode07_restricted_task021.py tests/test_episode07_restricted_task022.py (17 passed).
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Implemented TASK-022 restricted Fortran validation plus the local affine AUTO surrogate recommended after TASK-021.
+
+Changes:
+- Added `berton_restricted_task022_validate_fortran.py`, which generates/compiles a standalone Fortran driver around the TASK-017 restricted AUTO source and calls `STPNT`, `FUNC(..., IJAC=2, ...)`, and `PVLS` outside AUTO.
+- Validated residuals, DFDU, DFDP for W_a0/z_W0/H_a3, and selected PVLS diagnostics against Python references at the seed, a W_a0=0.601 tangent predictor point, and TASK-012 Python W_a0 probe equilibria at 0.5, 0.7, and 1.0.
+- Added local tangent outputs (`seed_dfdu_matrix.csv`, `seed_dfdw_vector.csv`, `seed_implicit_tangent.csv`, `local_tangent_check.csv`).
+- Added an affine local surrogate AUTO problem under `auto/berton_restricted_task022_linear_surrogate/` and preserved raw branch/solution/diagnostic output.
+- Added `outputs/task022/` summaries and `docs/task022_restricted_fortran_validation.md`.
+- Added regression tests in `tests/test_episode07_restricted_task022.py`.
+
+Result:
+- Standalone Fortran/Python checks are tight enough to rule out basic residual mismatch, validated DFDU mismatch, W_a0/z_W0/H_a3 DFDP indexing mismatch, and selected PVLS physical diagnostic mismatch as likely causes.
+- The affine surrogate continues successfully beyond the TASK-012 W_a0 probe range, so generic AUTO inability to continue the local restricted coordinate/control setup is also unlikely.
+- Remaining plausible failure modes are nonlinear Berton residual/arclength-corrector interaction, nonlinear step/tangent scaling, or finite-difference behavior once Newton iterates jump far from the local branch.
+
+Tests:
+- `uv run pytest tests/test_episode07_restricted_task017.py tests/test_episode07_restricted_task018.py tests/test_episode07_restricted_task021.py tests/test_episode07_restricted_task022.py`
+<!-- SECTION:FINAL_SUMMARY:END -->
