@@ -1,0 +1,2 @@
+source,control_min,control_max,successful_points,z_min_m,z_max_m,altitude_span_m,all_stable,critical_real_max_s_inv
+TASK-012 Python W_a0 probe,0.1,1.2,23,9596.48614098164,9651.959094828704,55.47295384706376,True,-1.416999921432397e-06

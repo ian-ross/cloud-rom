@@ -1,0 +1,14 @@
+{
+  "auto_accepted_nontrivial_branch": false,
+  "auto_coordinate": "restricted/scaled 3D: Z, U, M=log(m/m_seed), w=0",
+  "conditioning_verdict": "W_a0 restricted/scaled AUTO still accepts only the seed; H_a3 failures remain broader formulation/conditioning concerns rather than control-specific evidence.",
+  "seed_source": "TASK-011/TASK-012 equilibrium",
+  "wA0_auto_covered_range_m_s": [
+    0.6,
+    0.6
+  ],
+  "wA0_python_expected_range_m_s": [
+    0.1,
+    1.2
+  ]
+}

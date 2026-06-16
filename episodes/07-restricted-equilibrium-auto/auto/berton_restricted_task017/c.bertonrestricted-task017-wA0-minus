@@ -1,0 +1,12 @@
+# TASK-017 restricted/scaled 3D W_a0 continuation downward.
+parnames = {1:'z_W0', 2:'W_a0', 3:'rad_mult', 4:'H_a3', 5:'eta_override', 6:'drag_mult', 7:'Delta_z_W', 39:'eta_blend', 40:'phi', 41:'c_B', 43:'include_coriolis', 44:'reynolds_length_mode', 60:'sigma_S', 61:'R_zeta', 62:'sigma_plus_Rzeta', 63:'R', 64:'rad_R', 65:'driving_factor', 66:'m_dot', 67:'k', 68:'Re', 75:'S_i', 77:'eta', 79:'W_a', 80:'U_a', 81:'rho_a', 91:'vertical_force_residual', 92:'growth_balance_residual', 93:'fall_speed_slope_proxy', 94:'growth_mass_slope', 95:'reduced_det_proxy', 96:'z_phys', 97:'u_phys', 98:'m_phys'}
+unames = {1:'Z_scaled', 2:'U_scaled', 3:'M_log_ratio'}
+NDIM=3, IPS=1, IRS=0, ILP=1
+ICP = ['W_a0', 'z_W0', 'H_a3', 'z_phys', 'u_phys', 'm_phys', 'sigma_S', 'R_zeta', 'sigma_plus_Rzeta', 'R', 'driving_factor', 'k']
+NTST=10, NCOL=4, IAD=3, ISP=2, ISW=1, IPLT=0, NBC=0, NINT=0
+NMX=400, NPR=10, MXBF=0, IID=2, ITMX=20, ITNW=12, NWTN=6, JAC=1
+EPSL=1e-08, EPSU=1e-08, EPSS=1e-06
+DS=-0.001, DSMIN=1e-07, DSMAX=0.02, IADS=1
+NPAR=98, THL={}, THU={}
+UZR = {'W_a0': [0.5, 0.4, 0.3, 0.2, 0.1]}
+UZSTOP = {'W_a0': [0.1]}

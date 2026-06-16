@@ -1,0 +1,899 @@
+run,label,message
+restricted-wA0-plus,1,Stable eigenvalues: 2
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 9.8055E-300 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 9.8055E-300 in GE
+restricted-wA0-plus,1,1     2   5                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   6                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   7                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   8                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   9                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  10                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  11                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  12                NaN           NaN
+restricted-wA0-plus,1,1     1 NOTE:Retrying step
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.9603E-299 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.9603E-299 in GE
+restricted-wA0-plus,1,1     2   5                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   6                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   7                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   8                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   9                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  10                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  11                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  12                NaN           NaN
+restricted-wA0-plus,1,1     1 NOTE:Retrying step
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.9198E-299 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.9198E-299 in GE
+restricted-wA0-plus,1,1     2   5                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   6                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   7                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   8                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   9                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  10                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  11                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  12                NaN           NaN
+restricted-wA0-plus,1,1     1 NOTE:Retrying step
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 7.8387E-299 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 7.8387E-299 in GE
+restricted-wA0-plus,1,1     2   5                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   6                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   7                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   8                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   9                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  10                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  11                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  12                NaN           NaN
+restricted-wA0-plus,1,1     1 NOTE:Retrying step
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.5677E-298 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.5677E-298 in GE
+restricted-wA0-plus,1,1     2   5                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   6                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   7                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   8                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   9                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  10                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  11                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  12                NaN           NaN
+restricted-wA0-plus,1,1     1 NOTE:Retrying step
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.1352E-298 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.1352E-298 in GE
+restricted-wA0-plus,1,1     2   5                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   6                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   7                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   8                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   9                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  10                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  11                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  12                NaN           NaN
+restricted-wA0-plus,1,1     1 NOTE:Retrying step
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 6.2704E-298 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 6.2704E-298 in GE
+restricted-wA0-plus,1,1     2   5                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   6                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   7                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   8                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   9                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  10                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  11                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  12                NaN           NaN
+restricted-wA0-plus,1,1     1 NOTE:Retrying step
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.2541E-297 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.2541E-297 in GE
+restricted-wA0-plus,1,1     2   5                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   6                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   7                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   8                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   9                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  10                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  11                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  12                NaN           NaN
+restricted-wA0-plus,1,1     1 NOTE:Retrying step
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.5081E-297 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.5081E-297 in GE
+restricted-wA0-plus,1,1     2   5                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   6                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   7                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   8                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   9                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  10                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  11                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  12                NaN           NaN
+restricted-wA0-plus,1,1     1 NOTE:Retrying step
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 5.0162E-297 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 5.0162E-297 in GE
+restricted-wA0-plus,1,1     2   5                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   6                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   7                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   8                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   9                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  10                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  11                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  12                NaN           NaN
+restricted-wA0-plus,1,1     1 NOTE:Retrying step
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.0032E-296 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.0032E-296 in GE
+restricted-wA0-plus,1,1     2   5                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   6                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   7                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   8                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   9                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  10                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  11                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  12                NaN           NaN
+restricted-wA0-plus,1,1     1 NOTE:Retrying step
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.0065E-296 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.0065E-296 in GE
+restricted-wA0-plus,1,1     2   5                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   6                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   7                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   8                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   9                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  10                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  11                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  12                NaN           NaN
+restricted-wA0-plus,1,1     1 NOTE:Retrying step
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 4.0130E-296 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 4.0130E-296 in GE
+restricted-wA0-plus,1,1     2   5                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   6                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   7                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   8                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   9                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  10                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  11                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  12                NaN           NaN
+restricted-wA0-plus,1,1     1 NOTE:Retrying step
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 8.0260E-296 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 8.0260E-296 in GE
+restricted-wA0-plus,1,1     2   5                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   6                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   7                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   8                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2   9                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  10                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  11                NaN           NaN
+restricted-wA0-plus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-plus,1,1     2  12                NaN           NaN
+restricted-wA0-plus,1,1     1 NOTE:No convergence with minimum step size
+restricted-wA0-minus,1,Stable eigenvalues: 2
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 9.7887E-300 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 9.7887E-300 in GE
+restricted-wA0-minus,1,1     2   5                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   6                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   7                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   8                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   9                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  10                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  11                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  12                NaN           NaN
+restricted-wA0-minus,1,1     1 NOTE:Retrying step
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.9586E-299 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.9586E-299 in GE
+restricted-wA0-minus,1,1     2   5                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   6                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   7                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   8                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   9                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  10                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  11                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  12                NaN           NaN
+restricted-wA0-minus,1,1     1 NOTE:Retrying step
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.9181E-299 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.9181E-299 in GE
+restricted-wA0-minus,1,1     2   5                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   6                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   7                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   8                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   9                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  10                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  11                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  12                NaN           NaN
+restricted-wA0-minus,1,1     1 NOTE:Retrying step
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 7.8370E-299 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 7.8370E-299 in GE
+restricted-wA0-minus,1,1     2   5                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   6                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   7                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   8                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   9                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  10                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  11                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  12                NaN           NaN
+restricted-wA0-minus,1,1     1 NOTE:Retrying step
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.5675E-298 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.5675E-298 in GE
+restricted-wA0-minus,1,1     2   5                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   6                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   7                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   8                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   9                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  10                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  11                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  12                NaN           NaN
+restricted-wA0-minus,1,1     1 NOTE:Retrying step
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.1351E-298 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.1351E-298 in GE
+restricted-wA0-minus,1,1     2   5                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   6                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   7                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   8                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   9                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  10                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  11                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  12                NaN           NaN
+restricted-wA0-minus,1,1     1 NOTE:Retrying step
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 6.2702E-298 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 6.2702E-298 in GE
+restricted-wA0-minus,1,1     2   5                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   6                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   7                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   8                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   9                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  10                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  11                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  12                NaN           NaN
+restricted-wA0-minus,1,1     1 NOTE:Retrying step
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.2541E-297 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.2541E-297 in GE
+restricted-wA0-minus,1,1     2   5                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   6                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   7                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   8                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   9                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  10                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  11                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  12                NaN           NaN
+restricted-wA0-minus,1,1     1 NOTE:Retrying step
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.5081E-297 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.5081E-297 in GE
+restricted-wA0-minus,1,1     2   5                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   6                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   7                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   8                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   9                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  10                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  11                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  12                NaN           NaN
+restricted-wA0-minus,1,1     1 NOTE:Retrying step
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 5.0162E-297 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 5.0162E-297 in GE
+restricted-wA0-minus,1,1     2   5                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   6                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   7                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   8                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   9                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  10                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  11                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  12                NaN           NaN
+restricted-wA0-minus,1,1     1 NOTE:Retrying step
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.0032E-296 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.0032E-296 in GE
+restricted-wA0-minus,1,1     2   5                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   6                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   7                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   8                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   9                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  10                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  11                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  12                NaN           NaN
+restricted-wA0-minus,1,1     1 NOTE:Retrying step
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.0065E-296 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.0065E-296 in GE
+restricted-wA0-minus,1,1     2   5                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   6                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   7                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   8                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   9                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  10                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  11                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  12                NaN           NaN
+restricted-wA0-minus,1,1     1 NOTE:Retrying step
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 4.0130E-296 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 4.0130E-296 in GE
+restricted-wA0-minus,1,1     2   5                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   6                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   7                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   8                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   9                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  10                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  11                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  12                NaN           NaN
+restricted-wA0-minus,1,1     1 NOTE:Retrying step
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 8.0260E-296 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 8.0260E-296 in GE
+restricted-wA0-minus,1,1     2   5                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   6                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   7                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   8                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2   9                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  10                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  11                NaN           NaN
+restricted-wA0-minus,1,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+restricted-wA0-minus,1,1     2  12                NaN           NaN
+restricted-wA0-minus,1,1     1 NOTE:No convergence with minimum step size

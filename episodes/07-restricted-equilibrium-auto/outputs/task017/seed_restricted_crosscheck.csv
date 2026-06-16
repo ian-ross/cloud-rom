@@ -1,0 +1,2 @@
+z_m,u_m_s,w_m_s,m_kg,Z_scaled,U_scaled,M_log_ratio,raw_restricted_residual_norm,scaled_restricted_residual_norm,residual_scale_du_dt,residual_scale_dw_dt,residual_scale_dlogm_dt
+9618.027532260936,1.9098623386953224,0.0,1.0802293920592052e-09,0.0,0.0,0.0,2.026349867293682e-13,2.7263261247234583e-10,16.342298382131073,6.061583113748147,1.2887721213001603e-06
