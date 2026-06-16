@@ -1,7 +1,7 @@
 ---
 id: TASK-021
 title: Run minimal AUTO W_a0 diagnostic for restricted Berton branch
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-16 13:23'
