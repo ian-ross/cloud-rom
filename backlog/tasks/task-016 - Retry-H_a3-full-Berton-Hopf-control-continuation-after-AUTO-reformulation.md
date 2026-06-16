@@ -4,7 +4,7 @@ title: Retry H_a3 full Berton Hopf-control continuation after AUTO reformulation
 status: To Do
 assignee: []
 created_date: '2026-06-15 19:47'
-updated_date: '2026-06-15 20:18'
+updated_date: '2026-06-16 20:22'
 labels:
   - berton
   - auto
@@ -49,4 +49,6 @@ Using the improved full-model AUTO formulation, retry H_a3 as the primary local-
 
 <!-- SECTION:NOTES:BEGIN -->
 TASK-015 showed the log-mass full-4D reformulation still fails the easier W_a0 sanity check with NaN/DGEBAL divergence. Do not treat a direct H_a3 retry on that formulation as a meaningful validation attempt until restricted-3D scaling work (TASK-018/TASK-019) provides a better-conditioned gate.
+
+Update from TASK-022 follow-up: the restricted W_a0 failure appears fixable by arclength-scaling the mass coordinate as `P=M/10`, while keeping `M=log(m/m_seed)` physical reconstruction. Direct full-4D H_a3 work should remain deferred until TASK-019 validates this fixed restricted W_a0 gate and TASK-020 tests H_a3 in the fixed restricted formulation.
 <!-- SECTION:NOTES:END -->
