@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-16 13:23'
-updated_date: '2026-06-16 13:38'
+updated_date: '2026-06-16 13:44'
 labels:
   - berton
   - auto
@@ -44,3 +44,12 @@ Run the fastest diagnostic for the restricted/scaled Berton W_a0 continuation fa
 7. Write a concise companion note with commands, constants changed from TASK-017, raw artifact paths, result table, interpretation, and recommended next step for TASK-022/TASK-017.
 8. Add regression tests for the minimal config properties, curated outputs, and conclusion language, then run the relevant pytest selection.
 <!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+- Added separate TASK-021 minimal AUTO directory with stripped W_a0 configs (ICP only W_a0, ISP=0/ILP=0/JAC=0, empty PVLS, no supplied Jacobian).
+- Ran plus/minus minimal AUTO continuations from the TASK-011/TASK-012 seed; both accepted only the seed at W_a0=0.6 and failed first correction with pivot/NaN diagnostics.
+- Added parser/synthesis script, curated task021 outputs, companion note, reproducibility notebook, and pytest coverage.
+- Verification: uv run pytest tests/test_episode07_restricted_task017.py tests/test_episode07_restricted_task018.py tests/test_episode07_restricted_task021.py (12 passed).
+<!-- SECTION:NOTES:END -->
