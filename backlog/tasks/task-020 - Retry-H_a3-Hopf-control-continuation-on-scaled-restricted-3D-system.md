@@ -4,7 +4,7 @@ title: Retry H_a3 Hopf-control continuation on scaled restricted 3D system
 status: To Do
 assignee: []
 created_date: '2026-06-15 20:17'
-updated_date: '2026-06-15 20:20'
+updated_date: '2026-06-16 20:22'
 labels:
   - berton
   - auto
@@ -43,3 +43,9 @@ In episodes/07-restricted-equilibrium-auto/, after the restricted 3D W_a0 sanity
 8. Write a companion verdict note: AUTO-supported Hopf candidate, no crossing, numerical hint only, or still inconclusive; include residual risks and recommended next step.
 9. Add tests that verify H_a3 artifacts, comparison tables, independent eigenvalue checks or justified absence, and conservative verdict language.
 <!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+TASK-022 follow-up found a concrete arclength scaling fix for the restricted W_a0 gate: continue the mass coordinate as `P=M/10` with `M=log(m/m_seed)`, mapping back via `log(m)=log(m_seed)+10P`. TASK-020 should not clone the older TASK-017/TASK-021 `M` coordinate; it should wait for TASK-019 to validate and curate the `P=M/10` W_a0 branch, then reuse that exact coordinate for H_a3.
+<!-- SECTION:NOTES:END -->
