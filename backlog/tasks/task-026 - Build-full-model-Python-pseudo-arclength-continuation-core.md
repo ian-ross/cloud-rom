@@ -1,10 +1,11 @@
 ---
 id: TASK-026
 title: Build full-model Python pseudo-arclength continuation core
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-17 16:39'
-updated_date: '2026-06-17 16:39'
+updated_date: '2026-06-17 16:48'
 labels:
   - berton
   - continuation
