@@ -4,7 +4,7 @@ title: Retry H_a3 Hopf-control continuation on scaled restricted 3D system
 status: To Do
 assignee: []
 created_date: '2026-06-15 20:17'
-updated_date: '2026-06-16 20:22'
+updated_date: '2026-06-17 07:47'
 labels:
   - berton
   - auto
@@ -48,4 +48,6 @@ In episodes/07-restricted-equilibrium-auto/, after the restricted 3D W_a0 sanity
 
 <!-- SECTION:NOTES:BEGIN -->
 TASK-022 follow-up found a concrete arclength scaling fix for the restricted W_a0 gate: continue the mass coordinate as `P=M/10` with `M=log(m/m_seed)`, mapping back via `log(m)=log(m_seed)+10P`. TASK-020 should not clone the older TASK-017/TASK-021 `M` coordinate; it should wait for TASK-019 to validate and curate the `P=M/10` W_a0 branch, then reuse that exact coordinate for H_a3.
+
+TASK-019 has now validated the `P=M/10` restricted W_a0 gate: upward continuation reaches all W_a0 anchors through 1.2 and matches the TASK-012 Python probe closely. TASK-020 can proceed using the exact TASK-019 formulation and should treat the W_a0 conditioning gate as passed.
 <!-- SECTION:NOTES:END -->
