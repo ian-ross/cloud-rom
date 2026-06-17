@@ -1,0 +1,5 @@
+H_a3,z_m,u_m_s,w_m_s,m_kg,full_rhs_norm_at_task011_seed,stable_eigenvalue_count,critical_real_s_inv,critical_imag_s_inv,interpretation
+0.6,9618.027532260936,1.9098623386953224,0.0,1.0802293920592052e-09,2.1493303117306625e-13,4,-1.4085214394684782e-05,0.0001691915157815,finite-difference Python full-Jacobian check of the TASK-012 suspected H_a3 crossing; not an accepted AUTO branch point
+0.61,9618.027532260936,1.9098623386953224,0.0,1.0802293920592052e-09,2.13193703974786e-13,4,-7.06033744241601e-06,0.0001712130545582,finite-difference Python full-Jacobian check of the TASK-012 suspected H_a3 crossing; not an accepted AUTO branch point
+0.625,9618.027532260936,1.9098623386953224,0.0,1.0802293920592052e-09,2.1708753914699698e-13,2,3.476905899430199e-06,0.0001736693603385,finite-difference Python full-Jacobian check of the TASK-012 suspected H_a3 crossing; not an accepted AUTO branch point
+0.65,9618.027532260936,1.9098623386953224,0.0,1.0802293920592052e-09,2.395112859612997e-13,2,2.103878591137783e-05,0.0001762935660745,finite-difference Python full-Jacobian check of the TASK-012 suspected H_a3 crossing; not an accepted AUTO branch point

@@ -1,0 +1,205 @@
+{
+  "all_tested_scales_show_stable_count_transition": false,
+  "all_trusted_scales_show_stable_count_transition": true,
+  "any_tested_scale_supports_hopf_like_complex_sign_change": true,
+  "broad_perturbation_scales_gt_10x_baseline": [
+    30.0,
+    100.0
+  ],
+  "interpretation": "For perturbation scales up to 10x the TASK-009 baseline, the interval remains a stable-count transition and no scale gives Hopf-style evidence with complex pairs on both sides of a tracked-pair real-part sign change. Very broad perturbations (30x--100x baseline) alter the classification, including one artificial-looking Hopf-like case at 30x and loss of the transition at 100x, which is evidence that overly large finite-difference steps cross nonlinear/nonsmooth structure rather than a robust Hopf classification. This supports the current conservative TASK-028 wording but does not replace an analytic/autodiff Jacobian.",
+  "output_files": [
+    "fd_jacobian_robustness.csv",
+    "fd_jacobian_robustness_summary.json"
+  ],
+  "points_checked": 3,
+  "rows_written": 27,
+  "scale_summary": [
+    {
+      "complex_pair_counts": [
+        0,
+        1
+      ],
+      "fd_step_scale": 0.01,
+      "hopf_like_complex_sign_change": false,
+      "max_critical_real_s_inv": 0.001964393076817506,
+      "max_tracked_pair_real_s_inv": 0.001964393076817506,
+      "min_critical_real_s_inv": -4.037702931826096e-06,
+      "min_tracked_pair_real_s_inv": -4.037702931826096e-06,
+      "stable_count_transition": true,
+      "stable_counts": [
+        2,
+        4
+      ]
+    },
+    {
+      "complex_pair_counts": [
+        0,
+        1
+      ],
+      "fd_step_scale": 0.03,
+      "hopf_like_complex_sign_change": false,
+      "max_critical_real_s_inv": 0.001964393072788421,
+      "max_tracked_pair_real_s_inv": 0.001964393072788421,
+      "min_critical_real_s_inv": -4.037703068500734e-06,
+      "min_tracked_pair_real_s_inv": -4.037703068500734e-06,
+      "stable_count_transition": true,
+      "stable_counts": [
+        2,
+        4
+      ]
+    },
+    {
+      "complex_pair_counts": [
+        0,
+        1
+      ],
+      "fd_step_scale": 0.1,
+      "hopf_like_complex_sign_change": false,
+      "max_critical_real_s_inv": 0.001964393059446499,
+      "max_tracked_pair_real_s_inv": 0.001964393059446499,
+      "min_critical_real_s_inv": -4.037704577922993e-06,
+      "min_tracked_pair_real_s_inv": -4.037704577922993e-06,
+      "stable_count_transition": true,
+      "stable_counts": [
+        2,
+        4
+      ]
+    },
+    {
+      "complex_pair_counts": [
+        0,
+        1
+      ],
+      "fd_step_scale": 0.3,
+      "hopf_like_complex_sign_change": false,
+      "max_critical_real_s_inv": 0.0019643929617431397,
+      "max_tracked_pair_real_s_inv": 0.0019643929617431397,
+      "min_critical_real_s_inv": -4.0377178668191034e-06,
+      "min_tracked_pair_real_s_inv": -4.0377178668191034e-06,
+      "stable_count_transition": true,
+      "stable_counts": [
+        2,
+        4
+      ]
+    },
+    {
+      "complex_pair_counts": [
+        0,
+        1
+      ],
+      "fd_step_scale": 1.0,
+      "hopf_like_complex_sign_change": false,
+      "max_critical_real_s_inv": 0.001964391849019323,
+      "max_tracked_pair_real_s_inv": 0.001964391849019323,
+      "min_critical_real_s_inv": -4.0378690203017764e-06,
+      "min_tracked_pair_real_s_inv": -4.0378690203017764e-06,
+      "stable_count_transition": true,
+      "stable_counts": [
+        2,
+        4
+      ]
+    },
+    {
+      "complex_pair_counts": [
+        0,
+        1
+      ],
+      "fd_step_scale": 3.0,
+      "hopf_like_complex_sign_change": false,
+      "max_critical_real_s_inv": 0.001964382092600002,
+      "max_tracked_pair_real_s_inv": 0.001964382092600002,
+      "min_critical_real_s_inv": -4.039197635705998e-06,
+      "min_tracked_pair_real_s_inv": -4.039197635705998e-06,
+      "stable_count_transition": true,
+      "stable_counts": [
+        2,
+        4
+      ]
+    },
+    {
+      "complex_pair_counts": [
+        0,
+        1
+      ],
+      "fd_step_scale": 10.0,
+      "hopf_like_complex_sign_change": false,
+      "max_critical_real_s_inv": 0.0014965766220278005,
+      "max_tracked_pair_real_s_inv": 0.0014965766220278005,
+      "min_critical_real_s_inv": -4.054283336156436e-06,
+      "min_tracked_pair_real_s_inv": -4.054283336156436e-06,
+      "stable_count_transition": true,
+      "stable_counts": [
+        2,
+        4
+      ]
+    },
+    {
+      "complex_pair_counts": [
+        0,
+        1
+      ],
+      "fd_step_scale": 30.0,
+      "hopf_like_complex_sign_change": true,
+      "max_critical_real_s_inv": 0.0011193248511733919,
+      "max_tracked_pair_real_s_inv": 0.0011193248511733919,
+      "min_critical_real_s_inv": -4.184811106335939e-06,
+      "min_tracked_pair_real_s_inv": -4.184811106335939e-06,
+      "stable_count_transition": true,
+      "stable_counts": [
+        2,
+        4
+      ]
+    },
+    {
+      "complex_pair_counts": [
+        0
+      ],
+      "fd_step_scale": 100.0,
+      "hopf_like_complex_sign_change": false,
+      "max_critical_real_s_inv": 0.0009681709393877632,
+      "max_tracked_pair_real_s_inv": 0.0009681709393877632,
+      "min_critical_real_s_inv": 0.0003456974379007136,
+      "min_tracked_pair_real_s_inv": 0.0003456974379007136,
+      "stable_count_transition": false,
+      "stable_counts": [
+        2
+      ]
+    }
+  ],
+  "stable_count_transition_scales": [
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0,
+    10.0,
+    30.0
+  ],
+  "step_scales": [
+    100.0,
+    30.0,
+    10.0,
+    3.0,
+    1.0,
+    0.3,
+    0.1,
+    0.03,
+    0.01
+  ],
+  "task": "TASK-028 finite-difference Jacobian robustness",
+  "trusted_scales_support_hopf_like_complex_sign_change": false,
+  "trusted_step_scales_le_10x_baseline": [
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0,
+    10.0
+  ],
+  "window_H_a3": [
+    0.632,
+    0.636
+  ]
+}

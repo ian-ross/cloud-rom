@@ -47,10 +47,14 @@ In short: **Python continuation first; AUTO only for final validation.**
 
 - `scripts/berton_full_task026_continuation.py` — full 4D scaled/log-mass Python pseudo-arclength core with a local `W_a0` seed step and transparent diagnostics.
 - `scripts/berton_full_task027_wa0_gate.py` — full-model `W_a0` gate following the branch through the prior probe range, adding exact anchor refinements, eigenvalue/conditioning diagnostics, and a pass/fail verdict.
+- `scripts/berton_full_task028_ha3_branch.py` — full-model `H_a3` branch continuation through the suspected stability region, with complex-pair tracking and an independent eigenvalue recomputation.
+- `scripts/berton_full_task028_fd_robustness.py` — finite-difference Jacobian step-size robustness check around the TASK-028 `H_a3` stability transition.
 - `docs/task026_python_continuation_core.md` — reproducibility note for the TASK-026 core, coordinate definitions, output files, and residual risks.
 - `docs/task027_wa0_full_model_gate.md` — TASK-027 gate note comparing the full-model Python branch against the previous TASK-012 probe and restricted TASK-019 behavior.
+- `docs/task028_ha3_full_model_branch.md` — TASK-028 branch note distinguishing the observed non-Hopf stability-count transition from Hopf evidence and numerical limitations.
 - `outputs/task026/` — curated seed/corrected point, eigenvalue, tangent, Newton iteration, and condition-diagnostic outputs.
 - `outputs/task027/` — curated full-model `W_a0` branch points, exact anchor reachability, eigenvalues, corrector iterations, comparison tables, and verdict JSON.
+- `outputs/task028/` — curated full-model `H_a3` branch points, eigenvalues, corrector iterations, independent eigenvalue checks, finite-difference robustness tables, prior fixed-seed reference, and verdict JSON.
 
 ## Organization
 

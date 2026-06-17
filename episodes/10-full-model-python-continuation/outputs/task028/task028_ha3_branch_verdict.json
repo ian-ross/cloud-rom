@@ -1,0 +1,80 @@
+{
+  "accepted_points_including_directional_seed_duplicates": 55,
+  "accepted_unique_points": 53,
+  "candidate_hopf_crossing": {
+    "found": false
+  },
+  "config": {
+    "downward_target_H_a3": 0.6,
+    "ds_initial": 0.2,
+    "ds_max": 0.35,
+    "ds_min": 0.005,
+    "max_steps_per_direction": 220,
+    "newton_tolerance": 1e-07,
+    "residual_acceptance_tolerance": 2e-06,
+    "upward_target_H_a3": 0.65
+  },
+  "control_max_H_a3": 0.650019691897633,
+  "control_min_H_a3": 0.5999988879940723,
+  "coordinate_system": "TASK-026 scaled z,u,w,log(m/kg) with scaled H_a3 control",
+  "covers_suspected_0_61_to_0_65_region": true,
+  "independent_eigen_check_max_abs_delta_pair_real_s_inv": 0.0,
+  "max_branch_jacobian_condition": 7807.597151337356,
+  "max_physical_residual_norm": 8.928910943950541e-10,
+  "max_scaled_residual_norm": 9.590062035898214e-08,
+  "max_transformed_residual_norm": 8.92891094395071e-10,
+  "min_branch_singular_value": 0.9038028534926215,
+  "output_files": [
+    "full_ha3_branch_points.csv",
+    "full_ha3_eigenvalues.csv",
+    "full_ha3_corrector_iterations.csv",
+    "full_ha3_rejected_steps.csv",
+    "independent_eigen_check.csv",
+    "prior_fixed_seed_crosscheck_reference.csv",
+    "task028_ha3_branch_verdict.json"
+  ],
+  "rejected_step_count": 0,
+  "scaling": {
+    "H_a3_ref": 0.61,
+    "H_a3_scale": 0.01,
+    "W_a0_ref_m_s": 0.6,
+    "W_a0_scale_m_s": 0.1,
+    "log_m_ref": -20.646092418309163,
+    "log_m_scale": 1.0,
+    "residual_row_scales": [
+      10.0,
+      100.0,
+      100.0,
+      100000000.0
+    ],
+    "u_ref_m_s": 1.9098623386953224,
+    "u_scale_m_s": 1.0,
+    "w_ref_m_s": -2.908453631176365e-21,
+    "w_scale_m_s": 0.1,
+    "z_ref_m": 9618.027532260936,
+    "z_scale_m": 100.0
+  },
+  "stability_transition": {
+    "found": true,
+    "interpretation": "stable-eigenvalue count changes on accepted branch points, but the right side has no complex pair and therefore is not Hopf evidence",
+    "left_H_a3": 0.633731266297439,
+    "left_complex_pair_count": 1,
+    "left_critical_imag_s_inv": 0.00018277186667105675,
+    "left_critical_real_s_inv": -3.8715691709973e-06,
+    "left_stable_count": 4,
+    "right_H_a3": 0.6351652018355121,
+    "right_complex_pair_count": 0,
+    "right_critical_imag_s_inv": 0.0,
+    "right_critical_real_s_inv": 0.001964391849000971,
+    "right_stable_count": 2
+  },
+  "stable_count_values": [
+    2,
+    4
+  ],
+  "task": "TASK-028",
+  "tracked_pair_real_max_s_inv": 0.0019726535826808003,
+  "tracked_pair_real_min_s_inv": -8.47356283083627e-06,
+  "verdict": "no_hopf_but_stability_transition",
+  "verdict_reason": "accepted branch covers the target interval and brackets a stable-count change, but not a Hopf-style complex-pair crossing"
+}
