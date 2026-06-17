@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-15 19:47'
-updated_date: '2026-06-16 20:22'
+updated_date: '2026-06-17 11:06'
 labels:
   - berton
   - auto
@@ -35,13 +35,12 @@ Use W_a0 continuation in the improved full Berton AUTO formulation as a sanity c
 ## Implementation Plan
 
 <!-- SECTION:PLAN:BEGIN -->
-1. Treat the existing TASK-015 log-mass W_a0 result as negative full-4D evidence, not as the final TASK-017 sanity check, because it still accepted only the seed.
-2. Use the completed TASK-018 restricted/local 3D scaling diagnostics as the basis for TASK-017, and coordinate any needed implementation with TASK-019 rather than rerunning the failed TASK-015 setup unchanged.
-3. Inspect TASK-012/TASK-015 W_a0 probe outputs and TASK-018 scaling recommendation to define the exact W_a0 range, seed translation, residual/state scalings, and stability diagnostics required for this sanity check.
-4. If restricted 3D AUTO artifacts already exist, parse and synthesize them; otherwise create/run the minimal restricted W_a0 continuation path needed under episodes/07-restricted-equilibrium-auto without overwriting prior task artifacts.
-5. Generate curated TASK-017 outputs documenting accepted W_a0 range or failure, equilibrium altitude/state movement, stability/eigenvalue diagnostics, AUTO commands/constants, and comparison with TASK-012/TASK-015 first-step failures.
-6. Write a short companion note that explicitly answers whether W_a0 conditioning succeeds and what that implies for interpreting H_a3 failures as control-specific versus broader formulation/conditioning problems.
-7. Add/update regression tests for the TASK-017 artifacts and conclusion language, run the relevant pytest selection, then mark acceptance criteria and final summary via backlog CLI.
+1. Treat TASK-017 as the historical W_a0 conditioning record for the failed full-4D/TASK-017 restricted `M=log(m/m_seed)` attempts, not as the final working W_a0 gate.
+2. Read TASK-019 outputs and docs to confirm that AC #3 is now satisfied by the successor `P=M/10` restricted W_a0 gate, while preserving TASK-017/TASK-021 as negative evidence for the un-fixed arclength coordinate.
+3. Update the TASK-017 companion note or add a short addendum pointing to TASK-019 as the corrected W_a0 continuation, explaining that the original TASK-017 seed-only failure was due to mass-coordinate arclength scaling rather than a physical W_a0 branch issue.
+4. Ensure TASK-017 outputs remain unchanged as a reproducible failure artifact; do not overwrite raw TASK-017 AUTO files.
+5. Run the relevant episode-07 tests, then check remaining AC #3 only with explicit wording that the branch movement is demonstrated by TASK-019 successor artifacts.
+6. Add a final summary that distinguishes: TASK-017 negative result, TASK-022 diagnosis, TASK-019 fix, and implication for TASK-020/TASK-023.
 <!-- SECTION:PLAN:END -->
 
 ## Implementation Notes
