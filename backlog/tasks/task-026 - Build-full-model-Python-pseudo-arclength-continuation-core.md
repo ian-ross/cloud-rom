@@ -4,12 +4,14 @@ title: Build full-model Python pseudo-arclength continuation core
 status: To Do
 assignee: []
 created_date: '2026-06-17 16:39'
+updated_date: '2026-06-17 16:39'
 labels:
   - berton
   - continuation
   - python
   - episode-10
-dependencies: []
+dependencies:
+  - TASK-025
 priority: high
 ---
 
