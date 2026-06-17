@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-15 20:17'
-updated_date: '2026-06-17 07:42'
+updated_date: '2026-06-17 07:47'
 labels:
   - berton
   - auto
@@ -46,3 +46,13 @@ In the new episode episodes/07-restricted-equilibrium-auto/, use the TASK-018 sc
 9. Write a notebook/script/doc record of commands, constants, the `P=M/10` arclength fix, accepted points, residual risks, and whether this clears the W_a0 gate for TASK-020.
 10. Add tests for output artifacts, seed translation/cross-checks, `P<->M` conversion, W_a0 range coverage, and conservative gate conclusion for TASK-020.
 <!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+- Implemented the curated TASK-022 arclength fix as `auto/berton_restricted_task019_pmass`: AUTO state `P=M/10`, inverse map `log(m)=log(m_seed)+10P`, `JAC=0`, `ISP=0`, `ICP=[W_a0]`.
+- Ran bidirectional W_a0 continuations. Upward branch accepted 257 rows, reached all user anchors through W_a0=1.2, and continued to W_a0≈2.407; downward branch accepted nontrivial points to W_a0≈0.419 before MX.
+- Parsed outputs into `outputs/task019`; reconstructed physical z/u/M/m and compared user anchors against TASK-012 Python W_a0 probe. Max matched-anchor errors: z 3.21e-05 m, u 1.61e-07 m/s, relative mass 2.72e-06.
+- W_a0 gate passes for TASK-020; older TASK-017/TASK-021 M-coordinate seed-only failures are superseded by the P=M/10 formulation.
+- Verification: uv run pytest tests/test_episode07_restricted_task019.py tests/test_episode07_restricted_task017.py tests/test_episode07_restricted_task018.py tests/test_episode07_restricted_task021.py tests/test_episode07_restricted_task022.py (22 passed).
+<!-- SECTION:NOTES:END -->
