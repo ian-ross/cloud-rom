@@ -57,3 +57,24 @@ Add a restricted 3D AUTO continuation experiment for the updraft-altitude contro
 - Curated outputs in outputs/task023 with branch parsing, smoothing diagnostics, seed perturbation, representative Python residual/eigenvalue checks, verdict JSON/CSV, notebook command record, and companion note.
 - Verification: uv run pytest tests/test_episode07_restricted_task019.py tests/test_episode07_restricted_task020.py tests/test_episode07_restricted_task023.py (13 passed).
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Implemented the restricted smoothed z_W0 continuation experiment for TASK-023.
+
+Changes:
+- Added a new AUTO variant under episodes/07-restricted-equilibrium-auto/auto/berton_restricted_task023_zw0_smooth/ using the validated TASK-019 restricted coordinates Z, U, and P=M/10.
+- Replaced the piecewise Berton updraft ramp with a documented softplus smooth-clip formula using a 50 m smoothing width, and continued q_z=(z_W0-9000 m)/1000 m.
+- Ran and preserved bidirectional AUTO b/s/d artifacts, plus config/run files.
+- Added a synthesis script, curated outputs, notebook command record, and companion verdict note comparing TASK-023 against TASK-019 W_a0 and TASK-020 H_a3.
+- Added regression tests for smoothing/scaling, branch parsing, diagnostics, and conservative conclusion language.
+
+Result:
+- Downward z_W0 continuation reaches the paper oscillatory 7 km setting cleanly.
+- Upward continuation approaches the physically important 9.6--10 km transition region but stops near z_W0≈9710 m with DGEBAL/floating-point diagnostics.
+- No AUTO-supported HB/Hopf candidate is present; the result supports only a staged smoothed full-system z_W0 attempt.
+
+Tests:
+- uv run pytest tests/test_episode07_restricted_task019.py tests/test_episode07_restricted_task020.py tests/test_episode07_restricted_task023.py
+<!-- SECTION:FINAL_SUMMARY:END -->
