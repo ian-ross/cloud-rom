@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-15 19:47'
-updated_date: '2026-06-17 11:06'
+updated_date: '2026-06-17 11:15'
 labels:
   - berton
   - auto
@@ -60,4 +60,8 @@ Started TASK-017: set task In Progress and reassessed the existing plan against 
 - TASK-017 remains blocked on AC #3 as written because the new restricted/scaled AUTO attempt still immediately fails after the seed instead of demonstrating nontrivial branch movement. The negative result is documented and should feed TASK-019 refinement.
 
 Post TASK-022 follow-up found a likely fix for AC #3: the restricted AUTO arclength geometry is dominated by `M=log(m/m_seed)`. A scratch variant using `P=M/10` and inverse map `log(m)=log(m_seed)+10P` accepted nontrivial W_a0 points up to the 1.2 target. TASK-019 has been updated to implement this as the curated W_a0 gate rather than treating the TASK-017/TASK-021 seed-only result as final.
+
+- Added a successor addendum to `episodes/07-restricted-equilibrium-auto/docs/task017_wa0_conditioning_sanity_check.md`: TASK-017 is now explicitly retained as the negative record for the un-fixed `M=log(m/m_seed)` coordinate, while TASK-019 is identified as the corrected W_a0 gate using `P=M/10`.
+- AC #3 is closed via the documented successor evidence: TASK-017 itself still accepts only the seed, but TASK-019 demonstrates that the branch moves smoothly once the mass arclength coordinate is fixed.
+- Verification: `uv run pytest tests/test_episode07_restricted_task017.py tests/test_episode07_restricted_task019.py` (9 passed).
 <!-- SECTION:NOTES:END -->
