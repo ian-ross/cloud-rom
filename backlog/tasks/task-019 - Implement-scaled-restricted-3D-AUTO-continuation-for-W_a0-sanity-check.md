@@ -24,12 +24,12 @@ In the new episode episodes/07-restricted-equilibrium-auto/, use the TASK-018 sc
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 A new episode AUTO variant is added for the restricted 3D equilibrium system without overwriting TASK-012 or TASK-015 artifacts.
-- [ ] #2 State, residual, and parameter scalings follow TASK-018 recommendations and are documented with physical inverse conversions.
-- [ ] #3 The TASK-011 seed is translated into restricted 3D AUTO coordinates and residuals/eigenvalues or equivalent stability diagnostics are cross-checked in Python.
-- [ ] #4 W_a0 continuation is run at least in the easier sanity-check direction and compared against TASK-012/TASK-015 first-step failures.
-- [ ] #5 Accepted points or failure diagnostics, AUTO commands/constants, and residual numerical risks are recorded in notebook/script/docs outputs.
-- [ ] #6 The restricted W_a0 gate applies the TASK-022 arclength fix by continuing in P=M/10, where M=log(m/m_seed), and reports physical M and m via the inverse conversion.
+- [x] #1 A new episode AUTO variant is added for the restricted 3D equilibrium system without overwriting TASK-012 or TASK-015 artifacts.
+- [x] #2 State, residual, and parameter scalings follow TASK-018 recommendations and are documented with physical inverse conversions.
+- [x] #3 The TASK-011 seed is translated into restricted 3D AUTO coordinates and residuals/eigenvalues or equivalent stability diagnostics are cross-checked in Python.
+- [x] #4 W_a0 continuation is run at least in the easier sanity-check direction and compared against TASK-012/TASK-015 first-step failures.
+- [x] #5 Accepted points or failure diagnostics, AUTO commands/constants, and residual numerical risks are recorded in notebook/script/docs outputs.
+- [x] #6 The restricted W_a0 gate applies the TASK-022 arclength fix by continuing in P=M/10, where M=log(m/m_seed), and reports physical M and m via the inverse conversion.
 <!-- AC:END -->
 
 ## Implementation Plan
