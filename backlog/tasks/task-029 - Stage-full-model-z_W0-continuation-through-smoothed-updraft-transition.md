@@ -1,10 +1,11 @@
 ---
 id: TASK-029
 title: Stage full-model z_W0 continuation through smoothed updraft transition
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-17 16:39'
-updated_date: '2026-06-17 16:39'
+updated_date: '2026-06-17 20:45'
 labels:
   - berton
   - continuation
