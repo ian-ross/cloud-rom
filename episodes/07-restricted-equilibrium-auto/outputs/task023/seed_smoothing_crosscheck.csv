@@ -1,0 +1,2 @@
+z_m,z_W0_m,smooth_width_m,delta_z_W_m,eps_dimensionless,piecewise_W_a_m_s,smoothed_W_a_m_s,updraft_perturbation_m_s,scaled_residual_norm_at_piecewise_seed,residual_du_dt_scaled,residual_dw_dt_scaled,residual_dlogm_dt_scaled
+9618.027532260936,9000.0,50.0,300.0,0.16666666666666666,0.6,0.5999995726317209,-4.273682790989497e-07,1.3197271611495392e-06,4.4408361277964813e-16,-1.3197271329889779e-06,-2.726325630722591e-10

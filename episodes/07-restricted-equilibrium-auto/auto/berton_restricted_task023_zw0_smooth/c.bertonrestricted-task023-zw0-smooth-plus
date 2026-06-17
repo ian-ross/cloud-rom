@@ -1,0 +1,13 @@
+# TASK-023 restricted/scaled z_W0 continuation using q_z=(z_W0-9000 m)/1000 m and smoothed updraft.
+# Smoothed updraft: W_a=W_a0*eps*[softplus(x/eps)-softplus((x-1)/eps)], x=(z-(z_W0-Delta_z_W))/Delta_z_W, eps=50 m/Delta_z_W.
+parnames = {1:'z_W0_base', 2:'W_a0', 3:'rad_mult', 4:'H_a3', 5:'eta_override', 6:'drag_mult', 7:'Delta_z_W', 39:'eta_blend', 40:'phi', 41:'c_B', 43:'include_coriolis', 44:'reynolds_length_mode', 54:'q_zW0_scaled', 55:'z_W0_physical_m', 56:'updraft_smoothing_width_m'}
+unames = {1:'Z_scaled', 2:'U_scaled', 3:'P_log_ratio_over_10'}
+NDIM=3, IPS=1, IRS=0, ILP=1
+ICP = ['q_zW0_scaled']
+NTST=20, NCOL=4, IAD=3, ISP=0, ISW=1, IPLT=0, NBC=0, NINT=0
+NMX=700, NPR=10, MXBF=0, IID=2, ITMX=20, ITNW=12, NWTN=6, JAC=0
+EPSL=1e-08, EPSU=1e-08, EPSS=1e-06
+DS=0.002, DSMIN=1e-08, DSMAX=0.05, IADS=1
+NPAR=98, THL={}, THU={}
+UZR = {'q_zW0_scaled': [0.25, 0.5, 0.75, 1.0]}
+UZSTOP = {'q_zW0_scaled': [1.0]}

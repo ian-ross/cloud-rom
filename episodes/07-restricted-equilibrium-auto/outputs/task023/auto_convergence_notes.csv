@@ -1,0 +1,1391 @@
+run,line,message
+z-plus,38,1     1         Iterations   :   2
+z-plus,56,1     2         Iterations   :   1
+z-plus,74,1     3         Iterations   :   1
+z-plus,93,1     4         Iterations   :   2
+z-plus,112,1     5         Iterations   :   2
+z-plus,131,1     6         Iterations   :   2
+z-plus,150,1     7         Iterations   :   2
+z-plus,169,1     8         Iterations   :   2
+z-plus,188,1     9         Iterations   :   2
+z-plus,237,1    11         Iterations   :   2
+z-plus,257,1    12         Iterations   :   3
+z-plus,277,1    13         Iterations   :   3
+z-plus,297,1    14         Iterations   :   3
+z-plus,318,1    15         Iterations   :   4
+z-plus,384,1    17         Iterations   :   4
+z-plus,405,1    18         Iterations   :   4
+z-plus,426,1    19         Iterations   :   4
+z-plus,447,1    20         Iterations   :   4
+z-plus,468,1    21         Iterations   :   4
+z-plus,480,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 5.2228E-302 in GE
+z-plus,481,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 5.2228E-302 in GE
+z-plus,482,1    23   7                NaN           NaN
+z-plus,483,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,484,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,485,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,486,1    23   8                NaN           NaN
+z-plus,487,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,488,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,489,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,490,1    23   9                NaN           NaN
+z-plus,491,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,492,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,493,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,494,1    23  10                NaN           NaN
+z-plus,495,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,496,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,497,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,498,1    23  11                NaN           NaN
+z-plus,499,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,500,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,501,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,502,1    23  12                NaN           NaN
+z-plus,504,1    22         Iterations   :  12
+z-plus,506,1    22 NOTE:Retrying step
+z-plus,524,1    22         Iterations   :  12
+z-plus,526,1    22 NOTE:Retrying step
+z-plus,544,1    22         Iterations   :  12
+z-plus,546,1    22 NOTE:Retrying step
+z-plus,564,1    22         Iterations   :  12
+z-plus,566,1    22 NOTE:Retrying step
+z-plus,578,1    22         Iterations   :  12
+z-plus,580,1    22 NOTE:Retrying step
+z-plus,595,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.6702E-118 in GE
+z-plus,597,NOTE:Pivot   1 =    Infinity <= ||A||_max/1.7977E+308 =    Infinity in GE
+z-plus,598,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 =    Infinity in GE
+z-plus,599,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 =    Infinity in GE
+z-plus,600,1    23  12                NaN           NaN
+z-plus,602,1    22         Iterations   :  12
+z-plus,604,1    22 NOTE:Retrying step
+z-plus,615,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 9.1443E-033 in GE
+z-plus,617,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 6.0015E-249 in GE
+z-plus,618,1    23   8                NaN           NaN
+z-plus,619,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,620,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,621,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,622,1    23   9                NaN           NaN
+z-plus,623,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,624,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,625,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,626,1    23  10                NaN           NaN
+z-plus,627,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,628,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,629,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,630,1    23  11                NaN           NaN
+z-plus,631,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,632,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,633,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,634,1    23  12                NaN           NaN
+z-plus,636,1    22         Iterations   :  12
+z-plus,638,1    22 NOTE:Retrying step
+z-plus,648,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.1540E-029 in GE
+z-plus,650,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 4.9419E-255 in GE
+z-plus,651,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 4.9419E-255 in GE
+z-plus,652,1    23   7                NaN           NaN
+z-plus,653,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,654,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,655,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,656,1    23   8                NaN           NaN
+z-plus,657,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,658,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,659,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,660,1    23   9                NaN           NaN
+z-plus,661,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,662,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,663,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,664,1    23  10                NaN           NaN
+z-plus,665,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,666,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,667,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,668,1    23  11                NaN           NaN
+z-plus,669,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,670,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,671,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,672,1    23  12                NaN           NaN
+z-plus,674,1    22         Iterations   :  12
+z-plus,676,1    22 NOTE:Retrying step
+z-plus,686,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.1063E-029 in GE
+z-plus,688,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.6343E-254 in GE
+z-plus,689,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.6343E-254 in GE
+z-plus,690,1    23   7                NaN           NaN
+z-plus,691,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,692,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,693,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,694,1    23   8                NaN           NaN
+z-plus,695,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,696,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,697,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,698,1    23   9                NaN           NaN
+z-plus,699,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,700,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,701,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,702,1    23  10                NaN           NaN
+z-plus,703,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,704,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,705,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,706,1    23  11                NaN           NaN
+z-plus,707,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,708,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,709,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,710,1    23  12                NaN           NaN
+z-plus,712,1    22         Iterations   :  12
+z-plus,714,1    22 NOTE:Retrying step
+z-plus,724,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.0944E-029 in GE
+z-plus,726,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.7632E-253 in GE
+z-plus,727,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.7632E-253 in GE
+z-plus,728,1    23   7                NaN           NaN
+z-plus,729,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,730,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,731,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,732,1    23   8                NaN           NaN
+z-plus,733,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,734,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,735,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,736,1    23   9                NaN           NaN
+z-plus,737,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,738,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,739,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,740,1    23  10                NaN           NaN
+z-plus,741,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,742,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,743,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,744,1    23  11                NaN           NaN
+z-plus,745,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,746,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,747,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,748,1    23  12                NaN           NaN
+z-plus,750,1    22         Iterations   :  12
+z-plus,752,1    22 NOTE:Retrying step
+z-plus,762,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.0903E-029 in GE
+z-plus,764,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.0215E-253 in GE
+z-plus,765,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.0215E-253 in GE
+z-plus,766,1    23   7                NaN           NaN
+z-plus,767,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,768,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,769,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,770,1    23   8                NaN           NaN
+z-plus,771,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,772,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,773,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,774,1    23   9                NaN           NaN
+z-plus,775,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,776,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,777,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,778,1    23  10                NaN           NaN
+z-plus,779,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,780,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,781,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,782,1    23  11                NaN           NaN
+z-plus,783,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,784,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,785,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,786,1    23  12                NaN           NaN
+z-plus,788,1    22         Iterations   :  12
+z-plus,790,1    22 NOTE:Retrying step
+z-plus,800,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.1026E-029 in GE
+z-plus,802,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.6080E-252 in GE
+z-plus,803,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.6080E-252 in GE
+z-plus,804,1    23   7                NaN           NaN
+z-plus,805,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,806,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,807,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,808,1    23   8                NaN           NaN
+z-plus,809,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,810,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,811,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,812,1    23   9                NaN           NaN
+z-plus,813,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,814,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,815,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,816,1    23  10                NaN           NaN
+z-plus,817,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,818,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,819,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,820,1    23  11                NaN           NaN
+z-plus,821,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,822,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,823,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,824,1    23  12                NaN           NaN
+z-plus,826,1    22         Iterations   :  12
+z-plus,828,1    22 NOTE:Retrying step
+z-plus,838,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.1126E-029 in GE
+z-plus,840,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 6.2661E-252 in GE
+z-plus,841,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 6.2661E-252 in GE
+z-plus,842,1    23   7                NaN           NaN
+z-plus,843,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,844,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,845,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,846,1    23   8                NaN           NaN
+z-plus,847,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,848,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,849,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,850,1    23   9                NaN           NaN
+z-plus,851,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,852,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,853,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,854,1    23  10                NaN           NaN
+z-plus,855,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,856,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,857,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,858,1    23  11                NaN           NaN
+z-plus,859,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,860,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,861,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,862,1    23  12                NaN           NaN
+z-plus,864,1    22         Iterations   :  12
+z-plus,866,1    22 NOTE:Retrying step
+z-plus,876,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.1536E-029 in GE
+z-plus,878,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.0835E-249 in GE
+z-plus,879,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.0835E-249 in GE
+z-plus,880,1    23   7                NaN           NaN
+z-plus,881,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,882,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,883,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,884,1    23   8                NaN           NaN
+z-plus,885,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,886,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,887,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,888,1    23   9                NaN           NaN
+z-plus,889,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,890,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,891,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,892,1    23  10                NaN           NaN
+z-plus,893,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,894,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,895,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,896,1    23  11                NaN           NaN
+z-plus,897,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,898,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,899,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,900,1    23  12                NaN           NaN
+z-plus,902,1    22         Iterations   :  12
+z-plus,904,1    22 NOTE:Retrying step
+z-plus,914,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.0933E-029 in GE
+z-plus,916,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.3390E-252 in GE
+z-plus,917,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.3390E-252 in GE
+z-plus,918,1    23   7                NaN           NaN
+z-plus,919,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,920,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,921,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,922,1    23   8                NaN           NaN
+z-plus,923,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,924,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,925,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,926,1    23   9                NaN           NaN
+z-plus,927,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,928,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,929,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,930,1    23  10                NaN           NaN
+z-plus,931,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,932,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,933,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,934,1    23  11                NaN           NaN
+z-plus,935,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,936,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,937,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,938,1    23  12                NaN           NaN
+z-plus,940,1    22         Iterations   :  12
+z-plus,942,1    22 NOTE:Retrying step
+z-plus,952,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.1075E-029 in GE
+z-plus,954,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.5371E-251 in GE
+z-plus,955,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.5371E-251 in GE
+z-plus,956,1    23   7                NaN           NaN
+z-plus,957,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,958,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,959,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,960,1    23   8                NaN           NaN
+z-plus,961,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,962,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,963,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,964,1    23   9                NaN           NaN
+z-plus,965,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,966,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,967,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,968,1    23  10                NaN           NaN
+z-plus,969,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,970,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,971,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,972,1    23  11                NaN           NaN
+z-plus,973,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,974,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,975,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,976,1    23  12                NaN           NaN
+z-plus,978,1    22         Iterations   :  12
+z-plus,980,1    22 NOTE:Retrying step
+z-plus,990,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.0984E-029 in GE
+z-plus,992,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 7.5714E-252 in GE
+z-plus,993,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 7.5714E-252 in GE
+z-plus,994,1    23   7                NaN           NaN
+z-plus,995,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,996,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,997,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,998,1    23   8                NaN           NaN
+z-plus,999,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1000,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1001,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1002,1    23   9                NaN           NaN
+z-plus,1003,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1004,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1005,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1006,1    23  10                NaN           NaN
+z-plus,1007,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1008,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1009,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1010,1    23  11                NaN           NaN
+z-plus,1011,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1012,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1013,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1014,1    23  12                NaN           NaN
+z-plus,1016,1    22         Iterations   :  12
+z-plus,1018,1    22 NOTE:Retrying step
+z-plus,1028,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.1194E-029 in GE
+z-plus,1030,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.4774E-250 in GE
+z-plus,1031,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.4774E-250 in GE
+z-plus,1032,1    23   7                NaN           NaN
+z-plus,1033,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1034,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1035,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1036,1    23   8                NaN           NaN
+z-plus,1037,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1038,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1039,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1040,1    23   9                NaN           NaN
+z-plus,1041,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1042,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1043,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1044,1    23  10                NaN           NaN
+z-plus,1045,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1046,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1047,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1048,1    23  11                NaN           NaN
+z-plus,1049,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1050,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1051,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1052,1    23  12                NaN           NaN
+z-plus,1054,1    22         Iterations   :  12
+z-plus,1056,1    22 NOTE:Retrying step
+z-plus,1066,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.0937E-029 in GE
+z-plus,1068,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 6.8396E-251 in GE
+z-plus,1069,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 6.8396E-251 in GE
+z-plus,1070,1    23   7                NaN           NaN
+z-plus,1071,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1072,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1073,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1074,1    23   8                NaN           NaN
+z-plus,1075,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1076,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1077,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1078,1    23   9                NaN           NaN
+z-plus,1079,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1080,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1081,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1082,1    23  10                NaN           NaN
+z-plus,1083,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1084,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1085,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1086,1    23  11                NaN           NaN
+z-plus,1087,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1088,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1089,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1090,1    23  12                NaN           NaN
+z-plus,1092,1    22         Iterations   :  12
+z-plus,1094,1    22 NOTE:Retrying step
+z-plus,1104,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.1556E-029 in GE
+z-plus,1106,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.1424E-247 in GE
+z-plus,1107,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.1424E-247 in GE
+z-plus,1108,1    23   7                NaN           NaN
+z-plus,1109,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1110,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1111,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1112,1    23   8                NaN           NaN
+z-plus,1113,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1114,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1115,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1116,1    23   9                NaN           NaN
+z-plus,1117,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1118,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1119,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1120,1    23  10                NaN           NaN
+z-plus,1121,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1122,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1123,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1124,1    23  11                NaN           NaN
+z-plus,1125,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1126,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1127,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1128,1    23  12                NaN           NaN
+z-plus,1130,1    22         Iterations   :  12
+z-plus,1132,1    22 NOTE:Retrying step
+z-plus,1142,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.1209E-029 in GE
+z-plus,1144,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.9327E-249 in GE
+z-plus,1145,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.9327E-249 in GE
+z-plus,1146,1    23   7                NaN           NaN
+z-plus,1147,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1148,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1149,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1150,1    23   8                NaN           NaN
+z-plus,1151,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1152,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1153,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1154,1    23   9                NaN           NaN
+z-plus,1155,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1156,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1157,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1158,1    23  10                NaN           NaN
+z-plus,1159,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1160,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1161,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1162,1    23  11                NaN           NaN
+z-plus,1163,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1164,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1165,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1166,1    23  12                NaN           NaN
+z-plus,1168,1    22         Iterations   :  12
+z-plus,1170,1    22 NOTE:Retrying step
+z-plus,1180,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.1296E-029 in GE
+z-plus,1182,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.2856E-248 in GE
+z-plus,1183,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.2856E-248 in GE
+z-plus,1184,1    23   7                NaN           NaN
+z-plus,1185,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1186,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1187,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1188,1    23   8                NaN           NaN
+z-plus,1189,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1190,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1191,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1192,1    23   9                NaN           NaN
+z-plus,1193,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1194,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1195,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1196,1    23  10                NaN           NaN
+z-plus,1197,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1198,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1199,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1200,1    23  11                NaN           NaN
+z-plus,1201,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1202,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1203,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1204,1    23  12                NaN           NaN
+z-plus,1206,1    22         Iterations   :  12
+z-plus,1208,1    22 NOTE:Retrying step
+z-plus,1218,NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.1400E-029 in GE
+z-plus,1220,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 8.4510E-248 in GE
+z-plus,1221,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 8.4510E-248 in GE
+z-plus,1222,1    23   7                NaN           NaN
+z-plus,1223,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1224,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1225,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1226,1    23   8                NaN           NaN
+z-plus,1227,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1228,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1229,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1230,1    23   9                NaN           NaN
+z-plus,1231,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1232,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1233,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1234,1    23  10                NaN           NaN
+z-plus,1235,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1236,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1237,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1238,1    23  11                NaN           NaN
+z-plus,1239,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1240,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1241,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+z-plus,1242,1    23  12                NaN           NaN
+z-plus,1244,1    22         Iterations   :  12
+z-plus,1246,1    22 NOTE:No convergence with minimum step size
+z-minus,42,1     1         Iterations   :   2
+z-minus,62,1     2         Iterations   :   1
+z-minus,82,1     3         Iterations   :   1
+z-minus,102,1     4         Iterations   :   1
+z-minus,123,1     5         Iterations   :   2
+z-minus,144,1     6         Iterations   :   2
+z-minus,165,1     7         Iterations   :   2
+z-minus,186,1     8         Iterations   :   2
+z-minus,206,1     9         Iterations   :   1
+z-minus,257,1    11         Iterations   :   1
+z-minus,277,1    12         Iterations   :   1
+z-minus,297,1    13         Iterations   :   1
+z-minus,317,1    14         Iterations   :   1
+z-minus,355,1    16         Iterations   :   1
+z-minus,375,1    17         Iterations   :   1
+z-minus,395,1    18         Iterations   :   1
+z-minus,415,1    19         Iterations   :   1
+z-minus,435,1    20         Iterations   :   1
+z-minus,455,1    21         Iterations   :   1
+z-minus,475,1    22         Iterations   :   1
+z-minus,495,1    23         Iterations   :   1
+z-minus,515,1    24         Iterations   :   1
+z-minus,553,1    26         Iterations   :   1
+z-minus,573,1    27         Iterations   :   1
+z-minus,593,1    28         Iterations   :   1
+z-minus,613,1    29         Iterations   :   1
+z-minus,633,1    30         Iterations   :   1
+z-minus,653,1    31         Iterations   :   1
+z-minus,673,1    32         Iterations   :   1
+z-minus,693,1    33         Iterations   :   1
+z-minus,713,1    34         Iterations   :   1
+z-minus,751,1    36         Iterations   :   1
+z-minus,771,1    37         Iterations   :   1
+z-minus,791,1    38         Iterations   :   1
+z-minus,811,1    39         Iterations   :   1
+z-minus,831,1    40         Iterations   :   1
+z-minus,851,1    41         Iterations   :   1
+z-minus,871,1    42         Iterations   :   1
+z-minus,891,1    43         Iterations   :   1
+z-minus,911,1    44         Iterations   :   1
+z-minus,949,1    46         Iterations   :   1
+z-minus,969,1    47         Iterations   :   1
+z-minus,989,1    48         Iterations   :   1
+z-minus,1009,1    49         Iterations   :   1
+z-minus,1029,1    50         Iterations   :   1
+z-minus,1049,1    51         Iterations   :   1
+z-minus,1069,1    52         Iterations   :   1
+z-minus,1089,1    53         Iterations   :   1
+z-minus,1109,1    54         Iterations   :   1
+z-minus,1129,1    55         Iterations   :   1
+z-minus,1149,1    56         Iterations   :   1
+z-minus,1169,1    57         Iterations   :   1
+z-minus,1189,1    58         Iterations   :   1
+z-minus,1209,1    59         Iterations   :   1
+z-minus,1229,1    60         Iterations   :   1
+z-minus,1249,1    61         Iterations   :   1
+z-minus,1269,1    62         Iterations   :   1
+z-minus,1289,1    63         Iterations   :   1
+z-minus,1309,1    64         Iterations   :   1
+z-minus,1329,1    65         Iterations   :   1
+z-minus,1349,1    66         Iterations   :   1
+z-minus,1369,1    67         Iterations   :   1
+z-minus,1389,1    68         Iterations   :   1
+z-minus,1409,1    69         Iterations   :   1
+z-minus,1429,1    70         Iterations   :   1
+z-minus,1449,1    71         Iterations   :   1
+z-minus,1469,1    72         Iterations   :   1
+z-minus,1489,1    73         Iterations   :   1
+z-minus,1509,1    74         Iterations   :   1
+z-minus,1529,1    75         Iterations   :   1
+z-minus,1549,1    76         Iterations   :   1
+z-minus,1569,1    77         Iterations   :   1
+z-minus,1589,1    78         Iterations   :   1
+z-minus,1609,1    79         Iterations   :   1
+z-minus,1629,1    80         Iterations   :   1
+z-minus,1649,1    81         Iterations   :   1
+z-minus,1669,1    82         Iterations   :   1
+z-minus,1689,1    83         Iterations   :   1
+z-minus,1709,1    84         Iterations   :   1
+z-minus,1729,1    85         Iterations   :   1
+z-minus,1749,1    86         Iterations   :   1
+z-minus,1769,1    87         Iterations   :   1
+z-minus,1789,1    88         Iterations   :   1
+z-minus,1809,1    89         Iterations   :   1
+z-minus,1829,1    90         Iterations   :   1
+z-minus,1849,1    91         Iterations   :   1
+z-minus,1869,1    92         Iterations   :   1
+z-minus,1889,1    93         Iterations   :   1
+z-minus,1909,1    94         Iterations   :   1
+z-minus,1929,1    95         Iterations   :   1
+z-minus,1949,1    96         Iterations   :   1
+z-minus,1969,1    97         Iterations   :   1
+z-minus,1989,1    98         Iterations   :   1
+z-minus,2009,1    99         Iterations   :   1
+z-minus,2029,1   100         Iterations   :   1
+z-minus,2049,1   101         Iterations   :   1
+z-minus,2069,1   102         Iterations   :   1
+z-minus,2089,1   103         Iterations   :   1
+z-minus,2109,1   104         Iterations   :   1
+z-minus,2129,1   105         Iterations   :   1
+z-minus,2149,1   106         Iterations   :   1
+z-minus,2169,1   107         Iterations   :   1
+z-minus,2189,1   108         Iterations   :   1
+z-minus,2209,1   109         Iterations   :   1
+z-minus,2229,1   110         Iterations   :   1
+z-minus,2249,1   111         Iterations   :   1
+z-minus,2269,1   112         Iterations   :   1
+z-minus,2289,1   113         Iterations   :   1
+z-minus,2309,1   114         Iterations   :   1
+z-minus,2329,1   115         Iterations   :   1
+z-minus,2349,1   116         Iterations   :   1
+z-minus,2369,1   117         Iterations   :   1
+z-minus,2389,1   118         Iterations   :   1
+z-minus,2409,1   119         Iterations   :   1
+z-minus,2429,1   120         Iterations   :   1
+z-minus,2449,1   121         Iterations   :   1
+z-minus,2469,1   122         Iterations   :   1
+z-minus,2489,1   123         Iterations   :   1
+z-minus,2509,1   124         Iterations   :   1
+z-minus,2529,1   125         Iterations   :   1
+z-minus,2549,1   126         Iterations   :   1
+z-minus,2569,1   127         Iterations   :   1
+z-minus,2589,1   128         Iterations   :   1
+z-minus,2609,1   129         Iterations   :   1
+z-minus,2629,1   130         Iterations   :   1
+z-minus,2649,1   131         Iterations   :   1
+z-minus,2669,1   132         Iterations   :   1
+z-minus,2689,1   133         Iterations   :   1
+z-minus,2709,1   134         Iterations   :   1
+z-minus,2729,1   135         Iterations   :   1
+z-minus,2749,1   136         Iterations   :   1
+z-minus,2769,1   137         Iterations   :   1
+z-minus,2789,1   138         Iterations   :   1
+z-minus,2809,1   139         Iterations   :   1
+z-minus,2829,1   140         Iterations   :   1
+z-minus,2849,1   141         Iterations   :   1
+z-minus,2869,1   142         Iterations   :   1
+z-minus,2889,1   143         Iterations   :   1
+z-minus,2909,1   144         Iterations   :   1
+z-minus,2929,1   145         Iterations   :   1
+z-minus,2949,1   146         Iterations   :   1
+z-minus,2969,1   147         Iterations   :   1
+z-minus,2989,1   148         Iterations   :   1
+z-minus,3009,1   149         Iterations   :   1
+z-minus,3029,1   150         Iterations   :   1
+z-minus,3049,1   151         Iterations   :   1
+z-minus,3069,1   152         Iterations   :   1
+z-minus,3089,1   153         Iterations   :   1
+z-minus,3109,1   154         Iterations   :   1
+z-minus,3129,1   155         Iterations   :   1
+z-minus,3149,1   156         Iterations   :   1
+z-minus,3169,1   157         Iterations   :   1
+z-minus,3189,1   158         Iterations   :   1
+z-minus,3209,1   159         Iterations   :   1
+z-minus,3229,1   160         Iterations   :   1
+z-minus,3249,1   161         Iterations   :   1
+z-minus,3269,1   162         Iterations   :   1
+z-minus,3289,1   163         Iterations   :   1
+z-minus,3309,1   164         Iterations   :   1
+z-minus,3329,1   165         Iterations   :   1
+z-minus,3349,1   166         Iterations   :   1
+z-minus,3369,1   167         Iterations   :   1
+z-minus,3389,1   168         Iterations   :   1
+z-minus,3409,1   169         Iterations   :   1
+z-minus,3429,1   170         Iterations   :   1
+z-minus,3449,1   171         Iterations   :   1
+z-minus,3469,1   172         Iterations   :   1
+z-minus,3489,1   173         Iterations   :   1
+z-minus,3509,1   174         Iterations   :   1
+z-minus,3529,1   175         Iterations   :   1
+z-minus,3549,1   176         Iterations   :   1
+z-minus,3569,1   177         Iterations   :   1
+z-minus,3589,1   178         Iterations   :   1
+z-minus,3609,1   179         Iterations   :   1
+z-minus,3629,1   180         Iterations   :   1
+z-minus,3649,1   181         Iterations   :   1
+z-minus,3669,1   182         Iterations   :   1
+z-minus,3689,1   183         Iterations   :   1
+z-minus,3709,1   184         Iterations   :   1
+z-minus,3729,1   185         Iterations   :   1
+z-minus,3749,1   186         Iterations   :   1
+z-minus,3769,1   187         Iterations   :   1
+z-minus,3789,1   188         Iterations   :   1
+z-minus,3809,1   189         Iterations   :   1
+z-minus,3829,1   190         Iterations   :   1
+z-minus,3849,1   191         Iterations   :   1
+z-minus,3869,1   192         Iterations   :   1
+z-minus,3889,1   193         Iterations   :   1
+z-minus,3909,1   194         Iterations   :   1
+z-minus,3929,1   195         Iterations   :   1
+z-minus,3949,1   196         Iterations   :   1
+z-minus,3969,1   197         Iterations   :   1
+z-minus,3989,1   198         Iterations   :   1
+z-minus,4009,1   199         Iterations   :   1
+z-minus,4029,1   200         Iterations   :   1
+z-minus,4049,1   201         Iterations   :   1
+z-minus,4069,1   202         Iterations   :   1
+z-minus,4089,1   203         Iterations   :   1
+z-minus,4109,1   204         Iterations   :   1
+z-minus,4129,1   205         Iterations   :   1
+z-minus,4149,1   206         Iterations   :   1
+z-minus,4169,1   207         Iterations   :   1
+z-minus,4189,1   208         Iterations   :   1
+z-minus,4209,1   209         Iterations   :   1
+z-minus,4229,1   210         Iterations   :   1
+z-minus,4249,1   211         Iterations   :   1
+z-minus,4269,1   212         Iterations   :   1
+z-minus,4289,1   213         Iterations   :   1
+z-minus,4309,1   214         Iterations   :   1
+z-minus,4329,1   215         Iterations   :   1
+z-minus,4349,1   216         Iterations   :   1
+z-minus,4369,1   217         Iterations   :   1
+z-minus,4389,1   218         Iterations   :   1
+z-minus,4409,1   219         Iterations   :   1
+z-minus,4429,1   220         Iterations   :   1
+z-minus,4449,1   221         Iterations   :   1
+z-minus,4469,1   222         Iterations   :   1
+z-minus,4489,1   223         Iterations   :   1
+z-minus,4509,1   224         Iterations   :   1
+z-minus,4529,1   225         Iterations   :   1
+z-minus,4549,1   226         Iterations   :   1
+z-minus,4569,1   227         Iterations   :   1
+z-minus,4589,1   228         Iterations   :   1
+z-minus,4609,1   229         Iterations   :   1
+z-minus,4629,1   230         Iterations   :   1
+z-minus,4649,1   231         Iterations   :   1
+z-minus,4669,1   232         Iterations   :   1
+z-minus,4689,1   233         Iterations   :   1
+z-minus,4709,1   234         Iterations   :   1
+z-minus,4729,1   235         Iterations   :   1
+z-minus,4749,1   236         Iterations   :   1
+z-minus,4769,1   237         Iterations   :   1
+z-minus,4789,1   238         Iterations   :   1
+z-minus,4809,1   239         Iterations   :   1
+z-minus,4829,1   240         Iterations   :   1
+z-minus,4849,1   241         Iterations   :   1
+z-minus,4869,1   242         Iterations   :   1
+z-minus,4889,1   243         Iterations   :   1
+z-minus,4909,1   244         Iterations   :   1
+z-minus,4929,1   245         Iterations   :   1
+z-minus,4949,1   246         Iterations   :   1
+z-minus,4969,1   247         Iterations   :   1
+z-minus,4989,1   248         Iterations   :   1
+z-minus,5009,1   249         Iterations   :   1
+z-minus,5029,1   250         Iterations   :   1
+z-minus,5049,1   251         Iterations   :   1
+z-minus,5069,1   252         Iterations   :   1
+z-minus,5089,1   253         Iterations   :   1
+z-minus,5109,1   254         Iterations   :   1
+z-minus,5129,1   255         Iterations   :   1
+z-minus,5149,1   256         Iterations   :   1
+z-minus,5169,1   257         Iterations   :   1
+z-minus,5189,1   258         Iterations   :   1
+z-minus,5209,1   259         Iterations   :   1
+z-minus,5229,1   260         Iterations   :   1
+z-minus,5249,1   261         Iterations   :   1
+z-minus,5269,1   262         Iterations   :   1
+z-minus,5289,1   263         Iterations   :   1
+z-minus,5309,1   264         Iterations   :   1
+z-minus,5329,1   265         Iterations   :   1
+z-minus,5349,1   266         Iterations   :   1
+z-minus,5369,1   267         Iterations   :   1
+z-minus,5389,1   268         Iterations   :   1
+z-minus,5409,1   269         Iterations   :   1
+z-minus,5429,1   270         Iterations   :   1
+z-minus,5449,1   271         Iterations   :   1
+z-minus,5469,1   272         Iterations   :   1
+z-minus,5489,1   273         Iterations   :   1
+z-minus,5509,1   274         Iterations   :   1
+z-minus,5529,1   275         Iterations   :   1
+z-minus,5549,1   276         Iterations   :   1
+z-minus,5569,1   277         Iterations   :   1
+z-minus,5589,1   278         Iterations   :   1
+z-minus,5609,1   279         Iterations   :   1
+z-minus,5629,1   280         Iterations   :   1
+z-minus,5649,1   281         Iterations   :   1
+z-minus,5669,1   282         Iterations   :   1
+z-minus,5689,1   283         Iterations   :   1
+z-minus,5709,1   284         Iterations   :   1
+z-minus,5729,1   285         Iterations   :   1
+z-minus,5749,1   286         Iterations   :   1
+z-minus,5769,1   287         Iterations   :   1
+z-minus,5789,1   288         Iterations   :   1
+z-minus,5809,1   289         Iterations   :   1
+z-minus,5829,1   290         Iterations   :   1
+z-minus,5849,1   291         Iterations   :   1
+z-minus,5869,1   292         Iterations   :   1
+z-minus,5889,1   293         Iterations   :   1
+z-minus,5909,1   294         Iterations   :   1
+z-minus,5929,1   295         Iterations   :   1
+z-minus,5949,1   296         Iterations   :   1
+z-minus,5969,1   297         Iterations   :   1
+z-minus,5989,1   298         Iterations   :   1
+z-minus,6009,1   299         Iterations   :   1
+z-minus,6029,1   300         Iterations   :   1
+z-minus,6049,1   301         Iterations   :   1
+z-minus,6069,1   302         Iterations   :   1
+z-minus,6089,1   303         Iterations   :   1
+z-minus,6109,1   304         Iterations   :   1
+z-minus,6129,1   305         Iterations   :   1
+z-minus,6149,1   306         Iterations   :   1
+z-minus,6169,1   307         Iterations   :   1
+z-minus,6189,1   308         Iterations   :   1
+z-minus,6209,1   309         Iterations   :   1
+z-minus,6229,1   310         Iterations   :   1
+z-minus,6249,1   311         Iterations   :   1
+z-minus,6269,1   312         Iterations   :   1
+z-minus,6289,1   313         Iterations   :   1
+z-minus,6309,1   314         Iterations   :   1
+z-minus,6329,1   315         Iterations   :   1
+z-minus,6349,1   316         Iterations   :   1
+z-minus,6369,1   317         Iterations   :   1
+z-minus,6389,1   318         Iterations   :   1
+z-minus,6409,1   319         Iterations   :   1
+z-minus,6429,1   320         Iterations   :   1
+z-minus,6449,1   321         Iterations   :   1
+z-minus,6469,1   322         Iterations   :   1
+z-minus,6489,1   323         Iterations   :   1
+z-minus,6509,1   324         Iterations   :   1
+z-minus,6529,1   325         Iterations   :   1
+z-minus,6549,1   326         Iterations   :   1
+z-minus,6569,1   327         Iterations   :   1
+z-minus,6589,1   328         Iterations   :   1
+z-minus,6609,1   329         Iterations   :   1
+z-minus,6629,1   330         Iterations   :   1
+z-minus,6649,1   331         Iterations   :   1
+z-minus,6669,1   332         Iterations   :   1
+z-minus,6689,1   333         Iterations   :   1
+z-minus,6709,1   334         Iterations   :   1
+z-minus,6729,1   335         Iterations   :   1
+z-minus,6749,1   336         Iterations   :   1
+z-minus,6769,1   337         Iterations   :   1
+z-minus,6789,1   338         Iterations   :   1
+z-minus,6809,1   339         Iterations   :   1
+z-minus,6829,1   340         Iterations   :   1
+z-minus,6849,1   341         Iterations   :   1
+z-minus,6869,1   342         Iterations   :   1
+z-minus,6889,1   343         Iterations   :   1
+z-minus,6909,1   344         Iterations   :   1
+z-minus,6929,1   345         Iterations   :   1
+z-minus,6949,1   346         Iterations   :   1
+z-minus,6969,1   347         Iterations   :   1
+z-minus,6989,1   348         Iterations   :   1
+z-minus,7009,1   349         Iterations   :   1
+z-minus,7029,1   350         Iterations   :   1
+z-minus,7049,1   351         Iterations   :   1
+z-minus,7069,1   352         Iterations   :   1
+z-minus,7089,1   353         Iterations   :   1
+z-minus,7109,1   354         Iterations   :   1
+z-minus,7129,1   355         Iterations   :   1
+z-minus,7149,1   356         Iterations   :   1
+z-minus,7169,1   357         Iterations   :   1
+z-minus,7189,1   358         Iterations   :   1
+z-minus,7209,1   359         Iterations   :   1
+z-minus,7229,1   360         Iterations   :   1
+z-minus,7249,1   361         Iterations   :   1
+z-minus,7269,1   362         Iterations   :   1
+z-minus,7289,1   363         Iterations   :   1
+z-minus,7309,1   364         Iterations   :   1
+z-minus,7329,1   365         Iterations   :   1
+z-minus,7349,1   366         Iterations   :   1
+z-minus,7369,1   367         Iterations   :   1
+z-minus,7389,1   368         Iterations   :   1
+z-minus,7409,1   369         Iterations   :   1
+z-minus,7429,1   370         Iterations   :   1
+z-minus,7449,1   371         Iterations   :   1
+z-minus,7469,1   372         Iterations   :   1
+z-minus,7489,1   373         Iterations   :   1
+z-minus,7509,1   374         Iterations   :   1
+z-minus,7529,1   375         Iterations   :   1
+z-minus,7549,1   376         Iterations   :   1
+z-minus,7569,1   377         Iterations   :   1
+z-minus,7589,1   378         Iterations   :   1
+z-minus,7609,1   379         Iterations   :   1
+z-minus,7629,1   380         Iterations   :   1
+z-minus,7649,1   381         Iterations   :   1
+z-minus,7669,1   382         Iterations   :   1
+z-minus,7689,1   383         Iterations   :   1
+z-minus,7709,1   384         Iterations   :   1
+z-minus,7729,1   385         Iterations   :   1
+z-minus,7749,1   386         Iterations   :   1
+z-minus,7769,1   387         Iterations   :   1
+z-minus,7789,1   388         Iterations   :   1
+z-minus,7809,1   389         Iterations   :   1
+z-minus,7829,1   390         Iterations   :   1
+z-minus,7849,1   391         Iterations   :   1
+z-minus,7869,1   392         Iterations   :   1
+z-minus,7889,1   393         Iterations   :   1
+z-minus,7909,1   394         Iterations   :   1
+z-minus,7929,1   395         Iterations   :   1
+z-minus,7949,1   396         Iterations   :   1
+z-minus,7969,1   397         Iterations   :   1
+z-minus,7989,1   398         Iterations   :   1
+z-minus,8009,1   399         Iterations   :   1
+z-minus,8029,1   400         Iterations   :   1
+z-minus,8049,1   401         Iterations   :   1
+z-minus,8069,1   402         Iterations   :   1
+z-minus,8089,1   403         Iterations   :   1
+z-minus,8109,1   404         Iterations   :   1
+z-minus,8129,1   405         Iterations   :   1
+z-minus,8149,1   406         Iterations   :   1
+z-minus,8169,1   407         Iterations   :   1
+z-minus,8189,1   408         Iterations   :   1
+z-minus,8209,1   409         Iterations   :   1
+z-minus,8229,1   410         Iterations   :   1
+z-minus,8249,1   411         Iterations   :   1
+z-minus,8269,1   412         Iterations   :   1
+z-minus,8289,1   413         Iterations   :   1
+z-minus,8309,1   414         Iterations   :   1
+z-minus,8329,1   415         Iterations   :   1
+z-minus,8349,1   416         Iterations   :   1
+z-minus,8369,1   417         Iterations   :   1
+z-minus,8389,1   418         Iterations   :   1
+z-minus,8409,1   419         Iterations   :   1
+z-minus,8429,1   420         Iterations   :   1
+z-minus,8449,1   421         Iterations   :   1
+z-minus,8469,1   422         Iterations   :   1
+z-minus,8489,1   423         Iterations   :   1
+z-minus,8509,1   424         Iterations   :   1
+z-minus,8529,1   425         Iterations   :   1
+z-minus,8549,1   426         Iterations   :   1
+z-minus,8569,1   427         Iterations   :   1
+z-minus,8589,1   428         Iterations   :   1
+z-minus,8609,1   429         Iterations   :   1
+z-minus,8629,1   430         Iterations   :   1
+z-minus,8649,1   431         Iterations   :   1
+z-minus,8669,1   432         Iterations   :   1
+z-minus,8689,1   433         Iterations   :   1
+z-minus,8709,1   434         Iterations   :   1
+z-minus,8729,1   435         Iterations   :   1
+z-minus,8749,1   436         Iterations   :   1
+z-minus,8769,1   437         Iterations   :   1
+z-minus,8789,1   438         Iterations   :   1
+z-minus,8809,1   439         Iterations   :   1
+z-minus,8829,1   440         Iterations   :   1
+z-minus,8849,1   441         Iterations   :   1
+z-minus,8869,1   442         Iterations   :   1
+z-minus,8889,1   443         Iterations   :   1
+z-minus,8909,1   444         Iterations   :   1
+z-minus,8929,1   445         Iterations   :   1
+z-minus,8949,1   446         Iterations   :   1
+z-minus,8969,1   447         Iterations   :   1
+z-minus,8989,1   448         Iterations   :   1
+z-minus,9009,1   449         Iterations   :   1
+z-minus,9029,1   450         Iterations   :   1
+z-minus,9049,1   451         Iterations   :   1
+z-minus,9069,1   452         Iterations   :   1
+z-minus,9089,1   453         Iterations   :   1
+z-minus,9109,1   454         Iterations   :   1
+z-minus,9129,1   455         Iterations   :   1
+z-minus,9149,1   456         Iterations   :   1
+z-minus,9169,1   457         Iterations   :   1
+z-minus,9189,1   458         Iterations   :   1
+z-minus,9209,1   459         Iterations   :   1
+z-minus,9229,1   460         Iterations   :   1
+z-minus,9249,1   461         Iterations   :   1
+z-minus,9269,1   462         Iterations   :   1
+z-minus,9289,1   463         Iterations   :   1
+z-minus,9309,1   464         Iterations   :   1
+z-minus,9329,1   465         Iterations   :   1
+z-minus,9349,1   466         Iterations   :   1
+z-minus,9369,1   467         Iterations   :   1
+z-minus,9389,1   468         Iterations   :   1
+z-minus,9409,1   469         Iterations   :   1
+z-minus,9429,1   470         Iterations   :   1
+z-minus,9449,1   471         Iterations   :   1
+z-minus,9469,1   472         Iterations   :   1
+z-minus,9489,1   473         Iterations   :   1
+z-minus,9509,1   474         Iterations   :   1
+z-minus,9529,1   475         Iterations   :   1
+z-minus,9549,1   476         Iterations   :   1
+z-minus,9569,1   477         Iterations   :   1
+z-minus,9589,1   478         Iterations   :   1
+z-minus,9609,1   479         Iterations   :   1
+z-minus,9629,1   480         Iterations   :   1
+z-minus,9649,1   481         Iterations   :   1
+z-minus,9669,1   482         Iterations   :   1
+z-minus,9689,1   483         Iterations   :   1
+z-minus,9709,1   484         Iterations   :   1
+z-minus,9729,1   485         Iterations   :   1
+z-minus,9749,1   486         Iterations   :   1
+z-minus,9769,1   487         Iterations   :   1
+z-minus,9789,1   488         Iterations   :   1
+z-minus,9809,1   489         Iterations   :   1
+z-minus,9829,1   490         Iterations   :   1
+z-minus,9849,1   491         Iterations   :   1
+z-minus,9869,1   492         Iterations   :   1
+z-minus,9889,1   493         Iterations   :   1
+z-minus,9909,1   494         Iterations   :   1
+z-minus,9929,1   495         Iterations   :   1
+z-minus,9949,1   496         Iterations   :   1
+z-minus,9969,1   497         Iterations   :   1
+z-minus,9989,1   498         Iterations   :   1
+z-minus,10009,1   499         Iterations   :   1
+z-minus,10029,1   500         Iterations   :   1
+z-minus,10049,1   501         Iterations   :   1
+z-minus,10069,1   502         Iterations   :   1
+z-minus,10089,1   503         Iterations   :   1
+z-minus,10109,1   504         Iterations   :   1
+z-minus,10129,1   505         Iterations   :   1
+z-minus,10149,1   506         Iterations   :   1
+z-minus,10169,1   507         Iterations   :   1
+z-minus,10189,1   508         Iterations   :   1
+z-minus,10209,1   509         Iterations   :   1
+z-minus,10229,1   510         Iterations   :   1
+z-minus,10249,1   511         Iterations   :   1
+z-minus,10269,1   512         Iterations   :   1
+z-minus,10289,1   513         Iterations   :   1
+z-minus,10309,1   514         Iterations   :   1
+z-minus,10329,1   515         Iterations   :   1
+z-minus,10349,1   516         Iterations   :   1
+z-minus,10369,1   517         Iterations   :   1
+z-minus,10389,1   518         Iterations   :   1
+z-minus,10409,1   519         Iterations   :   1
+z-minus,10429,1   520         Iterations   :   1
+z-minus,10449,1   521         Iterations   :   1
+z-minus,10469,1   522         Iterations   :   1
+z-minus,10489,1   523         Iterations   :   1
+z-minus,10509,1   524         Iterations   :   1
+z-minus,10529,1   525         Iterations   :   1
+z-minus,10549,1   526         Iterations   :   1
+z-minus,10569,1   527         Iterations   :   1
+z-minus,10589,1   528         Iterations   :   1
+z-minus,10609,1   529         Iterations   :   1
+z-minus,10629,1   530         Iterations   :   1
+z-minus,10649,1   531         Iterations   :   1
+z-minus,10669,1   532         Iterations   :   1
+z-minus,10689,1   533         Iterations   :   1
+z-minus,10709,1   534         Iterations   :   1
+z-minus,10729,1   535         Iterations   :   1
+z-minus,10749,1   536         Iterations   :   1
+z-minus,10769,1   537         Iterations   :   1
+z-minus,10789,1   538         Iterations   :   1
+z-minus,10809,1   539         Iterations   :   1
+z-minus,10829,1   540         Iterations   :   1
+z-minus,10849,1   541         Iterations   :   1
+z-minus,10869,1   542         Iterations   :   1
+z-minus,10889,1   543         Iterations   :   1
+z-minus,10909,1   544         Iterations   :   1
+z-minus,10929,1   545         Iterations   :   1
+z-minus,10949,1   546         Iterations   :   1
+z-minus,10969,1   547         Iterations   :   1
+z-minus,10989,1   548         Iterations   :   1
+z-minus,11009,1   549         Iterations   :   1
+z-minus,11029,1   550         Iterations   :   1
+z-minus,11049,1   551         Iterations   :   1
+z-minus,11069,1   552         Iterations   :   1
+z-minus,11089,1   553         Iterations   :   1
+z-minus,11109,1   554         Iterations   :   1
+z-minus,11129,1   555         Iterations   :   1
+z-minus,11149,1   556         Iterations   :   1
+z-minus,11169,1   557         Iterations   :   1
+z-minus,11189,1   558         Iterations   :   1
+z-minus,11209,1   559         Iterations   :   1
+z-minus,11229,1   560         Iterations   :   1
+z-minus,11249,1   561         Iterations   :   1
+z-minus,11269,1   562         Iterations   :   1
+z-minus,11289,1   563         Iterations   :   1
+z-minus,11309,1   564         Iterations   :   1
+z-minus,11329,1   565         Iterations   :   1
+z-minus,11349,1   566         Iterations   :   1
+z-minus,11369,1   567         Iterations   :   1
+z-minus,11389,1   568         Iterations   :   1
+z-minus,11409,1   569         Iterations   :   1
+z-minus,11429,1   570         Iterations   :   1
+z-minus,11449,1   571         Iterations   :   1
+z-minus,11469,1   572         Iterations   :   1
+z-minus,11489,1   573         Iterations   :   1
+z-minus,11509,1   574         Iterations   :   1
+z-minus,11529,1   575         Iterations   :   1
+z-minus,11549,1   576         Iterations   :   1
+z-minus,11569,1   577         Iterations   :   1
+z-minus,11589,1   578         Iterations   :   1
+z-minus,11609,1   579         Iterations   :   1
+z-minus,11629,1   580         Iterations   :   1
+z-minus,11649,1   581         Iterations   :   1
+z-minus,11669,1   582         Iterations   :   1
+z-minus,11689,1   583         Iterations   :   1
+z-minus,11709,1   584         Iterations   :   1
+z-minus,11729,1   585         Iterations   :   1
+z-minus,11749,1   586         Iterations   :   1
+z-minus,11769,1   587         Iterations   :   1
+z-minus,11789,1   588         Iterations   :   1
+z-minus,11809,1   589         Iterations   :   1
+z-minus,11829,1   590         Iterations   :   1
+z-minus,11849,1   591         Iterations   :   1
+z-minus,11869,1   592         Iterations   :   1
+z-minus,11889,1   593         Iterations   :   1
+z-minus,11909,1   594         Iterations   :   1
+z-minus,11929,1   595         Iterations   :   1
+z-minus,11949,1   596         Iterations   :   1
+z-minus,11969,1   597         Iterations   :   1
+z-minus,11989,1   598         Iterations   :   1
+z-minus,12009,1   599         Iterations   :   1
+z-minus,12029,1   600         Iterations   :   1
+z-minus,12049,1   601         Iterations   :   1
+z-minus,12069,1   602         Iterations   :   1
+z-minus,12089,1   603         Iterations   :   1
+z-minus,12109,1   604         Iterations   :   1
+z-minus,12129,1   605         Iterations   :   1
+z-minus,12149,1   606         Iterations   :   1
+z-minus,12169,1   607         Iterations   :   1
+z-minus,12189,1   608         Iterations   :   1
+z-minus,12209,1   609         Iterations   :   1
+z-minus,12229,1   610         Iterations   :   1
+z-minus,12249,1   611         Iterations   :   1
+z-minus,12269,1   612         Iterations   :   1
+z-minus,12289,1   613         Iterations   :   1
+z-minus,12309,1   614         Iterations   :   1
+z-minus,12329,1   615         Iterations   :   1
+z-minus,12349,1   616         Iterations   :   1
+z-minus,12369,1   617         Iterations   :   1
+z-minus,12389,1   618         Iterations   :   1
+z-minus,12409,1   619         Iterations   :   1
+z-minus,12429,1   620         Iterations   :   1
+z-minus,12449,1   621         Iterations   :   1
+z-minus,12469,1   622         Iterations   :   1
+z-minus,12489,1   623         Iterations   :   1
+z-minus,12509,1   624         Iterations   :   1
+z-minus,12529,1   625         Iterations   :   1
+z-minus,12549,1   626         Iterations   :   1
+z-minus,12569,1   627         Iterations   :   1
+z-minus,12589,1   628         Iterations   :   1
+z-minus,12609,1   629         Iterations   :   1
+z-minus,12629,1   630         Iterations   :   1
+z-minus,12649,1   631         Iterations   :   1
+z-minus,12669,1   632         Iterations   :   1
+z-minus,12689,1   633         Iterations   :   1
+z-minus,12709,1   634         Iterations   :   1
+z-minus,12729,1   635         Iterations   :   1
+z-minus,12749,1   636         Iterations   :   1
+z-minus,12769,1   637         Iterations   :   1
+z-minus,12789,1   638         Iterations   :   1
+z-minus,12809,1   639         Iterations   :   1
+z-minus,12829,1   640         Iterations   :   1
+z-minus,12849,1   641         Iterations   :   1
+z-minus,12869,1   642         Iterations   :   1
+z-minus,12889,1   643         Iterations   :   1
+z-minus,12909,1   644         Iterations   :   1
+z-minus,12929,1   645         Iterations   :   1
+z-minus,12949,1   646         Iterations   :   1
+z-minus,12969,1   647         Iterations   :   1
+z-minus,12989,1   648         Iterations   :   1
+z-minus,13009,1   649         Iterations   :   1
+z-minus,13029,1   650         Iterations   :   1
+z-minus,13049,1   651         Iterations   :   1
+z-minus,13069,1   652         Iterations   :   1
+z-minus,13089,1   653         Iterations   :   1
+z-minus,13109,1   654         Iterations   :   1
+z-minus,13129,1   655         Iterations   :   1
+z-minus,13149,1   656         Iterations   :   1
+z-minus,13169,1   657         Iterations   :   1
+z-minus,13189,1   658         Iterations   :   1
+z-minus,13209,1   659         Iterations   :   1
+z-minus,13229,1   660         Iterations   :   1
+z-minus,13249,1   661         Iterations   :   1
+z-minus,13269,1   662         Iterations   :   1
+z-minus,13289,1   663         Iterations   :   1
+z-minus,13309,1   664         Iterations   :   1
+z-minus,13329,1   665         Iterations   :   1
+z-minus,13349,1   666         Iterations   :   1
+z-minus,13369,1   667         Iterations   :   1
+z-minus,13389,1   668         Iterations   :   1
+z-minus,13409,1   669         Iterations   :   1
+z-minus,13429,1   670         Iterations   :   1
+z-minus,13449,1   671         Iterations   :   1
+z-minus,13469,1   672         Iterations   :   1
+z-minus,13489,1   673         Iterations   :   1
+z-minus,13509,1   674         Iterations   :   1
+z-minus,13529,1   675         Iterations   :   1
+z-minus,13549,1   676         Iterations   :   1
+z-minus,13569,1   677         Iterations   :   1
+z-minus,13589,1   678         Iterations   :   1
+z-minus,13609,1   679         Iterations   :   1
+z-minus,13629,1   680         Iterations   :   1
+z-minus,13649,1   681         Iterations   :   1
+z-minus,13669,1   682         Iterations   :   1
+z-minus,13689,1   683         Iterations   :   1
+z-minus,13709,1   684         Iterations   :   1
+z-minus,13729,1   685         Iterations   :   1
+z-minus,13749,1   686         Iterations   :   1
+z-minus,13769,1   687         Iterations   :   1
+z-minus,13789,1   688         Iterations   :   1
+z-minus,13809,1   689         Iterations   :   1
+z-minus,13829,1   690         Iterations   :   1
+z-minus,13849,1   691         Iterations   :   1
+z-minus,13869,1   692         Iterations   :   1
+z-minus,13889,1   693         Iterations   :   1
+z-minus,13909,1   694         Iterations   :   1
+z-minus,13929,1   695         Iterations   :   1
+z-minus,13949,1   696         Iterations   :   1
+z-minus,13969,1   697         Iterations   :   1
+z-minus,13989,1   698         Iterations   :   1
+z-minus,14009,1   699         Iterations   :   1
+z-minus,14029,1   700         Iterations   :   1
+z-minus,14049,1   701         Iterations   :   1
+z-minus,14069,1   702         Iterations   :   1
+z-minus,14089,1   703         Iterations   :   1
+z-minus,14109,1   704         Iterations   :   1
+z-minus,14129,1   705         Iterations   :   1
+z-minus,14149,1   706         Iterations   :   1
+z-minus,14169,1   707         Iterations   :   1
+z-minus,14189,1   708         Iterations   :   1
+z-minus,14209,1   709         Iterations   :   1
+z-minus,14229,1   710         Iterations   :   1
+z-minus,14249,1   711         Iterations   :   1
+z-minus,14269,1   712         Iterations   :   1
+z-minus,14289,1   713         Iterations   :   1
+z-minus,14309,1   714         Iterations   :   1
+z-minus,14329,1   715         Iterations   :   1
+z-minus,14349,1   716         Iterations   :   1
+z-minus,14369,1   717         Iterations   :   1
+z-minus,14389,1   718         Iterations   :   1
+z-minus,14409,1   719         Iterations   :   1
+z-minus,14429,1   720         Iterations   :   1
+z-minus,14449,1   721         Iterations   :   1
+z-minus,14469,1   722         Iterations   :   1
+z-minus,14489,1   723         Iterations   :   1
+z-minus,14509,1   724         Iterations   :   1
+z-minus,14529,1   725         Iterations   :   1
+z-minus,14549,1   726         Iterations   :   1
+z-minus,14569,1   727         Iterations   :   1
+z-minus,14589,1   728         Iterations   :   1
+z-minus,14609,1   729         Iterations   :   1
+z-minus,14629,1   730         Iterations   :   1
+z-minus,14649,1   731         Iterations   :   1
+z-minus,14669,1   732         Iterations   :   1
+z-minus,14689,1   733         Iterations   :   1
+z-minus,14709,1   734         Iterations   :   1
+z-minus,14729,1   735         Iterations   :   1
+z-minus,14749,1   736         Iterations   :   1
+z-minus,14769,1   737         Iterations   :   1
+z-minus,14789,1   738         Iterations   :   1
+z-minus,14809,1   739         Iterations   :   1
+z-minus,14829,1   740         Iterations   :   1
+z-minus,14849,1   741         Iterations   :   1
+z-minus,14869,1   742         Iterations   :   1
+z-minus,14889,1   743         Iterations   :   1
+z-minus,14909,1   744         Iterations   :   1
+z-minus,14929,1   745         Iterations   :   1
+z-minus,14949,1   746         Iterations   :   1
+z-minus,14969,1   747         Iterations   :   1
+z-minus,14989,1   748         Iterations   :   1
+z-minus,15009,1   749         Iterations   :   1
+z-minus,15029,1   750         Iterations   :   1
+z-minus,15049,1   751         Iterations   :   1
+z-minus,15069,1   752         Iterations   :   1
+z-minus,15089,1   753         Iterations   :   1
+z-minus,15109,1   754         Iterations   :   1
+z-minus,15129,1   755         Iterations   :   1
+z-minus,15149,1   756         Iterations   :   1
+z-minus,15169,1   757         Iterations   :   1
+z-minus,15189,1   758         Iterations   :   1
+z-minus,15209,1   759         Iterations   :   1
+z-minus,15229,1   760         Iterations   :   1
+z-minus,15249,1   761         Iterations   :   1
+z-minus,15269,1   762         Iterations   :   1
+z-minus,15289,1   763         Iterations   :   1
+z-minus,15309,1   764         Iterations   :   1
+z-minus,15329,1   765         Iterations   :   1
+z-minus,15349,1   766         Iterations   :   1
+z-minus,15369,1   767         Iterations   :   1
+z-minus,15389,1   768         Iterations   :   1
+z-minus,15409,1   769         Iterations   :   1
+z-minus,15429,1   770         Iterations   :   1
+z-minus,15449,1   771         Iterations   :   1
+z-minus,15469,1   772         Iterations   :   1
+z-minus,15489,1   773         Iterations   :   1
+z-minus,15509,1   774         Iterations   :   1
+z-minus,15529,1   775         Iterations   :   1
+z-minus,15549,1   776         Iterations   :   1
+z-minus,15569,1   777         Iterations   :   1
+z-minus,15589,1   778         Iterations   :   1
+z-minus,15609,1   779         Iterations   :   1
+z-minus,15629,1   780         Iterations   :   1
+z-minus,15649,1   781         Iterations   :   1
+z-minus,15669,1   782         Iterations   :   1
+z-minus,15689,1   783         Iterations   :   1
+z-minus,15709,1   784         Iterations   :   1
+z-minus,15729,1   785         Iterations   :   1
+z-minus,15749,1   786         Iterations   :   1
+z-minus,15769,1   787         Iterations   :   1
+z-minus,15789,1   788         Iterations   :   1
+z-minus,15809,1   789         Iterations   :   1
+z-minus,15829,1   790         Iterations   :   1
+z-minus,15849,1   791         Iterations   :   1
+z-minus,15869,1   792         Iterations   :   1
+z-minus,15889,1   793         Iterations   :   1
+z-minus,15909,1   794         Iterations   :   1
+z-minus,15929,1   795         Iterations   :   1
+z-minus,15949,1   796         Iterations   :   1
+z-minus,15969,1   797         Iterations   :   1
+z-minus,15989,1   798         Iterations   :   1
+z-minus,16009,1   799         Iterations   :   1
+z-minus,16029,1   800         Iterations   :   1
+z-minus,16049,1   801         Iterations   :   1
+z-minus,16069,1   802         Iterations   :   1
+z-minus,16089,1   803         Iterations   :   1
+z-minus,16109,1   804         Iterations   :   1
+z-minus,16129,1   805         Iterations   :   1
+z-minus,16149,1   806         Iterations   :   1
+z-minus,16169,1   807         Iterations   :   1
+z-minus,16189,1   808         Iterations   :   1
+z-minus,16209,1   809         Iterations   :   1
+z-minus,16229,1   810         Iterations   :   1
+z-minus,16249,1   811         Iterations   :   1
+z-minus,16269,1   812         Iterations   :   1
+z-minus,16289,1   813         Iterations   :   1
+z-minus,16309,1   814         Iterations   :   1
+z-minus,16329,1   815         Iterations   :   1
+z-minus,16349,1   816         Iterations   :   1
+z-minus,16369,1   817         Iterations   :   1
+z-minus,16389,1   818         Iterations   :   1
+z-minus,16409,1   819         Iterations   :   1
+z-minus,16429,1   820         Iterations   :   1
+z-minus,16449,1   821         Iterations   :   1
+z-minus,16469,1   822         Iterations   :   1
+z-minus,16489,1   823         Iterations   :   1
+z-minus,16509,1   824         Iterations   :   1
+z-minus,16529,1   825         Iterations   :   1
+z-minus,16549,1   826         Iterations   :   1
+z-minus,16569,1   827         Iterations   :   1
+z-minus,16589,1   828         Iterations   :   1
+z-minus,16609,1   829         Iterations   :   1
+z-minus,16629,1   830         Iterations   :   1
+z-minus,16649,1   831         Iterations   :   1
+z-minus,16669,1   832         Iterations   :   1
+z-minus,16689,1   833         Iterations   :   1
+z-minus,16709,1   834         Iterations   :   1
+z-minus,16729,1   835         Iterations   :   1
+z-minus,16749,1   836         Iterations   :   1
+z-minus,16769,1   837         Iterations   :   1
+z-minus,16789,1   838         Iterations   :   1
+z-minus,16809,1   839         Iterations   :   1
+z-minus,16829,1   840         Iterations   :   1
+z-minus,16849,1   841         Iterations   :   1
+z-minus,16869,1   842         Iterations   :   1
+z-minus,16889,1   843         Iterations   :   1
+z-minus,16909,1   844         Iterations   :   1
+z-minus,16929,1   845         Iterations   :   1
+z-minus,16949,1   846         Iterations   :   1
+z-minus,16969,1   847         Iterations   :   1
+z-minus,16989,1   848         Iterations   :   1
+z-minus,17009,1   849         Iterations   :   1
+z-minus,17029,1   850         Iterations   :   1
+z-minus,17049,1   851         Iterations   :   1
+z-minus,17069,1   852         Iterations   :   1
+z-minus,17089,1   853         Iterations   :   1
+z-minus,17109,1   854         Iterations   :   1
+z-minus,17129,1   855         Iterations   :   1
+z-minus,17149,1   856         Iterations   :   1
+z-minus,17169,1   857         Iterations   :   1
+z-minus,17189,1   858         Iterations   :   1
+z-minus,17209,1   859         Iterations   :   1
+z-minus,17229,1   860         Iterations   :   1
+z-minus,17249,1   861         Iterations   :   1
+z-minus,17269,1   862         Iterations   :   1
+z-minus,17289,1   863         Iterations   :   1
+z-minus,17309,1   864         Iterations   :   1
+z-minus,17329,1   865         Iterations   :   1
+z-minus,17349,1   866         Iterations   :   1
+z-minus,17369,1   867         Iterations   :   1
+z-minus,17389,1   868         Iterations   :   1
+z-minus,17409,1   869         Iterations   :   1
+z-minus,17429,1   870         Iterations   :   1
+z-minus,17449,1   871         Iterations   :   1
+z-minus,17469,1   872         Iterations   :   1
+z-minus,17489,1   873         Iterations   :   1
+z-minus,17509,1   874         Iterations   :   1
+z-minus,17529,1   875         Iterations   :   1
+z-minus,17549,1   876         Iterations   :   1
+z-minus,17569,1   877         Iterations   :   1
+z-minus,17589,1   878         Iterations   :   1
+z-minus,17609,1   879         Iterations   :   1
+z-minus,17629,1   880         Iterations   :   1
+z-minus,17649,1   881         Iterations   :   1
+z-minus,17669,1   882         Iterations   :   1
+z-minus,17689,1   883         Iterations   :   1
+z-minus,17709,1   884         Iterations   :   1
+z-minus,17729,1   885         Iterations   :   1
+z-minus,17749,1   886         Iterations   :   1
+z-minus,17769,1   887         Iterations   :   1
+z-minus,17789,1   888         Iterations   :   1
+z-minus,17809,1   889         Iterations   :   1
+z-minus,17829,1   890         Iterations   :   1
+z-minus,17849,1   891         Iterations   :   1
+z-minus,17869,1   892         Iterations   :   1
+z-minus,17889,1   893         Iterations   :   1
+z-minus,17909,1   894         Iterations   :   1
+z-minus,17929,1   895         Iterations   :   1
+z-minus,17949,1   896         Iterations   :   1
+z-minus,17969,1   897         Iterations   :   1
+z-minus,17989,1   898         Iterations   :   1
+z-minus,18009,1   899         Iterations   :   1
