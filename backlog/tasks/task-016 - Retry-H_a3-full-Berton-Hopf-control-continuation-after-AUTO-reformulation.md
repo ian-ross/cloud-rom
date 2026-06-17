@@ -1,10 +1,11 @@
 ---
 id: TASK-016
 title: Retry H_a3 full Berton Hopf-control continuation after AUTO reformulation
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-15 19:47'
-updated_date: '2026-06-17 11:06'
+updated_date: '2026-06-17 11:44'
 labels:
   - berton
   - auto
