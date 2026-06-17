@@ -1,0 +1,62 @@
+{
+  "accepted_points_including_directional_seed_duplicates": 54,
+  "accepted_unique_points": 52,
+  "config": {
+    "downward_target_W_a0_m_s": 0.1,
+    "ds_initial": 0.2,
+    "ds_max": 0.35,
+    "ds_min": 0.01,
+    "max_steps_per_direction": 120,
+    "newton_tolerance": 1e-07,
+    "residual_acceptance_tolerance": 2e-06,
+    "upward_target_W_a0_m_s": 1.2
+  },
+  "control_max_W_a0_m_s": 1.2006388199708975,
+  "control_min_W_a0_m_s": 0.09947135793285178,
+  "coordinate_system": "TASK-026 scaled z,u,w,log(m/kg) with scaled W_a0 control",
+  "max_branch_jacobian_condition": 14844.84521836593,
+  "max_physical_residual_norm": 7.770157956201975e-10,
+  "max_relative_m_error_vs_task012": 1.3391245585476495e-12,
+  "max_relative_m_error_vs_task019": 2.722078582189897e-06,
+  "max_scaled_residual_norm": 2.5078855536763245e-07,
+  "max_transformed_residual_norm": 7.770157956203554e-10,
+  "max_u_error_vs_task012_m_s": 7.59179386022879e-11,
+  "max_u_error_vs_task019_m_s": 1.606391075714697e-07,
+  "max_z_error_vs_task012_m": 1.5183104551397264e-08,
+  "max_z_error_vs_task019_m": 3.212792034901213e-05,
+  "min_branch_singular_value": 0.7663662908411363,
+  "output_files": [
+    "full_wa0_branch_points.csv",
+    "full_wa0_eigenvalues.csv",
+    "full_wa0_corrector_iterations.csv",
+    "full_wa0_rejected_steps.csv",
+    "anchor_reachability.csv",
+    "python_probe_comparison.csv",
+    "restricted_task019_comparison.csv",
+    "task027_wa0_gate_verdict.json"
+  ],
+  "reachable_anchor_count": 12,
+  "reaches_W_a0_1_2_m_s": true,
+  "rejected_step_count": 0,
+  "scaling": {
+    "W_a0_ref_m_s": 0.6,
+    "W_a0_scale_m_s": 0.1,
+    "log_m_ref": -20.646092418309163,
+    "log_m_scale": 1.0,
+    "residual_row_scales": [
+      10.0,
+      100.0,
+      100.0,
+      100000000.0
+    ],
+    "u_ref_m_s": 1.9098623386953224,
+    "u_scale_m_s": 1.0,
+    "w_ref_m_s": -2.908453631176365e-21,
+    "w_scale_m_s": 0.1,
+    "z_ref_m": 9618.027532260936,
+    "z_scale_m": 100.0
+  },
+  "task": "TASK-027",
+  "verdict": "pass",
+  "verdict_reason": "full-model pseudo-arclength continuation reaches the required W_a0 anchors through 1.2 m/s with small residuals and reproduces prior W_a0 geometry"
+}
