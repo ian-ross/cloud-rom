@@ -1,7 +1,7 @@
 ---
 id: TASK-028
 title: Continue full-model H_a3 branch with Python continuation
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-17 16:39'
