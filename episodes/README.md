@@ -64,6 +64,26 @@ Path: `episodes/07-restricted-equilibrium-auto/`
 
 Purpose: investigate whether a restricted/local 3D equilibrium formulation with `w=0` and unknowns such as scaled altitude, horizontal velocity, and log-mass/radius is better conditioned than the episode-06 full 4D ODE-equilibrium AUTO problem.
 
-Backlog tasks: TASK-018 through TASK-020.
+Backlog tasks: TASK-017 through TASK-023.
 
-Planned gate: diagnose scaling first, then prove the formulation on `W_a0` before attempting the Hopf-relevant `H_a3` continuation. TASK-018 recommends centered/scaled restricted states and row-scaled residuals, but explicitly does not claim Hopf readiness until the `W_a0` gate succeeds.
+Conclusion: centered/scaled restricted states, row-scaled residuals, and the `P=log(m/m_seed)/10` mass arclength coordinate make the restricted `W_a0` gate useful; TASK-019 follows a meaningful `W_a0` branch and matches the Python probe. Restricted `H_a3` continuation finds a nearby fold/turning limitation but no AUTO-supported Hopf, while smoothed restricted `z_W0` continuation reaches the paper-relevant downward direction and identifies the 9.6--10 km updraft-transition region as the main numerical risk.
+
+## 08 — Full-model AUTO H_a3 retry
+
+Path: `episodes/08-full-model-auto-ha3/`
+
+Purpose: retry full 4D Berton equilibrium continuation in the humidity control `H_a3` using the scaled-state lessons from the restricted continuation work.
+
+Backlog task: TASK-016.
+
+Conclusion: the full-system scaled `H_a3` retry starts at the TASK-011/TASK-012 stable seed but accepts no useful nontrivial branch in either direction. No HB/Hopf label is present; the suspected `H_a3≈0.62` crossing remains a Python/restricted hint only, not full-system AUTO evidence.
+
+## 09 — Full-model AUTO z_W0 continuation
+
+Path: `episodes/09-full-model-auto-zw0/`
+
+Purpose: port the TASK-023 softplus-smoothed updraft transition and scaled full-system variables into a full 4D continuation in `q_z=(z_W0-9000 m)/1000 m`.
+
+Backlog task: TASK-024.
+
+Conclusion: the smoothed full-system `z_W0` attempt accepts only the seed and fails numerically before producing a useful branch across the 7--10 km paper-relevant interval. This remains inconclusive numerically, not AUTO-supported Hopf evidence, and periodic-orbit continuation should wait for a better-conditioned full equilibrium branch or an independently validated periodic seed.
