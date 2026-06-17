@@ -22,10 +22,10 @@ Create episodes/10-full-model-python-continuation/ as the reproducible home for 
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 Episode 10 directory exists with README explaining purpose, scope, and relationship to episodes 06–09
-- [ ] #2 README records the strategy: Python continuation first, AUTO only for final validation
-- [ ] #3 Repository episode index includes episode 10
-- [ ] #4 No research artifacts are placed in old top-level scripts/notebooks/docs/auto/outputs directories
+- [x] #1 Episode 10 directory exists with README explaining purpose, scope, and relationship to episodes 06–09
+- [x] #2 README records the strategy: Python continuation first, AUTO only for final validation
+- [x] #3 Repository episode index includes episode 10
+- [x] #4 No research artifacts are placed in old top-level scripts/notebooks/docs/auto/outputs directories
 <!-- AC:END -->
 
 ## Implementation Plan
