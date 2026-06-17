@@ -1,0 +1,3 @@
+run,direction,branch,point,ty,type,label,q_H_scaled,H_a3,l2_norm_scaled_state,Z_scaled_1000m,U_scaled_5ms,W_m_s,P_log_ratio_over_10,M_log_ratio,z_m,u_m_s,w_m_s,m_kg,is_special_point,is_hopf_label
+q-minus,downward,1,-1,9,EP,1,0.0,0.61,0.0,0.0,0.0,0.0,0.0,0.0,9618.027532260936,1.9098623386953226,0.0,1.0802293920592054e-09,False,False
+q-plus,upward,1,-1,9,EP,1,0.0,0.61,0.0,0.0,0.0,0.0,0.0,0.0,9618.027532260936,1.9098623386953226,0.0,1.0802293920592054e-09,False,False

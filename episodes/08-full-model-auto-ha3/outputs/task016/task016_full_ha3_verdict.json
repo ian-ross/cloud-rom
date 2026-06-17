@@ -1,0 +1,16 @@
+{
+  "accepted_H_a3_max": 0.61,
+  "accepted_H_a3_min": 0.61,
+  "accepted_non_seed_points": 0,
+  "attempted_directions": [
+    "downward",
+    "upward"
+  ],
+  "auto_hopf_validated": false,
+  "canonical_H_a3_included": true,
+  "formulation": "full 4D scaled H_a3 with Z,U,W,P and q_H",
+  "seed_source": "TASK-011/TASK-012 equilibrium seed",
+  "task": "TASK-016",
+  "verdict": "negative/inconclusive: no AUTO-validated full-system H_a3 Hopf candidate; branch fails before Python-predicted crossing region",
+  "zW0_ready": false
+}

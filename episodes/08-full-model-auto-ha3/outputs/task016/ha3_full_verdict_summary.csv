@@ -1,0 +1,3 @@
+run,attempted_direction,accepted_rows_excluding_mx,accepted_H_a3_min,accepted_H_a3_max,special_types,has_auto_hopf_label,main_failure_note,task020_restricted_reference
+q-minus,downward,1,0.61,0.61,EP,False,1     2   4                NaN           NaN,"continued numerical inconclusiveness for Hopf; AUTO supports a restricted H_a3 fold/turning limitation, not an HB"
+q-plus,upward,1,0.61,0.61,EP,False,1     1 NOTE:Retrying step,"continued numerical inconclusiveness for Hopf; AUTO supports a restricted H_a3 fold/turning limitation, not an HB"
