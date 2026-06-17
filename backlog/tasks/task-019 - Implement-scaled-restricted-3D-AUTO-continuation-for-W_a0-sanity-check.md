@@ -56,3 +56,24 @@ In the new episode episodes/07-restricted-equilibrium-auto/, use the TASK-018 sc
 - W_a0 gate passes for TASK-020; older TASK-017/TASK-021 M-coordinate seed-only failures are superseded by the P=M/10 formulation.
 - Verification: uv run pytest tests/test_episode07_restricted_task019.py tests/test_episode07_restricted_task017.py tests/test_episode07_restricted_task018.py tests/test_episode07_restricted_task021.py tests/test_episode07_restricted_task022.py (22 passed).
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Implemented the scaled restricted 3D AUTO W_a0 gate with the TASK-022 arclength fix.
+
+Changes:
+- Added `auto/berton_restricted_task019_pmass/` with AUTO state `Z=(z-z_seed)/100`, `U=(u-u_seed)/(1 m/s)`, and `P=M/10` where `M=log(m/m_seed)`.
+- Preserved the physical residual via `log(m)=log(m_seed)+10P` and documented the chain-rule requirement for any future supplied Jacobian.
+- Ran plus/minus W_a0 continuations and preserved raw AUTO `b/s/d` files.
+- Added `berton_restricted_task019_pmass_wa0.py` to reconstruct physical states, compare against TASK-012, and summarize the gate under `outputs/task019/`.
+- Added `docs/task019_pmass_wa0_gate.md` and regression tests.
+
+Result:
+- The upward W_a0 continuation now passes: it reaches all user anchors through `W_a0=1.2` and continues beyond, whereas TASK-017/TASK-021 accepted only the seed.
+- Matched TASK-012 Python probe anchors agree closely, and Python stability diagnostics remain stable across the checked W_a0 anchors.
+- This clears TASK-020 to retry `H_a3` using the same `P=M/10` restricted formulation.
+
+Tests:
+- `uv run pytest tests/test_episode07_restricted_task019.py tests/test_episode07_restricted_task017.py tests/test_episode07_restricted_task018.py tests/test_episode07_restricted_task021.py tests/test_episode07_restricted_task022.py`
+<!-- SECTION:FINAL_SUMMARY:END -->
