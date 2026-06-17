@@ -4,13 +4,16 @@ title: Validate Python-discovered full-model candidates with AUTO
 status: To Do
 assignee: []
 created_date: '2026-06-17 16:39'
+updated_date: '2026-06-17 16:39'
 labels:
   - berton
   - continuation
   - auto
   - python
   - episode-10
-dependencies: []
+dependencies:
+  - TASK-028
+  - TASK-029
 priority: medium
 ---
 
