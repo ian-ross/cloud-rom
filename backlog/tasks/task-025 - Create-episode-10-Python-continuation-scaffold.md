@@ -1,7 +1,7 @@
 ---
 id: TASK-025
 title: Create episode 10 Python continuation scaffold
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-17 16:38'
