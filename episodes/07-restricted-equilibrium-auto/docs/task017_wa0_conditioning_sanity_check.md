@@ -26,3 +26,11 @@ The restricted/scaled AUTO retry accepted `2` total printed branch points and `0
 Because the easy W_a0 gate still fails before a nontrivial branch point, current H_a3 failures should **not** be interpreted as control-specific Hopf evidence. They remain evidence of broader AUTO formulation/conditioning or problem-setup fragility despite the Python equilibrium branch being smooth and stable.
 
 Residual risk: the restricted/scaled residual is much better conditioned locally per TASK-018, but the AUTO equilibrium setup still encounters first-step linear-algebra divergence; further work should isolate AUTO arclength/Jacobian scaling details before H_a3 Hopf work.
+
+## Successor addendum: TASK-019 resolves the W_a0 gate
+
+TASK-017 is retained as the reproducible negative record for the original restricted AUTO coordinate `M=log(m/m_seed)`. Follow-up TASK-022 validation and TASK-019 implementation showed that the first-step failure was an AUTO arclength-scaling problem dominated by the mass coordinate, not evidence that the physical `W_a0` equilibrium branch is absent.
+
+The corrected TASK-019 gate replaces the AUTO mass state with `P=M/10` and maps back with `log(m)=log(m_seed)+10P`. With that coordinate, the restricted/scaled `W_a0` continuation accepts nontrivial branch points, reaches the user anchors through `W_a0=1.2`, and agrees closely with the TASK-012 Python probe.
+
+Therefore TASK-017's negative result should be interpreted narrowly: the un-fixed `M` coordinate immediately fails after the seed. The working W_a0 conditioning evidence is now TASK-019, and subsequent H_a3/z_W0 continuation work should reuse the TASK-019 `P=M/10` formulation rather than the TASK-017 coordinate.

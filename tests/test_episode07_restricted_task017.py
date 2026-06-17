@@ -70,3 +70,6 @@ def test_task017_verdict_does_not_overstate_h_a3_specificity() -> None:
     assert "only the seed value" in note
     assert "should **not** be interpreted as control-specific Hopf evidence" in note
     assert "DGEBAL/NaN" in note
+    assert "Successor addendum: TASK-019 resolves the W_a0 gate" in note
+    assert "P=M/10" in note
+    assert "the un-fixed `M` coordinate immediately fails after the seed" in note
