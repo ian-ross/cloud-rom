@@ -1,7 +1,7 @@
 ---
 id: TASK-027
 title: Use W_a0 as full-model Python continuation gate
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-17 16:39'
@@ -50,3 +50,24 @@ Apply the episode-10 Python continuation core to the full Berton equilibrium bra
 - Added tests/test_episode10_task027_wa0_gate.py covering anchor reachability, residual/eigenvalue/conditioning diagnostics, TASK-012/TASK-019 comparisons, and the pass verdict.
 - Validation: uv run python episodes/10-full-model-python-continuation/scripts/berton_full_task027_wa0_gate.py; uv run pytest tests/test_episode10_task026_python_continuation.py tests/test_episode10_task027_wa0_gate.py tests/test_episode07_restricted_task019.py; uv run pytest.
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Implemented the TASK-027 full-model Python W_a0 continuation gate.
+
+Changes:
+- Added a reproducible Episode 10 W_a0 gate script that applies the TASK-026 scaled full-model pseudo-arclength core in both W_a0 directions.
+- Continued the branch over the previous probe range, including exact accepted anchor refinements from W_a0=0.1 through 1.2 m/s.
+- Persisted curated diagnostics for branch points, full/scaled residual norms, eigenvalues, branch singular values/conditioning, corrector iterations, rejected-step metadata, anchor reachability, and pass/fail verdict.
+- Compared full-model branch geometry against the TASK-012 Python probe and restricted TASK-019 behavior, documenting the discrepancies and verdict in an Episode 10 note.
+- Added regression tests for TASK-027 outputs, comparisons, and verdict invariants; updated the Episode 10 README.
+
+Verdict:
+- PASS: the full-model continuation core reaches required W_a0 anchors through 1.2 m/s with small residuals and reproduces prior W_a0 geometry, so it is ready to gate H_a3 and z_W0 studies.
+
+Validation:
+- uv run python episodes/10-full-model-python-continuation/scripts/berton_full_task027_wa0_gate.py
+- uv run pytest tests/test_episode10_task026_python_continuation.py tests/test_episode10_task027_wa0_gate.py tests/test_episode07_restricted_task019.py
+- uv run pytest
+<!-- SECTION:FINAL_SUMMARY:END -->
