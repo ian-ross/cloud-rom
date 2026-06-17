@@ -65,3 +65,22 @@ Post TASK-022 follow-up found a likely fix for AC #3: the restricted AUTO arclen
 - AC #3 is closed via the documented successor evidence: TASK-017 itself still accepts only the seed, but TASK-019 demonstrates that the branch moves smoothly once the mass arclength coordinate is fixed.
 - Verification: `uv run pytest tests/test_episode07_restricted_task017.py tests/test_episode07_restricted_task019.py` (9 passed).
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Closed TASK-017 as the historical W_a0 conditioning/failure record.
+
+Changes:
+- Added a successor addendum to `episodes/07-restricted-equilibrium-auto/docs/task017_wa0_conditioning_sanity_check.md`.
+- Clarified that TASK-017/TASK-021 failures are reproducible negative evidence for the original `M=log(m/m_seed)` AUTO mass coordinate.
+- Pointed to TASK-019 as the corrected W_a0 conditioning gate using `P=M/10`, which accepts nontrivial branch points and reaches anchors through `W_a0=1.2`.
+
+Result:
+- TASK-017 artifacts remain unchanged as the failure record.
+- The branch-movement criterion is closed by successor TASK-019 evidence, not by rewriting TASK-017 history.
+- Future H_a3 and z_W0 work should use the TASK-019 `P=M/10` formulation.
+
+Tests:
+- `uv run pytest tests/test_episode07_restricted_task017.py tests/test_episode07_restricted_task019.py`
+<!-- SECTION:FINAL_SUMMARY:END -->
