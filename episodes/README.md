@@ -87,3 +87,13 @@ Purpose: port the TASK-023 softplus-smoothed updraft transition and scaled full-
 Backlog task: TASK-024.
 
 Conclusion: the smoothed full-system `z_W0` attempt accepts only the seed and fails numerically before producing a useful branch across the 7--10 km paper-relevant interval. This remains inconclusive numerically, not AUTO-supported Hopf evidence, and periodic-orbit continuation should wait for a better-conditioned full equilibrium branch or an independently validated periodic seed.
+
+## 10 — Full-model Python continuation
+
+Path: `episodes/10-full-model-python-continuation/`
+
+Purpose: provide the reproducible home for a Python-continuation-first full-model investigation, using the conditioning lessons from episodes 06–09 to explore branches in Python before creating any final AUTO validation case.
+
+Backlog task: TASK-025.
+
+Strategy: Python continuation first; AUTO only for final validation after Python identifies a mature branch segment or bifurcation candidate worth validating.

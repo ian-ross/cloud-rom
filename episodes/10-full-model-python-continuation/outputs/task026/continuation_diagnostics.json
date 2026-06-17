@@ -1,0 +1,73 @@
+{
+  "accepted": true,
+  "accepted_step_norm_scaled": 0.010000000136606478,
+  "arclength_ds_scaled": 0.01,
+  "augmented_jacobian_condition_final": 1960.4483793656764,
+  "augmented_singular_values_final": [
+    1878.8215688721373,
+    810.8488462973706,
+    642.2935464599238,
+    0.9999999969369735,
+    0.9583631931589291
+  ],
+  "branch_singular_values_corrected": [
+    1878.8215688721375,
+    810.848846297356,
+    642.2935464598638,
+    0.9583632425376533
+  ],
+  "branch_singular_values_seed": [
+    1881.8193317897108,
+    812.0099880450402,
+    642.661937646254,
+    0.958282846091975
+  ],
+  "config": {
+    "correction_tolerance": 1e-07,
+    "ds": 0.01,
+    "finite_difference_step": 1e-05,
+    "max_newton_iterations": 12,
+    "min_singular_value_warning": 1e-12
+  },
+  "control_step_W_a0_m_s": 0.0009545313182610649,
+  "coordinate_system": "scaled z,u,w,log(m/kg) with scaled W_a0 control",
+  "corrected_branch_jacobian_condition": 1960.4482783555006,
+  "corrected_scaled_residual_norm": 5.068647199140107e-08,
+  "failure_or_convergence_reason": "converged",
+  "output_files": [
+    "seed_and_corrected_points.csv",
+    "seed_corrected_eigenvalues.csv",
+    "corrector_iterations.csv",
+    "tangent_estimates.csv",
+    "continuation_diagnostics.json"
+  ],
+  "predicted_step_norm_scaled": 0.01,
+  "residual_risk": "This is a local core validation step only; branch-length, step adaptation, and nonsmooth transition behavior remain follow-up work.",
+  "scaling": {
+    "W_a0_ref_m_s": 0.6,
+    "W_a0_scale_m_s": 0.1,
+    "log_m_ref": -20.646092418309163,
+    "log_m_scale": 1.0,
+    "residual_row_scales": [
+      10.0,
+      100.0,
+      100.0,
+      100000000.0
+    ],
+    "u_ref_m_s": 1.9098623386953224,
+    "u_scale_m_s": 1.0,
+    "w_ref_m_s": -2.908453631176365e-21,
+    "w_scale_m_s": 0.1,
+    "z_ref_m": 9618.027532260936,
+    "z_scale_m": 100.0
+  },
+  "seed_branch_jacobian_condition": 1963.7410180763015,
+  "seed_scaled_residual_norm": 3.513613661042118e-08,
+  "state_scaled_definition": {
+    "lambda": "(W_a0_m_s - W_a0_ref_m_s) / W_a0_scale_m_s",
+    "x0": "(z_m - z_ref_m) / z_scale_m",
+    "x1": "(u_m_s - u_ref_m_s) / u_scale_m_s",
+    "x2": "(w_m_s - w_ref_m_s) / w_scale_m_s",
+    "x3": "(log(m_kg) - log_m_ref) / log_m_scale"
+  }
+}
