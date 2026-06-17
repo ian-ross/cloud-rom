@@ -1,0 +1,56 @@
+{
+  "accepted_points_total": 180,
+  "accepted_unique_points_total": 172,
+  "config": {
+    "ds_initial": 0.16,
+    "ds_max": 0.22,
+    "ds_min": 0.0025,
+    "lower_target_z_W0_m": 7000.0,
+    "max_steps_per_direction": 360,
+    "newton_tolerance": 1e-07,
+    "residual_acceptance_tolerance": 3e-06,
+    "upper_target_z_W0_m": 10000.0
+  },
+  "coordinate_system": "TASK-026 scaled z,u,w,log(m/kg) with q_z=(z_W0-9000 m)/1000 m",
+  "delta_z_W_m": 300.0,
+  "final_width_anchor_values_reached_m": [
+    7000.0,
+    7500.0,
+    8000.0,
+    8500.0,
+    9000.0,
+    9500.0,
+    9600.0,
+    9700.0,
+    9800.0,
+    9900.0
+  ],
+  "final_width_covers_7_10_km": false,
+  "final_width_transition_region_points": 28,
+  "final_width_unique_points": 48,
+  "final_width_z_W0_max_m": 9929.955134435491,
+  "final_width_z_W0_min_m": 6999.499999998829,
+  "fragility_classification": "smoothing_or_nonsmoothness_sensitive",
+  "fragility_reason": "Easier smoothing widths reach farther than the 50 m width, so transition fragility remains smoothing-width/nonsmoothness sensitive.",
+  "max_branch_jacobian_condition": 29512.676508344313,
+  "max_scaled_residual_norm": 2.2150002879222254e-07,
+  "output_files": [
+    "full_zw0_staged_branch_points.csv",
+    "full_zw0_staged_unique_points.csv",
+    "full_zw0_staged_eigenvalues.csv",
+    "full_zw0_staged_corrector_iterations.csv",
+    "full_zw0_staged_rejected_steps.csv",
+    "smoothing_stage_summary.csv",
+    "task029_zw0_staged_verdict.json"
+  ],
+  "physical_inverse_mapping": "z_W0_m = 9000 + 1000*q_z_W0_scaled",
+  "rejected_step_count": 12,
+  "smoothing_formula": "W_a0 * eps * (softplus(x/eps)-softplus((x-1)/eps)); x=(z-(z_W0-Delta_z_W))/Delta_z_W; eps=width/Delta_z_W",
+  "smoothing_width_schedule_m": [
+    300.0,
+    150.0,
+    100.0,
+    50.0
+  ],
+  "task": "TASK-029"
+}
