@@ -1,7 +1,7 @@
 ---
 id: TASK-017
 title: Use W_a0 as full Berton continuation conditioning sanity check
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-15 19:47'
