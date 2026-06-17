@@ -1,10 +1,11 @@
 ---
 id: TASK-019
 title: Implement scaled restricted 3D AUTO continuation for W_a0 sanity check
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-15 20:17'
-updated_date: '2026-06-16 20:22'
+updated_date: '2026-06-17 07:42'
 labels:
   - berton
   - auto
