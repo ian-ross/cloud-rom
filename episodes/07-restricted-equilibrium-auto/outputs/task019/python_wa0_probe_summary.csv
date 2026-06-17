@@ -1,0 +1,2 @@
+control_min,control_max,successful_points,altitude_span_m,all_stable
+0.1,1.2,23,55.47295384706376,True

@@ -1,0 +1,354 @@
+run,line,message
+pmass-wA0-plus,37,1     1         Iterations   :   2
+pmass-wA0-plus,55,1     2         Iterations   :   2
+pmass-wA0-plus,73,1     3         Iterations   :   2
+pmass-wA0-plus,91,1     4         Iterations   :   2
+pmass-wA0-plus,109,1     5         Iterations   :   2
+pmass-wA0-plus,127,1     6         Iterations   :   2
+pmass-wA0-plus,146,1     7         Iterations   :   3
+pmass-wA0-plus,165,1     8         Iterations   :   3
+pmass-wA0-plus,184,1     9         Iterations   :   3
+pmass-wA0-plus,203,1    10         Iterations   :   3
+pmass-wA0-plus,222,1    11         Iterations   :   3
+pmass-wA0-plus,241,1    12         Iterations   :   3
+pmass-wA0-plus,302,1    14         Iterations   :   3
+pmass-wA0-plus,321,1    15         Iterations   :   3
+pmass-wA0-plus,340,1    16         Iterations   :   3
+pmass-wA0-plus,359,1    17         Iterations   :   3
+pmass-wA0-plus,378,1    18         Iterations   :   3
+pmass-wA0-plus,439,1    20         Iterations   :   3
+pmass-wA0-plus,458,1    21         Iterations   :   3
+pmass-wA0-plus,477,1    22         Iterations   :   3
+pmass-wA0-plus,496,1    23         Iterations   :   3
+pmass-wA0-plus,515,1    24         Iterations   :   3
+pmass-wA0-plus,576,1    26         Iterations   :   3
+pmass-wA0-plus,595,1    27         Iterations   :   3
+pmass-wA0-plus,614,1    28         Iterations   :   3
+pmass-wA0-plus,633,1    29         Iterations   :   3
+pmass-wA0-plus,652,1    30         Iterations   :   3
+pmass-wA0-plus,671,1    31         Iterations   :   3
+pmass-wA0-plus,732,1    33         Iterations   :   3
+pmass-wA0-plus,751,1    34         Iterations   :   3
+pmass-wA0-plus,770,1    35         Iterations   :   3
+pmass-wA0-plus,789,1    36         Iterations   :   3
+pmass-wA0-plus,808,1    37         Iterations   :   3
+pmass-wA0-plus,827,1    38         Iterations   :   3
+pmass-wA0-plus,889,1    40         Iterations   :   3
+pmass-wA0-plus,908,1    41         Iterations   :   3
+pmass-wA0-plus,927,1    42         Iterations   :   3
+pmass-wA0-plus,946,1    43         Iterations   :   3
+pmass-wA0-plus,965,1    44         Iterations   :   3
+pmass-wA0-plus,984,1    45         Iterations   :   3
+pmass-wA0-plus,1047,1    47         Iterations   :   3
+pmass-wA0-plus,1066,1    48         Iterations   :   3
+pmass-wA0-plus,1085,1    49         Iterations   :   3
+pmass-wA0-plus,1104,1    50         Iterations   :   3
+pmass-wA0-plus,1123,1    51         Iterations   :   3
+pmass-wA0-plus,1142,1    52         Iterations   :   3
+pmass-wA0-plus,1161,1    53         Iterations   :   3
+pmass-wA0-plus,1180,1    54         Iterations   :   3
+pmass-wA0-plus,1199,1    55         Iterations   :   3
+pmass-wA0-plus,1218,1    56         Iterations   :   3
+pmass-wA0-plus,1237,1    57         Iterations   :   3
+pmass-wA0-plus,1256,1    58         Iterations   :   3
+pmass-wA0-plus,1275,1    59         Iterations   :   3
+pmass-wA0-plus,1294,1    60         Iterations   :   3
+pmass-wA0-plus,1313,1    61         Iterations   :   3
+pmass-wA0-plus,1332,1    62         Iterations   :   3
+pmass-wA0-plus,1351,1    63         Iterations   :   3
+pmass-wA0-plus,1370,1    64         Iterations   :   3
+pmass-wA0-plus,1389,1    65         Iterations   :   3
+pmass-wA0-plus,1408,1    66         Iterations   :   3
+pmass-wA0-plus,1427,1    67         Iterations   :   3
+pmass-wA0-plus,1446,1    68         Iterations   :   3
+pmass-wA0-plus,1465,1    69         Iterations   :   3
+pmass-wA0-plus,1484,1    70         Iterations   :   3
+pmass-wA0-plus,1503,1    71         Iterations   :   3
+pmass-wA0-plus,1522,1    72         Iterations   :   3
+pmass-wA0-plus,1541,1    73         Iterations   :   3
+pmass-wA0-plus,1560,1    74         Iterations   :   3
+pmass-wA0-plus,1579,1    75         Iterations   :   3
+pmass-wA0-plus,1598,1    76         Iterations   :   3
+pmass-wA0-plus,1617,1    77         Iterations   :   3
+pmass-wA0-plus,1636,1    78         Iterations   :   3
+pmass-wA0-plus,1655,1    79         Iterations   :   3
+pmass-wA0-plus,1674,1    80         Iterations   :   3
+pmass-wA0-plus,1693,1    81         Iterations   :   3
+pmass-wA0-plus,1712,1    82         Iterations   :   3
+pmass-wA0-plus,1731,1    83         Iterations   :   3
+pmass-wA0-plus,1750,1    84         Iterations   :   3
+pmass-wA0-plus,1769,1    85         Iterations   :   3
+pmass-wA0-plus,1788,1    86         Iterations   :   3
+pmass-wA0-plus,1807,1    87         Iterations   :   3
+pmass-wA0-plus,1826,1    88         Iterations   :   3
+pmass-wA0-plus,1845,1    89         Iterations   :   3
+pmass-wA0-plus,1864,1    90         Iterations   :   3
+pmass-wA0-plus,1883,1    91         Iterations   :   3
+pmass-wA0-plus,1902,1    92         Iterations   :   3
+pmass-wA0-plus,1921,1    93         Iterations   :   3
+pmass-wA0-plus,1940,1    94         Iterations   :   3
+pmass-wA0-plus,1959,1    95         Iterations   :   3
+pmass-wA0-plus,1978,1    96         Iterations   :   3
+pmass-wA0-plus,1997,1    97         Iterations   :   3
+pmass-wA0-plus,2016,1    98         Iterations   :   3
+pmass-wA0-plus,2035,1    99         Iterations   :   3
+pmass-wA0-plus,2054,1   100         Iterations   :   3
+pmass-wA0-plus,2073,1   101         Iterations   :   3
+pmass-wA0-plus,2092,1   102         Iterations   :   3
+pmass-wA0-plus,2111,1   103         Iterations   :   3
+pmass-wA0-plus,2130,1   104         Iterations   :   3
+pmass-wA0-plus,2149,1   105         Iterations   :   3
+pmass-wA0-plus,2168,1   106         Iterations   :   3
+pmass-wA0-plus,2187,1   107         Iterations   :   3
+pmass-wA0-plus,2206,1   108         Iterations   :   3
+pmass-wA0-plus,2225,1   109         Iterations   :   3
+pmass-wA0-plus,2244,1   110         Iterations   :   3
+pmass-wA0-plus,2263,1   111         Iterations   :   3
+pmass-wA0-plus,2282,1   112         Iterations   :   3
+pmass-wA0-plus,2301,1   113         Iterations   :   3
+pmass-wA0-plus,2320,1   114         Iterations   :   3
+pmass-wA0-plus,2339,1   115         Iterations   :   3
+pmass-wA0-plus,2358,1   116         Iterations   :   3
+pmass-wA0-plus,2377,1   117         Iterations   :   3
+pmass-wA0-plus,2396,1   118         Iterations   :   3
+pmass-wA0-plus,2415,1   119         Iterations   :   3
+pmass-wA0-plus,2434,1   120         Iterations   :   3
+pmass-wA0-plus,2453,1   121         Iterations   :   3
+pmass-wA0-plus,2472,1   122         Iterations   :   3
+pmass-wA0-plus,2491,1   123         Iterations   :   3
+pmass-wA0-plus,2510,1   124         Iterations   :   3
+pmass-wA0-plus,2529,1   125         Iterations   :   3
+pmass-wA0-plus,2548,1   126         Iterations   :   3
+pmass-wA0-plus,2567,1   127         Iterations   :   3
+pmass-wA0-plus,2586,1   128         Iterations   :   3
+pmass-wA0-plus,2605,1   129         Iterations   :   3
+pmass-wA0-plus,2624,1   130         Iterations   :   3
+pmass-wA0-plus,2643,1   131         Iterations   :   3
+pmass-wA0-plus,2662,1   132         Iterations   :   3
+pmass-wA0-plus,2681,1   133         Iterations   :   3
+pmass-wA0-plus,2700,1   134         Iterations   :   3
+pmass-wA0-plus,2719,1   135         Iterations   :   3
+pmass-wA0-plus,2738,1   136         Iterations   :   3
+pmass-wA0-plus,2757,1   137         Iterations   :   3
+pmass-wA0-plus,2776,1   138         Iterations   :   3
+pmass-wA0-plus,2795,1   139         Iterations   :   3
+pmass-wA0-plus,2814,1   140         Iterations   :   3
+pmass-wA0-plus,2833,1   141         Iterations   :   3
+pmass-wA0-plus,2852,1   142         Iterations   :   3
+pmass-wA0-plus,2871,1   143         Iterations   :   3
+pmass-wA0-plus,2890,1   144         Iterations   :   3
+pmass-wA0-plus,2909,1   145         Iterations   :   3
+pmass-wA0-plus,2928,1   146         Iterations   :   3
+pmass-wA0-plus,2947,1   147         Iterations   :   3
+pmass-wA0-plus,2966,1   148         Iterations   :   3
+pmass-wA0-plus,2985,1   149         Iterations   :   3
+pmass-wA0-plus,3004,1   150         Iterations   :   3
+pmass-wA0-plus,3023,1   151         Iterations   :   3
+pmass-wA0-plus,3042,1   152         Iterations   :   3
+pmass-wA0-plus,3061,1   153         Iterations   :   3
+pmass-wA0-plus,3080,1   154         Iterations   :   3
+pmass-wA0-plus,3099,1   155         Iterations   :   3
+pmass-wA0-plus,3118,1   156         Iterations   :   3
+pmass-wA0-plus,3137,1   157         Iterations   :   3
+pmass-wA0-plus,3156,1   158         Iterations   :   3
+pmass-wA0-plus,3175,1   159         Iterations   :   3
+pmass-wA0-plus,3194,1   160         Iterations   :   3
+pmass-wA0-plus,3213,1   161         Iterations   :   3
+pmass-wA0-plus,3232,1   162         Iterations   :   3
+pmass-wA0-plus,3251,1   163         Iterations   :   3
+pmass-wA0-plus,3270,1   164         Iterations   :   3
+pmass-wA0-plus,3289,1   165         Iterations   :   3
+pmass-wA0-plus,3307,1   166         Iterations   :   2
+pmass-wA0-plus,3325,1   167         Iterations   :   2
+pmass-wA0-plus,3343,1   168         Iterations   :   2
+pmass-wA0-plus,3361,1   169         Iterations   :   2
+pmass-wA0-plus,3379,1   170         Iterations   :   2
+pmass-wA0-plus,3397,1   171         Iterations   :   2
+pmass-wA0-plus,3415,1   172         Iterations   :   2
+pmass-wA0-plus,3433,1   173         Iterations   :   2
+pmass-wA0-plus,3451,1   174         Iterations   :   2
+pmass-wA0-plus,3469,1   175         Iterations   :   2
+pmass-wA0-plus,3487,1   176         Iterations   :   2
+pmass-wA0-plus,3505,1   177         Iterations   :   2
+pmass-wA0-plus,3523,1   178         Iterations   :   2
+pmass-wA0-plus,3541,1   179         Iterations   :   2
+pmass-wA0-plus,3559,1   180         Iterations   :   2
+pmass-wA0-plus,3577,1   181         Iterations   :   2
+pmass-wA0-plus,3595,1   182         Iterations   :   2
+pmass-wA0-plus,3613,1   183         Iterations   :   2
+pmass-wA0-plus,3631,1   184         Iterations   :   2
+pmass-wA0-plus,3649,1   185         Iterations   :   2
+pmass-wA0-plus,3667,1   186         Iterations   :   2
+pmass-wA0-plus,3685,1   187         Iterations   :   2
+pmass-wA0-plus,3703,1   188         Iterations   :   2
+pmass-wA0-plus,3721,1   189         Iterations   :   2
+pmass-wA0-plus,3739,1   190         Iterations   :   2
+pmass-wA0-plus,3757,1   191         Iterations   :   2
+pmass-wA0-plus,3775,1   192         Iterations   :   2
+pmass-wA0-plus,3793,1   193         Iterations   :   2
+pmass-wA0-plus,3811,1   194         Iterations   :   2
+pmass-wA0-plus,3829,1   195         Iterations   :   2
+pmass-wA0-plus,3847,1   196         Iterations   :   2
+pmass-wA0-plus,3865,1   197         Iterations   :   2
+pmass-wA0-plus,3883,1   198         Iterations   :   2
+pmass-wA0-plus,3901,1   199         Iterations   :   2
+pmass-wA0-plus,3919,1   200         Iterations   :   2
+pmass-wA0-plus,3937,1   201         Iterations   :   2
+pmass-wA0-plus,3955,1   202         Iterations   :   2
+pmass-wA0-plus,3973,1   203         Iterations   :   2
+pmass-wA0-plus,3991,1   204         Iterations   :   2
+pmass-wA0-plus,4009,1   205         Iterations   :   2
+pmass-wA0-plus,4027,1   206         Iterations   :   2
+pmass-wA0-plus,4045,1   207         Iterations   :   2
+pmass-wA0-plus,4063,1   208         Iterations   :   2
+pmass-wA0-plus,4081,1   209         Iterations   :   2
+pmass-wA0-plus,4099,1   210         Iterations   :   2
+pmass-wA0-plus,4117,1   211         Iterations   :   2
+pmass-wA0-plus,4135,1   212         Iterations   :   2
+pmass-wA0-plus,4153,1   213         Iterations   :   2
+pmass-wA0-plus,4171,1   214         Iterations   :   2
+pmass-wA0-plus,4189,1   215         Iterations   :   2
+pmass-wA0-plus,4207,1   216         Iterations   :   2
+pmass-wA0-plus,4225,1   217         Iterations   :   2
+pmass-wA0-plus,4243,1   218         Iterations   :   2
+pmass-wA0-plus,4261,1   219         Iterations   :   2
+pmass-wA0-plus,4279,1   220         Iterations   :   2
+pmass-wA0-plus,4297,1   221         Iterations   :   2
+pmass-wA0-plus,4315,1   222         Iterations   :   2
+pmass-wA0-plus,4333,1   223         Iterations   :   2
+pmass-wA0-plus,4351,1   224         Iterations   :   2
+pmass-wA0-plus,4369,1   225         Iterations   :   2
+pmass-wA0-plus,4387,1   226         Iterations   :   2
+pmass-wA0-plus,4405,1   227         Iterations   :   2
+pmass-wA0-plus,4423,1   228         Iterations   :   2
+pmass-wA0-plus,4441,1   229         Iterations   :   2
+pmass-wA0-plus,4459,1   230         Iterations   :   2
+pmass-wA0-plus,4477,1   231         Iterations   :   2
+pmass-wA0-plus,4495,1   232         Iterations   :   2
+pmass-wA0-plus,4513,1   233         Iterations   :   2
+pmass-wA0-plus,4531,1   234         Iterations   :   2
+pmass-wA0-plus,4549,1   235         Iterations   :   2
+pmass-wA0-plus,4567,1   236         Iterations   :   2
+pmass-wA0-plus,4585,1   237         Iterations   :   2
+pmass-wA0-plus,4603,1   238         Iterations   :   2
+pmass-wA0-plus,4621,1   239         Iterations   :   2
+pmass-wA0-plus,4639,1   240         Iterations   :   2
+pmass-wA0-plus,4657,1   241         Iterations   :   2
+pmass-wA0-plus,4675,1   242         Iterations   :   2
+pmass-wA0-plus,4693,1   243         Iterations   :   2
+pmass-wA0-plus,4711,1   244         Iterations   :   2
+pmass-wA0-plus,4729,1   245         Iterations   :   2
+pmass-wA0-plus,4747,1   246         Iterations   :   2
+pmass-wA0-plus,4765,1   247         Iterations   :   2
+pmass-wA0-plus,4783,1   248         Iterations   :   2
+pmass-wA0-plus,4801,1   249         Iterations   :   2
+pmass-wA0-plus,4819,1   250         Iterations   :   2
+pmass-wA0-plus,4837,1   251         Iterations   :   2
+pmass-wA0-plus,4855,1   252         Iterations   :   2
+pmass-wA0-plus,4873,1   253         Iterations   :   2
+pmass-wA0-plus,4891,1   254         Iterations   :   2
+pmass-wA0-plus,4911,1   255         Iterations   :   4
+pmass-wA0-plus,4930,1   256         Iterations   :  12
+pmass-wA0-plus,4932,1   256 NOTE:Retrying step
+pmass-wA0-plus,4950,1   256         Iterations   :  12
+pmass-wA0-plus,4952,1   256 NOTE:Retrying step
+pmass-wA0-plus,4970,1   256         Iterations   :  12
+pmass-wA0-plus,4972,1   256 NOTE:Retrying step
+pmass-wA0-plus,4990,1   256         Iterations   :  12
+pmass-wA0-plus,4992,1   256 NOTE:Retrying step
+pmass-wA0-plus,5010,1   256         Iterations   :  12
+pmass-wA0-plus,5012,1   256 NOTE:Retrying step
+pmass-wA0-plus,5030,1   256         Iterations   :  12
+pmass-wA0-plus,5032,1   256 NOTE:Retrying step
+pmass-wA0-plus,5050,1   256         Iterations   :  12
+pmass-wA0-plus,5052,1   256 NOTE:Retrying step
+pmass-wA0-plus,5070,1   256         Iterations   :  12
+pmass-wA0-plus,5072,1   256 NOTE:Retrying step
+pmass-wA0-plus,5090,1   256         Iterations   :  12
+pmass-wA0-plus,5092,1   256 NOTE:Retrying step
+pmass-wA0-plus,5110,1   256         Iterations   :  12
+pmass-wA0-plus,5112,1   256 NOTE:Retrying step
+pmass-wA0-plus,5130,1   256         Iterations   :  12
+pmass-wA0-plus,5132,1   256 NOTE:Retrying step
+pmass-wA0-plus,5150,1   256         Iterations   :  12
+pmass-wA0-plus,5152,1   256 NOTE:Retrying step
+pmass-wA0-plus,5170,1   256         Iterations   :  12
+pmass-wA0-plus,5172,1   256 NOTE:Retrying step
+pmass-wA0-plus,5190,1   256         Iterations   :  12
+pmass-wA0-plus,5192,1   256 NOTE:Retrying step
+pmass-wA0-plus,5210,1   256         Iterations   :  12
+pmass-wA0-plus,5212,1   256 NOTE:Retrying step
+pmass-wA0-plus,5230,1   256         Iterations   :  12
+pmass-wA0-plus,5232,1   256 NOTE:Retrying step
+pmass-wA0-plus,5250,1   256         Iterations   :  12
+pmass-wA0-plus,5252,1   256 NOTE:Retrying step
+pmass-wA0-plus,5270,1   256         Iterations   :  12
+pmass-wA0-plus,5272,1   256 NOTE:Retrying step
+pmass-wA0-plus,5290,1   256         Iterations   :  12
+pmass-wA0-plus,5292,1   256 NOTE:Retrying step
+pmass-wA0-plus,5310,1   256         Iterations   :  12
+pmass-wA0-plus,5312,1   256 NOTE:Retrying step
+pmass-wA0-plus,5330,1   256         Iterations   :  12
+pmass-wA0-plus,5332,1   256 NOTE:No convergence with minimum step size
+pmass-wA0-plus,5342,1   256         Iterations   :   0
+pmass-wA0-minus,37,1     1         Iterations   :   2
+pmass-wA0-minus,55,1     2         Iterations   :   2
+pmass-wA0-minus,73,1     3         Iterations   :   2
+pmass-wA0-minus,91,1     4         Iterations   :   2
+pmass-wA0-minus,109,1     5         Iterations   :   2
+pmass-wA0-minus,128,1     6         Iterations   :   3
+pmass-wA0-minus,147,1     7         Iterations   :   3
+pmass-wA0-minus,166,1     8         Iterations   :   3
+pmass-wA0-minus,185,1     9         Iterations   :   3
+pmass-wA0-minus,204,1    10         Iterations   :   3
+pmass-wA0-minus,223,1    11         Iterations   :   3
+pmass-wA0-minus,242,1    12         Iterations   :   3
+pmass-wA0-minus,261,1    13         Iterations   :   3
+pmass-wA0-minus,310,1    15         Iterations   :   3
+pmass-wA0-minus,329,1    16         Iterations   :   3
+pmass-wA0-minus,348,1    17         Iterations   :   3
+pmass-wA0-minus,367,1    18         Iterations   :   3
+pmass-wA0-minus,386,1    19         Iterations   :   3
+pmass-wA0-minus,405,1    20         Iterations   :  12
+pmass-wA0-minus,407,1    20 NOTE:Retrying step
+pmass-wA0-minus,425,1    20         Iterations   :  12
+pmass-wA0-minus,427,1    20 NOTE:Retrying step
+pmass-wA0-minus,445,1    20         Iterations   :  12
+pmass-wA0-minus,447,1    20 NOTE:Retrying step
+pmass-wA0-minus,465,1    20         Iterations   :  12
+pmass-wA0-minus,467,1    20 NOTE:Retrying step
+pmass-wA0-minus,485,1    20         Iterations   :  12
+pmass-wA0-minus,487,1    20 NOTE:Retrying step
+pmass-wA0-minus,505,1    20         Iterations   :  12
+pmass-wA0-minus,507,1    20 NOTE:Retrying step
+pmass-wA0-minus,525,1    20         Iterations   :  12
+pmass-wA0-minus,527,1    20 NOTE:Retrying step
+pmass-wA0-minus,545,1    20         Iterations   :  12
+pmass-wA0-minus,547,1    20 NOTE:Retrying step
+pmass-wA0-minus,565,1    20         Iterations   :  12
+pmass-wA0-minus,567,1    20 NOTE:Retrying step
+pmass-wA0-minus,585,1    20         Iterations   :  12
+pmass-wA0-minus,587,1    20 NOTE:Retrying step
+pmass-wA0-minus,605,1    20         Iterations   :  12
+pmass-wA0-minus,607,1    20 NOTE:Retrying step
+pmass-wA0-minus,625,1    20         Iterations   :  12
+pmass-wA0-minus,627,1    20 NOTE:Retrying step
+pmass-wA0-minus,645,1    20         Iterations   :  12
+pmass-wA0-minus,647,1    20 NOTE:Retrying step
+pmass-wA0-minus,665,1    20         Iterations   :  12
+pmass-wA0-minus,667,1    20 NOTE:Retrying step
+pmass-wA0-minus,685,1    20         Iterations   :  12
+pmass-wA0-minus,687,1    20 NOTE:Retrying step
+pmass-wA0-minus,705,1    20         Iterations   :  12
+pmass-wA0-minus,707,1    20 NOTE:Retrying step
+pmass-wA0-minus,725,1    20         Iterations   :  12
+pmass-wA0-minus,727,1    20 NOTE:Retrying step
+pmass-wA0-minus,745,1    20         Iterations   :  12
+pmass-wA0-minus,747,1    20 NOTE:Retrying step
+pmass-wA0-minus,765,1    20         Iterations   :  12
+pmass-wA0-minus,767,1    20 NOTE:Retrying step
+pmass-wA0-minus,785,1    20         Iterations   :  12
+pmass-wA0-minus,787,1    20 NOTE:Retrying step
+pmass-wA0-minus,805,1    20         Iterations   :  12
+pmass-wA0-minus,807,1    20 NOTE:No convergence with minimum step size
+pmass-wA0-minus,817,1    20         Iterations   :   0
