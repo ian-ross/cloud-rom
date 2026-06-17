@@ -4,7 +4,7 @@ title: Retry H_a3 full Berton Hopf-control continuation after AUTO reformulation
 status: To Do
 assignee: []
 created_date: '2026-06-15 19:47'
-updated_date: '2026-06-16 20:22'
+updated_date: '2026-06-17 11:06'
 labels:
   - berton
   - auto
@@ -34,15 +34,16 @@ Using the improved full-model AUTO formulation, retry H_a3 as the primary local-
 ## Implementation Plan
 
 <!-- SECTION:PLAN:BEGIN -->
-1. Wait for TASK-015 to provide the improved/reformulated AUTO setup and confirm the seed translation/eigenvalue cross-check passes.
-2. Clone or parameterize the TASK-015 AUTO variant for H_a3 as the principal continuation parameter, preserving the canonical Case-0 seed at H_a3=0.61.
-3. Define bidirectional H_a3 continuation ranges informed by the TASK-012 Python probe, including the canonical value and the region where the critical real part changed sign.
-4. Run AUTO continuation in both H_a3 directions with documented constants, step controls, UZR anchors, and any scaling choices inherited from TASK-015.
-5. Parse branch, solution, and diagnostic files to catalogue accepted parameter range, LP/HB/BP/special labels, stability index, eigenvalues, and convergence failures.
-6. For any suspected or detected stability crossing, run independent Python Jacobian/eigenvalue cross-checks at nearby labeled or sampled branch points.
-7. Generate plots/tables for H_a3 versus equilibrium state, critical eigenvalues, stability index, and special points.
-8. Write a companion note giving a clear verdict: AUTO-validated Hopf candidate, numerical hint only, negative result, or inconclusive due to remaining convergence problems; include residual risks and follow-up recommendations.
-9. Add tests covering required artifacts, H_a3 range coverage or documented failure, special-point/eigenvalue diagnostics, and non-overstated verdict language.
+1. Do not begin full-system H_a3 continuation until TASK-020 has produced a restricted H_a3 verdict and scaling recommendation; treat TASK-015 full-4D failures as obsolete negative evidence for the un-fixed scaling.
+2. Review TASK-019 (`P=M/10` mass arclength fix), TASK-020 (H_a3-specific control/state scaling), and TASK-023 if available for any smoothed-profile or z_W0 lessons that affect full-model continuation.
+3. Update or clone the full Berton AUTO formulation so its mass/arclength coordinate reflects the restricted lessons, with explicit physical inverse conversions and parser support for reconstructed physical mass.
+4. Configure H_a3 as the full-system continuation parameter using the scaled-control approach validated in TASK-020, including bidirectional ranges around the TASK-012 predicted crossing near H_a3≈0.62.
+5. Run full-system H_a3 continuation from the TASK-011/TASK-012 seed, preserving raw AUTO outputs under a distinct TASK-016 artifact path.
+6. Parse branch, solution, and diagnostic files for accepted H_a3 range, state movement, LP/HB/BP/special labels, stability index/eigenvalues, and convergence failures.
+7. Cross-check suspected stability transitions with independent Python finite-difference or analytic Jacobian eigenvalues at nearby branch points.
+8. Compare the full-system result against TASK-012 Python H_a3 probe, restricted TASK-020 behavior, and previous failed full-4D attempts.
+9. Write a companion note with a clear verdict: AUTO-validated Hopf candidate, numerical hint only, negative result, or inconclusive due to remaining convergence problems; explicitly state whether full-system z_W0 (TASK-024) is ready.
+10. Add tests covering required artifacts, scaled coordinate/control mapping, H_a3 range coverage or documented failure, eigenvalue cross-checks, and non-overstated verdict language.
 <!-- SECTION:PLAN:END -->
 
 ## Implementation Notes
