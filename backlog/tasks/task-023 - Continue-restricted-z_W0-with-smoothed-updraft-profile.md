@@ -1,7 +1,7 @@
 ---
 id: TASK-023
 title: Continue restricted z_W0 with smoothed updraft profile
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-17 11:03'
