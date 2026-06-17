@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-17 16:38'
-updated_date: '2026-06-17 16:42'
+updated_date: '2026-06-17 16:44'
 labels:
   - berton
   - continuation
@@ -37,3 +37,11 @@ Create episodes/10-full-model-python-continuation/ as the reproducible home for 
 4. Update the repository episode index to include episode 10.
 5. Verify no old top-level research artifact directories are touched or used, then mark acceptance criteria complete.
 <!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+- Created episodes/10-full-model-python-continuation/ with README plus docs/notebooks/scripts/outputs/auto scaffold directories.
+- Updated episodes/README.md and root README.md episode listings.
+- Verified no old top-level scripts/notebooks/docs/auto/outputs directories exist or were used.
+<!-- SECTION:NOTES:END -->
