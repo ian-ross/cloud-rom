@@ -45,3 +45,17 @@ Create episodes/10-full-model-python-continuation/ as the reproducible home for 
 - Updated episodes/README.md and root README.md episode listings.
 - Verified no old top-level scripts/notebooks/docs/auto/outputs directories exist or were used.
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Created the Episode 10 scaffold for the full-model Python-continuation-first investigation.
+
+Changes:
+- Added episodes/10-full-model-python-continuation/README.md describing purpose, scope, links to episodes 06–09, and the strategy: Python continuation first, AUTO only for final validation.
+- Added standard episode subdirectories for notebooks, scripts, outputs, docs, and reserved AUTO validation assets.
+- Updated episodes/README.md and the root README episode list to include Episode 10.
+
+Validation:
+- Confirmed no old top-level scripts/notebooks/docs/auto/outputs directories were created or used.
+<!-- SECTION:FINAL_SUMMARY:END -->
