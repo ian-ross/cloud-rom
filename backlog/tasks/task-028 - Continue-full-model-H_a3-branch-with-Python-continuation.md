@@ -5,7 +5,7 @@ status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-17 16:39'
-updated_date: '2026-06-17 20:27'
+updated_date: '2026-06-17 20:34'
 labels:
   - berton
   - continuation
@@ -48,6 +48,8 @@ After the W_a0 gate passes, use Python pseudo-arclength continuation to follow t
 Implemented episode-10 TASK-028 H_a3 pseudo-arclength script and curated outputs. The branch covers H_a3≈0.6000–0.6500 from the TASK-011/TASK-012 seed, with residual/eigenvalue/complex-pair diagnostics and independent eigenvalue recomputation. Result: no Hopf-style complex-pair sign crossing; accepted points bracket a non-Hopf stable-count transition from 4 to 2 near H_a3≈0.6337–0.6352. Added regression tests and updated episode README.
 
 Added follow-up finite-difference Jacobian robustness check for the TASK-028 H_a3 transition. The script recomputes spectra over H_a3≈0.632–0.636 with step scales from 0.01× to 100× the TASK-009 baseline. Baseline-to-10× scales consistently show a stable-count transition and no Hopf-style complex-pair sign crossing; very broad 30×–100× perturbations are classification-unstable, supporting the need for analytic/autodiff follow-up rather than changing the conservative verdict.
+
+Added physical-interpretation note to the TASK-028 episode documentation: the narrow stable-count transition is most plausibly an updraft-profile kink effect as the accepted equilibrium crosses z_W0≈9000 m, with the post-transition positive eigenvalue close to the imposed W_a0/Δz_W ramp slope. The doc now cautions that this is artifact-sensitive rather than robust Hopf/ordinary-evolution evidence.
 <!-- SECTION:NOTES:END -->
 
 ## Final Summary
