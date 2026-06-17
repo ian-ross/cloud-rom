@@ -53,4 +53,7 @@ Using the improved full-model AUTO formulation, retry H_a3 as the primary local-
 TASK-015 showed the log-mass full-4D reformulation still fails the easier W_a0 sanity check with NaN/DGEBAL divergence. Do not treat a direct H_a3 retry on that formulation as a meaningful validation attempt until restricted-3D scaling work (TASK-018/TASK-019) provides a better-conditioned gate.
 
 Update from TASK-022 follow-up: the restricted W_a0 failure appears fixable by arclength-scaling the mass coordinate as `P=M/10`, while keeping `M=log(m/m_seed)` physical reconstruction. Direct full-4D H_a3 work should remain deferred until TASK-019 validates this fixed restricted W_a0 gate and TASK-020 tests H_a3 in the fixed restricted formulation.
+
+- Started TASK-016 and assigned to @pi. Reviewed dependencies and prerequisite tasks: TASK-013/TASK-015 are done; TASK-019 validated P=M/10; TASK-020 produced the restricted H_a3 verdict (downward branch LP near H_a3≈0.5971, upward Hopf-relevant direction inconclusive near H_a3≈0.611, no AUTO HB); TASK-023 supports staged smoothed z_W0 but does not change H_a3 verdict.
+- The existing implementation plan is still applicable: port the TASK-019/TASK-020 scaling lessons into a distinct full-system H_a3 continuation attempt, preserve raw/curated TASK-016 artifacts, cross-check suspected stability with Python eigenvalues, and use conservative verdict language.
 <!-- SECTION:NOTES:END -->
