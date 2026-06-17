@@ -4,12 +4,14 @@ title: Use W_a0 as full-model Python continuation gate
 status: To Do
 assignee: []
 created_date: '2026-06-17 16:39'
+updated_date: '2026-06-17 16:39'
 labels:
   - berton
   - continuation
   - python
   - episode-10
-dependencies: []
+dependencies:
+  - TASK-026
 priority: high
 ---
 
