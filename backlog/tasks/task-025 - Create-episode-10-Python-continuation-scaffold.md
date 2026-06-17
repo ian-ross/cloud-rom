@@ -1,9 +1,11 @@
 ---
 id: TASK-025
 title: Create episode 10 Python continuation scaffold
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-17 16:38'
+updated_date: '2026-06-17 16:42'
 labels:
   - berton
   - continuation
