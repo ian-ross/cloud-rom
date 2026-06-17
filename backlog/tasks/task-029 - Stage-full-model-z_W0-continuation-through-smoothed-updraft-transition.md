@@ -4,13 +4,15 @@ title: Stage full-model z_W0 continuation through smoothed updraft transition
 status: To Do
 assignee: []
 created_date: '2026-06-17 16:39'
+updated_date: '2026-06-17 16:39'
 labels:
   - berton
   - continuation
   - python
   - zw0
   - episode-10
-dependencies: []
+dependencies:
+  - TASK-027
 priority: medium
 ---
 
