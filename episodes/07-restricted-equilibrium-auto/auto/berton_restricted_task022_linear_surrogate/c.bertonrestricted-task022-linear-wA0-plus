@@ -1,0 +1,12 @@
+# TASK-022 affine local surrogate W_a0 continuation.
+parnames = {2:'W_a0'}
+unames = {1:'Z_scaled', 2:'U_scaled', 3:'M_log_ratio'}
+NDIM=3, IPS=1, IRS=0, ILP=0
+ICP = ['W_a0']
+NTST=10, NCOL=4, IAD=3, ISP=0, ISW=1, IPLT=0, NBC=0, NINT=0
+NMX=180, NPR=5, MXBF=0, IID=2, ITMX=12, ITNW=8, NWTN=4, JAC=1
+EPSL=1e-10, EPSU=1e-10, EPSS=1e-08
+DS=0.001, DSMIN=1e-08, DSMAX=0.02, IADS=1
+NPAR=98, THL={}, THU={}
+UZR = {'W_a0': [0.7, 1.0, 1.2]}
+UZSTOP = {'W_a0': [1.2]}

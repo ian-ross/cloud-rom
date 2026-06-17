@@ -1,0 +1,29 @@
+{
+  "samples_validated": 5,
+  "max_residual_abs_error": 7.362443647345173e-08,
+  "max_dfdu_abs_error": 3.595545870815897e-06,
+  "max_dfdp_abs_error": 9.523709695713478e-05,
+  "max_pvls_selected_abs_error": 6.161026249174029e-07,
+  "max_tangent_abs_error_over_0p05_W_steps": 0.0050316383771516204,
+  "linear_surrogate_points": 180,
+  "linear_surrogate_w_min": 0.6,
+  "linear_surrogate_w_max": 1.663276151,
+  "task021_minimal_auto_accepted_nontrivial_branch": false,
+  "residual_mismatch_plausible": false,
+  "dfdu_mismatch_plausible": false,
+  "dfdp_indexing_mismatch_plausible": false,
+  "pvls_selected_mismatch_plausible": false,
+  "linear_surrogate_auto_setup_ok": true,
+  "remaining_plausible_failure_modes": [
+    "nonlinear Berton residual/arclength corrector interaction",
+    "AUTO step/tangent scaling for the nonlinear restricted problem",
+    "finite-difference behavior away from the seed after large Newton iterates"
+  ],
+  "less_plausible_failure_modes": [
+    "Fortran/Python restricted residual mismatch",
+    "TASK-017 DFDU mismatch at validated samples",
+    "TASK-017 W_a0/z_W0/H_a3 DFDP parameter-indexing mismatch",
+    "selected PVLS physical diagnostics mismatch",
+    "generic AUTO inability to continue the local affine restricted problem"
+  ]
+}

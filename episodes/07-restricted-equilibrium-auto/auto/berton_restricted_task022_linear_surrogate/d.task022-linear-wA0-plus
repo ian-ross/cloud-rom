@@ -1,0 +1,3095 @@
+
+   1     1         Eigenvalues  :   Stable:   2
+   1     1         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1     1         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1     1         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1     1  EP    1   6.00000E-01   0.00000E+00   0.00000E+00   0.00000E+00   0.00000E+00
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     2   0        6.00305E-01   9.52421E-04
+   1     2   1        6.00305E-01   9.52421E-04
+
+
+   1     2         Eigenvalues  :   Stable:   2
+   1     2         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1     2         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1     2         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     2   0        6.00610E-01   1.90484E-03
+   1     2   1        6.00610E-01   1.90484E-03
+
+
+   1     2         Eigenvalues  :   Stable:   2
+   1     2         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1     2         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1     2         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1     2        0   6.00610E-01   1.90484E-03   2.66882E-04  -1.33441E-04   1.88133E-03
+
+   1     1         Iterations   :   1
+   1     1         Next Step    :   2.00000E-03
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     3   0        6.01219E-01   3.80968E-03
+   1     3   1        6.01219E-01   3.80968E-03
+
+
+   1     3         Eigenvalues  :   Stable:   2
+   1     3         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1     3         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1     3         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1     3        0   6.01219E-01   3.80968E-03   5.33763E-04  -2.66882E-04   3.76265E-03
+
+   1     2         Iterations   :   1
+   1     2         Next Step    :   4.00000E-03
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     4   0        6.02438E-01   7.61937E-03
+   1     4   1        6.02438E-01   7.61937E-03
+
+
+   1     4         Eigenvalues  :   Stable:   2
+   1     4         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1     4         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1     4         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1     4        0   6.02438E-01   7.61937E-03   1.06753E-03  -5.33763E-04   7.52530E-03
+
+   1     3         Iterations   :   1
+   1     3         Next Step    :   8.00000E-03
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     5   0        6.04877E-01   1.52387E-02
+   1     5   1        6.04877E-01   1.52387E-02
+
+
+   1     5         Eigenvalues  :   Stable:   2
+   1     5         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1     5         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1     5         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1     5        2   6.04877E-01   1.52387E-02   2.13505E-03  -1.06753E-03   1.50506E-02
+
+   1     4         Iterations   :   1
+   1     4         Next Step    :   1.60000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     6   0        6.09753E-01   3.04775E-02
+   1     6   1        6.09753E-01   3.04775E-02
+
+
+   1     6         Eigenvalues  :   Stable:   2
+   1     6         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1     6         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1     6         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1     6        0   6.09753E-01   3.04775E-02   4.27010E-03  -2.13505E-03   3.01012E-02
+
+   1     5         Iterations   :   1
+   1     5         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     7   0        6.15849E-01   4.95259E-02
+   1     7   1        6.15849E-01   4.95259E-02
+
+
+   1     7         Eigenvalues  :   Stable:   2
+   1     7         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1     7         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1     7         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1     7        0   6.15849E-01   4.95259E-02   6.93892E-03  -3.46946E-03   4.89145E-02
+
+   1     6         Iterations   :   1
+   1     6         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     8   0        6.21945E-01   6.85743E-02
+   1     8   1        6.21945E-01   6.85743E-02
+
+
+   1     8         Eigenvalues  :   Stable:   2
+   1     8         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1     8         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1     8         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1     8        0   6.21945E-01   6.85743E-02   9.60774E-03  -4.80387E-03   6.77277E-02
+
+   1     7         Iterations   :   1
+   1     7         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     9   0        6.28040E-01   8.76227E-02
+   1     9   1        6.28040E-01   8.76227E-02
+
+
+   1     9         Eigenvalues  :   Stable:   2
+   1     9         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1     9         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1     9         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1     9        0   6.28040E-01   8.76227E-02   1.22766E-02  -6.13828E-03   8.65410E-02
+
+   1     8         Iterations   :   1
+   1     8         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    10   0        6.34136E-01   1.06671E-01
+   1    10   1        6.34136E-01   1.06671E-01
+
+
+   1    10         Eigenvalues  :   Stable:   2
+   1    10         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    10         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    10         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    10        3   6.34136E-01   1.06671E-01   1.49454E-02  -7.47268E-03   1.05354E-01
+
+   1     9         Iterations   :   1
+   1     9         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    11   0        6.40232E-01   1.25720E-01
+   1    11   1        6.40232E-01   1.25720E-01
+
+
+   1    11         Eigenvalues  :   Stable:   2
+   1    11         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    11         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    11         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    11        0   6.40232E-01   1.25720E-01   1.76142E-02  -8.80709E-03   1.24168E-01
+
+   1    10         Iterations   :   1
+   1    10         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    12   0        6.46328E-01   1.44768E-01
+   1    12   1        6.46328E-01   1.44768E-01
+
+
+   1    12         Eigenvalues  :   Stable:   2
+   1    12         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    12         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    12         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    12        0   6.46328E-01   1.44768E-01   2.02830E-02  -1.01415E-02   1.42981E-01
+
+   1    11         Iterations   :   1
+   1    11         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    13   0        6.52423E-01   1.63816E-01
+   1    13   1        6.52423E-01   1.63816E-01
+
+
+   1    13         Eigenvalues  :   Stable:   2
+   1    13         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    13         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    13         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    13        0   6.52423E-01   1.63816E-01   2.29518E-02  -1.14759E-02   1.61794E-01
+
+   1    12         Iterations   :   1
+   1    12         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    14   0        6.58519E-01   1.82865E-01
+   1    14   1        6.58519E-01   1.82865E-01
+
+
+   1    14         Eigenvalues  :   Stable:   2
+   1    14         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    14         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    14         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    14        0   6.58519E-01   1.82865E-01   2.56206E-02  -1.28103E-02   1.80607E-01
+
+   1    13         Iterations   :   1
+   1    13         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    15   0        6.64615E-01   2.01913E-01
+   1    15   1        6.64615E-01   2.01913E-01
+
+
+   1    15         Eigenvalues  :   Stable:   2
+   1    15         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    15         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    15         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    15        4   6.64615E-01   2.01913E-01   2.82894E-02  -1.41447E-02   1.99421E-01
+
+   1    14         Iterations   :   1
+   1    14         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    16   0        6.70711E-01   2.20962E-01
+   1    16   1        6.70711E-01   2.20962E-01
+
+
+   1    16         Eigenvalues  :   Stable:   2
+   1    16         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    16         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    16         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    16        0   6.70711E-01   2.20962E-01   3.09583E-02  -1.54791E-02   2.18234E-01
+
+   1    15         Iterations   :   1
+   1    15         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    17   0        6.76806E-01   2.40010E-01
+   1    17   1        6.76806E-01   2.40010E-01
+
+
+   1    17         Eigenvalues  :   Stable:   2
+   1    17         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    17         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    17         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    17        0   6.76806E-01   2.40010E-01   3.36271E-02  -1.68135E-02   2.37047E-01
+
+   1    16         Iterations   :   1
+   1    16         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    18   0        6.82902E-01   2.59058E-01
+   1    18   1        6.82902E-01   2.59058E-01
+
+
+   1    18         Eigenvalues  :   Stable:   2
+   1    18         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    18         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    18         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    18        0   6.82902E-01   2.59058E-01   3.62959E-02  -1.81479E-02   2.55860E-01
+
+   1    17         Iterations   :   1
+   1    17         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    19   0        6.88998E-01   2.78107E-01
+   1    19   1        6.88998E-01   2.78107E-01
+
+
+   1    19         Eigenvalues  :   Stable:   2
+   1    19         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    19         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    19         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    19        0   6.88998E-01   2.78107E-01   3.89647E-02  -1.94824E-02   2.74674E-01
+
+   1    18         Iterations   :   1
+   1    18         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    20   0        6.95094E-01   2.97155E-01
+   1    20   1        6.95094E-01   2.97155E-01
+
+
+   1    20         Eigenvalues  :   Stable:   2
+   1    20         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    20         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    20         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    20        5   6.95094E-01   2.97155E-01   4.16335E-02  -2.08168E-02   2.93487E-01
+
+   1    19         Iterations   :   1
+   1    19         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    21   0        7.01189E-01   3.16204E-01
+   1    21   1        7.01189E-01   3.16204E-01
+
+
+   1    21         Eigenvalues  :   Stable:   2
+   1    21         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    21         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    21         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+ ==> Location of special point :  Iteration   0  Step size =  -3.90195E-03
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    21   0        7.00000E-01   3.12487E-01
+   1    21   1        7.00000E-01   3.12487E-01
+
+
+   1    21         Eigenvalues  :   Stable:   2
+   1    21         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    21         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    21         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+ ==> Location of special point :  Convergence.   Step size =   3.90195E-10
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    21  UZ    6   7.00000E-01   3.12487E-01   4.37817E-02  -2.18908E-02   3.08630E-01
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    22   0        7.06096E-01   3.31536E-01
+   1    22   1        7.06096E-01   3.31536E-01
+
+
+   1    22         Eigenvalues  :   Stable:   2
+   1    22         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    22         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    22         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    22        0   7.06096E-01   3.31536E-01   4.64505E-02  -2.32252E-02   3.27443E-01
+
+   1    21         Iterations   :   1
+   1    21         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    23   0        7.12191E-01   3.50584E-01
+   1    23   1        7.12191E-01   3.50584E-01
+
+
+   1    23         Eigenvalues  :   Stable:   2
+   1    23         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    23         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    23         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    23        0   7.12191E-01   3.50584E-01   4.91193E-02  -2.45596E-02   3.46256E-01
+
+   1    22         Iterations   :   1
+   1    22         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    24   0        7.18287E-01   3.69633E-01
+   1    24   1        7.18287E-01   3.69633E-01
+
+
+   1    24         Eigenvalues  :   Stable:   2
+   1    24         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    24         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    24         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    24        0   7.18287E-01   3.69633E-01   5.17881E-02  -2.58941E-02   3.65070E-01
+
+   1    23         Iterations   :   1
+   1    23         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    25   0        7.24383E-01   3.88681E-01
+   1    25   1        7.24383E-01   3.88681E-01
+
+
+   1    25         Eigenvalues  :   Stable:   2
+   1    25         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    25         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    25         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    25        7   7.24383E-01   3.88681E-01   5.44569E-02  -2.72285E-02   3.83883E-01
+
+   1    24         Iterations   :   1
+   1    24         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    26   0        7.30479E-01   4.07729E-01
+   1    26   1        7.30479E-01   4.07729E-01
+
+
+   1    26         Eigenvalues  :   Stable:   2
+   1    26         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    26         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    26         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    26        0   7.30479E-01   4.07729E-01   5.71257E-02  -2.85629E-02   4.02696E-01
+
+   1    25         Iterations   :   1
+   1    25         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    27   0        7.36574E-01   4.26778E-01
+   1    27   1        7.36574E-01   4.26778E-01
+
+
+   1    27         Eigenvalues  :   Stable:   2
+   1    27         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    27         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    27         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    27        0   7.36574E-01   4.26778E-01   5.97945E-02  -2.98973E-02   4.21509E-01
+
+   1    26         Iterations   :   1
+   1    26         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    28   0        7.42670E-01   4.45826E-01
+   1    28   1        7.42670E-01   4.45826E-01
+
+
+   1    28         Eigenvalues  :   Stable:   2
+   1    28         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    28         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    28         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    28        0   7.42670E-01   4.45826E-01   6.24634E-02  -3.12317E-02   4.40323E-01
+
+   1    27         Iterations   :   1
+   1    27         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    29   0        7.48766E-01   4.64875E-01
+   1    29   1        7.48766E-01   4.64875E-01
+
+
+   1    29         Eigenvalues  :   Stable:   2
+   1    29         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    29         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    29         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    29        0   7.48766E-01   4.64875E-01   6.51322E-02  -3.25661E-02   4.59136E-01
+
+   1    28         Iterations   :   1
+   1    28         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    30   0        7.54862E-01   4.83923E-01
+   1    30   1        7.54862E-01   4.83923E-01
+
+
+   1    30         Eigenvalues  :   Stable:   2
+   1    30         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    30         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    30         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    30        8   7.54862E-01   4.83923E-01   6.78010E-02  -3.39005E-02   4.77949E-01
+
+   1    29         Iterations   :   1
+   1    29         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    31   0        7.60957E-01   5.02971E-01
+   1    31   1        7.60957E-01   5.02971E-01
+
+
+   1    31         Eigenvalues  :   Stable:   2
+   1    31         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    31         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    31         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    31        0   7.60957E-01   5.02971E-01   7.04698E-02  -3.52349E-02   4.96762E-01
+
+   1    30         Iterations   :   1
+   1    30         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    32   0        7.67053E-01   5.22020E-01
+   1    32   1        7.67053E-01   5.22020E-01
+
+
+   1    32         Eigenvalues  :   Stable:   2
+   1    32         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    32         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    32         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    32        0   7.67053E-01   5.22020E-01   7.31386E-02  -3.65693E-02   5.15576E-01
+
+   1    31         Iterations   :   1
+   1    31         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    33   0        7.73149E-01   5.41068E-01
+   1    33   1        7.73149E-01   5.41068E-01
+
+
+   1    33         Eigenvalues  :   Stable:   2
+   1    33         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    33         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    33         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    33        0   7.73149E-01   5.41068E-01   7.58074E-02  -3.79037E-02   5.34389E-01
+
+   1    32         Iterations   :   1
+   1    32         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    34   0        7.79245E-01   5.60117E-01
+   1    34   1        7.79245E-01   5.60117E-01
+
+
+   1    34         Eigenvalues  :   Stable:   2
+   1    34         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    34         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    34         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    34        0   7.79245E-01   5.60117E-01   7.84763E-02  -3.92381E-02   5.53202E-01
+
+   1    33         Iterations   :   1
+   1    33         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    35   0        7.85340E-01   5.79165E-01
+   1    35   1        7.85340E-01   5.79165E-01
+
+
+   1    35         Eigenvalues  :   Stable:   2
+   1    35         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    35         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    35         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    35        9   7.85340E-01   5.79165E-01   8.11451E-02  -4.05725E-02   5.72015E-01
+
+   1    34         Iterations   :   1
+   1    34         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    36   0        7.91436E-01   5.98214E-01
+   1    36   1        7.91436E-01   5.98214E-01
+
+
+   1    36         Eigenvalues  :   Stable:   2
+   1    36         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    36         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    36         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    36        0   7.91436E-01   5.98214E-01   8.38139E-02  -4.19069E-02   5.90829E-01
+
+   1    35         Iterations   :   1
+   1    35         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    37   0        7.97532E-01   6.17262E-01
+   1    37   1        7.97532E-01   6.17262E-01
+
+
+   1    37         Eigenvalues  :   Stable:   2
+   1    37         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    37         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    37         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    37        0   7.97532E-01   6.17262E-01   8.64827E-02  -4.32414E-02   6.09642E-01
+
+   1    36         Iterations   :   1
+   1    36         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    38   0        8.03628E-01   6.36310E-01
+   1    38   1        8.03628E-01   6.36310E-01
+
+
+   1    38         Eigenvalues  :   Stable:   2
+   1    38         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    38         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    38         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    38        0   8.03628E-01   6.36310E-01   8.91515E-02  -4.45758E-02   6.28455E-01
+
+   1    37         Iterations   :   1
+   1    37         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    39   0        8.09723E-01   6.55359E-01
+   1    39   1        8.09723E-01   6.55359E-01
+
+
+   1    39         Eigenvalues  :   Stable:   2
+   1    39         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    39         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    39         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    39        0   8.09723E-01   6.55359E-01   9.18203E-02  -4.59102E-02   6.47268E-01
+
+   1    38         Iterations   :   1
+   1    38         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    40   0        8.15819E-01   6.74407E-01
+   1    40   1        8.15819E-01   6.74407E-01
+
+
+   1    40         Eigenvalues  :   Stable:   2
+   1    40         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    40         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    40         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    40       10   8.15819E-01   6.74407E-01   9.44891E-02  -4.72446E-02   6.66082E-01
+
+   1    39         Iterations   :   1
+   1    39         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    41   0        8.21915E-01   6.93456E-01
+   1    41   1        8.21915E-01   6.93456E-01
+
+
+   1    41         Eigenvalues  :   Stable:   2
+   1    41         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    41         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    41         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    41        0   8.21915E-01   6.93456E-01   9.71580E-02  -4.85790E-02   6.84895E-01
+
+   1    40         Iterations   :   1
+   1    40         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    42   0        8.28011E-01   7.12504E-01
+   1    42   1        8.28011E-01   7.12504E-01
+
+
+   1    42         Eigenvalues  :   Stable:   2
+   1    42         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    42         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    42         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    42        0   8.28011E-01   7.12504E-01   9.98268E-02  -4.99134E-02   7.03708E-01
+
+   1    41         Iterations   :   1
+   1    41         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    43   0        8.34106E-01   7.31552E-01
+   1    43   1        8.34106E-01   7.31552E-01
+
+
+   1    43         Eigenvalues  :   Stable:   2
+   1    43         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    43         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    43         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    43        0   8.34106E-01   7.31552E-01   1.02496E-01  -5.12478E-02   7.22521E-01
+
+   1    42         Iterations   :   1
+   1    42         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    44   0        8.40202E-01   7.50601E-01
+   1    44   1        8.40202E-01   7.50601E-01
+
+
+   1    44         Eigenvalues  :   Stable:   2
+   1    44         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    44         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    44         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    44        0   8.40202E-01   7.50601E-01   1.05164E-01  -5.25822E-02   7.41335E-01
+
+   1    43         Iterations   :   1
+   1    43         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    45   0        8.46298E-01   7.69649E-01
+   1    45   1        8.46298E-01   7.69649E-01
+
+
+   1    45         Eigenvalues  :   Stable:   2
+   1    45         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    45         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    45         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    45       11   8.46298E-01   7.69649E-01   1.07833E-01  -5.39166E-02   7.60148E-01
+
+   1    44         Iterations   :   1
+   1    44         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    46   0        8.52393E-01   7.88698E-01
+   1    46   1        8.52393E-01   7.88698E-01
+
+
+   1    46         Eigenvalues  :   Stable:   2
+   1    46         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    46         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    46         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    46        0   8.52393E-01   7.88698E-01   1.10502E-01  -5.52510E-02   7.78961E-01
+
+   1    45         Iterations   :   1
+   1    45         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    47   0        8.58489E-01   8.07746E-01
+   1    47   1        8.58489E-01   8.07746E-01
+
+
+   1    47         Eigenvalues  :   Stable:   2
+   1    47         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    47         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    47         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    47        0   8.58489E-01   8.07746E-01   1.13171E-01  -5.65854E-02   7.97775E-01
+
+   1    46         Iterations   :   1
+   1    46         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    48   0        8.64585E-01   8.26795E-01
+   1    48   1        8.64585E-01   8.26795E-01
+
+
+   1    48         Eigenvalues  :   Stable:   2
+   1    48         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    48         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    48         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    48        0   8.64585E-01   8.26795E-01   1.15840E-01  -5.79198E-02   8.16588E-01
+
+   1    47         Iterations   :   1
+   1    47         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    49   0        8.70681E-01   8.45843E-01
+   1    49   1        8.70681E-01   8.45843E-01
+
+
+   1    49         Eigenvalues  :   Stable:   2
+   1    49         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    49         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    49         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    49        0   8.70681E-01   8.45843E-01   1.18508E-01  -5.92542E-02   8.35401E-01
+
+   1    48         Iterations   :   1
+   1    48         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    50   0        8.76776E-01   8.64891E-01
+   1    50   1        8.76776E-01   8.64891E-01
+
+
+   1    50         Eigenvalues  :   Stable:   2
+   1    50         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    50         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    50         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    50       12   8.76776E-01   8.64891E-01   1.21177E-01  -6.05886E-02   8.54214E-01
+
+   1    49         Iterations   :   1
+   1    49         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    51   0        8.82872E-01   8.83940E-01
+   1    51   1        8.82872E-01   8.83940E-01
+
+
+   1    51         Eigenvalues  :   Stable:   2
+   1    51         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    51         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    51         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    51        0   8.82872E-01   8.83940E-01   1.23846E-01  -6.19231E-02   8.73028E-01
+
+   1    50         Iterations   :   1
+   1    50         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    52   0        8.88968E-01   9.02988E-01
+   1    52   1        8.88968E-01   9.02988E-01
+
+
+   1    52         Eigenvalues  :   Stable:   2
+   1    52         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    52         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    52         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    52        0   8.88968E-01   9.02988E-01   1.26515E-01  -6.32575E-02   8.91841E-01
+
+   1    51         Iterations   :   1
+   1    51         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    53   0        8.95064E-01   9.22037E-01
+   1    53   1        8.95064E-01   9.22037E-01
+
+
+   1    53         Eigenvalues  :   Stable:   2
+   1    53         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    53         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    53         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    53        0   8.95064E-01   9.22037E-01   1.29184E-01  -6.45919E-02   9.10654E-01
+
+   1    52         Iterations   :   1
+   1    52         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    54   0        9.01159E-01   9.41085E-01
+   1    54   1        9.01159E-01   9.41085E-01
+
+
+   1    54         Eigenvalues  :   Stable:   2
+   1    54         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    54         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    54         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    54        0   9.01159E-01   9.41085E-01   1.31853E-01  -6.59263E-02   9.29467E-01
+
+   1    53         Iterations   :   1
+   1    53         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    55   0        9.07255E-01   9.60133E-01
+   1    55   1        9.07255E-01   9.60133E-01
+
+
+   1    55         Eigenvalues  :   Stable:   2
+   1    55         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    55         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    55         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    55       13   9.07255E-01   9.60133E-01   1.34521E-01  -6.72607E-02   9.48281E-01
+
+   1    54         Iterations   :   1
+   1    54         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    56   0        9.13351E-01   9.79182E-01
+   1    56   1        9.13351E-01   9.79182E-01
+
+
+   1    56         Eigenvalues  :   Stable:   2
+   1    56         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    56         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    56         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    56        0   9.13351E-01   9.79182E-01   1.37190E-01  -6.85951E-02   9.67094E-01
+
+   1    55         Iterations   :   1
+   1    55         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    57   0        9.19447E-01   9.98230E-01
+   1    57   1        9.19447E-01   9.98230E-01
+
+
+   1    57         Eigenvalues  :   Stable:   2
+   1    57         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    57         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    57         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    57        0   9.19447E-01   9.98230E-01   1.39859E-01  -6.99295E-02   9.85907E-01
+
+   1    56         Iterations   :   1
+   1    56         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    58   0        9.25542E-01   1.01728E+00
+   1    58   1        9.25542E-01   1.01728E+00
+
+
+   1    58         Eigenvalues  :   Stable:   2
+   1    58         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    58         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    58         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    58        0   9.25542E-01   1.01728E+00   1.42528E-01  -7.12639E-02   1.00472E+00
+
+   1    57         Iterations   :   1
+   1    57         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    59   0        9.31638E-01   1.03633E+00
+   1    59   1        9.31638E-01   1.03633E+00
+
+
+   1    59         Eigenvalues  :   Stable:   2
+   1    59         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    59         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    59         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    59        0   9.31638E-01   1.03633E+00   1.45197E-01  -7.25983E-02   1.02353E+00
+
+   1    58         Iterations   :   1
+   1    58         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    60   0        9.37734E-01   1.05538E+00
+   1    60   1        9.37734E-01   1.05538E+00
+
+
+   1    60         Eigenvalues  :   Stable:   2
+   1    60         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    60         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    60         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    60       14   9.37734E-01   1.05538E+00   1.47865E-01  -7.39327E-02   1.04235E+00
+
+   1    59         Iterations   :   1
+   1    59         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    61   0        9.43830E-01   1.07442E+00
+   1    61   1        9.43830E-01   1.07442E+00
+
+
+   1    61         Eigenvalues  :   Stable:   2
+   1    61         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    61         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    61         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    61        0   9.43830E-01   1.07442E+00   1.50534E-01  -7.52671E-02   1.06116E+00
+
+   1    60         Iterations   :   1
+   1    60         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    62   0        9.49925E-01   1.09347E+00
+   1    62   1        9.49925E-01   1.09347E+00
+
+
+   1    62         Eigenvalues  :   Stable:   2
+   1    62         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    62         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    62         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    62        0   9.49925E-01   1.09347E+00   1.53203E-01  -7.66015E-02   1.07997E+00
+
+   1    61         Iterations   :   1
+   1    61         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    63   0        9.56021E-01   1.11252E+00
+   1    63   1        9.56021E-01   1.11252E+00
+
+
+   1    63         Eigenvalues  :   Stable:   2
+   1    63         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    63         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    63         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    63        0   9.56021E-01   1.11252E+00   1.55872E-01  -7.79359E-02   1.09879E+00
+
+   1    62         Iterations   :   1
+   1    62         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    64   0        9.62117E-01   1.13157E+00
+   1    64   1        9.62117E-01   1.13157E+00
+
+
+   1    64         Eigenvalues  :   Stable:   2
+   1    64         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    64         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    64         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    64        0   9.62117E-01   1.13157E+00   1.58541E-01  -7.92704E-02   1.11760E+00
+
+   1    63         Iterations   :   1
+   1    63         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    65   0        9.68213E-01   1.15062E+00
+   1    65   1        9.68213E-01   1.15062E+00
+
+
+   1    65         Eigenvalues  :   Stable:   2
+   1    65         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    65         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    65         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    65       15   9.68213E-01   1.15062E+00   1.61210E-01  -8.06048E-02   1.13641E+00
+
+   1    64         Iterations   :   1
+   1    64         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    66   0        9.74308E-01   1.16967E+00
+   1    66   1        9.74308E-01   1.16967E+00
+
+
+   1    66         Eigenvalues  :   Stable:   2
+   1    66         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    66         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    66         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    66        0   9.74308E-01   1.16967E+00   1.63878E-01  -8.19392E-02   1.15523E+00
+
+   1    65         Iterations   :   1
+   1    65         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    67   0        9.80404E-01   1.18871E+00
+   1    67   1        9.80404E-01   1.18871E+00
+
+
+   1    67         Eigenvalues  :   Stable:   2
+   1    67         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    67         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    67         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    67        0   9.80404E-01   1.18871E+00   1.66547E-01  -8.32736E-02   1.17404E+00
+
+   1    66         Iterations   :   1
+   1    66         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    68   0        9.86500E-01   1.20776E+00
+   1    68   1        9.86500E-01   1.20776E+00
+
+
+   1    68         Eigenvalues  :   Stable:   2
+   1    68         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    68         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    68         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    68        0   9.86500E-01   1.20776E+00   1.69216E-01  -8.46080E-02   1.19285E+00
+
+   1    67         Iterations   :   1
+   1    67         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    69   0        9.92595E-01   1.22681E+00
+   1    69   1        9.92595E-01   1.22681E+00
+
+
+   1    69         Eigenvalues  :   Stable:   2
+   1    69         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    69         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    69         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    69        0   9.92595E-01   1.22681E+00   1.71885E-01  -8.59424E-02   1.21167E+00
+
+   1    68         Iterations   :   1
+   1    68         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    70   0        9.98691E-01   1.24586E+00
+   1    70   1        9.98691E-01   1.24586E+00
+
+
+   1    70         Eigenvalues  :   Stable:   2
+   1    70         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    70         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    70         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    70       16   9.98691E-01   1.24586E+00   1.74554E-01  -8.72768E-02   1.23048E+00
+
+   1    69         Iterations   :   1
+   1    69         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    71   0        1.00479E+00   1.26491E+00
+   1    71   1        1.00479E+00   1.26491E+00
+
+
+   1    71         Eigenvalues  :   Stable:   2
+   1    71         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    71         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    71         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+ ==> Location of special point :  Iteration   0  Step size =  -1.57059E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    71   0        1.00000E+00   1.24995E+00
+   1    71   1        1.00000E+00   1.24995E+00
+
+
+   1    71         Eigenvalues  :   Stable:   2
+   1    71         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    71         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    71         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+ ==> Location of special point :  Convergence.   Step size =   1.57059E-09
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    71  UZ   17   1.00000E+00   1.24995E+00   1.75127E-01  -8.75633E-02   1.23452E+00
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    72   0        1.00610E+00   1.26900E+00
+   1    72   1        1.00610E+00   1.26900E+00
+
+
+   1    72         Eigenvalues  :   Stable:   2
+   1    72         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    72         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    72         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    72        0   1.00610E+00   1.26900E+00   1.77795E-01  -8.88977E-02   1.25333E+00
+
+   1    71         Iterations   :   1
+   1    71         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    73   0        1.01219E+00   1.28805E+00
+   1    73   1        1.01219E+00   1.28805E+00
+
+
+   1    73         Eigenvalues  :   Stable:   2
+   1    73         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    73         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    73         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    73        0   1.01219E+00   1.28805E+00   1.80464E-01  -9.02321E-02   1.27215E+00
+
+   1    72         Iterations   :   1
+   1    72         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    74   0        1.01829E+00   1.30709E+00
+   1    74   1        1.01829E+00   1.30709E+00
+
+
+   1    74         Eigenvalues  :   Stable:   2
+   1    74         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    74         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    74         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    74        0   1.01829E+00   1.30709E+00   1.83133E-01  -9.15665E-02   1.29096E+00
+
+   1    73         Iterations   :   1
+   1    73         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    75   0        1.02438E+00   1.32614E+00
+   1    75   1        1.02438E+00   1.32614E+00
+
+
+   1    75         Eigenvalues  :   Stable:   2
+   1    75         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    75         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    75         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    75       18   1.02438E+00   1.32614E+00   1.85802E-01  -9.29009E-02   1.30977E+00
+
+   1    74         Iterations   :   1
+   1    74         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    76   0        1.03048E+00   1.34519E+00
+   1    76   1        1.03048E+00   1.34519E+00
+
+
+   1    76         Eigenvalues  :   Stable:   2
+   1    76         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    76         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    76         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    76        0   1.03048E+00   1.34519E+00   1.88471E-01  -9.42353E-02   1.32859E+00
+
+   1    75         Iterations   :   1
+   1    75         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    77   0        1.03657E+00   1.36424E+00
+   1    77   1        1.03657E+00   1.36424E+00
+
+
+   1    77         Eigenvalues  :   Stable:   2
+   1    77         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    77         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    77         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    77        0   1.03657E+00   1.36424E+00   1.91140E-01  -9.55698E-02   1.34740E+00
+
+   1    76         Iterations   :   1
+   1    76         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    78   0        1.04267E+00   1.38329E+00
+   1    78   1        1.04267E+00   1.38329E+00
+
+
+   1    78         Eigenvalues  :   Stable:   2
+   1    78         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    78         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    78         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    78        0   1.04267E+00   1.38329E+00   1.93808E-01  -9.69042E-02   1.36621E+00
+
+   1    77         Iterations   :   1
+   1    77         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    79   0        1.04877E+00   1.40234E+00
+   1    79   1        1.04877E+00   1.40234E+00
+
+
+   1    79         Eigenvalues  :   Stable:   2
+   1    79         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    79         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    79         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    79        0   1.04877E+00   1.40234E+00   1.96477E-01  -9.82386E-02   1.38502E+00
+
+   1    78         Iterations   :   1
+   1    78         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    80   0        1.05486E+00   1.42139E+00
+   1    80   1        1.05486E+00   1.42139E+00
+
+
+   1    80         Eigenvalues  :   Stable:   2
+   1    80         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    80         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    80         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    80       19   1.05486E+00   1.42139E+00   1.99146E-01  -9.95730E-02   1.40384E+00
+
+   1    79         Iterations   :   1
+   1    79         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    81   0        1.06096E+00   1.44043E+00
+   1    81   1        1.06096E+00   1.44043E+00
+
+
+   1    81         Eigenvalues  :   Stable:   2
+   1    81         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    81         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    81         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    81        0   1.06096E+00   1.44043E+00   2.01815E-01  -1.00907E-01   1.42265E+00
+
+   1    80         Iterations   :   1
+   1    80         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    82   0        1.06705E+00   1.45948E+00
+   1    82   1        1.06705E+00   1.45948E+00
+
+
+   1    82         Eigenvalues  :   Stable:   2
+   1    82         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    82         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    82         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    82        0   1.06705E+00   1.45948E+00   2.04484E-01  -1.02242E-01   1.44146E+00
+
+   1    81         Iterations   :   1
+   1    81         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    83   0        1.07315E+00   1.47853E+00
+   1    83   1        1.07315E+00   1.47853E+00
+
+
+   1    83         Eigenvalues  :   Stable:   2
+   1    83         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    83         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    83         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    83        0   1.07315E+00   1.47853E+00   2.07152E-01  -1.03576E-01   1.46028E+00
+
+   1    82         Iterations   :   1
+   1    82         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    84   0        1.07924E+00   1.49758E+00
+   1    84   1        1.07924E+00   1.49758E+00
+
+
+   1    84         Eigenvalues  :   Stable:   2
+   1    84         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    84         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    84         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    84        0   1.07924E+00   1.49758E+00   2.09821E-01  -1.04911E-01   1.47909E+00
+
+   1    83         Iterations   :   1
+   1    83         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    85   0        1.08534E+00   1.51663E+00
+   1    85   1        1.08534E+00   1.51663E+00
+
+
+   1    85         Eigenvalues  :   Stable:   2
+   1    85         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    85         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    85         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    85       20   1.08534E+00   1.51663E+00   2.12490E-01  -1.06245E-01   1.49790E+00
+
+   1    84         Iterations   :   1
+   1    84         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    86   0        1.09144E+00   1.53568E+00
+   1    86   1        1.09144E+00   1.53568E+00
+
+
+   1    86         Eigenvalues  :   Stable:   2
+   1    86         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    86         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    86         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    86        0   1.09144E+00   1.53568E+00   2.15159E-01  -1.07579E-01   1.51672E+00
+
+   1    85         Iterations   :   1
+   1    85         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    87   0        1.09753E+00   1.55472E+00
+   1    87   1        1.09753E+00   1.55472E+00
+
+
+   1    87         Eigenvalues  :   Stable:   2
+   1    87         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    87         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    87         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    87        0   1.09753E+00   1.55472E+00   2.17828E-01  -1.08914E-01   1.53553E+00
+
+   1    86         Iterations   :   1
+   1    86         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    88   0        1.10363E+00   1.57377E+00
+   1    88   1        1.10363E+00   1.57377E+00
+
+
+   1    88         Eigenvalues  :   Stable:   2
+   1    88         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    88         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    88         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    88        0   1.10363E+00   1.57377E+00   2.20496E-01  -1.10248E-01   1.55434E+00
+
+   1    87         Iterations   :   1
+   1    87         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    89   0        1.10972E+00   1.59282E+00
+   1    89   1        1.10972E+00   1.59282E+00
+
+
+   1    89         Eigenvalues  :   Stable:   2
+   1    89         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    89         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    89         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    89        0   1.10972E+00   1.59282E+00   2.23165E-01  -1.11583E-01   1.57316E+00
+
+   1    88         Iterations   :   1
+   1    88         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    90   0        1.11582E+00   1.61187E+00
+   1    90   1        1.11582E+00   1.61187E+00
+
+
+   1    90         Eigenvalues  :   Stable:   2
+   1    90         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    90         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    90         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    90       21   1.11582E+00   1.61187E+00   2.25834E-01  -1.12917E-01   1.59197E+00
+
+   1    89         Iterations   :   1
+   1    89         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    91   0        1.12191E+00   1.63092E+00
+   1    91   1        1.12191E+00   1.63092E+00
+
+
+   1    91         Eigenvalues  :   Stable:   2
+   1    91         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    91         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    91         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    91        0   1.12191E+00   1.63092E+00   2.28503E-01  -1.14251E-01   1.61078E+00
+
+   1    90         Iterations   :   1
+   1    90         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    92   0        1.12801E+00   1.64997E+00
+   1    92   1        1.12801E+00   1.64997E+00
+
+
+   1    92         Eigenvalues  :   Stable:   2
+   1    92         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    92         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    92         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    92        0   1.12801E+00   1.64997E+00   2.31172E-01  -1.15586E-01   1.62960E+00
+
+   1    91         Iterations   :   1
+   1    91         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    93   0        1.13411E+00   1.66901E+00
+   1    93   1        1.13411E+00   1.66901E+00
+
+
+   1    93         Eigenvalues  :   Stable:   2
+   1    93         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    93         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    93         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    93        0   1.13411E+00   1.66901E+00   2.33841E-01  -1.16920E-01   1.64841E+00
+
+   1    92         Iterations   :   1
+   1    92         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    94   0        1.14020E+00   1.68806E+00
+   1    94   1        1.14020E+00   1.68806E+00
+
+
+   1    94         Eigenvalues  :   Stable:   2
+   1    94         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    94         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    94         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    94        0   1.14020E+00   1.68806E+00   2.36509E-01  -1.18255E-01   1.66722E+00
+
+   1    93         Iterations   :   1
+   1    93         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    95   0        1.14630E+00   1.70711E+00
+   1    95   1        1.14630E+00   1.70711E+00
+
+
+   1    95         Eigenvalues  :   Stable:   2
+   1    95         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    95         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    95         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    95       22   1.14630E+00   1.70711E+00   2.39178E-01  -1.19589E-01   1.68604E+00
+
+   1    94         Iterations   :   1
+   1    94         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    96   0        1.15239E+00   1.72616E+00
+   1    96   1        1.15239E+00   1.72616E+00
+
+
+   1    96         Eigenvalues  :   Stable:   2
+   1    96         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    96         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    96         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    96        0   1.15239E+00   1.72616E+00   2.41847E-01  -1.20924E-01   1.70485E+00
+
+   1    95         Iterations   :   1
+   1    95         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    97   0        1.15849E+00   1.74521E+00
+   1    97   1        1.15849E+00   1.74521E+00
+
+
+   1    97         Eigenvalues  :   Stable:   2
+   1    97         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    97         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    97         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    97        0   1.15849E+00   1.74521E+00   2.44516E-01  -1.22258E-01   1.72366E+00
+
+   1    96         Iterations   :   1
+   1    96         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    98   0        1.16458E+00   1.76426E+00
+   1    98   1        1.16458E+00   1.76426E+00
+
+
+   1    98         Eigenvalues  :   Stable:   2
+   1    98         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    98         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    98         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    98        0   1.16458E+00   1.76426E+00   2.47185E-01  -1.23592E-01   1.74248E+00
+
+   1    97         Iterations   :   1
+   1    97         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1    99   0        1.17068E+00   1.78331E+00
+   1    99   1        1.17068E+00   1.78331E+00
+
+
+   1    99         Eigenvalues  :   Stable:   2
+   1    99         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1    99         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1    99         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1    99        0   1.17068E+00   1.78331E+00   2.49853E-01  -1.24927E-01   1.76129E+00
+
+   1    98         Iterations   :   1
+   1    98         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   100   0        1.17678E+00   1.80235E+00
+   1   100   1        1.17678E+00   1.80235E+00
+
+
+   1   100         Eigenvalues  :   Stable:   2
+   1   100         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   100         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   100         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   100       23   1.17678E+00   1.80235E+00   2.52522E-01  -1.26261E-01   1.78010E+00
+
+   1    99         Iterations   :   1
+   1    99         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   101   0        1.18287E+00   1.82140E+00
+   1   101   1        1.18287E+00   1.82140E+00
+
+
+   1   101         Eigenvalues  :   Stable:   2
+   1   101         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   101         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   101         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   101        0   1.18287E+00   1.82140E+00   2.55191E-01  -1.27596E-01   1.79892E+00
+
+   1   100         Iterations   :   1
+   1   100         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   102   0        1.18897E+00   1.84045E+00
+   1   102   1        1.18897E+00   1.84045E+00
+
+
+   1   102         Eigenvalues  :   Stable:   2
+   1   102         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   102         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   102         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   102        0   1.18897E+00   1.84045E+00   2.57860E-01  -1.28930E-01   1.81773E+00
+
+   1   101         Iterations   :   1
+   1   101         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   103   0        1.19506E+00   1.85950E+00
+   1   103   1        1.19506E+00   1.85950E+00
+
+
+   1   103         Eigenvalues  :   Stable:   2
+   1   103         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   103         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   103         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   103        0   1.19506E+00   1.85950E+00   2.60529E-01  -1.30264E-01   1.83654E+00
+
+   1   102         Iterations   :   1
+   1   102         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   104   0        1.20116E+00   1.87855E+00
+   1   104   1        1.20116E+00   1.87855E+00
+
+
+   1   104         Eigenvalues  :   Stable:   2
+   1   104         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   104         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   104         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+ ==> Location of special point :  Iteration   0  Step size =  -3.80391E-03
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   104   0        1.20000E+00   1.87492E+00
+   1   104   1        1.20000E+00   1.87492E+00
+
+
+   1   104         Eigenvalues  :   Stable:   2
+   1   104         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   104         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   104         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+ ==> Location of special point :  Convergence.   Step size =   3.80391E-10
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   104  UZ   24   1.20000E+00   1.87492E+00   2.62690E-01  -1.31345E-01   1.85178E+00
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   105   0        1.20610E+00   1.89397E+00
+   1   105   1        1.20610E+00   1.89397E+00
+
+
+   1   105         Eigenvalues  :   Stable:   2
+   1   105         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   105         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   105         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   105       25   1.20610E+00   1.89397E+00   2.65359E-01  -1.32679E-01   1.87059E+00
+
+   1   104         Iterations   :   1
+   1   104         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   106   0        1.21219E+00   1.91302E+00
+   1   106   1        1.21219E+00   1.91302E+00
+
+
+   1   106         Eigenvalues  :   Stable:   2
+   1   106         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   106         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   106         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   106        0   1.21219E+00   1.91302E+00   2.68028E-01  -1.34014E-01   1.88940E+00
+
+   1   105         Iterations   :   1
+   1   105         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   107   0        1.21829E+00   1.93207E+00
+   1   107   1        1.21829E+00   1.93207E+00
+
+
+   1   107         Eigenvalues  :   Stable:   2
+   1   107         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   107         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   107         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   107        0   1.21829E+00   1.93207E+00   2.70696E-01  -1.35348E-01   1.90822E+00
+
+   1   106         Iterations   :   1
+   1   106         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   108   0        1.22438E+00   1.95112E+00
+   1   108   1        1.22438E+00   1.95112E+00
+
+
+   1   108         Eigenvalues  :   Stable:   2
+   1   108         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   108         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   108         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   108        0   1.22438E+00   1.95112E+00   2.73365E-01  -1.36683E-01   1.92703E+00
+
+   1   107         Iterations   :   1
+   1   107         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   109   0        1.23048E+00   1.97017E+00
+   1   109   1        1.23048E+00   1.97017E+00
+
+
+   1   109         Eigenvalues  :   Stable:   2
+   1   109         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   109         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   109         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   109        0   1.23048E+00   1.97017E+00   2.76034E-01  -1.38017E-01   1.94584E+00
+
+   1   108         Iterations   :   1
+   1   108         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   110   0        1.23657E+00   1.98921E+00
+   1   110   1        1.23657E+00   1.98921E+00
+
+
+   1   110         Eigenvalues  :   Stable:   2
+   1   110         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   110         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   110         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   110       26   1.23657E+00   1.98921E+00   2.78703E-01  -1.39351E-01   1.96466E+00
+
+   1   109         Iterations   :   1
+   1   109         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   111   0        1.24267E+00   2.00826E+00
+   1   111   1        1.24267E+00   2.00826E+00
+
+
+   1   111         Eigenvalues  :   Stable:   2
+   1   111         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   111         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   111         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   111        0   1.24267E+00   2.00826E+00   2.81372E-01  -1.40686E-01   1.98347E+00
+
+   1   110         Iterations   :   1
+   1   110         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   112   0        1.24877E+00   2.02731E+00
+   1   112   1        1.24877E+00   2.02731E+00
+
+
+   1   112         Eigenvalues  :   Stable:   2
+   1   112         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   112         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   112         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   112        0   1.24877E+00   2.02731E+00   2.84040E-01  -1.42020E-01   2.00228E+00
+
+   1   111         Iterations   :   1
+   1   111         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   113   0        1.25486E+00   2.04636E+00
+   1   113   1        1.25486E+00   2.04636E+00
+
+
+   1   113         Eigenvalues  :   Stable:   2
+   1   113         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   113         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   113         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   113        0   1.25486E+00   2.04636E+00   2.86709E-01  -1.43355E-01   2.02110E+00
+
+   1   112         Iterations   :   1
+   1   112         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   114   0        1.26096E+00   2.06541E+00
+   1   114   1        1.26096E+00   2.06541E+00
+
+
+   1   114         Eigenvalues  :   Stable:   2
+   1   114         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   114         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   114         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   114        0   1.26096E+00   2.06541E+00   2.89378E-01  -1.44689E-01   2.03991E+00
+
+   1   113         Iterations   :   1
+   1   113         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   115   0        1.26705E+00   2.08446E+00
+   1   115   1        1.26705E+00   2.08446E+00
+
+
+   1   115         Eigenvalues  :   Stable:   2
+   1   115         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   115         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   115         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   115       27   1.26705E+00   2.08446E+00   2.92047E-01  -1.46023E-01   2.05872E+00
+
+   1   114         Iterations   :   1
+   1   114         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   116   0        1.27315E+00   2.10351E+00
+   1   116   1        1.27315E+00   2.10351E+00
+
+
+   1   116         Eigenvalues  :   Stable:   2
+   1   116         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   116         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   116         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   116        0   1.27315E+00   2.10351E+00   2.94716E-01  -1.47358E-01   2.07754E+00
+
+   1   115         Iterations   :   1
+   1   115         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   117   0        1.27924E+00   2.12255E+00
+   1   117   1        1.27924E+00   2.12255E+00
+
+
+   1   117         Eigenvalues  :   Stable:   2
+   1   117         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   117         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   117         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   117        0   1.27924E+00   2.12255E+00   2.97385E-01  -1.48692E-01   2.09635E+00
+
+   1   116         Iterations   :   1
+   1   116         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   118   0        1.28534E+00   2.14160E+00
+   1   118   1        1.28534E+00   2.14160E+00
+
+
+   1   118         Eigenvalues  :   Stable:   2
+   1   118         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   118         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   118         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   118        0   1.28534E+00   2.14160E+00   3.00053E-01  -1.50027E-01   2.11516E+00
+
+   1   117         Iterations   :   1
+   1   117         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   119   0        1.29144E+00   2.16065E+00
+   1   119   1        1.29144E+00   2.16065E+00
+
+
+   1   119         Eigenvalues  :   Stable:   2
+   1   119         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   119         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   119         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   119        0   1.29144E+00   2.16065E+00   3.02722E-01  -1.51361E-01   2.13398E+00
+
+   1   118         Iterations   :   1
+   1   118         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   120   0        1.29753E+00   2.17970E+00
+   1   120   1        1.29753E+00   2.17970E+00
+
+
+   1   120         Eigenvalues  :   Stable:   2
+   1   120         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   120         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   120         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   120       28   1.29753E+00   2.17970E+00   3.05391E-01  -1.52695E-01   2.15279E+00
+
+   1   119         Iterations   :   1
+   1   119         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   121   0        1.30363E+00   2.19875E+00
+   1   121   1        1.30363E+00   2.19875E+00
+
+
+   1   121         Eigenvalues  :   Stable:   2
+   1   121         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   121         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   121         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   121        0   1.30363E+00   2.19875E+00   3.08060E-01  -1.54030E-01   2.17160E+00
+
+   1   120         Iterations   :   1
+   1   120         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   122   0        1.30972E+00   2.21780E+00
+   1   122   1        1.30972E+00   2.21780E+00
+
+
+   1   122         Eigenvalues  :   Stable:   2
+   1   122         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   122         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   122         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   122        0   1.30972E+00   2.21780E+00   3.10729E-01  -1.55364E-01   2.19042E+00
+
+   1   121         Iterations   :   1
+   1   121         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   123   0        1.31582E+00   2.23684E+00
+   1   123   1        1.31582E+00   2.23684E+00
+
+
+   1   123         Eigenvalues  :   Stable:   2
+   1   123         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   123         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   123         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   123        0   1.31582E+00   2.23684E+00   3.13397E-01  -1.56699E-01   2.20923E+00
+
+   1   122         Iterations   :   1
+   1   122         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   124   0        1.32191E+00   2.25589E+00
+   1   124   1        1.32191E+00   2.25589E+00
+
+
+   1   124         Eigenvalues  :   Stable:   2
+   1   124         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   124         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   124         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   124        0   1.32191E+00   2.25589E+00   3.16066E-01  -1.58033E-01   2.22804E+00
+
+   1   123         Iterations   :   1
+   1   123         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   125   0        1.32801E+00   2.27494E+00
+   1   125   1        1.32801E+00   2.27494E+00
+
+
+   1   125         Eigenvalues  :   Stable:   2
+   1   125         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   125         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   125         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   125       29   1.32801E+00   2.27494E+00   3.18735E-01  -1.59368E-01   2.24686E+00
+
+   1   124         Iterations   :   1
+   1   124         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   126   0        1.33411E+00   2.29399E+00
+   1   126   1        1.33411E+00   2.29399E+00
+
+
+   1   126         Eigenvalues  :   Stable:   2
+   1   126         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   126         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   126         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   126        0   1.33411E+00   2.29399E+00   3.21404E-01  -1.60702E-01   2.26567E+00
+
+   1   125         Iterations   :   1
+   1   125         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   127   0        1.34020E+00   2.31304E+00
+   1   127   1        1.34020E+00   2.31304E+00
+
+
+   1   127         Eigenvalues  :   Stable:   2
+   1   127         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   127         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   127         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   127        0   1.34020E+00   2.31304E+00   3.24073E-01  -1.62036E-01   2.28448E+00
+
+   1   126         Iterations   :   1
+   1   126         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   128   0        1.34630E+00   2.33209E+00
+   1   128   1        1.34630E+00   2.33209E+00
+
+
+   1   128         Eigenvalues  :   Stable:   2
+   1   128         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   128         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   128         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   128        0   1.34630E+00   2.33209E+00   3.26741E-01  -1.63371E-01   2.30330E+00
+
+   1   127         Iterations   :   1
+   1   127         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   129   0        1.35239E+00   2.35113E+00
+   1   129   1        1.35239E+00   2.35113E+00
+
+
+   1   129         Eigenvalues  :   Stable:   2
+   1   129         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   129         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   129         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   129        0   1.35239E+00   2.35113E+00   3.29410E-01  -1.64705E-01   2.32211E+00
+
+   1   128         Iterations   :   1
+   1   128         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   130   0        1.35849E+00   2.37018E+00
+   1   130   1        1.35849E+00   2.37018E+00
+
+
+   1   130         Eigenvalues  :   Stable:   2
+   1   130         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   130         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   130         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   130       30   1.35849E+00   2.37018E+00   3.32079E-01  -1.66040E-01   2.34092E+00
+
+   1   129         Iterations   :   1
+   1   129         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   131   0        1.36458E+00   2.38923E+00
+   1   131   1        1.36458E+00   2.38923E+00
+
+
+   1   131         Eigenvalues  :   Stable:   2
+   1   131         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   131         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   131         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   131        0   1.36458E+00   2.38923E+00   3.34748E-01  -1.67374E-01   2.35974E+00
+
+   1   130         Iterations   :   1
+   1   130         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   132   0        1.37068E+00   2.40828E+00
+   1   132   1        1.37068E+00   2.40828E+00
+
+
+   1   132         Eigenvalues  :   Stable:   2
+   1   132         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   132         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   132         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   132        0   1.37068E+00   2.40828E+00   3.37417E-01  -1.68708E-01   2.37855E+00
+
+   1   131         Iterations   :   1
+   1   131         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   133   0        1.37678E+00   2.42733E+00
+   1   133   1        1.37678E+00   2.42733E+00
+
+
+   1   133         Eigenvalues  :   Stable:   2
+   1   133         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   133         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   133         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   133        0   1.37678E+00   2.42733E+00   3.40086E-01  -1.70043E-01   2.39736E+00
+
+   1   132         Iterations   :   1
+   1   132         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   134   0        1.38287E+00   2.44638E+00
+   1   134   1        1.38287E+00   2.44638E+00
+
+
+   1   134         Eigenvalues  :   Stable:   2
+   1   134         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   134         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   134         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   134        0   1.38287E+00   2.44638E+00   3.42754E-01  -1.71377E-01   2.41618E+00
+
+   1   133         Iterations   :   1
+   1   133         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   135   0        1.38897E+00   2.46542E+00
+   1   135   1        1.38897E+00   2.46542E+00
+
+
+   1   135         Eigenvalues  :   Stable:   2
+   1   135         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   135         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   135         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   135       31   1.38897E+00   2.46542E+00   3.45423E-01  -1.72712E-01   2.43499E+00
+
+   1   134         Iterations   :   1
+   1   134         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   136   0        1.39506E+00   2.48447E+00
+   1   136   1        1.39506E+00   2.48447E+00
+
+
+   1   136         Eigenvalues  :   Stable:   2
+   1   136         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   136         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   136         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   136        0   1.39506E+00   2.48447E+00   3.48092E-01  -1.74046E-01   2.45380E+00
+
+   1   135         Iterations   :   1
+   1   135         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   137   0        1.40116E+00   2.50352E+00
+   1   137   1        1.40116E+00   2.50352E+00
+
+
+   1   137         Eigenvalues  :   Stable:   2
+   1   137         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   137         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   137         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   137        0   1.40116E+00   2.50352E+00   3.50761E-01  -1.75380E-01   2.47262E+00
+
+   1   136         Iterations   :   1
+   1   136         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   138   0        1.40726E+00   2.52257E+00
+   1   138   1        1.40726E+00   2.52257E+00
+
+
+   1   138         Eigenvalues  :   Stable:   2
+   1   138         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   138         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   138         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   138        0   1.40726E+00   2.52257E+00   3.53430E-01  -1.76715E-01   2.49143E+00
+
+   1   137         Iterations   :   1
+   1   137         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   139   0        1.41335E+00   2.54162E+00
+   1   139   1        1.41335E+00   2.54162E+00
+
+
+   1   139         Eigenvalues  :   Stable:   2
+   1   139         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   139         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   139         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   139        0   1.41335E+00   2.54162E+00   3.56098E-01  -1.78049E-01   2.51024E+00
+
+   1   138         Iterations   :   1
+   1   138         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   140   0        1.41945E+00   2.56067E+00
+   1   140   1        1.41945E+00   2.56067E+00
+
+
+   1   140         Eigenvalues  :   Stable:   2
+   1   140         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   140         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   140         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   140       32   1.41945E+00   2.56067E+00   3.58767E-01  -1.79384E-01   2.52906E+00
+
+   1   139         Iterations   :   1
+   1   139         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   141   0        1.42554E+00   2.57972E+00
+   1   141   1        1.42554E+00   2.57972E+00
+
+
+   1   141         Eigenvalues  :   Stable:   2
+   1   141         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   141         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   141         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   141        0   1.42554E+00   2.57972E+00   3.61436E-01  -1.80718E-01   2.54787E+00
+
+   1   140         Iterations   :   1
+   1   140         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   142   0        1.43164E+00   2.59876E+00
+   1   142   1        1.43164E+00   2.59876E+00
+
+
+   1   142         Eigenvalues  :   Stable:   2
+   1   142         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   142         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   142         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   142        0   1.43164E+00   2.59876E+00   3.64105E-01  -1.82052E-01   2.56668E+00
+
+   1   141         Iterations   :   1
+   1   141         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   143   0        1.43773E+00   2.61781E+00
+   1   143   1        1.43773E+00   2.61781E+00
+
+
+   1   143         Eigenvalues  :   Stable:   2
+   1   143         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   143         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   143         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   143        0   1.43773E+00   2.61781E+00   3.66774E-01  -1.83387E-01   2.58550E+00
+
+   1   142         Iterations   :   1
+   1   142         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   144   0        1.44383E+00   2.63686E+00
+   1   144   1        1.44383E+00   2.63686E+00
+
+
+   1   144         Eigenvalues  :   Stable:   2
+   1   144         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   144         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   144         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   144        0   1.44383E+00   2.63686E+00   3.69443E-01  -1.84721E-01   2.60431E+00
+
+   1   143         Iterations   :   1
+   1   143         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   145   0        1.44993E+00   2.65591E+00
+   1   145   1        1.44993E+00   2.65591E+00
+
+
+   1   145         Eigenvalues  :   Stable:   2
+   1   145         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   145         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   145         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   145       33   1.44993E+00   2.65591E+00   3.72111E-01  -1.86056E-01   2.62312E+00
+
+   1   144         Iterations   :   1
+   1   144         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   146   0        1.45602E+00   2.67496E+00
+   1   146   1        1.45602E+00   2.67496E+00
+
+
+   1   146         Eigenvalues  :   Stable:   2
+   1   146         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   146         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   146         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   146        0   1.45602E+00   2.67496E+00   3.74780E-01  -1.87390E-01   2.64194E+00
+
+   1   145         Iterations   :   1
+   1   145         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   147   0        1.46212E+00   2.69401E+00
+   1   147   1        1.46212E+00   2.69401E+00
+
+
+   1   147         Eigenvalues  :   Stable:   2
+   1   147         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   147         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   147         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   147        0   1.46212E+00   2.69401E+00   3.77449E-01  -1.88724E-01   2.66075E+00
+
+   1   146         Iterations   :   1
+   1   146         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   148   0        1.46821E+00   2.71305E+00
+   1   148   1        1.46821E+00   2.71305E+00
+
+
+   1   148         Eigenvalues  :   Stable:   2
+   1   148         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   148         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   148         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   148        0   1.46821E+00   2.71305E+00   3.80118E-01  -1.90059E-01   2.67956E+00
+
+   1   147         Iterations   :   1
+   1   147         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   149   0        1.47431E+00   2.73210E+00
+   1   149   1        1.47431E+00   2.73210E+00
+
+
+   1   149         Eigenvalues  :   Stable:   2
+   1   149         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   149         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   149         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   149        0   1.47431E+00   2.73210E+00   3.82787E-01  -1.91393E-01   2.69838E+00
+
+   1   148         Iterations   :   1
+   1   148         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   150   0        1.48040E+00   2.75115E+00
+   1   150   1        1.48040E+00   2.75115E+00
+
+
+   1   150         Eigenvalues  :   Stable:   2
+   1   150         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   150         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   150         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   150       34   1.48040E+00   2.75115E+00   3.85455E-01  -1.92728E-01   2.71719E+00
+
+   1   149         Iterations   :   1
+   1   149         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   151   0        1.48650E+00   2.77020E+00
+   1   151   1        1.48650E+00   2.77020E+00
+
+
+   1   151         Eigenvalues  :   Stable:   2
+   1   151         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   151         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   151         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   151        0   1.48650E+00   2.77020E+00   3.88124E-01  -1.94062E-01   2.73600E+00
+
+   1   150         Iterations   :   1
+   1   150         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   152   0        1.49260E+00   2.78925E+00
+   1   152   1        1.49260E+00   2.78925E+00
+
+
+   1   152         Eigenvalues  :   Stable:   2
+   1   152         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   152         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   152         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   152        0   1.49260E+00   2.78925E+00   3.90793E-01  -1.95397E-01   2.75481E+00
+
+   1   151         Iterations   :   1
+   1   151         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   153   0        1.49869E+00   2.80830E+00
+   1   153   1        1.49869E+00   2.80830E+00
+
+
+   1   153         Eigenvalues  :   Stable:   2
+   1   153         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   153         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   153         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   153        0   1.49869E+00   2.80830E+00   3.93462E-01  -1.96731E-01   2.77363E+00
+
+   1   152         Iterations   :   1
+   1   152         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   154   0        1.50479E+00   2.82734E+00
+   1   154   1        1.50479E+00   2.82734E+00
+
+
+   1   154         Eigenvalues  :   Stable:   2
+   1   154         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   154         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   154         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   154        0   1.50479E+00   2.82734E+00   3.96131E-01  -1.98065E-01   2.79244E+00
+
+   1   153         Iterations   :   1
+   1   153         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   155   0        1.51088E+00   2.84639E+00
+   1   155   1        1.51088E+00   2.84639E+00
+
+
+   1   155         Eigenvalues  :   Stable:   2
+   1   155         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   155         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   155         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   155       35   1.51088E+00   2.84639E+00   3.98800E-01  -1.99400E-01   2.81125E+00
+
+   1   154         Iterations   :   1
+   1   154         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   156   0        1.51698E+00   2.86544E+00
+   1   156   1        1.51698E+00   2.86544E+00
+
+
+   1   156         Eigenvalues  :   Stable:   2
+   1   156         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   156         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   156         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   156        0   1.51698E+00   2.86544E+00   4.01468E-01  -2.00734E-01   2.83007E+00
+
+   1   155         Iterations   :   1
+   1   155         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   157   0        1.52307E+00   2.88449E+00
+   1   157   1        1.52307E+00   2.88449E+00
+
+
+   1   157         Eigenvalues  :   Stable:   2
+   1   157         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   157         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   157         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   157        0   1.52307E+00   2.88449E+00   4.04137E-01  -2.02069E-01   2.84888E+00
+
+   1   156         Iterations   :   1
+   1   156         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   158   0        1.52917E+00   2.90354E+00
+   1   158   1        1.52917E+00   2.90354E+00
+
+
+   1   158         Eigenvalues  :   Stable:   2
+   1   158         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   158         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   158         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   158        0   1.52917E+00   2.90354E+00   4.06806E-01  -2.03403E-01   2.86769E+00
+
+   1   157         Iterations   :   1
+   1   157         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   159   0        1.53527E+00   2.92259E+00
+   1   159   1        1.53527E+00   2.92259E+00
+
+
+   1   159         Eigenvalues  :   Stable:   2
+   1   159         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   159         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   159         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   159        0   1.53527E+00   2.92259E+00   4.09475E-01  -2.04737E-01   2.88651E+00
+
+   1   158         Iterations   :   1
+   1   158         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   160   0        1.54136E+00   2.94164E+00
+   1   160   1        1.54136E+00   2.94164E+00
+
+
+   1   160         Eigenvalues  :   Stable:   2
+   1   160         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   160         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   160         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   160       36   1.54136E+00   2.94164E+00   4.12144E-01  -2.06072E-01   2.90532E+00
+
+   1   159         Iterations   :   1
+   1   159         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   161   0        1.54746E+00   2.96068E+00
+   1   161   1        1.54746E+00   2.96068E+00
+
+
+   1   161         Eigenvalues  :   Stable:   2
+   1   161         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   161         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   161         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   161        0   1.54746E+00   2.96068E+00   4.14812E-01  -2.07406E-01   2.92413E+00
+
+   1   160         Iterations   :   1
+   1   160         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   162   0        1.55355E+00   2.97973E+00
+   1   162   1        1.55355E+00   2.97973E+00
+
+
+   1   162         Eigenvalues  :   Stable:   2
+   1   162         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   162         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   162         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   162        0   1.55355E+00   2.97973E+00   4.17481E-01  -2.08741E-01   2.94295E+00
+
+   1   161         Iterations   :   1
+   1   161         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   163   0        1.55965E+00   2.99878E+00
+   1   163   1        1.55965E+00   2.99878E+00
+
+
+   1   163         Eigenvalues  :   Stable:   2
+   1   163         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   163         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   163         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   163        0   1.55965E+00   2.99878E+00   4.20150E-01  -2.10075E-01   2.96176E+00
+
+   1   162         Iterations   :   1
+   1   162         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   164   0        1.56574E+00   3.01783E+00
+   1   164   1        1.56574E+00   3.01783E+00
+
+
+   1   164         Eigenvalues  :   Stable:   2
+   1   164         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   164         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   164         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   164        0   1.56574E+00   3.01783E+00   4.22819E-01  -2.11409E-01   2.98057E+00
+
+   1   163         Iterations   :   1
+   1   163         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   165   0        1.57184E+00   3.03688E+00
+   1   165   1        1.57184E+00   3.03688E+00
+
+
+   1   165         Eigenvalues  :   Stable:   2
+   1   165         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   165         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   165         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   165       37   1.57184E+00   3.03688E+00   4.25488E-01  -2.12744E-01   2.99939E+00
+
+   1   164         Iterations   :   1
+   1   164         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   166   0        1.57794E+00   3.05593E+00
+   1   166   1        1.57794E+00   3.05593E+00
+
+
+   1   166         Eigenvalues  :   Stable:   2
+   1   166         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   166         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   166         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   166        0   1.57794E+00   3.05593E+00   4.28156E-01  -2.14078E-01   3.01820E+00
+
+   1   165         Iterations   :   1
+   1   165         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   167   0        1.58403E+00   3.07497E+00
+   1   167   1        1.58403E+00   3.07497E+00
+
+
+   1   167         Eigenvalues  :   Stable:   2
+   1   167         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   167         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   167         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   167        0   1.58403E+00   3.07497E+00   4.30825E-01  -2.15413E-01   3.03701E+00
+
+   1   166         Iterations   :   1
+   1   166         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   168   0        1.59013E+00   3.09402E+00
+   1   168   1        1.59013E+00   3.09402E+00
+
+
+   1   168         Eigenvalues  :   Stable:   2
+   1   168         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   168         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   168         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   168        0   1.59013E+00   3.09402E+00   4.33494E-01  -2.16747E-01   3.05583E+00
+
+   1   167         Iterations   :   1
+   1   167         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   169   0        1.59622E+00   3.11307E+00
+   1   169   1        1.59622E+00   3.11307E+00
+
+
+   1   169         Eigenvalues  :   Stable:   2
+   1   169         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   169         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   169         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   169        0   1.59622E+00   3.11307E+00   4.36163E-01  -2.18081E-01   3.07464E+00
+
+   1   168         Iterations   :   1
+   1   168         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   170   0        1.60232E+00   3.13212E+00
+   1   170   1        1.60232E+00   3.13212E+00
+
+
+   1   170         Eigenvalues  :   Stable:   2
+   1   170         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   170         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   170         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   170       38   1.60232E+00   3.13212E+00   4.38832E-01  -2.19416E-01   3.09345E+00
+
+   1   169         Iterations   :   1
+   1   169         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   171   0        1.60841E+00   3.15117E+00
+   1   171   1        1.60841E+00   3.15117E+00
+
+
+   1   171         Eigenvalues  :   Stable:   2
+   1   171         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   171         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   171         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   171        0   1.60841E+00   3.15117E+00   4.41501E-01  -2.20750E-01   3.11227E+00
+
+   1   170         Iterations   :   1
+   1   170         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   172   0        1.61451E+00   3.17022E+00
+   1   172   1        1.61451E+00   3.17022E+00
+
+
+   1   172         Eigenvalues  :   Stable:   2
+   1   172         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   172         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   172         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   172        0   1.61451E+00   3.17022E+00   4.44169E-01  -2.22085E-01   3.13108E+00
+
+   1   171         Iterations   :   1
+   1   171         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   173   0        1.62061E+00   3.18926E+00
+   1   173   1        1.62061E+00   3.18926E+00
+
+
+   1   173         Eigenvalues  :   Stable:   2
+   1   173         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   173         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   173         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   173        0   1.62061E+00   3.18926E+00   4.46838E-01  -2.23419E-01   3.14989E+00
+
+   1   172         Iterations   :   1
+   1   172         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   174   0        1.62670E+00   3.20831E+00
+   1   174   1        1.62670E+00   3.20831E+00
+
+
+   1   174         Eigenvalues  :   Stable:   2
+   1   174         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   174         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   174         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   174        0   1.62670E+00   3.20831E+00   4.49507E-01  -2.24754E-01   3.16871E+00
+
+   1   173         Iterations   :   1
+   1   173         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   175   0        1.63280E+00   3.22736E+00
+   1   175   1        1.63280E+00   3.22736E+00
+
+
+   1   175         Eigenvalues  :   Stable:   2
+   1   175         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   175         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   175         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   175       39   1.63280E+00   3.22736E+00   4.52176E-01  -2.26088E-01   3.18752E+00
+
+   1   174         Iterations   :   1
+   1   174         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   176   0        1.63889E+00   3.24641E+00
+   1   176   1        1.63889E+00   3.24641E+00
+
+
+   1   176         Eigenvalues  :   Stable:   2
+   1   176         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   176         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   176         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   176        0   1.63889E+00   3.24641E+00   4.54845E-01  -2.27422E-01   3.20633E+00
+
+   1   175         Iterations   :   1
+   1   175         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   177   0        1.64499E+00   3.26546E+00
+   1   177   1        1.64499E+00   3.26546E+00
+
+
+   1   177         Eigenvalues  :   Stable:   2
+   1   177         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   177         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   177         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   177        0   1.64499E+00   3.26546E+00   4.57513E-01  -2.28757E-01   3.22515E+00
+
+   1   176         Iterations   :   1
+   1   176         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   178   0        1.65108E+00   3.28451E+00
+   1   178   1        1.65108E+00   3.28451E+00
+
+
+   1   178         Eigenvalues  :   Stable:   2
+   1   178         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   178         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   178         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   178        0   1.65108E+00   3.28451E+00   4.60182E-01  -2.30091E-01   3.24396E+00
+
+   1   177         Iterations   :   1
+   1   177         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   179   0        1.65718E+00   3.30356E+00
+   1   179   1        1.65718E+00   3.30356E+00
+
+
+   1   179         Eigenvalues  :   Stable:   2
+   1   179         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   179         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   179         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   179        0   1.65718E+00   3.30356E+00   4.62851E-01  -2.31426E-01   3.26277E+00
+
+   1   178         Iterations   :   1
+   1   178         Next Step    :   2.00000E-02
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1   180   0        1.66328E+00   3.32260E+00
+   1   180   1        1.66328E+00   3.32260E+00
+
+
+   1   180         Eigenvalues  :   Stable:   2
+   1   180         Eigenvalue  1:   1.46080E+00   0.00000E+00
+   1   180         Eigenvalue  2:  -1.47916E+00   1.62124E+00
+   1   180         Eigenvalue  3:  -1.47916E+00  -1.62124E+00
+
+  BR    PT  TY  LAB      W_a0        L2-NORM       Z_scaled      U_scaled    M_log_ratio  
+   1   180  EP   40   1.66328E+00   3.32260E+00   4.65520E-01  -2.32760E-01   3.28159E+00
+
+   1   179         Iterations   :   1
+   1   179         Next Step    :   2.00000E-02
+===============================================
+
+ Total Time    0.693E-02
