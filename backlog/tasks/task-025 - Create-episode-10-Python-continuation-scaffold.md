@@ -27,3 +27,13 @@ Create episodes/10-full-model-python-continuation/ as the reproducible home for 
 - [ ] #3 Repository episode index includes episode 10
 - [ ] #4 No research artifacts are placed in old top-level scripts/notebooks/docs/auto/outputs directories
 <!-- AC:END -->
+
+## Implementation Plan
+
+<!-- SECTION:PLAN:BEGIN -->
+1. Inspect existing episode README/index conventions, especially episodes 06–09 and repository-level episode index.
+2. Create episodes/10-full-model-python-continuation/ with README and standard subdirectories for notebooks, scripts, outputs, docs, and any continuation assets as appropriate.
+3. Write README context covering purpose, scope, relationship to episodes 06–09, and the Python-continuation-first / AUTO-final-validation strategy.
+4. Update the repository episode index to include episode 10.
+5. Verify no old top-level research artifact directories are touched or used, then mark acceptance criteria complete.
+<!-- SECTION:PLAN:END -->
