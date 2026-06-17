@@ -1,7 +1,7 @@
 ---
 id: TASK-020
 title: Retry H_a3 Hopf-control continuation on scaled restricted 3D system
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-15 20:17'
@@ -61,3 +61,23 @@ TASK-019 has now validated the `P=M/10` restricted W_a0 gate: upward continuatio
 - Downward q_H run accepted a nontrivial restricted branch and detected an LP near H_a3=0.5971; upward run stopped near H_a3=0.611 with DGEBAL/floating-point diagnostics; no HB label was accepted.
 - Added independent Python residual/eigenvalue diagnostics, TASK-012/TASK-015 comparisons, conservative verdict note, and regression tests.
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Implemented the TASK-020 scaled restricted H_a3 continuation attempt after the TASK-019 W_a0 gate.
+
+Changes:
+- Added AUTO sources/configs for q_H=(H_a3-0.61)/0.001 using the validated TASK-019 P=M/10 restricted formulation.
+- Added an exploratory H-specific state-scale retry, preserving the same physical residual and mass coordinate.
+- Added a synthesis script that parses AUTO branches/diagnostics, reconstructs physical H_a3/z/u/m, evaluates Python residuals and full finite-difference eigenvalues, compares against TASK-012/TASK-015, and writes a conservative verdict note.
+- Added TASK-020 regression tests for scaling, branch parsing, diagnostics, comparisons, and no-Hopf verdict language.
+
+Result:
+- AUTO accepts a nontrivial downward restricted H_a3 branch and detects an LP near H_a3≈0.5971.
+- The upward Hopf-relevant direction remains numerically inconclusive, stopping near H_a3≈0.611 with DGEBAL/floating-point diagnostics.
+- No AUTO-supported HB/Hopf candidate is present; the TASK-012 crossing near 0.62 remains a Python hint only.
+
+Tests:
+- uv run pytest tests/test_episode07_restricted_task019.py tests/test_episode07_restricted_task020.py
+<!-- SECTION:FINAL_SUMMARY:END -->
