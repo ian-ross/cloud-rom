@@ -1,0 +1,3 @@
+run,direction,branch,point,ty,type,label,q_zW0_scaled,z_W0_m,z_W0_km,scaled_l2_norm,Z_scaled_1000m,U_scaled_5ms,W_m_s,P_log_ratio_over_10,M_log_ratio,z_m,u_m_s,w_m_s,m_kg,smoothed_W_a_m_s,piecewise_W_a_m_s,distance_to_z_W0_m,smooth_width_m,is_special_point,is_hopf_label
+z-plus,upward,1,-1,9,EP,1,0.0,9000.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,9618.027532260936,1.9098623386953226,0.0,1.0802293920592054e-09,0.5999995726317209,0.6,618.0275322609359,50.0,False,False
+z-minus,downward,1,-1,9,EP,1,0.0,9000.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,9618.027532260936,1.9098623386953226,0.0,1.0802293920592054e-09,0.5999995726317209,0.6,618.0275322609359,50.0,False,False

@@ -1,0 +1,3 @@
+run,direction,accepted_points_excluding_mx,accepted_z_W0_min_m,accepted_z_W0_max_m,reached_paper_7km,reached_transition_9p6_10km,has_auto_hopf_label,main_failure_note
+z-minus,downward,1,9000.0,9000.0,False,False,False,1     1 NOTE:No convergence with fixed   step size
+z-plus,upward,1,9000.0,9000.0,False,False,False,1     1 NOTE:No convergence with fixed   step size

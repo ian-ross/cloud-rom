@@ -1,0 +1,19 @@
+   0  -1.7976+308  1.7976+308 -1.7976+308  1.7976+308
+   0   EPSL= 1.0000E-08  EPSU = 1.0000E-08  EPSS = 1.0000E-06
+   0   DS  = 2.5000E-01  DSMIN= 1.0000E-09  DSMAX= 2.5000E-01
+   0   NDIM=   4   IPS =   1   IRS =   0   ILP =   1
+   0   NTST=  20   NCOL=   4   IAD =   3   ISP =   0
+   0   ISW =   1   IPLT=   0   NBC =   0   NINT=   0
+   0   NMX=  700   NPR=   10   MXBF=   0   IID =   2   IADS=   0
+   0   ITMX=  20   ITNW=  12   NWTN=   6   JAC =   0   NUZR=   5
+   0   NPAR= 110   THL = {}    THU = {}
+   0   UZR = {'q_zW0_scaled': [2.5000000000E-001, 5.0000000000E-001, 7.5000000000E-001, 1]}
+   0   UZSTOP = {'q_zW0_scaled': 1}
+   0   e = 'bertonfull_task024_zw0_smooth' s = '/'
+   0   parnames = {1: 'z_W0_physical', 2: 'W_a0', 3: 'rad_mult', 4: 'H_a3', 5: 'eta_override', 6: 'drag_mult', 7: 'Delta_z_W', 39: 'eta_blend', 40: 'phi', 41: 'c_B', 43: 'include_corio', 44: 'reynolds_leng', 54: 'q_zW0_scaled_', 55: 'z_W0_physical', 56: 'z_physical_m', 57: 'u_physical_m_', 58: 'w_physical_m_', 59: 'm_physical_kg', 60: 'sigma_S', 61: 'R_zeta', 62: 'sigma_plus_Rz', 63: 'R', 64: 'rad_R', 65: 'driving_facto', 66: 'm_dot', 67: 'k', 68: 'Re', 75: 'S_i', 77: 'eta', 79: 'W_a', 80: 'U_a', 81: 'rho_a', 91: 'vertical_forc', 92: 'growth_balanc', 93: 'fall_speed_sl', 94: 'growth_mass_s', 95: 'reduced_det_p', 96: 'q_zW0_scaled', 97: 'M_log_ratio', 98: 'scaled_residu', 99: 'updraft_smoot'}
+   0   unames   = {1: 'Z_scaled_1000', 2: 'U_scaled_5ms', 3: 'W_m_s', 4: 'P_log_ratio_o'}
+   0   User-specified parameter:        'q_zW0_scaled'
+   0   Active continuation parameter:   'q_zW0_scaled'
+   0
+   0    PT  TY  LAB  q_zW0_scaled         L2-NORM          Z_scaled_1000      U_scaled_5ms          W_m_s           P_log_ratio_o     
+   1    -1   9    1  0.0000000000E+000  0.0000000000E+000  0.0000000000E+000  0.0000000000E+000  0.0000000000E+000  0.0000000000E+000

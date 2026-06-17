@@ -1,0 +1,52 @@
+
+   1     1         Eigenvalues  :   Stable:   4
+   1     1         Eigenvalue  1:  -6.48421E-01  -5.37981E+00
+   1     1         Eigenvalue  2:  -6.48421E-01   5.37981E+00
+   1     1         Eigenvalue  3:  -1.87184E+04   0.00000E+00
+   1     1         Eigenvalue  4:  -8.17105E+04   0.00000E+00
+
+  BR    PT  TY  LAB  q_zW0_scaled    L2-NORM     Z_scaled_1000 U_scaled_5ms     W_m_s      P_log_ratio_o
+   1    -1  EP    1   0.00000E+00   0.00000E+00   0.00000E+00   0.00000E+00   0.00000E+00   0.00000E+00
+===============================================
+
+  BR    PT  IT         PAR           L2-NORM
+   1     2   0        2.50000E-01   6.72650E-07
+   1     2   1        2.50000E-01   5.92675E-01
+   1     2   2       -1.95659E+00   1.23343E+00
+   1     2   3       -4.89283E-01   1.41850E+00
+   1     2   4        1.72243E+00   1.40983E+00
+   1     2   5        1.09382E+04   1.18509E+05
+         NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 5.1890E-303 in GE
+         NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 5.1890E-303 in GE
+   1     2   6                NaN           NaN
+         NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+   1     2   7                NaN           NaN
+         NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+   1     2   8                NaN           NaN
+         NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+   1     2   9                NaN           NaN
+         NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+   1     2  10                NaN           NaN
+         NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+   1     2  11                NaN           NaN
+         NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+         NOTE:Pivot   4 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+   1     2  12                NaN           NaN
+   1     1 NOTE:No convergence with fixed   step size

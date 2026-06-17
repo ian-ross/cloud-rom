@@ -1,0 +1,13 @@
+# TASK-024 full/scaled z_W0 continuation using q_z=(z_W0-9000 m)/1000 m upward.
+# Smoothed updraft: W_a=W_a0*eps*[softplus(x/eps)-softplus((x-1)/eps)], x=(z-(z_W0-Delta_z_W))/Delta_z_W, eps=50 m/Delta_z_W.
+parnames = {1:'z_W0_physical_m', 2:'W_a0', 3:'rad_mult', 4:'H_a3', 5:'eta_override', 6:'drag_mult', 7:'Delta_z_W', 39:'eta_blend', 40:'phi', 41:'c_B', 43:'include_coriolis', 44:'reynolds_length_mode', 54:'q_zW0_scaled_report', 55:'z_W0_physical_report_m', 56:'z_physical_m', 57:'u_physical_m_s', 58:'w_physical_m_s', 59:'m_physical_kg', 60:'sigma_S', 61:'R_zeta', 62:'sigma_plus_Rzeta', 63:'R', 64:'rad_R', 65:'driving_factor', 66:'m_dot', 67:'k', 68:'Re', 75:'S_i', 77:'eta', 79:'W_a', 80:'U_a', 81:'rho_a', 91:'vertical_force_residual', 92:'growth_balance_residual', 93:'fall_speed_slope_proxy', 94:'growth_mass_slope', 95:'reduced_det_proxy', 96:'q_zW0_scaled', 97:'M_log_ratio', 98:'scaled_residual_norm', 99:'updraft_smoothing_width_m'}
+unames = {1:'Z_scaled_1000m', 2:'U_scaled_5ms', 3:'W_m_s', 4:'P_log_ratio_over_10'}
+NDIM=4, IPS=1, IRS=0, ILP=1
+ICP = ['q_zW0_scaled']
+NTST=20, NCOL=4, IAD=3, ISP=0, ISW=1, IPLT=0, NBC=0, NINT=0
+NMX=700, NPR=10, MXBF=0, IID=2, ITMX=20, ITNW=12, NWTN=6, JAC=0
+EPSL=1e-08, EPSU=1e-08, EPSS=1e-06
+DS=0.25, DSMIN=1e-09, DSMAX=0.25, IADS=0
+NPAR=110, THL={}, THU={}
+UZR = {'q_zW0_scaled': [0.25, 0.5, 0.75, 1.0]}
+UZSTOP = {'q_zW0_scaled': [1.0]}

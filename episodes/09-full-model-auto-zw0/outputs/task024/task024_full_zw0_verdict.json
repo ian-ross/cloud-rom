@@ -1,0 +1,12 @@
+{
+  "task": "TASK-024",
+  "verdict": "continued numerical inconclusiveness",
+  "has_auto_supported_hopf": false,
+  "smoothing_width_m": 50.0,
+  "delta_z_W_m": 300.0,
+  "accepted_z_W0_range_m": [
+    9000.0,
+    9000.0
+  ],
+  "summary": "Full-system smoothed z_W0 AUTO did not produce a nontrivial branch over the paper-relevant range. The run starts at the TASK-011/TASK-012 seed but fails before useful upward/downward movement; Python finite-difference eigenvalue anchors are diagnostic only."
+}
