@@ -1,10 +1,11 @@
 ---
 id: TASK-024
 title: Continue full Berton z_W0 with smoothed updraft profile
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-17 11:03'
-updated_date: '2026-06-17 11:06'
+updated_date: '2026-06-17 11:58'
 labels:
   - berton
   - auto
