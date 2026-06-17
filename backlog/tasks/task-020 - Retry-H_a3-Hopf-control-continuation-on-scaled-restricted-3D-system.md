@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-15 20:17'
-updated_date: '2026-06-17 11:06'
+updated_date: '2026-06-17 11:23'
 labels:
   - berton
   - auto
@@ -24,11 +24,11 @@ In episodes/07-restricted-equilibrium-auto/, after the restricted 3D W_a0 sanity
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 H_a3 continuation uses the scaled restricted 3D AUTO formulation validated by the W_a0 sanity check, or explicitly documents why the gate was not met.
-- [ ] #2 AUTO branch results are parsed for accepted points, LP/HB/BP labels, eigenvalue diagnostics, and user-defined control anchors over a documented H_a3 range.
-- [ ] #3 Python diagnostics independently evaluate residuals and critical eigenvalues along representative accepted points or explain why this is impossible.
-- [ ] #4 Results are compared against the TASK-012 Python H_a3 probe and the failed full-4D AUTO attempts.
-- [ ] #5 A companion note states whether there is AUTO-supported evidence for a Hopf candidate, no crossing, or continued numerical inconclusiveness.
+- [x] #1 H_a3 continuation uses the scaled restricted 3D AUTO formulation validated by the W_a0 sanity check, or explicitly documents why the gate was not met.
+- [x] #2 AUTO branch results are parsed for accepted points, LP/HB/BP labels, eigenvalue diagnostics, and user-defined control anchors over a documented H_a3 range.
+- [x] #3 Python diagnostics independently evaluate residuals and critical eigenvalues along representative accepted points or explain why this is impossible.
+- [x] #4 Results are compared against the TASK-012 Python H_a3 probe and the failed full-4D AUTO attempts.
+- [x] #5 A companion note states whether there is AUTO-supported evidence for a Hopf candidate, no crossing, or continued numerical inconclusiveness.
 <!-- AC:END -->
 
 ## Implementation Plan
@@ -55,4 +55,9 @@ TASK-019 has now validated the `P=M/10` restricted W_a0 gate: upward continuatio
 
 - Started TASK-020 after TASK-019 cleared the W_a0 gate. A direct H_a3 continuation using the validated `P=M/10` mass coordinate is not sufficient by itself: the local TASK-022 tangent has very large altitude sensitivity (`dZ/dH_a3≈-279`, `dU/dH_a3≈139`, `dP/dH_a3≈0.110`), so AUTO makes large state excursions while H_a3 advances only ~1e-3 before MX/failure.
 - Removed the scratch direct-H_a3 AUTO artifacts rather than curating them as final results. Next TASK-020 step should add H_a3-specific arclength scaling, likely an active scaled control `q_H=(H_a3-0.61)/0.001` plus reconsidered state scaling for altitude/horizontal velocity, before making any Hopf verdict.
+
+- Implemented TASK-020 scaled H_a3 AUTO variants under episodes/07-restricted-equilibrium-auto/auto/: the trusted TASK-019-state-scale q_H continuation and an exploratory larger-state-scale retry.
+- Ran both AUTO scripts and curated outputs with berton_restricted_task020_ha3_scaled.py into outputs/task020/.
+- Downward q_H run accepted a nontrivial restricted branch and detected an LP near H_a3=0.5971; upward run stopped near H_a3=0.611 with DGEBAL/floating-point diagnostics; no HB label was accepted.
+- Added independent Python residual/eigenvalue diagnostics, TASK-012/TASK-015 comparisons, conservative verdict note, and regression tests.
 <!-- SECTION:NOTES:END -->
