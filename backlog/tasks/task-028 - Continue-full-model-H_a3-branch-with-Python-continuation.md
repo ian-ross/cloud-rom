@@ -1,10 +1,11 @@
 ---
 id: TASK-028
 title: Continue full-model H_a3 branch with Python continuation
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-17 16:39'
-updated_date: '2026-06-17 16:39'
+updated_date: '2026-06-17 17:05'
 labels:
   - berton
   - continuation
