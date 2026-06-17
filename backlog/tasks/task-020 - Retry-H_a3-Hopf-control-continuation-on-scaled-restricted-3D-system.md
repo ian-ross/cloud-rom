@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-15 20:17'
-updated_date: '2026-06-17 07:50'
+updated_date: '2026-06-17 11:06'
 labels:
   - berton
   - auto
@@ -34,15 +34,16 @@ In episodes/07-restricted-equilibrium-auto/, after the restricted 3D W_a0 sanity
 ## Implementation Plan
 
 <!-- SECTION:PLAN:BEGIN -->
-1. Read TASK-018, TASK-019, TASK-021, and TASK-022 outputs first; proceed only if TASK-019 validates the `P=M/10` restricted W_a0 gate over the expected W_a0 range.
-2. Clone or parameterize the validated TASK-019 restricted AUTO setup for `H_a3`, preserving `Z=(z-z_seed)/100 m`, `U=(u-u_seed)/(1 m/s)`, `P=M/10`, row-scaled residuals, physical inverse conversions, and parser/test conventions.
-3. Choose bidirectional H_a3 ranges and UZR anchors from the TASK-012 Python probe, including the canonical value 0.61 and the predicted critical-real-part crossing region.
-4. Run AUTO H_a3 continuation with documented constants and preserve raw `b/s/d` outputs under the episode-07 AUTO/output structure; do not use the older un-fixed `M` arclength coordinate for verdicts.
-5. Parse accepted branch points, labels, stability index/eigenvalues, physical state movement, `P` and reconstructed `M`, and convergence failures; generate branch and critical-eigenvalue tables/plots where possible.
-6. Independently evaluate Python restricted residuals and full physical finite-difference eigenvalues at representative accepted or labeled points.
-7. Compare results against the TASK-012 H_a3 Python probe, the failed full-4D TASK-012/TASK-015 attempts, and the restricted W_a0 gate behavior from TASK-019.
-8. Write a companion verdict note: AUTO-supported Hopf candidate, no crossing, numerical hint only, or still inconclusive; include residual risks and recommended next step.
-9. Add tests that verify H_a3 artifacts, `P<->M` conversion, comparison tables, independent eigenvalue checks or justified absence, and conservative verdict language.
+1. Start from the TASK-019 validated restricted formulation: `Z=(z-z_seed)/100`, `U=(u-u_seed)/(1 m/s)`, `P=M/10`, row-scaled residuals, physical inverse `m=m_seed*exp(10P)`, and parsers/tests that reconstruct physical `M` and `m`.
+2. Before running production AUTO, compute the local H_a3 implicit tangent from TASK-022-style Python finite differences in the TASK-019 coordinates; use it to choose H_a3-specific arclength scaling rather than raw `H_a3`.
+3. Introduce a scaled active H_a3 control if needed, e.g. `q_H=(H_a3-0.61)/h_scale`, with `h_scale` chosen so one unit of q_H gives order-one state motion; document the mapping and report physical H_a3 in all outputs.
+4. If raw H_a3 still causes huge Z/U excursions, add a second controlled variant with adjusted state scales for the H_a3 branch, but keep the physical residual and `P=M/10` mass scaling unchanged.
+5. Run bidirectional H_a3 continuation over the TASK-012 probe range that brackets the predicted stability crossing near H_a3≈0.62, preserving raw `b/s/d` outputs under distinct TASK-020 names.
+6. Parse accepted branch points, user anchors, LP/HB/BP labels, stability index/eigenvalues where available, physical z/u/m, `P` and reconstructed `M`, and convergence notes into `outputs/task020/`.
+7. Independently evaluate Python restricted residuals and full physical finite-difference eigenvalues at representative accepted points and around any suspected stability crossing.
+8. Compare results against the TASK-012 H_a3 Python probe, the failed full-4D TASK-012/TASK-015 attempts, and the successful TASK-019 W_a0 gate.
+9. Write a companion verdict note: AUTO-supported Hopf candidate, no crossing, numerical hint only, or still inconclusive; explicitly state whether H_a3 scaling is now good enough to inform TASK-016.
+10. Add tests for H_a3 artifacts, scaled-control mapping, `P<->M` conversion, range/anchor coverage or documented failure, independent eigenvalue checks, and conservative verdict language.
 <!-- SECTION:PLAN:END -->
 
 ## Implementation Notes
