@@ -1,0 +1,19 @@
+{
+  "active_control_mapping": "q_H=(H_a3-0.61)/0.001",
+  "auto_hb_labels": 0,
+  "auto_lp_labels": 1,
+  "auto_supported_hopf_candidate": false,
+  "h_scale": 0.001,
+  "lp_H_a3": 0.597112920927,
+  "q_minus_min_H_a3": 0.597112920927,
+  "q_plus_max_H_a3": 0.61098917281039,
+  "tangent_rows": 3,
+  "task012_comparison": "Python H_a3 critical-real sign change near 0.62 remains a hint only; direct full-4D AUTO accepted seed only.",
+  "task012_summary_accepted_Ha3_points": 1,
+  "task015_comparison": "log-mass full-4D reformulation did not solve first-step continuation fragility.",
+  "task015_wA0_plus_points": 1,
+  "task019_gate_passes_for_task020": true,
+  "task022_tangent_source": "outputs/task022/seed_implicit_tangent.csv",
+  "uses_task019_scaled_restricted_3d_gate": true,
+  "verdict": "continued numerical inconclusiveness for Hopf; AUTO supports a restricted H_a3 fold/turning limitation, not an HB"
+}

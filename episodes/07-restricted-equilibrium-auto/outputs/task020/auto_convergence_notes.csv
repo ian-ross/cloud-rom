@@ -1,0 +1,1153 @@
+run,line,message
+q-plus,38,1     1         Iterations   :   2
+q-plus,57,1     2         Iterations   :   2
+q-plus,76,1     3         Iterations   :   2
+q-plus,95,1     4         Iterations   :   2
+q-plus,114,1     5         Iterations   :   2
+q-plus,133,1     6         Iterations   :   2
+q-plus,153,1     7         Iterations   :   3
+q-plus,173,1     8         Iterations   :   3
+q-plus,193,1     9         Iterations   :   3
+q-plus,205,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 8.8293E-303 in GE
+q-plus,206,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 8.8293E-303 in GE
+q-plus,207,1    11   7                NaN           NaN
+q-plus,208,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,209,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,210,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,211,1    11   8                NaN           NaN
+q-plus,212,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,213,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,214,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,215,1    11   9                NaN           NaN
+q-plus,216,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,217,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,218,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,219,1    11  10                NaN           NaN
+q-plus,220,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,221,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,222,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,223,1    11  11                NaN           NaN
+q-plus,224,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,225,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,226,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,227,1    11  12                NaN           NaN
+q-plus,229,1    10         Iterations   :  12
+q-plus,231,1    10 NOTE:Retrying step
+q-plus,249,1    10         Iterations   :  12
+q-plus,251,1    10 NOTE:Retrying step
+q-plus,269,1    10         Iterations   :  12
+q-plus,271,1    10 NOTE:Retrying step
+q-plus,280,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 7.4757E-302 in GE
+q-plus,281,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 7.4757E-302 in GE
+q-plus,282,1    11   5                NaN           NaN
+q-plus,283,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,284,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,285,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,286,1    11   6                NaN           NaN
+q-plus,287,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,288,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,289,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,290,1    11   7                NaN           NaN
+q-plus,291,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,292,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,293,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,294,1    11   8                NaN           NaN
+q-plus,295,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,296,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,297,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,298,1    11   9                NaN           NaN
+q-plus,299,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,300,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,301,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,302,1    11  10                NaN           NaN
+q-plus,303,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,304,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,305,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,306,1    11  11                NaN           NaN
+q-plus,307,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,308,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,309,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,310,1    11  12                NaN           NaN
+q-plus,312,1    10         Iterations   :  12
+q-plus,314,1    10 NOTE:Retrying step
+q-plus,323,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.5674E-301 in GE
+q-plus,324,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.5674E-301 in GE
+q-plus,325,1    11   5                NaN           NaN
+q-plus,326,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,327,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,328,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,329,1    11   6                NaN           NaN
+q-plus,330,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,331,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,332,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,333,1    11   7                NaN           NaN
+q-plus,334,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,335,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,336,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,337,1    11   8                NaN           NaN
+q-plus,338,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,339,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,340,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,341,1    11   9                NaN           NaN
+q-plus,342,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,343,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,344,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,345,1    11  10                NaN           NaN
+q-plus,346,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,347,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,348,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,349,1    11  11                NaN           NaN
+q-plus,350,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,351,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,352,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,353,1    11  12                NaN           NaN
+q-plus,355,1    10         Iterations   :  12
+q-plus,357,1    10 NOTE:Retrying step
+q-plus,375,1    10         Iterations   :  12
+q-plus,377,1    10 NOTE:Retrying step
+q-plus,387,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 5.0695E-301 in GE
+q-plus,388,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 5.0695E-301 in GE
+q-plus,389,1    11   6                NaN           NaN
+q-plus,390,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,391,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,392,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,393,1    11   7                NaN           NaN
+q-plus,394,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,395,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,396,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,397,1    11   8                NaN           NaN
+q-plus,398,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,399,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,400,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,401,1    11   9                NaN           NaN
+q-plus,402,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,403,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,404,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,405,1    11  10                NaN           NaN
+q-plus,406,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,407,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,408,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,409,1    11  11                NaN           NaN
+q-plus,410,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,411,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,412,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,413,1    11  12                NaN           NaN
+q-plus,415,1    10         Iterations   :  12
+q-plus,417,1    10 NOTE:Retrying step
+q-plus,427,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 9.7114E-301 in GE
+q-plus,428,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 9.7114E-301 in GE
+q-plus,429,1    11   6                NaN           NaN
+q-plus,430,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,431,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,432,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,433,1    11   7                NaN           NaN
+q-plus,434,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,435,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,436,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,437,1    11   8                NaN           NaN
+q-plus,438,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,439,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,440,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,441,1    11   9                NaN           NaN
+q-plus,442,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,443,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,444,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,445,1    11  10                NaN           NaN
+q-plus,446,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,447,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,448,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,449,1    11  11                NaN           NaN
+q-plus,450,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,451,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,452,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,453,1    11  12                NaN           NaN
+q-plus,455,1    10         Iterations   :  12
+q-plus,457,1    10 NOTE:Retrying step
+q-plus,467,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.9097E-300 in GE
+q-plus,468,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.9097E-300 in GE
+q-plus,469,1    11   6                NaN           NaN
+q-plus,470,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,471,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,472,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,473,1    11   7                NaN           NaN
+q-plus,474,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,475,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,476,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,477,1    11   8                NaN           NaN
+q-plus,478,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,479,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,480,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,481,1    11   9                NaN           NaN
+q-plus,482,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,483,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,484,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,485,1    11  10                NaN           NaN
+q-plus,486,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,487,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,488,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,489,1    11  11                NaN           NaN
+q-plus,490,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,491,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,492,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,493,1    11  12                NaN           NaN
+q-plus,495,1    10         Iterations   :  12
+q-plus,497,1    10 NOTE:Retrying step
+q-plus,507,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 4.8098E-300 in GE
+q-plus,508,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 4.8098E-300 in GE
+q-plus,509,1    11   6                NaN           NaN
+q-plus,510,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,511,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,512,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,513,1    11   7                NaN           NaN
+q-plus,514,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,515,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,516,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,517,1    11   8                NaN           NaN
+q-plus,518,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,519,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,520,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,521,1    11   9                NaN           NaN
+q-plus,522,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,523,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,524,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,525,1    11  10                NaN           NaN
+q-plus,526,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,527,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,528,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,529,1    11  11                NaN           NaN
+q-plus,530,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,531,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,532,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,533,1    11  12                NaN           NaN
+q-plus,535,1    10         Iterations   :  12
+q-plus,537,1    10 NOTE:Retrying step
+q-plus,547,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 9.7495E-300 in GE
+q-plus,548,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 9.7495E-300 in GE
+q-plus,549,1    11   6                NaN           NaN
+q-plus,550,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,551,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,552,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,553,1    11   7                NaN           NaN
+q-plus,554,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,555,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,556,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,557,1    11   8                NaN           NaN
+q-plus,558,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,559,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,560,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,561,1    11   9                NaN           NaN
+q-plus,562,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,563,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,564,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,565,1    11  10                NaN           NaN
+q-plus,566,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,567,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,568,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,569,1    11  11                NaN           NaN
+q-plus,570,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,571,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,572,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,573,1    11  12                NaN           NaN
+q-plus,575,1    10         Iterations   :  12
+q-plus,577,1    10 NOTE:Retrying step
+q-plus,587,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.8980E-299 in GE
+q-plus,588,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.8980E-299 in GE
+q-plus,589,1    11   6                NaN           NaN
+q-plus,590,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,591,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,592,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,593,1    11   7                NaN           NaN
+q-plus,594,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,595,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,596,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,597,1    11   8                NaN           NaN
+q-plus,598,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,599,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,600,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,601,1    11   9                NaN           NaN
+q-plus,602,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,603,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,604,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,605,1    11  10                NaN           NaN
+q-plus,606,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,607,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,608,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,609,1    11  11                NaN           NaN
+q-plus,610,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,611,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,612,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,613,1    11  12                NaN           NaN
+q-plus,615,1    10         Iterations   :  12
+q-plus,617,1    10 NOTE:Retrying step
+q-plus,627,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.8715E-299 in GE
+q-plus,628,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.8715E-299 in GE
+q-plus,629,1    11   6                NaN           NaN
+q-plus,630,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,631,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,632,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,633,1    11   7                NaN           NaN
+q-plus,634,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,635,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,636,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,637,1    11   8                NaN           NaN
+q-plus,638,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,639,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,640,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,641,1    11   9                NaN           NaN
+q-plus,642,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,643,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,644,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,645,1    11  10                NaN           NaN
+q-plus,646,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,647,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,648,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,649,1    11  11                NaN           NaN
+q-plus,650,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,651,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,652,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,653,1    11  12                NaN           NaN
+q-plus,655,1    10         Iterations   :  12
+q-plus,657,1    10 NOTE:Retrying step
+q-plus,667,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 7.7147E-299 in GE
+q-plus,668,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 7.7147E-299 in GE
+q-plus,669,1    11   6                NaN           NaN
+q-plus,670,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,671,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,672,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,673,1    11   7                NaN           NaN
+q-plus,674,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,675,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,676,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,677,1    11   8                NaN           NaN
+q-plus,678,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,679,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,680,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,681,1    11   9                NaN           NaN
+q-plus,682,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,683,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,684,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,685,1    11  10                NaN           NaN
+q-plus,686,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,687,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,688,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,689,1    11  11                NaN           NaN
+q-plus,690,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,691,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,692,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,693,1    11  12                NaN           NaN
+q-plus,695,1    10         Iterations   :  12
+q-plus,697,1    10 NOTE:Retrying step
+q-plus,707,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.5112E-298 in GE
+q-plus,708,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.5112E-298 in GE
+q-plus,709,1    11   6                NaN           NaN
+q-plus,710,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,711,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,712,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,713,1    11   7                NaN           NaN
+q-plus,714,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,715,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,716,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,717,1    11   8                NaN           NaN
+q-plus,718,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,719,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,720,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,721,1    11   9                NaN           NaN
+q-plus,722,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,723,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,724,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,725,1    11  10                NaN           NaN
+q-plus,726,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,727,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,728,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,729,1    11  11                NaN           NaN
+q-plus,730,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,731,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,732,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,733,1    11  12                NaN           NaN
+q-plus,735,1    10         Iterations   :  12
+q-plus,737,1    10 NOTE:Retrying step
+q-plus,747,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.0854E-298 in GE
+q-plus,748,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.0854E-298 in GE
+q-plus,749,1    11   6                NaN           NaN
+q-plus,750,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,751,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,752,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,753,1    11   7                NaN           NaN
+q-plus,754,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,755,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,756,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,757,1    11   8                NaN           NaN
+q-plus,758,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,759,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,760,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,761,1    11   9                NaN           NaN
+q-plus,762,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,763,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,764,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,765,1    11  10                NaN           NaN
+q-plus,766,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,767,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,768,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,769,1    11  11                NaN           NaN
+q-plus,770,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,771,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,772,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,773,1    11  12                NaN           NaN
+q-plus,775,1    10         Iterations   :  12
+q-plus,777,1    10 NOTE:Retrying step
+q-plus,787,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 6.1847E-298 in GE
+q-plus,788,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 6.1847E-298 in GE
+q-plus,789,1    11   6                NaN           NaN
+q-plus,790,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,791,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,792,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,793,1    11   7                NaN           NaN
+q-plus,794,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,795,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,796,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,797,1    11   8                NaN           NaN
+q-plus,798,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,799,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,800,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,801,1    11   9                NaN           NaN
+q-plus,802,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,803,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,804,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,805,1    11  10                NaN           NaN
+q-plus,806,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,807,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,808,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,809,1    11  11                NaN           NaN
+q-plus,810,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,811,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,812,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,813,1    11  12                NaN           NaN
+q-plus,815,1    10         Iterations   :  12
+q-plus,817,1    10 NOTE:Retrying step
+q-plus,827,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.2050E-297 in GE
+q-plus,828,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.2050E-297 in GE
+q-plus,829,1    11   6                NaN           NaN
+q-plus,830,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,831,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,832,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,833,1    11   7                NaN           NaN
+q-plus,834,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,835,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,836,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,837,1    11   8                NaN           NaN
+q-plus,838,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,839,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,840,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,841,1    11   9                NaN           NaN
+q-plus,842,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,843,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,844,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,845,1    11  10                NaN           NaN
+q-plus,846,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,847,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,848,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,849,1    11  11                NaN           NaN
+q-plus,850,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,851,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,852,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,853,1    11  12                NaN           NaN
+q-plus,855,1    10         Iterations   :  12
+q-plus,857,1    10 NOTE:Retrying step
+q-plus,867,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.4654E-297 in GE
+q-plus,868,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.4654E-297 in GE
+q-plus,869,1    11   6                NaN           NaN
+q-plus,870,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,871,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,872,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,873,1    11   7                NaN           NaN
+q-plus,874,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,875,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,876,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,877,1    11   8                NaN           NaN
+q-plus,878,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,879,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,880,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,881,1    11   9                NaN           NaN
+q-plus,882,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,883,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,884,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,885,1    11  10                NaN           NaN
+q-plus,886,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,887,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,888,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,889,1    11  11                NaN           NaN
+q-plus,890,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,891,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,892,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,893,1    11  12                NaN           NaN
+q-plus,895,1    10         Iterations   :  12
+q-plus,897,1    10 NOTE:Retrying step
+q-plus,907,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 4.9352E-297 in GE
+q-plus,908,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 4.9352E-297 in GE
+q-plus,909,1    11   6                NaN           NaN
+q-plus,910,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,911,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,912,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,913,1    11   7                NaN           NaN
+q-plus,914,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,915,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,916,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,917,1    11   8                NaN           NaN
+q-plus,918,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,919,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,920,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,921,1    11   9                NaN           NaN
+q-plus,922,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,923,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,924,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,925,1    11  10                NaN           NaN
+q-plus,926,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,927,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,928,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,929,1    11  11                NaN           NaN
+q-plus,930,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,931,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,932,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,933,1    11  12                NaN           NaN
+q-plus,935,1    10         Iterations   :  12
+q-plus,937,1    10 NOTE:Retrying step
+q-plus,947,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 9.8692E-297 in GE
+q-plus,948,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 9.8692E-297 in GE
+q-plus,949,1    11   6                NaN           NaN
+q-plus,950,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,951,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,952,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,953,1    11   7                NaN           NaN
+q-plus,954,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,955,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,956,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,957,1    11   8                NaN           NaN
+q-plus,958,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,959,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,960,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,961,1    11   9                NaN           NaN
+q-plus,962,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,963,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,964,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,965,1    11  10                NaN           NaN
+q-plus,966,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,967,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,968,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,969,1    11  11                NaN           NaN
+q-plus,970,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,971,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,972,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,973,1    11  12                NaN           NaN
+q-plus,975,1    10         Iterations   :  12
+q-plus,977,1    10 NOTE:Retrying step
+q-plus,987,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.9328E-296 in GE
+q-plus,988,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.9328E-296 in GE
+q-plus,989,1    11   6                NaN           NaN
+q-plus,990,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,991,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,992,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,993,1    11   7                NaN           NaN
+q-plus,994,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,995,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,996,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,997,1    11   8                NaN           NaN
+q-plus,998,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,999,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1000,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1001,1    11   9                NaN           NaN
+q-plus,1002,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1003,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1004,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1005,1    11  10                NaN           NaN
+q-plus,1006,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1007,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1008,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1009,1    11  11                NaN           NaN
+q-plus,1010,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1011,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1012,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1013,1    11  12                NaN           NaN
+q-plus,1015,1    10         Iterations   :  12
+q-plus,1017,1    10 NOTE:Retrying step
+q-plus,1027,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.9545E-296 in GE
+q-plus,1028,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.9545E-296 in GE
+q-plus,1029,1    11   6                NaN           NaN
+q-plus,1030,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1031,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1032,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1033,1    11   7                NaN           NaN
+q-plus,1034,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1035,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1036,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1037,1    11   8                NaN           NaN
+q-plus,1038,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1039,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1040,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1041,1    11   9                NaN           NaN
+q-plus,1042,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1043,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1044,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1045,1    11  10                NaN           NaN
+q-plus,1046,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1047,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1048,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1049,1    11  11                NaN           NaN
+q-plus,1050,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1051,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1052,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1053,1    11  12                NaN           NaN
+q-plus,1055,1    10         Iterations   :  12
+q-plus,1057,1    10 NOTE:Retrying step
+q-plus,1067,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 7.8962E-296 in GE
+q-plus,1068,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 7.8962E-296 in GE
+q-plus,1069,1    11   6                NaN           NaN
+q-plus,1070,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1071,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1072,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1073,1    11   7                NaN           NaN
+q-plus,1074,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1075,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1076,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1077,1    11   8                NaN           NaN
+q-plus,1078,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1079,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1080,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1081,1    11   9                NaN           NaN
+q-plus,1082,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1083,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1084,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1085,1    11  10                NaN           NaN
+q-plus,1086,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1087,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1088,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1089,1    11  11                NaN           NaN
+q-plus,1090,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1091,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1092,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1093,1    11  12                NaN           NaN
+q-plus,1095,1    10         Iterations   :  12
+q-plus,1097,1    10 NOTE:Retrying step
+q-plus,1107,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.5795E-295 in GE
+q-plus,1108,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.5795E-295 in GE
+q-plus,1109,1    11   6                NaN           NaN
+q-plus,1110,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1111,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1112,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1113,1    11   7                NaN           NaN
+q-plus,1114,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1115,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1116,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1117,1    11   8                NaN           NaN
+q-plus,1118,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1119,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1120,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1121,1    11   9                NaN           NaN
+q-plus,1122,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1123,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1124,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1125,1    11  10                NaN           NaN
+q-plus,1126,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1127,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1128,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1129,1    11  11                NaN           NaN
+q-plus,1130,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1131,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1132,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+q-plus,1133,1    11  12                NaN           NaN
+q-plus,1135,1    10         Iterations   :  12
+q-plus,1137,1    10 NOTE:No convergence with minimum step size
+q-minus,43,1     1         Iterations   :   3
+q-minus,65,1     2         Iterations   :   3
+q-minus,87,1     3         Iterations   :   3
+q-minus,109,1     4         Iterations   :   3
+q-minus,131,1     5         Iterations   :   3
+q-minus,153,1     6         Iterations   :   3
+q-minus,175,1     7         Iterations   :   3
+q-minus,197,1     8         Iterations   :   3
+q-minus,219,1     9         Iterations   :   3
+q-minus,241,1    10         Iterations   :   3
+q-minus,263,1    11         Iterations   :   3
+q-minus,285,1    12         Iterations   :   3
+q-minus,307,1    13         Iterations   :   3
+q-minus,329,1    14         Iterations   :   3
+q-minus,351,1    15         Iterations   :   3
+q-minus,373,1    16         Iterations   :   3
+q-minus,395,1    17         Iterations   :   3
+q-minus,417,1    18         Iterations   :   3
+q-minus,439,1    19         Iterations   :   3
+q-minus,509,1    21         Iterations   :   3
+q-minus,531,1    22         Iterations   :   3
+q-minus,550,1    23         Iterations   :  12
+q-minus,552,1    23 NOTE:Retrying step
+q-minus,570,1    23         Iterations   :  12
+q-minus,572,1    23 NOTE:Retrying step
+q-minus,593,1    23         Iterations   :   3
+q-minus,612,1    24         Iterations   :  12
+q-minus,614,1    24 NOTE:Retrying step
+q-minus,632,1    24         Iterations   :  12
+q-minus,634,1    24 NOTE:Retrying step
+q-minus,654,1    24         Iterations   :   2
+q-minus,673,1    25         Iterations   :  12
+q-minus,675,1    25 NOTE:Retrying step
+q-minus,693,1    25         Iterations   :  12
+q-minus,695,1    25 NOTE:Retrying step
+q-minus,713,1    25         Iterations   :  12
+q-minus,715,1    25 NOTE:Retrying step
+q-minus,733,1    25         Iterations   :  12
+q-minus,735,1    25 NOTE:Retrying step
+q-minus,755,1    25         Iterations   :   2
+q-minus,774,1    26         Iterations   :  12
+q-minus,776,1    26 NOTE:Retrying step
+q-minus,794,1    26         Iterations   :  12
+q-minus,796,1    26 NOTE:Retrying step
+q-minus,816,1    26         Iterations   :   2
+q-minus,835,1    27         Iterations   :  12
+q-minus,837,1    27 NOTE:Retrying step
+q-minus,856,1    27         Iterations   :   1
+q-minus,875,1    28         Iterations   :  12
+q-minus,877,1    28 NOTE:Retrying step
+q-minus,895,1    28         Iterations   :  12
+q-minus,897,1    28 NOTE:Retrying step
+q-minus,915,1    28         Iterations   :  12
+q-minus,917,1    28 NOTE:Retrying step
+q-minus,935,1    28         Iterations   :  12
+q-minus,937,1    28 NOTE:Retrying step
+q-minus,955,1    28         Iterations   :  12
+q-minus,957,1    28 NOTE:Retrying step
+q-minus,976,1    28         Iterations   :   1
+q-minus,995,1    29         Iterations   :  12
+q-minus,997,1    29 NOTE:Retrying step
+q-minus,1015,1    29         Iterations   :  12
+q-minus,1017,1    29 NOTE:Retrying step
+q-minus,1035,1    29         Iterations   :  12
+q-minus,1037,1    29 NOTE:Retrying step
+q-minus,1056,1    29         Iterations   :   1
+q-minus,1075,1    30         Iterations   :  12
+q-minus,1077,1    30 NOTE:Retrying step
+q-minus,1095,1    30         Iterations   :  12
+q-minus,1097,1    30 NOTE:Retrying step
+q-minus,1116,1    30         Iterations   :   1
+q-minus,1135,1    31         Iterations   :  12
+q-minus,1137,1    31 NOTE:Retrying step
+q-minus,1155,1    31         Iterations   :  12
+q-minus,1157,1    31 NOTE:Retrying step
+q-minus,1175,1    31         Iterations   :  12
+q-minus,1177,1    31 NOTE:Retrying step
+q-minus,1196,1    31         Iterations   :   1
+q-minus,1215,1    32         Iterations   :  12
+q-minus,1217,1    32 NOTE:Retrying step
+q-minus,1235,1    32         Iterations   :  12
+q-minus,1237,1    32 NOTE:Retrying step
+q-minus,1255,1    32         Iterations   :  12
+q-minus,1257,1    32 NOTE:Retrying step
+q-minus,1293,1    33         Iterations   :  12
+q-minus,1295,1    33 NOTE:No convergence with minimum step size
+q-minus,1306,1   -34  MX    7  -1.28871E+01   4.27058E+00   3.81972E+00  -1.90986E+00  -1.49142E-03
+q-minus,1308,1    33         Iterations   :   0
+hscaled-plus,26,1     1         Iterations   :  12
+hscaled-plus,28,1     1 NOTE:Retrying step
+hscaled-plus,46,1     1         Iterations   :  12
+hscaled-plus,48,1     1 NOTE:Retrying step
+hscaled-plus,66,1     1         Iterations   :  12
+hscaled-plus,68,1     1 NOTE:Retrying step
+hscaled-plus,77,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.0563E-301 in GE
+hscaled-plus,78,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.0563E-301 in GE
+hscaled-plus,79,1     2   5                NaN           NaN
+hscaled-plus,80,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,81,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,82,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,83,1     2   6                NaN           NaN
+hscaled-plus,84,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,85,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,86,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,87,1     2   7                NaN           NaN
+hscaled-plus,88,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,89,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,90,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,91,1     2   8                NaN           NaN
+hscaled-plus,92,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,93,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,94,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,95,1     2   9                NaN           NaN
+hscaled-plus,96,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,97,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,98,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,99,1     2  10                NaN           NaN
+hscaled-plus,100,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,101,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,102,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,103,1     2  11                NaN           NaN
+hscaled-plus,104,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,105,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,106,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,107,1     2  12                NaN           NaN
+hscaled-plus,109,1     1         Iterations   :  12
+hscaled-plus,111,1     1 NOTE:Retrying step
+hscaled-plus,121,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.2657E-301 in GE
+hscaled-plus,122,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.2657E-301 in GE
+hscaled-plus,123,1     2   6                NaN           NaN
+hscaled-plus,124,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,125,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,126,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,127,1     2   7                NaN           NaN
+hscaled-plus,128,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,129,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,130,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,131,1     2   8                NaN           NaN
+hscaled-plus,132,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,133,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,134,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,135,1     2   9                NaN           NaN
+hscaled-plus,136,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,137,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,138,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,139,1     2  10                NaN           NaN
+hscaled-plus,140,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,141,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,142,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,143,1     2  11                NaN           NaN
+hscaled-plus,144,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,145,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,146,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,147,1     2  12                NaN           NaN
+hscaled-plus,149,1     1         Iterations   :  12
+hscaled-plus,151,1     1 NOTE:Retrying step
+hscaled-plus,161,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.9233E-301 in GE
+hscaled-plus,162,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.9233E-301 in GE
+hscaled-plus,163,1     2   6                NaN           NaN
+hscaled-plus,164,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,165,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,166,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,167,1     2   7                NaN           NaN
+hscaled-plus,168,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,169,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,170,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,171,1     2   8                NaN           NaN
+hscaled-plus,172,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,173,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,174,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,175,1     2   9                NaN           NaN
+hscaled-plus,176,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,177,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,178,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,179,1     2  10                NaN           NaN
+hscaled-plus,180,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,181,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,182,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,183,1     2  11                NaN           NaN
+hscaled-plus,184,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,185,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,186,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-plus,187,1     2  12                NaN           NaN
+hscaled-plus,189,1     1         Iterations   :  12
+hscaled-plus,191,1     1 NOTE:Retrying step
+hscaled-plus,209,1     1         Iterations   :  12
+hscaled-plus,211,1     1 NOTE:Retrying step
+hscaled-plus,229,1     1         Iterations   :  12
+hscaled-plus,231,1     1 NOTE:Retrying step
+hscaled-plus,249,1     1         Iterations   :  12
+hscaled-plus,251,1     1 NOTE:Retrying step
+hscaled-plus,269,1     1         Iterations   :  12
+hscaled-plus,271,1     1 NOTE:Retrying step
+hscaled-plus,289,1     1         Iterations   :  12
+hscaled-plus,291,1     1 NOTE:Retrying step
+hscaled-plus,309,1     1         Iterations   :  12
+hscaled-plus,311,1     1 NOTE:Retrying step
+hscaled-plus,329,1     1         Iterations   :  12
+hscaled-plus,331,1     1 NOTE:Retrying step
+hscaled-plus,349,1     1         Iterations   :  12
+hscaled-plus,351,1     1 NOTE:Retrying step
+hscaled-plus,369,1     1         Iterations   :  12
+hscaled-plus,371,1     1 NOTE:Retrying step
+hscaled-plus,389,1     1         Iterations   :  12
+hscaled-plus,391,1     1 NOTE:Retrying step
+hscaled-plus,409,1     1         Iterations   :  12
+hscaled-plus,411,1     1 NOTE:Retrying step
+hscaled-plus,429,1     1         Iterations   :  12
+hscaled-plus,431,1     1 NOTE:Retrying step
+hscaled-plus,449,1     1         Iterations   :  12
+hscaled-plus,451,1     1 NOTE:Retrying step
+hscaled-plus,469,1     1         Iterations   :  12
+hscaled-plus,471,1     1 NOTE:Retrying step
+hscaled-plus,489,1     1         Iterations   :  12
+hscaled-plus,491,1     1 NOTE:No convergence with minimum step size
+hscaled-plus,499,1    -2  MX    2   0.00000E+00   0.00000E+00   0.00000E+00   0.00000E+00   0.00000E+00
+hscaled-minus,17,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.1802E-302 in GE
+hscaled-minus,18,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.1802E-302 in GE
+hscaled-minus,19,1     2   4                NaN           NaN
+hscaled-minus,20,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,21,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,22,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,23,1     2   5                NaN           NaN
+hscaled-minus,24,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,25,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,26,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,27,1     2   6                NaN           NaN
+hscaled-minus,28,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,29,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,30,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,31,1     2   7                NaN           NaN
+hscaled-minus,32,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,33,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,34,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,35,1     2   8                NaN           NaN
+hscaled-minus,36,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,37,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,38,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,39,1     2   9                NaN           NaN
+hscaled-minus,40,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,41,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,42,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,43,1     2  10                NaN           NaN
+hscaled-minus,44,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,45,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,46,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,47,1     2  11                NaN           NaN
+hscaled-minus,48,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,49,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,50,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,51,1     2  12                NaN           NaN
+hscaled-minus,53,1     1         Iterations   :  12
+hscaled-minus,55,1     1 NOTE:Retrying step
+hscaled-minus,63,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.1829E-302 in GE
+hscaled-minus,64,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 3.1829E-302 in GE
+hscaled-minus,65,1     2   4                NaN           NaN
+hscaled-minus,66,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,67,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,68,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,69,1     2   5                NaN           NaN
+hscaled-minus,70,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,71,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,72,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,73,1     2   6                NaN           NaN
+hscaled-minus,74,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,75,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,76,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,77,1     2   7                NaN           NaN
+hscaled-minus,78,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,79,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,80,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,81,1     2   8                NaN           NaN
+hscaled-minus,82,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,83,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,84,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,85,1     2   9                NaN           NaN
+hscaled-minus,86,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,87,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,88,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,89,1     2  10                NaN           NaN
+hscaled-minus,90,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,91,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,92,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,93,1     2  11                NaN           NaN
+hscaled-minus,94,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,95,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,96,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,97,1     2  12                NaN           NaN
+hscaled-minus,99,1     1         Iterations   :  12
+hscaled-minus,101,1     1 NOTE:Retrying step
+hscaled-minus,109,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 4.0534E-302 in GE
+hscaled-minus,110,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 4.0534E-302 in GE
+hscaled-minus,111,1     2   4                NaN           NaN
+hscaled-minus,112,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,113,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,114,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,115,1     2   5                NaN           NaN
+hscaled-minus,116,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,117,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,118,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,119,1     2   6                NaN           NaN
+hscaled-minus,120,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,121,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,122,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,123,1     2   7                NaN           NaN
+hscaled-minus,124,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,125,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,126,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,127,1     2   8                NaN           NaN
+hscaled-minus,128,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,129,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,130,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,131,1     2   9                NaN           NaN
+hscaled-minus,132,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,133,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,134,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,135,1     2  10                NaN           NaN
+hscaled-minus,136,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,137,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,138,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,139,1     2  11                NaN           NaN
+hscaled-minus,140,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,141,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,142,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,143,1     2  12                NaN           NaN
+hscaled-minus,145,1     1         Iterations   :  12
+hscaled-minus,147,1     1 NOTE:Retrying step
+hscaled-minus,154,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.9030E-300 in GE
+hscaled-minus,155,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.9030E-300 in GE
+hscaled-minus,156,1     2   3                NaN           NaN
+hscaled-minus,157,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,158,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,159,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,160,1     2   4                NaN           NaN
+hscaled-minus,161,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,162,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,163,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,164,1     2   5                NaN           NaN
+hscaled-minus,165,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,166,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,167,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,168,1     2   6                NaN           NaN
+hscaled-minus,169,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,170,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,171,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,172,1     2   7                NaN           NaN
+hscaled-minus,173,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,174,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,175,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,176,1     2   8                NaN           NaN
+hscaled-minus,177,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,178,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,179,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,180,1     2   9                NaN           NaN
+hscaled-minus,181,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,182,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,183,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,184,1     2  10                NaN           NaN
+hscaled-minus,185,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,186,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,187,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,188,1     2  11                NaN           NaN
+hscaled-minus,189,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,190,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,191,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,192,1     2  12                NaN           NaN
+hscaled-minus,194,1     1         Iterations   :  12
+hscaled-minus,196,1     1 NOTE:Retrying step
+hscaled-minus,214,1     1         Iterations   :  12
+hscaled-minus,216,1     1 NOTE:Retrying step
+hscaled-minus,234,1     1         Iterations   :  12
+hscaled-minus,236,1     1 NOTE:Retrying step
+hscaled-minus,254,1     1         Iterations   :  12
+hscaled-minus,256,1     1 NOTE:Retrying step
+hscaled-minus,267,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 9.9983E-301 in GE
+hscaled-minus,268,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 9.9983E-301 in GE
+hscaled-minus,269,1     2   7                NaN           NaN
+hscaled-minus,270,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,271,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,272,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,273,1     2   8                NaN           NaN
+hscaled-minus,274,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,275,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,276,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,277,1     2   9                NaN           NaN
+hscaled-minus,278,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,279,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,280,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,281,1     2  10                NaN           NaN
+hscaled-minus,282,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,283,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,284,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,285,1     2  11                NaN           NaN
+hscaled-minus,286,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,287,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,288,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,289,1     2  12                NaN           NaN
+hscaled-minus,291,1     1         Iterations   :  12
+hscaled-minus,293,1     1 NOTE:Retrying step
+hscaled-minus,304,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.0771E-300 in GE
+hscaled-minus,305,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 2.0771E-300 in GE
+hscaled-minus,306,1     2   7                NaN           NaN
+hscaled-minus,307,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,308,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,309,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,310,1     2   8                NaN           NaN
+hscaled-minus,311,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,312,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,313,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,314,1     2   9                NaN           NaN
+hscaled-minus,315,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,316,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,317,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,318,1     2  10                NaN           NaN
+hscaled-minus,319,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,320,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,321,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,322,1     2  11                NaN           NaN
+hscaled-minus,323,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,324,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,325,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,326,1     2  12                NaN           NaN
+hscaled-minus,328,1     1         Iterations   :  12
+hscaled-minus,330,1     1 NOTE:Retrying step
+hscaled-minus,348,1     1         Iterations   :  12
+hscaled-minus,350,1     1 NOTE:Retrying step
+hscaled-minus,361,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 8.2662E-300 in GE
+hscaled-minus,362,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 8.2662E-300 in GE
+hscaled-minus,363,1     2   7                NaN           NaN
+hscaled-minus,364,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,365,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,366,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,367,1     2   8                NaN           NaN
+hscaled-minus,368,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,369,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,370,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,371,1     2   9                NaN           NaN
+hscaled-minus,372,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,373,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,374,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,375,1     2  10                NaN           NaN
+hscaled-minus,376,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,377,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,378,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,379,1     2  11                NaN           NaN
+hscaled-minus,380,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,381,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,382,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,383,1     2  12                NaN           NaN
+hscaled-minus,385,1     1         Iterations   :  12
+hscaled-minus,387,1     1 NOTE:Retrying step
+hscaled-minus,398,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.6629E-299 in GE
+hscaled-minus,399,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 1.6629E-299 in GE
+hscaled-minus,400,1     2   7                NaN           NaN
+hscaled-minus,401,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,402,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,403,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,404,1     2   8                NaN           NaN
+hscaled-minus,405,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,406,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,407,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,408,1     2   9                NaN           NaN
+hscaled-minus,409,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,410,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,411,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,412,1     2  10                NaN           NaN
+hscaled-minus,413,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,414,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,415,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,416,1     2  11                NaN           NaN
+hscaled-minus,417,NOTE:Pivot   1 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,418,NOTE:Pivot   2 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,419,NOTE:Pivot   3 = 0.0000E+000 <= ||A||_max/1.7977E+308 = 0.0000E+000 in GE
+hscaled-minus,420,1     2  12                NaN           NaN
+hscaled-minus,422,1     1         Iterations   :  12
+hscaled-minus,424,1     1 NOTE:Retrying step
+hscaled-minus,442,1     1         Iterations   :  12
+hscaled-minus,444,1     1 NOTE:Retrying step
+hscaled-minus,462,1     1         Iterations   :  12
+hscaled-minus,464,1     1 NOTE:Retrying step
+hscaled-minus,482,1     1         Iterations   :  12
+hscaled-minus,484,1     1 NOTE:Retrying step
+hscaled-minus,502,1     1         Iterations   :  12
+hscaled-minus,504,1     1 NOTE:Retrying step
+hscaled-minus,522,1     1         Iterations   :  12
+hscaled-minus,524,1     1 NOTE:Retrying step
+hscaled-minus,542,1     1         Iterations   :  12
+hscaled-minus,544,1     1 NOTE:Retrying step
+hscaled-minus,562,1     1         Iterations   :  12
+hscaled-minus,564,1     1 NOTE:Retrying step
+hscaled-minus,582,1     1         Iterations   :  12
+hscaled-minus,584,1     1 NOTE:Retrying step
+hscaled-minus,602,1     1         Iterations   :  12
+hscaled-minus,604,1     1 NOTE:No convergence with minimum step size
+hscaled-minus,613,1     2  MX    2   0.00000E+00   0.00000E+00   0.00000E+00   0.00000E+00   0.00000E+00

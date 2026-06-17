@@ -1,0 +1,5 @@
+run,variant,config_file,icp,isp,jac,ds,uses_scaled_H_control,uses_p_mass_coordinate
+q-plus,task019_state_scale,c.bertonrestricted-task020-ha3-q-plus,['q_H_scaled'],0,0,0.02,True,True
+q-minus,task019_state_scale,c.bertonrestricted-task020-ha3-q-minus,['q_H_scaled'],2,0,-0.2,True,True
+hscaled-plus,larger_H_state_scale,c.bertonrestricted-task020-ha3-hscaled-plus,['q_H_scaled'],0,0,0.02,True,True
+hscaled-minus,larger_H_state_scale,c.bertonrestricted-task020-ha3-hscaled-minus,['q_H_scaled'],2,0,-0.02,True,True

@@ -1,0 +1,20 @@
+   0  -1.7976+308  1.7976+308 -1.7976+308  1.7976+308
+   0   EPSL= 1.0000E-08  EPSU = 1.0000E-08  EPSS = 1.0000E-06
+   0   DS  =-2.0000E-02  DSMIN= 1.0000E-08  DSMAX= 2.0000E-01
+   0   NDIM=   3   IPS =   1   IRS =   0   ILP =   1
+   0   NTST=  10   NCOL=   4   IAD =   3   ISP =   2
+   0   ISW =   1   IPLT=   0   NBC =   0   NINT=   0
+   0   NMX= 2000   NPR=   25   MXBF=   0   IID =   2   IADS=   1
+   0   ITMX=  20   ITNW=  12   NWTN=   6   JAC =   0   NUZR=  13
+   0   NPAR=  98   THL = {}    THU = {}
+   0   UZR = {'q_H_scaled': [-10, -1.2500000000E+001, -13, -15, -35, -60, -85, -110, -135, -160, -185, -210]}
+   0   UZSTOP = {'q_H_scaled': -210}
+   0   e = 'bertonrestricted_task020_ha3_hscaled' s = '/'
+   0   parnames = {1: 'z_W0', 2: 'W_a0', 3: 'rad_mult', 4: 'H_a3_base', 5: 'eta_override', 6: 'drag_mult', 7: 'Delta_z_W', 39: 'eta_blend', 40: 'phi', 41: 'c_B', 43: 'include_corio', 44: 'reynolds_leng', 54: 'q_H_scaled', 55: 'H_a3_physical'}
+   0   unames   = {1: 'ZH_scaled_100', 2: 'UH_scaled_5ms', 3: 'P_log_ratio_o'}
+   0   User-specified parameter:        'q_H_scaled'
+   0   Active continuation parameter:   'q_H_scaled'
+   0
+   0    PT  TY  LAB   q_H_scaled          L2-NORM          ZH_scaled_100      UH_scaled_5ms      P_log_ratio_o     
+   1     1   9    1  0.0000000000E+000  0.0000000000E+000  0.0000000000E+000  0.0000000000E+000  0.0000000000E+000
+   1     2  -9    2  0.0000000000E+000  0.0000000000E+000  0.0000000000E+000  0.0000000000E+000  0.0000000000E+000

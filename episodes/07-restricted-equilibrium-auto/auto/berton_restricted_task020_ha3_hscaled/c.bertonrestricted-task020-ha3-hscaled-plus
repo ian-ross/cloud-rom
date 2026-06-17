@@ -1,0 +1,12 @@
+# TASK-020 H-scaled restricted H_a3 continuation using q_H=(H_a3-0.61)/0.001 and larger state scales.
+parnames = {1:'z_W0', 2:'W_a0', 3:'rad_mult', 4:'H_a3_base', 5:'eta_override', 6:'drag_mult', 7:'Delta_z_W', 39:'eta_blend', 40:'phi', 41:'c_B', 43:'include_coriolis', 44:'reynolds_length_mode', 54:'q_H_scaled', 55:'H_a3_physical'}
+unames = {1:'ZH_scaled_1000m', 2:'UH_scaled_5ms', 3:'P_log_ratio_over_10'}
+NDIM=3, IPS=1, IRS=0, ILP=1
+ICP = ['q_H_scaled']
+NTST=10, NCOL=4, IAD=3, ISP=0, ISW=1, IPLT=0, NBC=0, NINT=0
+NMX=2000, NPR=25, MXBF=0, IID=2, ITMX=20, ITNW=12, NWTN=6, JAC=0
+EPSL=1e-08, EPSU=1e-08, EPSS=1e-06
+DS=0.02, DSMIN=1e-08, DSMAX=0.2, IADS=1
+NPAR=98, THL={}, THU={}
+UZR = {'q_H_scaled': [15.0, 40.0, 65.0, 90.0, 115.0, 140.0, 165.0, 190.0, 215.0, 240.0]}
+UZSTOP = {'q_H_scaled': [240.0]}
