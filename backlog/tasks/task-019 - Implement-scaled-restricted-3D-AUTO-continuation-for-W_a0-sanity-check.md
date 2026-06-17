@@ -1,7 +1,7 @@
 ---
 id: TASK-019
 title: Implement scaled restricted 3D AUTO continuation for W_a0 sanity check
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-15 20:17'
