@@ -1,10 +1,11 @@
 ---
 id: TASK-027
 title: Use W_a0 as full-model Python continuation gate
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-17 16:39'
-updated_date: '2026-06-17 16:39'
+updated_date: '2026-06-17 16:57'
 labels:
   - berton
   - continuation
