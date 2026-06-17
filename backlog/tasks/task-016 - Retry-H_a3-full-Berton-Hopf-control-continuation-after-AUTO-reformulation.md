@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-15 19:47'
-updated_date: '2026-06-17 11:44'
+updated_date: '2026-06-17 11:51'
 labels:
   - berton
   - auto
@@ -25,11 +25,11 @@ Using the improved full-model AUTO formulation, retry H_a3 as the primary local-
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 Continuation starts from the TASK-011/TASK-012 equilibrium seed in the reformulated AUTO variables.
-- [ ] #2 H_a3 is varied in both relevant directions over a documented range that includes the canonical value 0.61 and probes the Python-predicted stability-crossing region.
-- [ ] #3 AUTO branch outputs report accepted parameter range, special points, stability index, eigenvalues, and any convergence failures.
-- [ ] #4 Detected or suspected Hopf/stability crossings are cross-checked with independent Python finite-difference or analytic Jacobian eigenvalues.
-- [ ] #5 Results clearly state whether H_a3 provides an AUTO-validated Hopf candidate, only a numerical hint, or a negative/inconclusive result.
+- [x] #1 Continuation starts from the TASK-011/TASK-012 equilibrium seed in the reformulated AUTO variables.
+- [x] #2 H_a3 is varied in both relevant directions over a documented range that includes the canonical value 0.61 and probes the Python-predicted stability-crossing region.
+- [x] #3 AUTO branch outputs report accepted parameter range, special points, stability index, eigenvalues, and any convergence failures.
+- [x] #4 Detected or suspected Hopf/stability crossings are cross-checked with independent Python finite-difference or analytic Jacobian eigenvalues.
+- [x] #5 Results clearly state whether H_a3 provides an AUTO-validated Hopf candidate, only a numerical hint, or a negative/inconclusive result.
 <!-- AC:END -->
 
 ## Implementation Plan
@@ -56,4 +56,10 @@ Update from TASK-022 follow-up: the restricted W_a0 failure appears fixable by a
 
 - Started TASK-016 and assigned to @pi. Reviewed dependencies and prerequisite tasks: TASK-013/TASK-015 are done; TASK-019 validated P=M/10; TASK-020 produced the restricted H_a3 verdict (downward branch LP near H_a3≈0.5971, upward Hopf-relevant direction inconclusive near H_a3≈0.611, no AUTO HB); TASK-023 supports staged smoothed z_W0 but does not change H_a3 verdict.
 - The existing implementation plan is still applicable: port the TASK-019/TASK-020 scaling lessons into a distinct full-system H_a3 continuation attempt, preserve raw/curated TASK-016 artifacts, cross-check suspected stability with Python eigenvalues, and use conservative verdict language.
+
+- Implemented a new episode 08 full-system TASK-016 variant at `episodes/08-full-model-auto-ha3/auto/berton_full_task016_ha3_scaled/`. The AUTO state starts at the TASK-011/TASK-012 seed and uses `Z=(z-z_seed)/1000`, `U=(u-u_seed)/5`, `W=w`, `P=log(m/m_seed)/10`; active control is `q_H=(H_a3-0.61)/0.001`.
+- Ran bidirectional AUTO H_a3 continuations. Upward retries through small q_H steps but fails with NaN/DGEBAL/floating-point diagnostics before accepting point 2; downward records only seed plus MX/no movement. Accepted H_a3 range is therefore only the canonical 0.61.
+- Curated outputs under `episodes/08-full-model-auto-ha3/outputs/task016/`, including branch summaries, convergence notes, AUTO eigenvalue diagnostics, config summary, representative points, Python finite-difference full eigenvalue checks, suspected-crossing cross-check anchors, verdict JSON, companion note, and notebook command record.
+- Verdict: no AUTO-validated full-system H_a3 Hopf candidate. The TASK-012/TASK-020 H_a3 crossing remains a Python/restricted numerical hint only; full-system z_W0 is not ready on the basis of this H_a3 result.
+- Verification: `uv run pytest tests/test_episode08_full_task016.py tests/test_episode07_restricted_task020.py tests/test_episode06_full_logm_reformulation.py` (11 passed), and `uv run pytest tests/test_episode08_full_task016.py` after removing transient AUTO build files (4 passed).
 <!-- SECTION:NOTES:END -->
