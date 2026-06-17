@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-17 11:03'
-updated_date: '2026-06-17 11:33'
+updated_date: '2026-06-17 11:41'
 labels:
   - berton
   - auto
@@ -26,12 +26,12 @@ Add a restricted 3D AUTO continuation experiment for the updraft-altitude contro
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 A smoothed updraft profile is implemented and documented, including the smoothing formula, smoothing width, physical inverse conversions, and how it relates to the original piecewise Berton profile.
-- [ ] #2 The restricted 3D AUTO formulation reuses the validated TASK-019 state/residual scaling, including P=M/10 for mass arclength scaling, unless deviations are explicitly justified.
-- [ ] #3 z_W0 continuation is run over a documented range relevant to the paper steady/oscillatory distinction, with raw AUTO commands/constants and b/s/d artifacts preserved under episode 07.
-- [ ] #4 Accepted branch points are parsed into curated outputs with physical z/u/m, reconstructed M and P, smoothed updraft diagnostics, labels/special points/eigenvalue diagnostics where available, and convergence notes.
-- [ ] #5 Representative branch points are cross-checked with Python residuals and critical eigenvalues or a documented equivalent stability diagnostic.
-- [ ] #6 A companion note compares the restricted z_W0 result against TASK-019 W_a0, TASK-020 H_a3, and the original paper motivation, and states whether it supports a full-system z_W0 continuation attempt.
+- [x] #1 A smoothed updraft profile is implemented and documented, including the smoothing formula, smoothing width, physical inverse conversions, and how it relates to the original piecewise Berton profile.
+- [x] #2 The restricted 3D AUTO formulation reuses the validated TASK-019 state/residual scaling, including P=M/10 for mass arclength scaling, unless deviations are explicitly justified.
+- [x] #3 z_W0 continuation is run over a documented range relevant to the paper steady/oscillatory distinction, with raw AUTO commands/constants and b/s/d artifacts preserved under episode 07.
+- [x] #4 Accepted branch points are parsed into curated outputs with physical z/u/m, reconstructed M and P, smoothed updraft diagnostics, labels/special points/eigenvalue diagnostics where available, and convergence notes.
+- [x] #5 Representative branch points are cross-checked with Python residuals and critical eigenvalues or a documented equivalent stability diagnostic.
+- [x] #6 A companion note compares the restricted z_W0 result against TASK-019 W_a0, TASK-020 H_a3, and the original paper motivation, and states whether it supports a full-system z_W0 continuation attempt.
 <!-- AC:END -->
 
 ## Implementation Plan
@@ -48,3 +48,12 @@ Add a restricted 3D AUTO continuation experiment for the updraft-altitude contro
 9. Write a companion note comparing restricted z_W0 behavior against TASK-019 W_a0 and TASK-020 H_a3, explaining whether smoothing avoids kink artifacts and whether the result motivates full-system z_W0 continuation.
 10. Add tests for the smoothing formula, seed perturbation, scaling/inverse conversions, artifact coverage, Python cross-checks, and conservative conclusion language.
 <!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+- Added AUTO variant auto/berton_restricted_task023_zw0_smooth with TASK-019 Z/U/P=M/10 scaling, q_z=(z_W0-9000 m)/1000 m control, and softplus-smoothed updraft width 50 m.
+- Ran bidirectional z_W0 AUTO. Upward branch reaches z_W0≈9710 m before DGEBAL/floating-point failure near the seed/ramp transition; downward branch reaches the paper oscillatory 7000 m setting and continues farther before MX.
+- Curated outputs in outputs/task023 with branch parsing, smoothing diagnostics, seed perturbation, representative Python residual/eigenvalue checks, verdict JSON/CSV, notebook command record, and companion note.
+- Verification: uv run pytest tests/test_episode07_restricted_task019.py tests/test_episode07_restricted_task020.py tests/test_episode07_restricted_task023.py (13 passed).
+<!-- SECTION:NOTES:END -->
