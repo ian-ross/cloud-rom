@@ -1,10 +1,11 @@
 ---
 id: TASK-023
 title: Continue restricted z_W0 with smoothed updraft profile
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-17 11:03'
-updated_date: '2026-06-17 11:06'
+updated_date: '2026-06-17 11:33'
 labels:
   - berton
   - auto
