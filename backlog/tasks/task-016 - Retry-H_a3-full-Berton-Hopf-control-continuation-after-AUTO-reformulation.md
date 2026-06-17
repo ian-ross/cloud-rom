@@ -1,7 +1,7 @@
 ---
 id: TASK-016
 title: Retry H_a3 full Berton Hopf-control continuation after AUTO reformulation
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-15 19:47'
@@ -63,3 +63,24 @@ Update from TASK-022 follow-up: the restricted W_a0 failure appears fixable by a
 - Verdict: no AUTO-validated full-system H_a3 Hopf candidate. The TASK-012/TASK-020 H_a3 crossing remains a Python/restricted numerical hint only; full-system z_W0 is not ready on the basis of this H_a3 result.
 - Verification: `uv run pytest tests/test_episode08_full_task016.py tests/test_episode07_restricted_task020.py tests/test_episode06_full_logm_reformulation.py` (11 passed), and `uv run pytest tests/test_episode08_full_task016.py` after removing transient AUTO build files (4 passed).
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Implemented the TASK-016 full-system scaled H_a3 AUTO retry in a new episode 08.
+
+Changes:
+- Added `episodes/08-full-model-auto-ha3/auto/berton_full_task016_ha3_scaled/` with a full 4D scaled equilibrium formulation: `Z=(z-z_seed)/1000`, `U=(u-u_seed)/5`, `W=w`, `P=log(m/m_seed)/10`, and `q_H=(H_a3-0.61)/0.001`.
+- Ran bidirectional full-system H_a3 AUTO continuations and preserved raw `b/s/d` artifacts.
+- Added a synthesis script, curated outputs, companion verdict note, notebook command record, and regression tests.
+- Added independent Python finite-difference full-Jacobian checks for accepted AUTO points and the TASK-012 suspected H_a3 crossing anchors.
+
+Result:
+- AUTO starts at the TASK-011/TASK-012 seed, but accepts no nontrivial full-system H_a3 branch in either direction.
+- Accepted H_a3 range is only the canonical seed value 0.61; upward fails before reaching the predicted H_a3≈0.62 crossing region, and downward records only seed plus MX/no movement.
+- No HB/Hopf label is present. The H_a3 crossing remains a Python/restricted numerical hint only, not full-system AUTO evidence. Full-system z_W0 is not ready based on this H_a3 result.
+
+Tests:
+- `uv run pytest tests/test_episode08_full_task016.py tests/test_episode07_restricted_task020.py tests/test_episode06_full_logm_reformulation.py`
+- `uv run pytest tests/test_episode08_full_task016.py`
+<!-- SECTION:FINAL_SUMMARY:END -->
