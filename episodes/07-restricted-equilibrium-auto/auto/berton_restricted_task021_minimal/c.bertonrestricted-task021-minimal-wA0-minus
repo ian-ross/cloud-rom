@@ -1,0 +1,11 @@
+# TASK-021 minimal restricted/scaled W_a0 continuation downward.
+parnames = {1:'z_W0', 2:'W_a0', 3:'rad_mult', 4:'H_a3', 5:'eta_override', 6:'drag_mult', 7:'Delta_z_W', 39:'eta_blend', 40:'phi', 41:'c_B', 43:'include_coriolis', 44:'reynolds_length_mode'}
+unames = {1:'Z_scaled', 2:'U_scaled', 3:'M_log_ratio'}
+NDIM=3, IPS=1, IRS=0, ILP=0
+ICP = ['W_a0']
+NTST=10, NCOL=4, IAD=3, ISP=0, ISW=1, IPLT=0, NBC=0, NINT=0
+NMX=400, NPR=10, MXBF=0, IID=3, ITMX=20, ITNW=12, NWTN=6, JAC=0
+EPSL=1e-08, EPSU=1e-08, EPSS=1e-06
+DS=-0.001, DSMIN=1e-08, DSMAX=0.02, IADS=1
+NPAR=53, THL={}, THU={}
+UZSTOP = {'W_a0': [0.1]}

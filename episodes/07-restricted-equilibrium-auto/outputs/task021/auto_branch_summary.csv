@@ -1,0 +1,3 @@
+run,branch,point,ty,type,label,control,control_value,scaled_l2_norm,Z_scaled,U_scaled,M_log_ratio,z_m,u_m_s,m_kg
+minimal-wA0-plus,1,1,9,EP,1,W_a0,0.6,0.0,0.0,0.0,0.0,9618.027532260936,1.9098623386953224,1.0802293920592052e-09
+minimal-wA0-minus,1,1,9,EP,1,W_a0,0.6,0.0,0.0,0.0,0.0,9618.027532260936,1.9098623386953224,1.0802293920592052e-09

@@ -1,0 +1,22 @@
+{
+  "seed_source": "TASK-011/TASK-012 equilibrium",
+  "auto_coordinate": "restricted/scaled 3D: Z, U, M=log(m/m_seed), w=0",
+  "minimal_icp": [
+    "W_a0"
+  ],
+  "isp": 0,
+  "ilp": 0,
+  "jac": 0,
+  "pvls_callback": "empty",
+  "wA0_auto_covered_range_m_s": [
+    0.6,
+    0.6
+  ],
+  "auto_accepted_nontrivial_branch": false,
+  "accepted_beyond_0p6": false,
+  "wA0_python_expected_range_m_s": [
+    0.1,
+    1.2
+  ],
+  "interpretation": "failure persists in stripped configuration; not solely diagnostic/PVLS/supplied-Jacobian bookkeeping"
+}
