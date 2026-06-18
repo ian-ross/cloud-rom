@@ -1,11 +1,11 @@
 ---
 id: TASK-033
 title: Synthesize and close Berton continuation investigation
-status: In Progress
+status: Done
 assignee:
   - '@pi'
 created_date: '2026-06-18 11:21'
-updated_date: '2026-06-18 11:24'
+updated_date: '2026-06-18 11:27'
 labels:
   - berton
   - continuation
@@ -25,11 +25,11 @@ Write the final synthesis for the Berton/cloud-ROM continuation investigation an
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 A final episode or repository-level synthesis document summarizes the full investigation across relevant episodes, especially the Python continuation results and smoothing-width sensitivity
-- [ ] #2 The synthesis states clearly that no robust full-model Hopf/oscillatory bifurcation was supported by accepted continuation evidence
-- [ ] #3 The synthesis documents why further broad continuation or AUTO/periodic-orbit hunting is not recommended without a new targeted research question
-- [ ] #4 The synthesis discusses physical-interpretation limits of the Berton setup, including atmospheric-profile regularization dependence and Reynolds-number length-convention sensitivity
-- [ ] #5 The project documentation points readers to the final synthesis as the recommended stopping point for this investigation
+- [x] #1 A final episode or repository-level synthesis document summarizes the full investigation across relevant episodes, especially the Python continuation results and smoothing-width sensitivity
+- [x] #2 The synthesis states clearly that no robust full-model Hopf/oscillatory bifurcation was supported by accepted continuation evidence
+- [x] #3 The synthesis documents why further broad continuation or AUTO/periodic-orbit hunting is not recommended without a new targeted research question
+- [x] #4 The synthesis discusses physical-interpretation limits of the Berton setup, including atmospheric-profile regularization dependence and Reynolds-number length-convention sensitivity
+- [x] #5 The project documentation points readers to the final synthesis as the recommended stopping point for this investigation
 <!-- AC:END -->
 
 ## Implementation Plan
@@ -50,4 +50,25 @@ Write the final synthesis for the Berton/cloud-ROM continuation investigation an
 - Reviewed TASK-032 final summary and Episode 10 recap/smoothing docs.
 - Identified synthesis scope: Episode 10 final document plus repository/episode index pointers.
 - Evidence chain to preserve: TASK-011 damped long integration, full AUTO negative/inconclusive runs, TASK-026/027 validated Python core/gate, TASK-028 no Hopf despite stability-count change, TASK-029/032 z_W0 smoothing-width/path sensitivity and sharp-limit conditioning.
+
+- Added final synthesis at episodes/10-full-model-python-continuation/docs/final_berton_continuation_synthesis.md.
+- Updated README.md, episodes/README.md, and Episode 10 README to point readers to the final synthesis as the stopping point.
+- Validation passed: uv run pytest (116 passed).
 <!-- SECTION:NOTES:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Added the final Berton/cloud-ROM continuation synthesis and closed the broad investigation direction.
+
+Changes:
+- Created episodes/10-full-model-python-continuation/docs/final_berton_continuation_synthesis.md as the recommended stopping point.
+- Summarized evidence across reduced-model work, full-model AUTO attempts, long integrations, and Episode 10 Python continuation.
+- Stated the accepted negative result: no robust full-model Hopf or sustained oscillatory bifurcation is supported.
+- Documented why broad AUTO/continuation/periodic-orbit hunting should stop without a new targeted research question.
+- Covered physical interpretation limits from updraft regularization/path sensitivity and Reynolds radius-vs-diameter convention sensitivity.
+- Updated README.md, episodes/README.md, and the Episode 10 README to route readers to the synthesis.
+
+Validation:
+- uv run pytest (116 passed)
+<!-- SECTION:FINAL_SUMMARY:END -->
