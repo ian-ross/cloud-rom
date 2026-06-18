@@ -1,9 +1,11 @@
 ---
 id: TASK-033
 title: Synthesize and close Berton continuation investigation
-status: To Do
-assignee: []
+status: In Progress
+assignee:
+  - '@pi'
 created_date: '2026-06-18 11:21'
+updated_date: '2026-06-18 11:23'
 labels:
   - berton
   - continuation
