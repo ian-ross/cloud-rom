@@ -54,6 +54,7 @@ In short: **Python continuation first; AUTO only for final validation.**
 - `docs/task027_wa0_full_model_gate.md` — TASK-027 gate note comparing the full-model Python branch against the previous TASK-012 probe and restricted TASK-019 behavior.
 - `docs/task028_ha3_full_model_branch.md` — TASK-028 branch note distinguishing the observed non-Hopf stability-count transition from Hopf evidence and numerical limitations.
 - `docs/task029_zw0_staged_smoothing.md` — TASK-029 note documenting the smoothed-updraft formula, q_z physical inverse mapping, staged width coverage, and fragility classification.
+- `docs/python_continuation_results_recap.md` — concise synthesis of the TASK-026 through TASK-029 Python-continuation findings.
 - `outputs/task026/` — curated seed/corrected point, eigenvalue, tangent, Newton iteration, and condition-diagnostic outputs.
 - `outputs/task027/` — curated full-model `W_a0` branch points, exact anchor reachability, eigenvalues, corrector iterations, comparison tables, and verdict JSON.
 - `outputs/task028/` — curated full-model `H_a3` branch points, eigenvalues, corrector iterations, independent eigenvalue checks, finite-difference robustness tables, prior fixed-seed reference, and verdict JSON.
