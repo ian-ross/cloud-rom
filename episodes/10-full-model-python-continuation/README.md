@@ -6,7 +6,7 @@ This episode is the reproducible home for the Python-continuation-first investig
 
 Episodes 06–09 showed that the full-model AUTO equilibrium formulations are fragile near the paper-relevant controls. Episode 10 therefore moves the primary branch exploration into Python, where continuation steps, residual scaling, state transformations, smoothing choices, diagnostics, and fallback solvers can be inspected directly before any final AUTO handoff.
 
-The episode should answer whether a well-conditioned full-model equilibrium branch can be followed through the scientifically relevant control ranges, and whether any candidate local bifurcation or stability change is robust enough to justify a later AUTO validation run.
+The episode answered that no accepted evidence supports a robust full-model Hopf/oscillatory bifurcation in the investigated controls. The recommended stopping point is `docs/final_berton_continuation_synthesis.md`, which closes the broad Berton continuation search as a critical negative result centered on updraft-regularization and parameterization sensitivity.
 
 ## Scope
 
@@ -41,7 +41,7 @@ Episode 10 keeps these lessons but changes the order of operations: explore and 
 4. Save notebooks, scripts, and curated outputs inside this episode so every figure or verdict can be regenerated.
 5. Prepare an AUTO validation case only after Python continuation identifies a branch segment or bifurcation candidate worth validating.
 
-In short: **Python continuation first; AUTO only for final validation.**
+In short: **Python continuation first; AUTO only for final validation.** After TASK-032, no mature Hopf or periodic-orbit validation target remains; the final synthesis recommends stopping broad continuation work absent a new targeted research question.
 
 ## Current artifacts
 
@@ -57,6 +57,7 @@ In short: **Python continuation first; AUTO only for final validation.**
 - `docs/task029_zw0_staged_smoothing.md` — TASK-029 note documenting the smoothed-updraft formula, q_z physical inverse mapping, staged width coverage, and fragility classification.
 - `docs/python_continuation_results_recap.md` — concise synthesis of the TASK-026 through TASK-029 Python-continuation findings.
 - `docs/task032_smoothing_width_sensitivity.md` — TASK-032 note interpreting smoothing-width sensitivity, branch-conditioning diagnostics, and the sharp-profile limit.
+- `docs/final_berton_continuation_synthesis.md` — final synthesis and recommended stopping point for the Berton/cloud-ROM continuation investigation.
 - `outputs/task026/` — curated seed/corrected point, eigenvalue, tangent, Newton iteration, and condition-diagnostic outputs.
 - `outputs/task027/` — curated full-model `W_a0` branch points, exact anchor reachability, eigenvalues, corrector iterations, comparison tables, and verdict JSON.
 - `outputs/task028/` — curated full-model `H_a3` branch points, eigenvalues, corrector iterations, independent eigenvalue checks, finite-difference robustness tables, prior fixed-seed reference, and verdict JSON.

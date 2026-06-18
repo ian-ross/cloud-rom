@@ -23,7 +23,7 @@ See `episodes/README.md` for the detailed index.
 7. `episodes/07-restricted-equilibrium-auto/` — restricted/local equilibrium AUTO continuation and conditioning work.
 8. `episodes/08-full-model-auto-ha3/` — scaled full-model AUTO `H_a3` retry.
 9. `episodes/09-full-model-auto-zw0/` — smoothed full-model AUTO `z_W0` retry.
-10. `episodes/10-full-model-python-continuation/` — Python-continuation-first full-model investigation, with AUTO reserved for final validation.
+10. `episodes/10-full-model-python-continuation/` — Python-continuation-first full-model investigation, with AUTO reserved for final validation; includes the final Berton continuation synthesis and recommended stopping point at `episodes/10-full-model-python-continuation/docs/final_berton_continuation_synthesis.md`.
 
 ## Validation
 
@@ -34,3 +34,7 @@ uv run pytest
 ```
 
 AUTO-dependent workflows use the installed AUTO-07p environment described in `AGENTS.md`.
+
+## Current investigation status
+
+For the Berton/cloud-ROM continuation work, start with `episodes/10-full-model-python-continuation/docs/final_berton_continuation_synthesis.md`. The accepted evidence does not support a robust full-model Hopf or sustained oscillatory bifurcation; broad continuation/AUTO/periodic-orbit hunting is not recommended without a new targeted research question.

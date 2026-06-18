@@ -94,6 +94,8 @@ Path: `episodes/10-full-model-python-continuation/`
 
 Purpose: provide the reproducible home for a Python-continuation-first full-model investigation, using the conditioning lessons from episodes 06–09 to explore branches in Python before creating any final AUTO validation case.
 
-Backlog task: TASK-025.
+Backlog tasks: TASK-025 through TASK-033.
 
-Strategy: Python continuation first; AUTO only for final validation after Python identifies a mature branch segment or bifurcation candidate worth validating.
+Conclusion: the final synthesis in `episodes/10-full-model-python-continuation/docs/final_berton_continuation_synthesis.md` is the recommended stopping point for the Berton/cloud-ROM continuation investigation. Accepted evidence does not support a robust full-model Hopf or sustained oscillatory bifurcation; the strongest finding is regularization/path sensitivity near the updraft transition, increasingly ill-conditioned sharp-profile behavior, and limited physical confidence under parameterization choices such as the Reynolds radius/diameter convention.
+
+Strategy: Python continuation first; AUTO only for final validation after Python identifies a mature branch segment or bifurcation candidate worth validating. After TASK-032/TASK-033, no such validation target remains without a new targeted research question.
