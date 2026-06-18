@@ -1,0 +1,82 @@
+{
+  "accepted_50m_z_values_m": [
+    9600.0,
+    9700.0,
+    9800.0,
+    9900.0,
+    9930.0,
+    9950.0,
+    10000.0
+  ],
+  "accepted_below_50m_z_values_m": [
+    9600.0,
+    9700.0,
+    9800.0,
+    9900.0,
+    9930.0,
+    9950.0,
+    10000.0
+  ],
+  "accepted_points_total": 106,
+  "classification": "near_singular_sharp_limit_not_50m_nonexistence",
+  "classification_reason": "Fixed-z_W0 solves reach the previously obstructed 50 m and sub-50 m region, so the TASK-029 z-continuation stop is not evidence of equilibrium nonexistence at 50 m; however conditioning grows sharply as the profile is further sharpened, supporting a near-singular smoothing-limit interpretation.",
+  "config": {
+    "fd_step": 1e-05,
+    "max_newton_iterations": 14,
+    "newton_tolerance": 1e-08,
+    "residual_tolerance": 3e-06
+  },
+  "fixed_z_accepted_points": 45,
+  "fixed_z_anchors_m": [
+    9600.0,
+    9700.0,
+    9800.0,
+    9900.0,
+    9930.0
+  ],
+  "fixed_z_rejected_points": 0,
+  "map_accepted_points": 61,
+  "map_rejected_points": 2,
+  "map_z_anchors_m": [
+    9600.0,
+    9700.0,
+    9800.0,
+    9900.0,
+    9930.0,
+    9950.0,
+    10000.0
+  ],
+  "max_scaled_residual_norm": 9.179129721016446e-07,
+  "max_state_jacobian_condition": 1216014596.8646736,
+  "max_width_branch_condition": 161562982.48627892,
+  "max_z_branch_condition": 8661121.865243118,
+  "min_state_jacobian_singular_value": 0.002453617250908509,
+  "output_files": [
+    "fixed_z_width_continuation_points.csv",
+    "fixed_z_width_eigenvalues.csv",
+    "fixed_z_width_newton_iterations.csv",
+    "fixed_z_width_rejected_points.csv",
+    "zw0_width_map_points.csv",
+    "zw0_width_map_eigenvalues.csv",
+    "zw0_width_map_newton_iterations.csv",
+    "zw0_width_map_rejected_points.csv",
+    "width_summary.csv",
+    "task032_smoothing_width_verdict.json"
+  ],
+  "rejected_points_total": 2,
+  "task": "TASK-032",
+  "width_anchors_m": [
+    300.0,
+    200.0,
+    150.0,
+    100.0,
+    75.0,
+    50.0,
+    35.0,
+    25.0,
+    10.0
+  ],
+  "width_coordinate": "mu=log(width_m/50 m)",
+  "width_inverse_mapping": "width_m=50*exp(mu)",
+  "z_W0_coordinate": "q_z=(z_W0-9000 m)/1000 m"
+}
