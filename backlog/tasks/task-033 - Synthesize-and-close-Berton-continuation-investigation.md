@@ -5,7 +5,7 @@ status: In Progress
 assignee:
   - '@pi'
 created_date: '2026-06-18 11:21'
-updated_date: '2026-06-18 11:23'
+updated_date: '2026-06-18 11:24'
 labels:
   - berton
   - continuation
@@ -43,3 +43,11 @@ Write the final synthesis for the Berton/cloud-ROM continuation investigation an
 6. Update reader-facing documentation to point to the synthesis, then run repository tests or targeted documentation/tests if available.
 7. Check the TASK-033 acceptance criteria, add final summary, and mark the task done after validation.
 <!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+- Reviewed TASK-032 final summary and Episode 10 recap/smoothing docs.
+- Identified synthesis scope: Episode 10 final document plus repository/episode index pointers.
+- Evidence chain to preserve: TASK-011 damped long integration, full AUTO negative/inconclusive runs, TASK-026/027 validated Python core/gate, TASK-028 no Hopf despite stability-count change, TASK-029/032 z_W0 smoothing-width/path sensitivity and sharp-limit conditioning.
+<!-- SECTION:NOTES:END -->
